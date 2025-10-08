@@ -1,0 +1,7 @@
+ursine_species_set = {
+	species_class = URSINE
+
+	portraits = {
+		"ursine_1"
+	}
+}

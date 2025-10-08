@@ -1,0 +1,4 @@
+ursine_species_cat = {
+	name = URSINE
+	sets = { ursine_species_set }
+}

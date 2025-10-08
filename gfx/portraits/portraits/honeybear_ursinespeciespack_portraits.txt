@@ -1,0 +1,24 @@
+
+portraits = {
+
+	# Psychic Bear
+	ursine_1 = {	entity = "portrait_ursine_01_entity" clothes_selector = "mammalian_massive_clothes_01" attachment_selector = "no_texture" greeting_sound = "mammalian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/honeybear_ursinespeciespack/psychic_bear_1.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/psychic_bear_2.dds"
+		}
+	}
+
+	#chubby tummy bear
+	#ursine2 = {	entity = "portrait_mammalian_02_entity" clothes_selector = "mammalian_slender_02_clothes_01" attachment_selector = "no_texture"
+	#	greeting_sound = "mammalian_01_greetings"
+	#	character_textures = {
+	#		"gfx/models/portraits/mammalian/mammalian_slender_02_blue.dds"
+	#		"gfx/models/portraits/mammalian/mammalian_slender_02_blue.dds"
+	#		"gfx/models/portraits/mammalian/mammalian_slender_02_purple.dds"
+	#		"gfx/models/portraits/mammalian/mammalian_slender_02_pink.dds"
+	#		"gfx/models/portraits/mammalian/mammalian_slender_02_black.dds"
+	#		"gfx/models/portraits/mammalian/mammalian_slender_02_white.dds"
+	#	}
+	#}
+}
