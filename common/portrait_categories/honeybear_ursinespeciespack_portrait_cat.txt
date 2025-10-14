@@ -1,4 +1,20 @@
 ursine_species_cat = {
 	name = URSINE
-	sets = { ursine_species_set }
+	sets = { ursine_species_set psionic_ursine_species_set robotic_ursine_species_set }
+}
+
+psionics = {
+	name = PSIONIC
+
+	sets = {
+		psionic_ursine_species_set
+		}
+}
+
+machines = {
+    name = MACHINE
+
+    sets = {
+    robot_ursine_species_set
+    }
 }

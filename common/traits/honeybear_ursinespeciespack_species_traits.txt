@@ -1,0 +1,42 @@
+#NOTE TO SELF TO DO: use portrait overrides to grant certain traits to specific base game portraits
+
+#allowed planet classes is very interesting, could make a polar bear species trait
+#opposites for mutually exclusive trait
+#theres also some specific things I can do to affect pop groups and planet species but probably just keep it simple with modifier
+
+trait_seBEAR_toothed = {
+
+	cost = -1
+	species_potential_add = {
+		OR = {
+			can_add_negative_organic_traits = yes
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	species_class = { URSINE }
+	localized_tags = {
+		SPECIES_TRAIT_URSINE
+	}
+	species_class_override = {
+		hidden_trigger = {
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	tags = { organic negative ursine species }
+	modifier = {
+		planet_pops_food_upkeep_mult = 0.15
+		army_damage_mult = 0.05
+	}
+	#slave_cost = {
+	#	energy = -1000
+	#}
+
+	#complicated system that evaluates how a planet is looking as its building a species.
+	#assembly_score = {
+	#	modifier = {
+	#		add = -1
+	#		from = { free_amenities <= 10 }
+	#	}
+	#}
+}

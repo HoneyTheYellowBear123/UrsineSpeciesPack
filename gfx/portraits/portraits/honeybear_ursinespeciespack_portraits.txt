@@ -15,14 +15,328 @@ portraits = {
 	}
 
 	#chubby tummy bear
-	ursine_2 = {	entity = "portrait_ursine_2_entity"
+	ursine_2_m = {	entity = "portrait_ursine_2_entity"
         clothes_selector = "mammalian_ar_05_clothes"
-        attachment_selector = "mammalian_ar_05_hair"
+        attachment_selector = "ursine_2_hair"
         greeting_sound = "mammalian_portrait_5_hippo_m"
 		character_textures = {
 			"gfx/models/portraits/honeybear_ursinespeciespack/chubby_tummy_bear_1.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/chubby_tummy_bear_2.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/chubby_tummy_bear_3.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/chubby_tummy_bear_4.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/chubby_tummy_bear_5.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/chubby_tummy_bear_6.dds"
 		}
 	    custom_close_up_position_offset = { x = -30 y = 90 }
         custom_close_up_scale = 1.2
+	}
+
+	ursine_2_f = {	entity = "portrait_ursine_2_entity"
+        clothes_selector = "mammalian_ar_05_clothes"
+        attachment_selector = "ursine_2_hair"
+        greeting_sound = "mammalian_portrait_5_hippo_f"
+		character_textures = {
+			"gfx/models/portraits/honeybear_ursinespeciespack/chubby_tummy_bear_1.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/chubby_tummy_bear_2.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/chubby_tummy_bear_3.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/chubby_tummy_bear_4.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/chubby_tummy_bear_5.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/chubby_tummy_bear_6.dds"
+		}
+	    custom_close_up_position_offset = { x = -30 y = 90 }
+        custom_close_up_scale = 1.6
+	}
+
+	#TO DO: either set all the greeting sounds to be appropriately mammalian OR go crazy and record some bear sounds and sneak em in
+	#upside down bear
+	ursine_3_m 	= {	entity = "portrait_ursine_3_entity"	clothes_selector = "humanoid_hp_13_clothes" attachment_selector = "no_texture"	greeting_sound = "humanoid_portrait_j_male"
+		character_textures = {
+			"gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_BASE1.dds"
+		}
+	}
+
+	ursine_3_f 	= {	entity = "portrait_ursine_3_entity"	clothes_selector = "humanoid_hp_13_clothes" attachment_selector = "no_texture"	greeting_sound = "humanoid_portrait_j_female"
+		character_textures = {
+			"gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_BASE1.dds"
+		}
+	}
+
+
+	#robot andromeda bear
+	ursine_robot_1 = {
+		entity = "portrait_ursine_robot_1_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "robot_mammalian_greetings"
+		character_textures = {
+			"gfx/models/portraits/honeybear_ursinespeciespack/roboty_BASE1.dds"
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+portrait_groups = {
+		ursine_2 = {
+			default = ursine_2_m
+			game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+				add = {
+					trigger = {
+						ruler = {
+							OR = {
+								gender = male
+								gender = indeterminable
+							}
+						}
+					}
+					portraits = {
+						ursine_2_m
+					}
+				}
+				add = {
+					trigger = {
+						ruler = {
+							OR = {
+								gender = female
+								gender = indeterminable
+							}
+						}
+					}
+					portraits = {
+						ursine_2_f
+					}
+				}
+
+			}
+
+			#species scope
+			species = { #generic portrait for a species
+				add = {
+					trigger = {
+						exists = species
+						NOT = { species = { species_gender = female } }
+					}
+					portraits = {
+						ursine_2_m
+					}
+				}
+				add = {
+					trigger = {
+						exists = species
+						NOT = { species = { species_gender = male } }
+					}
+					portraits = {
+						ursine_2_f
+					}
+				}
+			}
+
+			#pop scope
+			pop = { #for a specific pop
+				add = {
+					trigger = {
+						NOT = { species = { species_gender = female } }
+					}
+					portraits = {
+						ursine_2_m
+					}
+				}
+				add = {
+					trigger = {
+						NOT = { species = { species_gender = male } }
+					}
+					portraits = {
+						ursine_2_f
+					}
+				}
+			}
+
+			leader = {
+				add = {
+					trigger = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+					portraits = {
+						ursine_2_m
+					}
+				}
+				add = {
+					trigger = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+					portraits = {
+						ursine_2_f
+					}
+				}
+			}
+
+			ruler = {
+				add = {
+					trigger = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+					portraits = {
+						ursine_2_m
+					}
+				}
+				add = {
+					trigger = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+					portraits = {
+						ursine_2_f
+					}
+				}
+			}
+		}
+}
+
+
+portrait_groups = {
+	ursine_3 {
+		default = ursine_3_m
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					ursine_3_m
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					ursine_3_f
+				}
+			}
+
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					ursine_3_m
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					ursine_3_f
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					ursine_3_m
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					ursine_3_f
+				}
+			}
+		}
+
+		leader = {
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					ursine_3_m
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					ursine_3_f
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					ursine_3_m
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					ursine_3_f
+				}
+			}
+		}
 	}
 }

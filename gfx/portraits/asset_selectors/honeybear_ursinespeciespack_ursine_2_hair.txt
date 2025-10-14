@@ -1,0 +1,118 @@
+# This is a template which multiple species can use.
+
+ursine_2_hair = {
+	default = "gfx/models/portraits/honeybear_ursinespeciespack/ursine_2_attachment.dds"
+
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+	}
+
+	#species scope
+	species = { #generic portrait for a species
+		default = "M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+	}
+
+	#pop scope
+	pop = { #for a specific pop
+
+		default = "M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+
+		random = {
+			list = {
+				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+
+
+			}
+		}
+	}
+
+
+
+
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+
+		random = {
+			trigger = { leader_class = commander leader_should_wear_general_uniform = yes }
+			list = {
+				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+
+
+			}
+		}
+
+		random = {
+			trigger = { leader_class = commander leader_should_wear_general_uniform = no }
+			list = {
+				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+
+
+			}
+		}
+
+		random = {
+			trigger = { leader_class = scientist }
+			list = {
+				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+
+
+			}
+		}
+
+		random = {
+			trigger = { leader_class = official }
+			list = {
+				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+
+
+			}
+		}
+	}
+
+	#leader scope
+	ruler = { #for rulers
+
+		random = {
+			trigger = {
+				owner = { has_militarist_government = yes }
+			}
+
+			list = {
+				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+
+
+			}
+		}
+
+		random = {
+			trigger = {
+				owner = { has_spiritualist_government = yes }
+			}
+
+			list = {
+				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+
+
+			}
+		}
+
+		random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+					}
+				}
+			}
+
+			list = {
+				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+
+
+			}
+		}
+	}
+}
