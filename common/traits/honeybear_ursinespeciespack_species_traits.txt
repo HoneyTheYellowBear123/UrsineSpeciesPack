@@ -4,7 +4,7 @@
 #opposites for mutually exclusive trait
 #theres also some specific things I can do to affect pop groups and planet species but probably just keep it simple with modifier
 
-trait_seBEAR_toothed = {
+trait_saBEAR_toothed = {
 
 	cost = -1
 	species_potential_add = {

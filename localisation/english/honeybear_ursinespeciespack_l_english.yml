@@ -1,2 +1,8 @@
-l_english:
+﻿l_english:
  URSINE: "Ursine"
+ trait_saBEAR_toothed: "Sabear Toothed"
+ trait_saBEAR_toothed_desc: "An adaptation that made early hunters in this species more effective, large and cumbersome teeth now make eating a messy and inefficient activity in an era of intergalactic food production"
+ SPECIES_TRAIT_URSINE: "['concept_ursine_phenotype_traits']"
+ concept_ursine_phenotype_traits: "Ursine Species Traits"
+ concept_ursine_phenotype_traits_desc: "- ['trait_saBEAR_toothed']"
+ #\n- ['trait:trait_genetic_memory']\n- ['trait:trait_nascent_stage']"
