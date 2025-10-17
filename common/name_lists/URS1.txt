@@ -2,6 +2,12 @@
 # Nature
 # Created by HoneyTheYellowBear
 
+
+
+#https://en.wikipedia.org/wiki/List_of_individual_bears
+#https://en.wikipedia.org/wiki/List_of_ursids
+#https://en.wikipedia.org/wiki/List_of_fictional_bears (has folklore section)
+
 URSINE1 = {
 	category = "Ursine"
 	ship_names = {
