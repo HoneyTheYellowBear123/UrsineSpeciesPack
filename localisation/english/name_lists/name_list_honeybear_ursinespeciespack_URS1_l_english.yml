@@ -1,25 +1,26 @@
-l_english:
+﻿l_english:
   #Nature / Etmology Oriented
+  name_list_URSINE1: "Ursine 1"
 
-  # planets
-Katmai
-Denali (frozen)
-Kings Canyon (arid)
-Teton
-Shenandoah
-Kenai Fjord (Ocean)
-Caniformia
-Hemicyoninae
-Tremarctinae
-Ailuropodinae
-Eocene
-Ghwer
-Bornean (conservation group)
-Chengdu (giant panda breeding)
+  ####### planets
+ URSINE1_PLANET_Katmai: "Katmai"
+#Denali (frozen)
+#Kings Canyon (arid)
+#Teton
+#Shenandoah
+#Kenai Fjord (Ocean)
+#Caniformia
+#Hemicyoninae
+#Tremarctinae
+#Ailuropodinae
+#Eocene
+#Ghwer
+#Bornean (conservation group)
+#Chengdu (giant panda breeding)
 
 
-  # ships
+  ###### ships
 
-  # armies
+  ###### armies
 
-  # leaders
+  ##### leaders

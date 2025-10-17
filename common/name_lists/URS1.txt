@@ -147,6 +147,7 @@ URSINE1 = {
 
 		generic = {
 			names = {
+			    URSINE1_PLANET_Katmai
 			}
 		}
 

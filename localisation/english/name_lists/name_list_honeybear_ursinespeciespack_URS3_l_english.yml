@@ -1,6 +1,6 @@
-l_english:
+﻿l_english:
   #Warrior Clan / Psiological
-Vital Ground (conservation group)
+#Vital Ground (conservation group)
 
 
   # planets
@@ -8,11 +8,11 @@ Vital Ground (conservation group)
 
   # ships
 
-  Masseter
+  #Masseter
 
   # armies
 
   # leaders
 
-  björn
-  Beowulf
+  #björn
+  #Beowulf

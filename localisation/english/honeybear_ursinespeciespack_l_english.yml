@@ -6,3 +6,12 @@
  concept_ursine_phenotype_traits: "Ursine Species Traits"
  concept_ursine_phenotype_traits_desc: "- ['trait_saBEAR_toothed']"
  #\n- ['trait:trait_genetic_memory']\n- ['trait:trait_nascent_stage']"
+
+
+
+
+
+
+
+ #flags
+ FLAG_CATEGORY_honeybear_ursinespeciespack_ursine: "Ursine"
