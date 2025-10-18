@@ -176,3 +176,8 @@ trait_honeybear_ursinespeciespack_limBear = {
 	#	}
 	#}
 }
+
+
+
+#Pandmodium
+trait_honeybear_ursinespecispack_Bearfoot
