@@ -4,7 +4,7 @@
 #opposites for mutually exclusive trait
 #theres also some specific things I can do to affect pop groups and planet species but probably just keep it simple with modifier
 
-trait_saBEAR_toothed = {
+trait_honeybear_ursinespeciespack_saBEAR_toothed = {
 
 	cost = -1
 	species_potential_add = {
@@ -28,9 +28,145 @@ trait_saBEAR_toothed = {
 		planet_pops_food_upkeep_mult = 0.15
 		army_damage_mult = 0.05
 	}
-	#slave_cost = {
-	#	energy = -1000
+	slave_cost = {
+		energy = -500
+	}
+
+	#complicated system that evaluates how a planet is looking as its building a species.
+	#assembly_score = {
+	#	modifier = {
+	#		add = -1
+	#		from = { free_amenities <= 10 }
+	#	}
 	#}
+}
+
+
+trait_honeybear_ursinespeciespack_Bear_necessities = {
+
+	cost = 2
+	species_potential_add = {
+		OR = {
+			can_add_genetic_traits = yes
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	species_possible_remove = {
+		OR = {
+			can_remove_beneficial_genetic_traits = yes
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	species_class = { URSINE }
+	localized_tags = {
+		SPECIES_TRAIT_URSINE
+	}
+	species_class_override = {
+		hidden_trigger = {
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	opposites = { "trait_wasteful" "trait_hive_mind" "trait_conservational" "trait_honeybear_ursinespeciespack_simple_Bear_necessities"}
+	tags = { organic positive ursine species consumer_goods }
+	modifier = {
+        planet_pops_consumer_goods_upkeep_mult = -0.20
+	}
+	slave_cost = {
+		energy = 1200
+	}
+
+	#complicated system that evaluates how a planet is looking as its building a species.
+	#assembly_score = {
+	#	modifier = {
+	#		add = -1
+	#		from = { free_amenities <= 10 }
+	#	}
+	#}
+}
+
+#this might need to be nerfed wowee
+trait_honeybear_ursinespeciespack_simple_Bear_necessities = {
+
+	cost = 4
+	species_potential_add = {
+		OR = {
+			can_add_genetic_traits = yes
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+		species_possible_remove = {
+		OR = {
+			can_remove_beneficial_genetic_traits = yes
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	species_class = { URSINE }
+	localized_tags = {
+		SPECIES_TRAIT_URSINE
+	}
+	species_class_override = {
+		hidden_trigger = {
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	opposites = { "trait_wasteful" "trait_hive_mind" "trait_conservational" "trait_honeybear_ursinespeciespack_Bear_necessities"}
+	tags = { organic positive ursine species consumer_goods }
+	modifier = {
+        planet_pops_consumer_goods_upkeep_mult = -0.40
+	}
+	slave_cost = {
+		energy = 2500
+	}
+
+	#complicated system that evaluates how a planet is looking as its building a species.
+	#assembly_score = {
+	#	modifier = {
+	#		add = -1
+	#		from = { free_amenities <= 10 }
+	#	}
+	#}
+}
+
+
+
+trait_honeybear_ursinespeciespack_limBear = {
+
+	cost = 2
+	species_potential_add = {
+		OR = {
+			can_add_genetic_traits = yes
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	species_possible_remove = {
+		OR = {
+			can_remove_beneficial_genetic_traits = yes
+			can_add_or_remove_phenotype_traits = yes
+			can_remove_pop_growth_genetic_traits = yes
+		}
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	species_class = { URSINE }
+	localized_tags = {
+		SPECIES_TRAIT_URSINE
+	}
+	species_class_override = {
+		hidden_trigger = {
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	opposites = { "trait_nonadaptive" "trait_extremely_adaptive" "trait_adaptive" "trait_robust" "trait_adaptive_lithoid" "trait_shelled" "trait_solitary" "trait_shelled" "trait_communal" "trait_spatial_mastery" }
+	tags = { organic positive ursine species pop_growth habitability }
+	modifier = {
+        logistic_growth_mult = 0.05
+        pop_environment_tolerance = 0.05
+        pop_housing_usage_mult = -0.05
+	}
+	slave_cost = {
+		energy = 1500
+	}
 
 	#complicated system that evaluates how a planet is looking as its building a species.
 	#assembly_score = {

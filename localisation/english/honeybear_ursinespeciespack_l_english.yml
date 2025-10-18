@@ -1,10 +1,23 @@
 ﻿l_english:
  URSINE: "Ursine"
- trait_saBEAR_toothed: "Sabear Toothed"
- trait_saBEAR_toothed_desc: "An adaptation that made early hunters in this species more effective, large and cumbersome teeth now make eating a messy and inefficient activity in an era of intergalactic food production"
+
+
+
+
+ ################################
+ ######### SPECIES TRAITS #######
+ ################################
+ trait_honeybear_ursinespeciespack_saBEAR_toothed: "Sabear Toothed"
+ trait_honeybear_ursinespeciespack_saBEAR_toothed_desc: "An adaptation that made early hunters in this species more effective, large and cumbersome teeth now make eating a messy and inefficient activity in an era of intergalactic food production."
+ trait_honeybear_ursinespeciespack_Bear_necessities: "Bear Necessities"
+ trait_honeybear_ursinespeciespack_Bear_necessities_desc: "Trade was not prominent in the early history of this species, leading to a cultural uptick in resourcefulness and personal crafts that allows this species to get by with less waste."
+ trait_honeybear_ursinespeciespack_simple_Bear_necessities: "Simple Bear Necessities"
+ trait_honeybear_ursinespeciespack_simple_Bear_necessities_desc: "Trade was almost non-existent in the early history of this species, leading to a cultural necessitation of resourcefulness and personal crafts that allows this species to get by with much less waste."
+ trait_honeybear_ursinespeciespack_limBear: "Limbear"
+ trait_honeybear_ursinespeciespack_limBear_desc: "Despite their bulky appearance, this species is actually very flexible."
  SPECIES_TRAIT_URSINE: "['concept_ursine_phenotype_traits']"
  concept_ursine_phenotype_traits: "Ursine Species Traits"
- concept_ursine_phenotype_traits_desc: "- ['trait_saBEAR_toothed']"
+ concept_ursine_phenotype_traits_desc: "- ['trait_honeybear_ursinespeciespack_saBEAR_toothed']\n- ['trait_honeybear_ursinespeciespack_Bear_necessities']\n- ['trait_honeybear_ursinespeciespack_simple_Bear_necessities']\n- ['trait_honeybear_ursinespeciespack_limBear']"
  #\n- ['trait:trait_genetic_memory']\n- ['trait:trait_nascent_stage']"
 
 
