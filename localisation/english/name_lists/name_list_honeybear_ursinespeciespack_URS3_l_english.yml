@@ -1,9 +1,12 @@
 ﻿l_english:
   #Warrior Clan /  Nordic / Celtic
-#Vital Ground (conservation group)
+  #Probably should have categorized stuff more as I put it in but I did not
 
 
-  # planets
+
+  ####################
+  ###### planets #####
+  ####################
 
   #Otso
   #Karhu
@@ -45,6 +48,55 @@
   #Gullveig
   #Bestla
   #Kvasir
+  #Vital Ground (conservation group)
+  #Bödvar
+  #Bjarki
+  #Valemon
+  #Beorn
+  #Gleipnir
+  #Bjarkan
+  #Jotunn
+  #Tornassuk
+  #Arth
+  #Ard
+  #Logi
+  #Baugi
+  #Munidis
+  #Ocrimirae
+  #Losa
+  #Carneo
+  #Bec
+  #Bodhmall
+  #Boann (ocean)
+  #Clothru
+  #Mongfind
+  #Bith
+  #Balorg
+  #Conand
+  #Cichol
+  #Dagda
+  #Lir
+  #Tethra
+  #Geas
+  #Yew
+
+  ######runes/letters could be used for ships?
+  #Hagalaz
+  #Ansuz
+  #Jera
+  #Perthro
+  #Algiz
+  #Eihwaz
+  #Berkano
+  #Uruz
+  #Thurisaz
+  #Kenaz
+  #Gebo
+  #Wunjo
+  #Sowilo
+  #Tiwaz
+  #Dagaz
+  #Othala
 
 
 
@@ -145,6 +197,7 @@
 
   #Bileborn
   #Grizzlborn
+  #Honeyborn
   #Ursakin
   #Maulkin
   #Polarkin
@@ -175,6 +228,8 @@
   #Salmonfed
   #Pandamonium
   #Berryfinder
+  #Grubbane
+
 
 
 
