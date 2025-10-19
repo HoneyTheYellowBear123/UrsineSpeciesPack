@@ -15,9 +15,12 @@
  trait_honeybear_ursinespeciespack_simple_Bear_necessities_desc: "Trade was almost non-existent in the early history of this species, leading to a cultural necessitation of resourcefulness and personal crafts that allows this species to get by with much less waste."
  trait_honeybear_ursinespeciespack_limBear: "Limbear"
  trait_honeybear_ursinespeciespack_limBear_desc: "Despite their bulky appearance, this species is actually very flexible."
+ trait_honeybear_ursinespeciespack_Bearfooted: "Bearfooted"
+ trait_honeybear_ursinespeciespack_Bearfooted_desc: "A bundle of nerves in the feet of this species prevents standard footwear from being effective or inexpensive, and leads to increased sensitivity."
+ trait_honeybear_ursinespeciespack_Bearfooted_effect: "Habitability on worlds with a different ['concept_climate_category'] from our Preference: §R-10%§!"
  SPECIES_TRAIT_URSINE: "['concept_ursine_phenotype_traits']"
  concept_ursine_phenotype_traits: "Ursine Species Traits"
- concept_ursine_phenotype_traits_desc: "- ['trait_honeybear_ursinespeciespack_saBEAR_toothed']\n- ['trait_honeybear_ursinespeciespack_Bear_necessities']\n- ['trait_honeybear_ursinespeciespack_simple_Bear_necessities']\n- ['trait_honeybear_ursinespeciespack_limBear']"
+ concept_ursine_phenotype_traits_desc: "- ['trait_honeybear_ursinespeciespack_saBEAR_toothed']\n- ['trait_honeybear_ursinespeciespack_Bear_necessities']\n- ['trait_honeybear_ursinespeciespack_simple_Bear_necessities']\n- ['trait_honeybear_ursinespeciespack_limBear']\n- ['trait_honeybear_ursinespeciespack_Bearfooted']"
  #\n- ['trait:trait_genetic_memory']\n- ['trait:trait_nascent_stage']"
 
 

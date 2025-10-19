@@ -179,5 +179,102 @@ trait_honeybear_ursinespeciespack_limBear = {
 
 
 
-#Pandmodium
-trait_honeybear_ursinespecispack_Bearfoot
+
+trait_honeybear_ursinespeciespack_Bearfooted = {
+
+	cost = -2
+	species_potential_add = {
+		OR = {
+			can_add_negative_organic_traits = yes
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	species_class = { URSINE }
+	localized_tags = {
+		SPECIES_TRAIT_URSINE
+	}
+	species_class_override = {
+		hidden_trigger = {
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	allowed_planet_classes = {
+		pc_tropical
+		pc_arid
+		pc_continental
+		pc_ocean
+		pc_tundra
+		pc_arctic
+		pc_alpine
+		pc_savannah
+		pc_desert
+	}
+
+	opposites = { "trait_adaptive" "trait_extremely_adaptive" }
+
+	tags = { organic negative habitability ursine species upkeep }
+	custom_tooltip_with_modifiers = trait_honeybear_ursinespeciespack_Bearfooted_effect
+	triggered_planet_growth_habitability_modifier = {
+		potential = {
+			exists = from
+			from = {
+				OR = {
+					AND = {
+						ideal_planet_is_wet = yes
+						root = {
+							OR = {
+								is_dry = yes
+								is_cold = yes
+							}
+						}
+					}
+					AND = {
+						ideal_planet_is_dry = yes
+						root = {
+							OR = {
+								is_wet = yes
+								is_cold = yes
+							}
+						}
+					}
+					AND = {
+						ideal_planet_is_cold = yes
+						root = {
+							OR = {
+								is_dry = yes
+								is_wet = yes
+							}
+						}
+					}
+				}
+			}
+		}
+		pop_environment_tolerance = -0.1
+	}
+	modifier = {
+        planet_pops_upkeep_mult = 0.05
+	}
+	slave_cost = {
+		energy = -1500
+	}
+
+	#complicated system that evaluates how a planet is looking as its building a species.
+	#assembly_score = {
+	#	modifier = {
+	#		add = -1
+	#		from = { free_amenities <= 10 }
+	#	}
+	#}
+}
+
+
+
+
+
+
+
+
+
+
+#Pandamonium trait? maybe like extra stability loss from low amenities? That might be a step too complex atm
