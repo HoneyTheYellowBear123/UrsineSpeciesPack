@@ -1,5 +1,5 @@
 ﻿l_english:
-  #Warrior Clan / Psiological / Nordic / Celtic
+  #Warrior Clan /  Nordic / Celtic
 #Vital Ground (conservation group)
 
 
@@ -33,14 +33,29 @@
   #Blót
   #Hof
   #Hörgr
+  #Vé
+  #Reginnaglar
+  #Galdr
+  #Kuvitar
+  #Hongatar
+  #Kuutar
+  #Vellamo (Ocean)
+  #Rahko
+  #Gullfaxi
+  #Gullveig
+  #Bestla
+  #Kvasir
+
+
 
   # ships
 
-  #Masseter
   #Caledfwlch
   #Dyrnwyn
+
   #Solais
   #Fragarach
+  #Agio
 
 
   # armies
@@ -99,24 +114,68 @@
   #Olwen
   #Hafgan
   #Arawn
+  #Skald
 
   #### last names
   #Ironhide
-  #Bigclaw
+  #Steelhide
+  #Stronghide
+  #Shellycoat
+  #Thickcoat
+  #Bloodfur
+  #Coldfur
+  #Killfur
+  #Thickfur
+
+  #Solidpaw
   #Smallpaw
-  #Salmonfed
+  #Tinypaw
+  #Strongpaw
+  #Softpaw
+  #Firepaw
+
   #Strongjaw
-  #Ursakin
-  #Forager
+  #Sharpjaw
+  #Bloodjaw
+  #Saltjaw
+
+  #Roarblood
+  #Grizzlblood
+  #Carniblood
+
   #Bileborn
-  #Grizzlord
-  #Sunbearer
-  #Sharpfang
+  #Grizzlborn
+  #Ursakin
   #Maulkin
   #Polarkin
-  #Maulbearo
-  #Shellycoat
+
+  #Bigclaw
   #Burningclaw
+  #Razorclaw
+  #Trueclaw
+  #Waterclaw
+  #Godclaw
+
+  #Razorfang
+  #Sharpfang
+  #Bloodfang
+  #Thunderfang
+  #Manglefang
+  #Truefanged
+  #Twicefanged
+  #Hundredfanged #twicefanged has a real beef with this family
+
+  #Maulbearo #This pun should be illegal
+  #Denlord
+  #Loudroar
+  #Grizzlroar
+  #Grizzlord
+  #Sunbearer
+  #Forager
+  #Salmonfed
+  #Pandamonium
+  #Berryfinder
+
 
 
 
