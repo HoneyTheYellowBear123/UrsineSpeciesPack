@@ -4,23 +4,79 @@
 
   ####### planets
  URSINE1_PLANET_Katmai: "Katmai"
-#Denali (frozen)
-#Kings Canyon (arid)
-#Teton
-#Shenandoah
-#Kenai Fjord (Ocean)
-#Caniformia
-#Hemicyoninae
-#Tremarctinae
-#Ailuropodinae
-#Eocene
-#Ghwer
-#Bornean (conservation group)
-#Chengdu (giant panda breeding)#Orion
-#Hyperborean (arctic)
-   #Ursaterra
-  #Bher
-  #Borne
+ #Denali (frozen)
+ #King's Canyon (arid)
+ #Teton
+ #Shenandoah
+ #Kenai Fjord (Ocean)
+ #Caniformia
+ #Hemicyoninae
+ #Tremarctinae
+ #Ailuropodinae
+ #Eocene
+ #Ghwer
+ #Bornean (conservation group)
+ #Chengdu (giant panda breeding)#Orion
+ #Hyperborean (arctic)
+ #Ursaterra
+ #Bher
+ #Borne
+ #Arctodus (arctic)
+ #Nelsoni
+ #Horribilis
+ #Crowtheri
+   #Tremarctos (arctic)
+   #Floridanus
+   #Etruscus
+   #Minimus
+   #Pristinus
+   #Deningeri
+  #Dolinensis
+  #Ingressus
+   #Rossicus
+   #Gaali
+   #Nikolovi
+   #Agriotherium
+   #Sivalensis
+   #Lufengensis
+   #Tirawa
+   #Ballusia
+   #Elmensis
+   #Cephalogale
+   #Geoffroyi
+   #Punjabiensis
+   #Kretzoiarctos (arctic)
+   #Miomaci
+   #Pannonicum
+   #Ailuropoda
+   #Microta
+   #Boeckhi
+   #Wingei
+   #Vetustum
+   #Tarijense
+   #Middendorffi
+   #Malayanus
+   #Helarctos (arctic)
+   # Maritimus (Ocean)
+   # Melanoleuca
+   # Melursus
+   # Medu
+   # Mel
+   # Rkso
+   # Urvera
+   # Urmel
+   # Tlakis
+   # Callisto
+   # Atalanta
+   #  Brauronia
+   # Lupercalia (hell yeah)
+   # Bruin
+   # Saumur
+   # Orsino
+  ### https://www.extinctanimals.org/extinct-bears
+  ### https://en.wikipedia.org/wiki/Arctotherium
+  ### https://www.charlierussellbears.com/LinguisticArchaeology.html
+   ### https://www.orsoeformica.it/the-bear-in-the-imagination/?lang=en
 
   ###### ships
     #https://blackbearsofnorthamerica.weebly.com/anatomy.html
@@ -29,6 +85,29 @@
     #Flexor Carpi
     #Carpi Radialus
     #Mastodius
+    #Baculum ( Do NOT look this up O_O )
+   #Zygomat
+   #Phalanges
+   #Calcaneus
+   #Ischium
+   #Sacrum
+   #Tochanter
+   #Coccygeal
+   #Illium
+   #Thoraci
+   #Axis
+   #Atlas
+   #Poll
+   #Incisor
+   #Mandible
+   #Metacarpal
+   #Pisiform
+   #Ulna
+   #Olecranon
+   #Sesamoid
+   #Metatarsus
+   #Tarsals
+
 
   ###### armies
 
@@ -87,6 +166,9 @@
   #Bremusa
   #Iphito
   #Molpadia
+  #Beatrix
+  #Romedius
+  #Florent
 
   ######### last names
   #Aeternae
