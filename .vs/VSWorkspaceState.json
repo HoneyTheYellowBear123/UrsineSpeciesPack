@@ -1,14 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.idea",
-    "\\common",
-    "\\common\\species_classes",
     "\\flags",
+    "\\flags\\honeybear_ursinespeciespack_ursine",
     "\\gfx",
     "\\gfx\\models",
+    "\\gfx\\models\\portraits",
+    "\\gfx\\models\\portraits\\honeybear_ursinespeciespack",
+    "\\gfx\\portraits",
+    "\\gfx\\portraits\\portraits",
     "\\localisation"
   ],
-  "SelectedNode": "\\.idea\\.gitignore",
+  "SelectedNode": "\\gfx\\portraits\\portraits\\honeybear_ursinespeciespack_portraits.txt",
   "PreviewInSolutionExplorer": false
 }

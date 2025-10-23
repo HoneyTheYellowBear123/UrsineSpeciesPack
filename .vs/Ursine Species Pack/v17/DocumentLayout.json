@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "M:\\Mod Workspace\\Stellaris\\Ursine Species Pack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\Mod Workspace\\Stellaris\\Ursine Species Pack\\gfx\\portraits\\portraits\\honeybear_ursinespeciespack_portraits.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:gfx\\portraits\\portraits\\honeybear_ursinespeciespack_portraits.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\Mod Workspace\\Stellaris\\Ursine Species Pack\\gfx\\models\\portraits\\honeybear_ursinespeciespack\\honeybear_ursinespeciespack.asset||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:gfx\\models\\portraits\\honeybear_ursinespeciespack\\honeybear_ursinespeciespack.asset||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\Mod Workspace\\Stellaris\\Ursine Species Pack\\.idea\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.idea\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -27,6 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "honeybear_ursinespeciespack_portraits.txt",
+              "DocumentMoniker": "M:\\Mod Workspace\\Stellaris\\Ursine Species Pack\\gfx\\portraits\\portraits\\honeybear_ursinespeciespack_portraits.txt",
+              "RelativeDocumentMoniker": "gfx\\portraits\\portraits\\honeybear_ursinespeciespack_portraits.txt",
+              "ToolTip": "M:\\Mod Workspace\\Stellaris\\Ursine Species Pack\\gfx\\portraits\\portraits\\honeybear_ursinespeciespack_portraits.txt",
+              "RelativeToolTip": "gfx\\portraits\\portraits\\honeybear_ursinespeciespack_portraits.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-10-23T23:33:23.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "honeybear_ursinespeciespack.asset",
+              "DocumentMoniker": "M:\\Mod Workspace\\Stellaris\\Ursine Species Pack\\gfx\\models\\portraits\\honeybear_ursinespeciespack\\honeybear_ursinespeciespack.asset",
+              "RelativeDocumentMoniker": "gfx\\models\\portraits\\honeybear_ursinespeciespack\\honeybear_ursinespeciespack.asset",
+              "ToolTip": "M:\\Mod Workspace\\Stellaris\\Ursine Species Pack\\gfx\\models\\portraits\\honeybear_ursinespeciespack\\honeybear_ursinespeciespack.asset",
+              "RelativeToolTip": "gfx\\models\\portraits\\honeybear_ursinespeciespack\\honeybear_ursinespeciespack.asset",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-23T23:33:12.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": ".gitignore",
               "DocumentMoniker": "M:\\Mod Workspace\\Stellaris\\Ursine Species Pack\\.idea\\.gitignore",
               "RelativeDocumentMoniker": ".idea\\.gitignore",
@@ -39,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "honeybear_ursinespeciespack_species_classes.txt",
               "DocumentMoniker": "M:\\Mod Workspace\\Stellaris\\Ursine Species Pack\\common\\species_classes\\honeybear_ursinespeciespack_species_classes.txt",
               "RelativeDocumentMoniker": "common\\species_classes\\honeybear_ursinespeciespack_species_classes.txt",
@@ -47,8 +81,7 @@
               "RelativeToolTip": "common\\species_classes\\honeybear_ursinespeciespack_species_classes.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-10-21T21:00:18.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T21:00:18.3Z"
             },
             {
               "$type": "Bookmark",
