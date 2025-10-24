@@ -1,5 +1,5 @@
 ﻿l_english:
-  #Nature / Etmology Oriented / Greek / Latin / Psiologoical
+  #Nature / Etymology Oriented / Greek / Latin / Anatomy
   name_list_URSINE1: "Ursine 1"
 
   ####### planets
@@ -78,38 +78,48 @@
   ### https://www.charlierussellbears.com/LinguisticArchaeology.html
    ### https://www.orsoeformica.it/the-bear-in-the-imagination/?lang=en
 
-  ###### ships
+
+  ##########################
+  ######### units #########
+  ########################
+
+  #Ships
+
+
+
+   #Fleets
     #https://blackbearsofnorthamerica.weebly.com/anatomy.html
-    #Masseter
-    #Mastiodeus
-    #Flexor Carpi
-    #Carpi Radialus
-    #Mastodius
-    #Baculum ( Do NOT look this up O_O )
-   #Zygomat
-   #Phalanges
-   #Calcaneus
-   #Ischium
-   #Sacrum
-   #Tochanter
-   #Coccygeal
-   #Illium
-   #Thoraci
-   #Axis
-   #Atlas
-   #Poll
-   #Incisor
-   #Mandible
-   #Metacarpal
-   #Pisiform
-   #Ulna
-   #Olecranon
-   #Sesamoid
-   #Metatarsus
-   #Tarsals
+    #Masseter Armada
+    #Mastiodeus Armada
+    #Flexor Carpi Armada
+    #Carpi Radialus Armada
+    #Mastodius Armada
+    #Baculum Armada ( Do NOT look this up O_O )
+   #Zygomat Armada
+   #Phalanges Armada
+   #Calcaneus Armada
+   #Ischium Armada
+   #Sacrum Armada
+   #Tochanter Armada
+   #Coccygeal Armada
+   #Illium Armada
+   #Thoraci Armada
+   #Axis Armada
+   #Atlas Armada
+   #Poll Armada
+   #Incisor Armada
+   #Mandible Armada
+   #Metacarpal Armada
+   #Pisiform Armada
+   #Ulna Armada
+   #Olecranon Armada
+   #Sesamoid Armada
+   #Metatarsus Armada
+   #Tarsals Armada
 
 
-  ###### armies
+   ###### armies
+   #Omotranssversarius Troop
 
   #####################
   ##### leaders #######

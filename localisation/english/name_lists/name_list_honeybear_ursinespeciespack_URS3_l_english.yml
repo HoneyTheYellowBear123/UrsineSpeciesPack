@@ -80,37 +80,45 @@
   #Geas
   #Yew
 
-  ######runes/letters could be used for ships?
-  #Hagalaz
-  #Ansuz
-  #Jera
-  #Perthro
-  #Algiz
-  #Eihwaz
-  #Berkano
-  #Uruz
-  #Thurisaz
-  #Kenaz
-  #Gebo
-  #Wunjo
-  #Sowilo
-  #Tiwaz
-  #Dagaz
-  #Othala
 
+  ##########################
+  ######### units #########
+  ########################
 
-
-  # ships
+  ### ships
 
   #Caledfwlch
   #Dyrnwyn
-
   #Solais
   #Fragarach
   #Agio
+  #Stutz
+  #Kenworth K-100
 
 
-  # armies
+  ### fleets
+  #Gungnir Armada
+  #Skofnung Armada
+  #Hrunting Armada
+  #Balmung Armada
+  #Dainsleif Armada
+  #Mjolnir Armada
+  #Laevateinn Armada
+  #Gleipnir Armada
+  #Draupnir Armada
+  #Hofund Armada
+  #Angurvadal Armada
+  #Gram Armada
+  #Tyrfing Armada
+  #Mistilteinn Armada
+  #Gjallarhorn Armada
+  #Sharur Armada
+  #Mournblada Armada
+  #Skidbladnir Armada
+  #Svalinn Armada
+
+
+  ### armies
 
   ######################
   ##### leaders  ######
