@@ -2,8 +2,10 @@
   #Nature / Etymology Oriented / Greek / Latin / Anatomy
   name_list_URSINE1: "Ursine 1"
 
-  ####### planets
- URSINE1_PLANET_Katmai: "Katmai"
+  #########################
+  ####### planets (75ish) mostly different gods
+  #######################
+ #URSINE1_PLANET_Katmai: "Katmai"
  #Denali (frozen)
  #King's Canyon (arid)
  #Teton
@@ -83,11 +85,15 @@
   ######### units #########
   ########################
 
-  #Ships
+  #Ships (72ish)
+  #Ursa Major
+  #Ursa Minor
+
+  # Classes (27ish)
+    #Omotranssversarius
 
 
-
-   #Fleets
+   # Fleets (20ish) BONES
     #https://blackbearsofnorthamerica.weebly.com/anatomy.html
     #Masseter Armada
     #Mastiodeus Armada
@@ -118,8 +124,8 @@
    #Tarsals Armada
 
 
-   ###### armies
-   #Omotranssversarius Troop
+   ###### armies (15ish)
+   # Troop
 
   #####################
   ##### leaders #######
