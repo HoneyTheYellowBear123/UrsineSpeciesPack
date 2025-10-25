@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8bb9468e-b5ac-48f9-9708-191baf80528e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Ursine Species Pack.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ursine Species Pack/FileContentIndex/139772a3-94b6-4236-8a13-6bafdf99d138.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ursine Species Pack/FileContentIndex/194654a7-5d35-4741-a985-3e4d2c5a9b49.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ursine Species Pack/FileContentIndex/95dc847d-62a6-4548-91e8-d4a6e62fc301.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ursine Species Pack/FileContentIndex/ddf1b8d1-e73d-4121-8885-8187c16c47d8.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ursine Species Pack/v17/.wsuo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Ursine Species Pack/v17/DocumentLayout.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/honeybear_ursinespeciespack.asset" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/honeybear_ursinespeciespack.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/roboty_BASE1.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/roboty_BASE1.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/portraits/portraits/honeybear_ursinespeciespack_portraits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/portraits/portraits/honeybear_ursinespeciespack_portraits.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="33nuV9PUgVq9Th2KAB56QnNKBj4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;M:/Mod Workspace/Stellaris/Ursine Species Pack/flags/honeybear_ursinespeciespack_1/map&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\flags\honeybear_ursinespeciespack_1\map" />
+      <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\flags\honeybear_ursinespeciespack_1\small" />
+      <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\flags\honeybear_ursinespeciespack_1" />
+      <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\common\name_lists" />
+      <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\localisation\english\name_lists" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-884f5ed5d46b-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.22855.92" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bb9468e-b5ac-48f9-9708-191baf80528e" name="Changes" comment="" />
+      <created>1759965178091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759965178091</updated>
+    </task>
+    <servers />
+  </component>
+</project>

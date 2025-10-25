@@ -15,6 +15,7 @@ ursine_species_set = {
 	portraits = {
 		"ursine_2"
 		"ursine_3"
+		"ursine_4"
 	}
 
 
