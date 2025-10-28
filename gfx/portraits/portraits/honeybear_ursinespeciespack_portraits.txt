@@ -70,6 +70,22 @@ portraits = {
 	}
 
 
+
+	ursine_4 = {	entity = "portrait_ursine_4_entity"	clothes_selector = "mammalian_normal_clothes_01" attachment_selector = "no_texture"
+		greeting_sound = "mammalian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/honeybear_ursinespeciespack/polar_bear_1.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/polar_bear_2.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/polar_bear_3.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/polar_bear_4.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/polar_bear_5.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/polar_bear_6.dds"
+		}
+	}
+
+
+
+
 	#robot andromeda bear
 	ursine_robot_1 = {
 		entity = "portrait_ursine_robot_1_entity"	clothes_selector = "no_texture"	attachment_selector = "no_texture"	greeting_sound = "robot_mammalian_greetings"
