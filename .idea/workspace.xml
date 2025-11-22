@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb9468e-b5ac-48f9-9708-191baf80528e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/flag_pirate_2_c.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/map/flag_pirate_2_c.dds" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/map/flag_ursine_1.pdn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/small/flag_pirate_2_c.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_bear_1.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_bear_1.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_bear_2.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_bear_2.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_bear_3.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_bear_3.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_bear_4.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_bear_4.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_bear_5.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_bear_5.dds" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
