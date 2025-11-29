@@ -83,6 +83,13 @@ portraits = {
 		}
 	}
 
+	ursine_5 = {	entity = "portrait_ursine_5_entity" clothes_selector = "no_texture" attachment_selector = "no_texture"
+		greeting_sound = "mammalian_01_greetings"
+	    character_textures = {
+        "gfx/models/portraits/honeybear_ursinespeciespack/leanover_bear_1.dds"
+        }
+	}
+
 
 
 
