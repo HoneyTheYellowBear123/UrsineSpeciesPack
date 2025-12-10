@@ -1,6 +1,7 @@
 #TO DO: description, associated civic, civic icon obviously
 triggered_honeybear_ursinespeciespack_apiarists = {
 	trigger = {
+
 		OR = {
 			#has_valid_civic = civic_selective_kinship
 			#from = { has_valid_civic = civic_selective_kinship }
