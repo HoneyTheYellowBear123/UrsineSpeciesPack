@@ -20,7 +20,7 @@
  trait_honeybear_ursinespeciespack_Bearfooted_effect: "Habitability on worlds with a different ['concept_climate_category'] from our Preference: §R-10%§!"
  trait_honeybear_ursinespeciespack_Majestic: "Majestic"
  trait_honeybear_ursinespeciespack_Majestic_desc: "Powerful, fearsome, beautiful, this species has it all, and even the most passionate xenophobes cannot deny it."
- trait_honeybear_ursinespeciespack_Majestic_effect: "Placeholder tee hee FIX ME LATER"
+ trait_honeybear_ursinespeciespack_Majestic_effect: "Placeholder tee hee FIX ME LATER £influence£"
 
  SPECIES_TRAIT_URSINE: "['concept_ursine_phenotype_traits']"
  concept_ursine_phenotype_traits: "Ursine Species Traits"

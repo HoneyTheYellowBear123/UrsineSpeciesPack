@@ -1,0 +1,20 @@
+#TO DO: description, associated civic, civic icon obviously
+triggered_honeybear_ursinespeciespack_apiarists = {
+	trigger = {
+		OR = {
+			#has_valid_civic = civic_selective_kinship
+			#from = { has_valid_civic = civic_selective_kinship }
+		}
+
+		OR = {
+		    is_species_class = ART
+		    has_authority = auth_hive_mind
+		    from = { is_species_class = ART }
+		    from = { has_authority = auth_hive_mind}
+		}
+	}
+
+	opinion = {
+		base = 150
+	}
+}
