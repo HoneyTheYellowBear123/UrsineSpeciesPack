@@ -268,6 +268,45 @@ trait_honeybear_ursinespeciespack_Bearfooted = {
 	#}
 }
 
+#frick it I don't care if this is OP bears are cool
+trait_honeybear_ursinespeciespack_Majestic = {
+	cost = 4
+	species_potential_add = {
+		OR = {
+			can_add_negative_organic_traits = yes
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	allowed_archetypes = { BIOLOGICAL LITHOID }
+	species_class = { URSINE }
+	localized_tags = {
+		SPECIES_TRAIT_URSINE
+	}
+	species_class_override = {
+		hidden_trigger = {
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	tags = { organic positive production }
+	randomized = no
+	custom_tooltip_with_modifiers =  trait_honeybear_ursinespeciespack_Majestic_effect
+
+	resources = {
+		category = planet_pops
+		produces = {
+			trigger = {
+				is_slave_or_better = yes
+			}
+			influence = 0.005 #FIX ME LATER
+		}
+	}
+
+	slave_cost = {
+		energy = 2500
+	}
+}
+
+
 
 
 
