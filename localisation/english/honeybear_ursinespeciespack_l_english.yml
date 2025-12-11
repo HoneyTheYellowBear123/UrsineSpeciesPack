@@ -29,6 +29,16 @@
 
 
 
+ ##############################################
+ ############ CIVICS #########################
+ #############################################
+ civic_honeybear_ursinespeciespack_apiarists: "Apiarists"
+ civic_honeybear_ursinespeciespack_apiarists_desc: "An appreciation for the sweeter things in life has led to advanced farming methods and a profound respect for the creatures that make this civilization's foodstuffs."
+ #civic_tooltip_honeybear_ursinespeciespack_apiarists_start: "$civic_tooltip_agrarian_idyll_start$£job_farmer£ §Y$job_farmer_plural$§! also produce §G1§! £amenities£ §YAmenities§! and §G0.5§! £society£ §Y$society_research$§."
+ civic_tooltip_honeybear_ursinespeciespack_apiarists_effects: "- £amenities£ §YAmenities§! per $pop_group_unit$ [farmer.GetIcon] [farmer.GetNamePlural]: §G+100§! \n- £society£ §Y$society_research$§ per $pop_group_unit$ [farmer.GetIcon] [farmer.GetNamePlural]: §G+0.5§! "
+ councilor_honeybear_ursinespeciespack_apiarists: "Supersedurian"
+ councilor_honeybear_ursinespeciespack_apiarists_female: "$councilor_honeybear_ursinespeciespack_apiaristsl$"
+ councilor_honeybear_ursinespeciespack_apiarists_desc: "The $TITLE$ coordinates education and production to ensure hives are harvested sustainably."
 
 
 

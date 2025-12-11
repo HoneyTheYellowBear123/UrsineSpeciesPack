@@ -1,5 +1,6 @@
+#TO DO actual modifier implementation and icon
 civic_honeybear_ursinespeciespack_apiarists = {
-	description = "civic_tooltip_agrarian_idyll_effects"
+	description = "civic_tooltip_honeybear_ursinespeciespack_apiarists_effects"
 	potential = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
 		authority = { NOT = { value = auth_corporate } }
@@ -35,7 +36,7 @@ civic_honeybear_ursinespeciespack_apiarists = {
 	}
 
 	leader_background_job_weight = {
-		"farmer" = 50
+		"beekeeper" = 50 #changed from farmer hopefully this doesn't fuck things up
 	}
 
 	random_weight = { base = @civic_default_random_weight }
