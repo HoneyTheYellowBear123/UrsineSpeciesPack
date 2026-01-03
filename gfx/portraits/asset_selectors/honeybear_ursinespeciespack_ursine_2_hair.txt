@@ -4,22 +4,22 @@ ursine_2_hair = {
 	default = "gfx/models/portraits/honeybear_ursinespeciespack/ursine_2_attachment.dds"
 
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
-		default = "M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+		default = "M:/Mod Workspace/Stellaris/Ursine Species Pack/gfx/models/portraits/honeybear_ursinespeciespack"
 	}
 
 	#species scope
 	species = { #generic portrait for a species
-		default = "M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+		default = "M:/Mod Workspace/Stellaris/Ursine Species Pack/gfx/models/portraits/honeybear_ursinespeciespack"
 	}
 
 	#pop scope
 	pop = { #for a specific pop
 
-		default = "M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+		default = "M:/Mod Workspace/Stellaris/Ursine Species Pack/gfx/models/portraits/honeybear_ursinespeciespack"
 
 		random = {
 			list = {
-				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+				"M:/Mod Workspace/Stellaris/Ursine Species Pack/gfx/models/portraits/honeybear_ursinespeciespack"
 
 
 			}
@@ -35,7 +35,7 @@ ursine_2_hair = {
 		random = {
 			trigger = { leader_class = commander leader_should_wear_general_uniform = yes }
 			list = {
-				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+				"M:/Mod Workspace/Stellaris/Ursine Species Pack/gfx/models/portraits/honeybear_ursinespeciespack"
 
 
 			}
@@ -44,7 +44,7 @@ ursine_2_hair = {
 		random = {
 			trigger = { leader_class = commander leader_should_wear_general_uniform = no }
 			list = {
-				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+				"M:/Mod Workspace/Stellaris/Ursine Species Pack/gfx/models/portraits/honeybear_ursinespeciespack"
 
 
 			}
@@ -53,7 +53,7 @@ ursine_2_hair = {
 		random = {
 			trigger = { leader_class = scientist }
 			list = {
-				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+				"M:/Mod Workspace/Stellaris/Ursine Species Pack/gfx/models/portraits/honeybear_ursinespeciespack"
 
 
 			}
@@ -62,7 +62,7 @@ ursine_2_hair = {
 		random = {
 			trigger = { leader_class = official }
 			list = {
-				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+				"M:/Mod Workspace/Stellaris/Ursine Species Pack/gfx/models/portraits/honeybear_ursinespeciespack"
 
 
 			}
@@ -78,7 +78,7 @@ ursine_2_hair = {
 			}
 
 			list = {
-				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+				"M:/Mod Workspace/Stellaris/Ursine Species Pack/gfx/models/portraits/honeybear_ursinespeciespack"
 
 
 			}
@@ -90,7 +90,7 @@ ursine_2_hair = {
 			}
 
 			list = {
-				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+				"M:/Mod Workspace/Stellaris/Ursine Species Pack/gfx/models/portraits/honeybear_ursinespeciespack"
 
 
 			}
@@ -109,7 +109,7 @@ ursine_2_hair = {
 			}
 
 			list = {
-				"M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\models\portraits\honeybear_ursinespeciespack"
+				"M:/Mod Workspace/Stellaris/Ursine Species Pack/gfx/models/portraits/honeybear_ursinespeciespack"
 
 
 			}

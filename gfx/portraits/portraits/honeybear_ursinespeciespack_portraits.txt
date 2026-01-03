@@ -100,15 +100,13 @@ portraits = {
 	}
 
 	#Tardigrade
-	#ursine_7 = { entity = "portrait_ursine_7_entity" clothes_selector = "no_texture" attachment_selector = "no_texture"	greeting_sound = "biogenesis_portrait_11"
-	#	character_textures = {
-	#		charactuer_textures ={
-	#		texture = "gfx/models/portraits/honeybear_ursinespeciespack/tardigrade_1.dds"  }
-	#	}
-	#	custom_close_up_position_offset = { x = 90 y = 150 }
-	#	custom_close_up_scale = 1.7
-    #
-	#}
+	ursine_7 = { entity = "portrait_ursine_7_entity" clothes_selector = "no_texture" attachment_selector = "no_texture"	greeting_sound = "biogenesis_portrait_11"
+		character_textures = {
+			tied_texture = {texture = "gfx/models/portraits/honeybear_ursinespeciespack/tardigrade_1.dds" evolution_variants = { 0 } }
+		}
+		custom_close_up_position_offset = { x = 90 y = 150 }
+		custom_close_up_scale = 1.7
+	}
 
 
 
