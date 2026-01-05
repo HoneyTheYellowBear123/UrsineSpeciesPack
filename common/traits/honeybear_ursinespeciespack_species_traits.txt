@@ -297,7 +297,7 @@ trait_honeybear_ursinespeciespack_Majestic = {
 			trigger = {
 				is_slave_or_better = yes
 			}
-			influence = 0.005 #FIX ME LATER
+			influence = 0.005 #FIX ME LATER?
 		}
 	}
 

@@ -108,6 +108,14 @@ portraits = {
 		custom_close_up_scale = 1.7
 	}
 
+	#baby bear
+    ursine_8 = {	entity = "portrait_ursine_8_entity"	clothes_selector = "mammalian_massive_clothes_01" attachment_selector = "no_texture"
+		greeting_sound = "mammalian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/honeybear_ursinespeciespack/baby_bear_1.dds"
+		}
+	}
+
 
 
 
