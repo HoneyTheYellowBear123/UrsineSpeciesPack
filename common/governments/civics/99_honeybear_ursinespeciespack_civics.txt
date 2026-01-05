@@ -1,4 +1,4 @@
-#TO DO actual modifier implementation and icon
+
 civic_honeybear_ursinespeciespack_apiarists = {
 	description = "civic_tooltip_honeybear_ursinespeciespack_apiarists_effects"
 	potential = {
