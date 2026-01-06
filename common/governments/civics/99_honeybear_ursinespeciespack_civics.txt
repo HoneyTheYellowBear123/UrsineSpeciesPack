@@ -206,9 +206,10 @@ civic_honeybear_ursinespeciespack_cub_scouts = {
 	}
 
 	modifier = {
-		science_ship_survey_speed = 0.2
-		commander_exp_gain = 0.2
-		commander_initial_skill = 1
+		#science_ship_survey_speed = 0.2
+		#would I prefer to do traits added to leader instead? that's a bit more flavorful.
+		#commander_exp_gain = 0.2
+		#commander_initial_skill = 1
 		army_morale = 0.10
 
 	}
