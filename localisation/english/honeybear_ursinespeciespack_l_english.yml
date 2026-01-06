@@ -35,12 +35,18 @@
  #############################################
  civic_honeybear_ursinespeciespack_apiarists: "Apiarists"
  civic_honeybear_ursinespeciespack_apiarists_desc: "An appreciation for the sweeter things in life has led to advanced farming methods and a profound respect for the creatures that make this civilization's foodstuffs. Sharing of techniques has united all members of this civilization, and the careful watch over their honey producing colonies has been essential to their understanding of functional societies."
- #civic_tooltip_honeybear_ursinespeciespack_apiarists_start: "$civic_tooltip_agrarian_idyll_start$£job_farmer£ §Y$job_farmer_plural$§! also produce §G1§! £amenities£ §YAmenities§! and §G0.5§! £society£ §Y$society_research$§."
  civic_tooltip_honeybear_ursinespeciespack_apiarists_effects: "Increased opinion with Hive Mind and Arthropoid empires."
- #civic_tooltip_honeybear_ursinespeciespack_apiarists_effects: "- £amenities£ §YAmenities§! per $pop_group_unit$ [farmer.GetIcon] [farmer.GetNamePlural]: §G+100§! \n- £society£ §Y$society_research$§! per $pop_group_unit$ [farmer.GetIcon] [farmer.GetNamePlural]: §G+0.5§! "
  councilor_honeybear_ursinespeciespack_apiarists: "Supersedurian"
  councilor_honeybear_ursinespeciespack_apiarists_female: "$councilor_honeybear_ursinespeciespack_apiaristsl$"
  councilor_honeybear_ursinespeciespack_apiarists_desc: "The $TITLE$ coordinates education and production to ensure hives are harvested sustainably."
+
+
+ civic_honeybear_ursinespeciespack_territorial: "Territorial"
+ civic_honeybear_ursinespeciespack_territorial_desc: "Property and borders are deeply entrenched in this society's concept of civilization, with extensive detailed records establishing who controls what, and passionate defense of their homeland."
+ civic_tooltip_honeybear_ursinespeciespack_territorial_effects: "Increased opinion with Hive Mind and Arthropoid empires."
+ #councilor_honeybear_ursinespeciespack_territorial: "Chief Cartographer"
+ councilor_honeybear_ursinespeciespack_territorial_female: "$councilor_honeybear_ursinespeciespack_territoriall$"
+ councilor_honeybear_ursinespeciespack_territorial_desc: "The $TITLE$ coordinates education and production to ensure hives are harvested sustainably."
 
 
 

@@ -2,7 +2,7 @@ councilor_honeybear_ursinespeciespack_apiarists = {
    leader_class = { scientist official }
    is_leader_possible = {
             OR = {
-                    leader_class = commander
+                    leader_class = scientist
                     leader_class = official
             }
    }
@@ -10,6 +10,25 @@ councilor_honeybear_ursinespeciespack_apiarists = {
    modifier = {
         planet_farmers_produces_mult = 0.025
         planet_jobs_society_research_produces_mult = 0.01
+   }
+   ai_hiring_weight = {
+        inline_script = councilor_leader_weights #TO DO double check that this isn't bogus hardcoded nonsense
+   }
+}
+
+councilor_honeybear_ursinespeciespack_territorial = {
+   leader_class = { scientist official commander }
+   is_leader_possible = {
+            OR = {
+                    leader_class = commander
+                    leader_class = official
+                    leader_class = scientist
+            }
+   }
+   civic = civic_honeybear_ursinespeciespack_territorial
+   modifier = {
+        empire_size_systems_mult = -0.015
+        empire_size_colonies_mult = -0.015
    }
    ai_hiring_weight = {
         inline_script = councilor_leader_weights #TO DO double check that this isn't bogus hardcoded nonsense
