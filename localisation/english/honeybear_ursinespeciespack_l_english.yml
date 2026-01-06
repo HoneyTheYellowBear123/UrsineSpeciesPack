@@ -42,9 +42,9 @@
 
 
  civic_honeybear_ursinespeciespack_territorial: "Territorial"
- civic_honeybear_ursinespeciespack_territorial_desc: "Property and borders are deeply entrenched in this society's concept of civilization, with extensive detailed records establishing who controls what, and passionate defense of their homeland."
- civic_tooltip_honeybear_ursinespeciespack_territorial_effects: "Increased opinion with Hive Mind and Arthropoid empires."
- #councilor_honeybear_ursinespeciespack_territorial: "Chief Cartographer"
+ civic_honeybear_ursinespeciespack_territorial_desc: "Property and borders are deeply entrenched in this society's concept of civilization, with extensive detailed records establishing who occupies where, and passionate defense of their homeland."
+ civic_tooltip_honeybear_ursinespeciespack_territorial_effects: "Opening borders to any empire costs 0.25 £influence£ §Y$influence$§! per month. Overlord/Subject/Federated relations are exempt."
+ councilor_honeybear_ursinespeciespack_territorial: "Chief Cartographer"
  councilor_honeybear_ursinespeciespack_territorial_female: "$councilor_honeybear_ursinespeciespack_territoriall$"
  councilor_honeybear_ursinespeciespack_territorial_desc: "The $TITLE$ coordinates education and production to ensure hives are harvested sustainably."
 
