@@ -109,7 +109,7 @@ civic_honeybear_ursinespeciespack_territorial = {
 		"landlord" = 1 #TO DO make sure this is flavor text and does not crash the game
 	}
 
-	random_weight = { base = 1000 }
+	random_weight = { base = 1000 } #TO DO make this slightly below the normal value
 	ai_weight = {
 		base = @ai_civic_default_base_weight
 		modifier = {
@@ -214,7 +214,10 @@ civic_honeybear_ursinespeciespack_cub_scouts = {
 
 	}
 
-	base = @civic_default_random_weight
+    random_weight = {
+		base = @civic_default_random_weight
+	}
+
 
 
 }
