@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb9468e-b5ac-48f9-9708-191baf80528e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/diplomacy_economy/honeybear_ursinespeciespack_diplomacy_economy.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/governments/civics/99_honeybear_ursinespeciespack_civics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/governments/civics/99_honeybear_ursinespeciespack_civics.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/honeybear_ursinespeciespack_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/honeybear_ursinespeciespack_l_english.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/honeybear_ursinespeciespack.asset" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/honeybear_ursinespeciespack.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/portraits/portraits/honeybear_ursinespeciespack_portraits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/portraits/portraits/honeybear_ursinespeciespack_portraits.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
