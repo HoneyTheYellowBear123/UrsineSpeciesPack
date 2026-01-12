@@ -313,7 +313,93 @@ trait_honeybear_ursinespeciespack_Majestic = {
 
 
 
+#triggered_planet_pop_group_modifier_for_species = {
+#		potential = {
+#		AND = {
+#
+#			exists = planet
+#			has_deficit = food #this should be country scope
+#		}
+#		pop_happiness = -0.25
+#}
 
+
+	#resources = {
+	#	category = planet_pops
+	#	# Food Upkeep
+	#	upkeep = {
+	#		trigger = {
+	#			is_being_purged = no
+	#			is_sapient = yes
+	#		}
+	#		food = 0.1
+	#	}
+	#}
+
+#modifier = {
+#    pop_cat_slave_happiness = -0.25
+#}
+
+
+
+trait_honeybear_ursinespeciespack_gluttonous = {
+
+	cost = -2
+	species_potential_add = {
+		OR = {
+			can_add_genetic_traits = yes
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	species_possible_remove = {
+		OR = {
+			can_remove_beneficial_genetic_traits = yes
+			can_add_or_remove_phenotype_traits = yes
+			can_remove_pop_growth_genetic_traits = yes
+		}
+	}
+	allowed_archetypes = { BIOLOGICAL }
+	species_class = { URSINE } #could add humanoid and mammalian and reptillian?
+	localized_tags = {
+		SPECIES_TRAIT_URSINE
+	}
+	species_class_override = {
+		hidden_trigger = {
+			can_add_or_remove_phenotype_traits = yes
+		}
+	}
+	opposites = {  } #to do add radiotrophic and such
+	tags = { organic negative ursine upkeep species }
+
+	slave_cost = {
+		energy = -500
+	}
+
+	triggered_planet_pop_group_modifier_for_species = {
+		potential = {
+		    AND = {
+			exists = planet
+			has_deficit = food #this should be country scope
+		    }
+		}
+		pop_happiness = -0.25
+    }
+
+
+	resources = {
+		category = planet_pops
+		# Food Upkeep
+		upkeep = {
+			trigger = {
+				is_being_purged = no
+				is_sapient = yes
+			}
+			food = 0.1
+		}
+	}
+
+
+}
 
 
 #Pandamonium trait? maybe like extra stability loss from low amenities? That might be a step too complex atm
