@@ -4,80 +4,80 @@
 
   #########################
   ####### planets (75ish) mostly different gods
-  URSINE1_PLANET_Katmai: "Katmai"
-  #Denali (frozen)
-  #King's Canyon (arid)
-  #Teton
-  #Shenandoah
-  #Kenai Fjord (Ocean)
-  #Caniformia
-  #Hemicyoninae
-  #Tremarctinae
-  #Ailuropodinae
-  #Eocene
-  #Ghwer
-  #Bornean (conservation group)
-  #Chengdu (giant panda breeding)#Orion
-  #Hyperborean (arctic)
-  #Ursaterra
-  #Bher
-  #Borne
-  #Arctodus (arctic)
-  #Nelsoni
-  #Horribilis
-  #Crowtheri
-  #Tremarctos (arctic)
-  #Floridanus
-  #Etruscus
-  #Minimus
-  #Pristinus
-  #Deningeri
-  #Dolinensis
-  #Ingressus
-  #Rossicus
-  #Gaali
-  #Nikolovi
-  #Agriotherium
-  #Sivalensis
-  #Lufengensis
-  #Tirawa
-  #Ballusia
-  #Elmensis
-  #Cephalogale
-  #Geoffroyi
-  #Punjabiensis
-  #Kretzoiarctos (arctic)
-  #Miomaci
-  #Pannonicum
-  #Ailuropoda
-  #Microta
-  #Boeckhi
-  #Wingei
-  #Vetustum
-  #Tarijense
-  #Middendorffi
-  #Malayanus
-  #Helarctos (arctic)
-  # Maritimus (Ocean)
-  # Melanoleuca
-  # Melursus
-  # Medu
-  # Mel
-  # Rkso
-  # Urvera
-  # Urmel
-  # Tlakis
-  # Callisto
-  # Atalanta
-  # Brauronia
-  # Lupercalia (hell yeah)
-  # Bruin
-  # Saumur
-  # Orsino
-  ### https://www.extinctanimals.org/extinct-bears
-  ### https://en.wikipedia.org/wiki/Arctotherium
-  ### https://www.charlierussellbears.com/LinguisticArchaeology.html
-   ### https://www.orsoeformica.it/the-bear-in-the-imagination/?lang=en
+  URSINE1_PLANET_URSINE1_PLANET_Katmai: "Katmai"
+  URSINE1_PLANET_Denali (frozen)
+  URSINE1_PLANET_King's Canyon (arid)
+  URSINE1_PLANET_Teton
+  URSINE1_PLANET_Shenandoah
+  URSINE1_PLANET_Kenai Fjord (Ocean)
+  URSINE1_PLANET_Caniformia
+  URSINE1_PLANET_Hemicyoninae
+  URSINE1_PLANET_Tremarctinae
+  URSINE1_PLANET_Ailuropodinae
+  URSINE1_PLANET_Eocene
+  URSINE1_PLANET_Ghwer
+  URSINE1_PLANET_Bornean (conservation group)
+  URSINE1_PLANET_Chengdu (giant panda breeding)#Orion
+  URSINE1_PLANET_Hyperborean (arctic)
+  URSINE1_PLANET_Ursaterra
+  URSINE1_PLANET_Bher
+  URSINE1_PLANET_Borne
+  URSINE1_PLANET_Arctodus (arctic)
+  URSINE1_PLANET_Nelsoni
+  URSINE1_PLANET_Horribilis
+  URSINE1_PLANET_Crowtheri
+  URSINE1_PLANET_Tremarctos (arctic)
+  URSINE1_PLANET_Floridanus
+  URSINE1_PLANET_Etruscus
+  URSINE1_PLANET_Minimus
+  URSINE1_PLANET_Pristinus
+  URSINE1_PLANET_Deningeri
+  URSINE1_PLANET_Dolinensis
+  URSINE1_PLANET_Ingressus
+  URSINE1_PLANET_Rossicus
+  URSINE1_PLANET_Gaali
+  URSINE1_PLANET_Nikolovi
+  URSINE1_PLANET_Agriotherium
+  URSINE1_PLANET_Sivalensis
+  URSINE1_PLANET_Lufengensis
+  URSINE1_PLANET_Tirawa
+  URSINE1_PLANET_Ballusia
+  URSINE1_PLANET_Elmensis
+  URSINE1_PLANET_Cephalogale
+  URSINE1_PLANET_Geoffroyi
+  URSINE1_PLANET_Punjabiensis
+  URSINE1_PLANET_Kretzoiarctos (arctic)
+  URSINE1_PLANET_Miomaci
+  URSINE1_PLANET_Pannonicum
+  URSINE1_PLANET_Ailuropoda
+  URSINE1_PLANET_Microta
+  URSINE1_PLANET_Boeckhi
+  URSINE1_PLANET_Wingei
+  URSINE1_PLANET_Vetustum
+  URSINE1_PLANET_Tarijense
+  URSINE1_PLANET_Middendorffi
+  URSINE1_PLANET_Malayanus
+  URSINE1_PLANET_Helarctos (arctic)
+  URSINE1_PLANET_ Maritimus (Ocean)
+  URSINE1_PLANET_ Melanoleuca
+  URSINE1_PLANET_ Melursus
+  URSINE1_PLANET_ Medu
+  URSINE1_PLANET_ Mel
+  URSINE1_PLANET_ Rkso
+  URSINE1_PLANET_ Urvera
+  URSINE1_PLANET_ Urmel
+  URSINE1_PLANET_ Tlakis
+  URSINE1_PLANET_ Callisto
+  URSINE1_PLANET_ Atalanta
+  URSINE1_PLANET_ Brauronia
+  URSINE1_PLANET_ Lupercalia (hell yeah)
+  URSINE1_PLANET_ Bruin
+  URSINE1_PLANET_ Saumur
+  URSINE1_PLANET_ Orsino
+  URSINE1_PLANET_ https://www.extinctanimals.org/extinct-bears
+  URSINE1_PLANET_ https://en.wikipedia.org/wiki/Arctotherium
+  URSINE1_PLANET_ https://www.charlierussellbears.com/LinguisticArchaeology.html
+  URSINE1_PLANET_ https://www.orsoeformica.it/the-bear-in-the-imagination/?lang=en
 
 
   ##########################
