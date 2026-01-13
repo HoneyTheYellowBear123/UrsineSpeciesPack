@@ -1,5 +1,5 @@
 # Ursine 2
-# Artsy/Spiritual
+  #Warrior Clan /  Nordic / Celtic / Finnish / Cultures where bears are relevant
 # Created by HoneyTheYellowBear
 
 URSINE2 = {
