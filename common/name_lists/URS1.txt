@@ -200,14 +200,9 @@ URSINE1 = {
 
 	character_names = {
 		default = {
-			# A complete name
-			full_names = {
-			}
-
-			# Always combined with a second name
-			first_names_male = {
-			}
-			first_names_female = {
+            #not gonna bother with male/female distinctions right now
+			first_names = {
+			    URSINE1_FirstName_Brizo URSINE1_FirstName_Caesar URSINE1_FirstName_Hymen URSINE1_FirstName_Catoblepas URSINE1_FirstName_Agrius URSINE1_FirstName_Cetus URSINE1_FirstName_Gello URSINE1_FirstName_Deino URSINE1_FirstName_Enyo URSINE1_FirstName_Pemphredo URSINE1_FirstName_Lamia URSINE1_FirstName_Lycaon URSINE1_FirstName_Asterius URSINE1_FirstName_Aristaeus URSINE1_FirstName_Aezeius URSINE1_FirstName_Clytius
 			}
 
 			# Always combined with a first name

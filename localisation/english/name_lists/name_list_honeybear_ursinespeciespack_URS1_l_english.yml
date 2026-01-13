@@ -225,7 +225,24 @@
 
 
    ###### armies (15ish)
-   # Troop
+   #Sacred Band
+   #Hoplite Troop
+   #Phalanx Troop
+   #Enomotia Troop
+   #Lochus Troop
+   #Stratos Troop
+   #Hetaroi Troop
+   #Hypaspists Troop
+   #The Ten Thousand Troop
+   #Legio Equestris
+   #Legio Alaudae
+   #Legio Hispana
+   #Legio Fulminata
+   #Legio Gemina
+   #Legio Fretensis
+   #Legio Augusta
+   #Legio Victrix
+
 
   #####################
   ##### leaders #######
@@ -233,21 +250,22 @@
 
 
   ######### first names
-  #Brizo
-  #Hymen
-  #Catoblepas
-  #Agrius
-  #Cetus
-  #Gello
-  #Deino
-  #Enyo
-  #Pemphredo
-  #Lamia
-  #Lycaon
-  #Asterius
-  #Aristaeus
-  #Aezeius
-  #Clytius
+  URSINE1_FirstName_Brizo: "Brizo"
+  URSINE1_FirstName_Caesar: "Caesar"
+  URSINE1_FirstName_Hymen: "Hymen"
+  URSINE1_FirstName_Catoblepas: "Catoblepas"
+  URSINE1_FirstName_Agrius: "Agrius"
+  URSINE1_FirstName_Cetus: "Cetus"
+  URSINE1_FirstName_Gello: "Gello"
+  URSINE1_FirstName_Deino: "Deino"
+  URSINE1_FirstName_Enyo: "Enyo"
+  URSINE1_FirstName_Pemphredo: "Pemphredo"
+  URSINE1_FirstName_Lamia: "Lamia"
+  URSINE1_FirstName_Lycaon: "Lycaon"
+  URSINE1_FirstName_Asterius: "Asterius"
+  URSINE1_FirstName_Aristaeus: "Aristaeus"
+  URSINE1_FirstName_Aezeius: "Aezeius"
+  URSINE1_FirstName_Clytius: "Clytius"
   #Damysus
   #Gration
   #Eurytus
