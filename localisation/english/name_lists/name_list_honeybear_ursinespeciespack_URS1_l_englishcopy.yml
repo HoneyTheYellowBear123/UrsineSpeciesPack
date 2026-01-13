@@ -4,80 +4,80 @@
 
   #########################
   ####### planets (75ish) mostly different gods
-  URSINE1_PLANET_URSINE1_PLANET_Katmai: "Katmai"
-  URSINE1_PLANET_Denali (frozen)
-  URSINE1_PLANET_King's Canyon (arid)
-  URSINE1_PLANET_Teton
-  URSINE1_PLANET_Shenandoah
-  URSINE1_PLANET_Kenai Fjord (Ocean)
-  URSINE1_PLANET_Caniformia
-  URSINE1_PLANET_Hemicyoninae
-  URSINE1_PLANET_Tremarctinae
-  URSINE1_PLANET_Ailuropodinae
-  URSINE1_PLANET_Eocene
-  URSINE1_PLANET_Ghwer
-  URSINE1_PLANET_Bornean (conservation group)
-  URSINE1_PLANET_Chengdu (giant panda breeding)#Orion
-  URSINE1_PLANET_Hyperborean (arctic)
-  URSINE1_PLANET_Ursaterra
-  URSINE1_PLANET_Bher
-  URSINE1_PLANET_Borne
-  URSINE1_PLANET_Arctodus (arctic)
-  URSINE1_PLANET_Nelsoni
-  URSINE1_PLANET_Horribilis
-  URSINE1_PLANET_Crowtheri
-  URSINE1_PLANET_Tremarctos (arctic)
-  URSINE1_PLANET_Floridanus
-  URSINE1_PLANET_Etruscus
-  URSINE1_PLANET_Minimus
-  URSINE1_PLANET_Pristinus
-  URSINE1_PLANET_Deningeri
-  URSINE1_PLANET_Dolinensis
-  URSINE1_PLANET_Ingressus
-  URSINE1_PLANET_Rossicus
-  URSINE1_PLANET_Gaali
-  URSINE1_PLANET_Nikolovi
-  URSINE1_PLANET_Agriotherium
-  URSINE1_PLANET_Sivalensis
-  URSINE1_PLANET_Lufengensis
-  URSINE1_PLANET_Tirawa
-  URSINE1_PLANET_Ballusia
-  URSINE1_PLANET_Elmensis
-  URSINE1_PLANET_Cephalogale
-  URSINE1_PLANET_Geoffroyi
-  URSINE1_PLANET_Punjabiensis
-  URSINE1_PLANET_Kretzoiarctos (arctic)
-  URSINE1_PLANET_Miomaci
-  URSINE1_PLANET_Pannonicum
-  URSINE1_PLANET_Ailuropoda
-  URSINE1_PLANET_Microta
-  URSINE1_PLANET_Boeckhi
-  URSINE1_PLANET_Wingei
-  URSINE1_PLANET_Vetustum
-  URSINE1_PLANET_Tarijense
-  URSINE1_PLANET_Middendorffi
-  URSINE1_PLANET_Malayanus
-  URSINE1_PLANET_Helarctos (arctic)
-  URSINE1_PLANET_ Maritimus (Ocean)
-  URSINE1_PLANET_ Melanoleuca
-  URSINE1_PLANET_ Melursus
-  URSINE1_PLANET_ Medu
-  URSINE1_PLANET_ Mel
-  URSINE1_PLANET_ Rkso
-  URSINE1_PLANET_ Urvera
-  URSINE1_PLANET_ Urmel
-  URSINE1_PLANET_ Tlakis
-  URSINE1_PLANET_ Callisto
-  URSINE1_PLANET_ Atalanta
-  URSINE1_PLANET_ Brauronia
-  URSINE1_PLANET_ Lupercalia (hell yeah)
-  URSINE1_PLANET_ Bruin
-  URSINE1_PLANET_ Saumur
-  URSINE1_PLANET_ Orsino
-  URSINE1_PLANET_ https://www.extinctanimals.org/extinct-bears
-  URSINE1_PLANET_ https://en.wikipedia.org/wiki/Arctotherium
-  URSINE1_PLANET_ https://www.charlierussellbears.com/LinguisticArchaeology.html
-  URSINE1_PLANET_ https://www.orsoeformica.it/the-bear-in-the-imagination/?lang=en
+  URSINE1_PLANET_Katmai: "Katmai"
+  #Denali (frozen)
+  #King's Canyon (arid)
+  #Teton
+  #Shenandoah
+  #Kenai Fjord (Ocean)
+  #Caniformia
+  #Hemicyoninae
+  #Tremarctinae
+  #Ailuropodinae
+  #Eocene
+  #Ghwer
+  #Bornean (conservation group)
+  #Chengdu (giant panda breeding)#Orion
+  #Hyperborean (arctic)
+  #Ursaterra
+  #Bher
+  #Borne
+  #Arctodus (arctic)
+  #Nelsoni
+  #Horribilis
+  #Crowtheri
+  #Tremarctos (arctic)
+  #Floridanus
+  #Etruscus
+  #Minimus
+  #Pristinus
+  #Deningeri
+  #Dolinensis
+  #Ingressus
+  #Rossicus
+  #Gaali
+  #Nikolovi
+  #Agriotherium
+  #Sivalensis
+  #Lufengensis
+  #Tirawa
+  #Ballusia
+  #Elmensis
+  #Cephalogale
+  #Geoffroyi
+  #Punjabiensis
+  #Kretzoiarctos (arctic)
+  #Miomaci
+  #Pannonicum
+  #Ailuropoda
+  #Microta
+  #Boeckhi
+  #Wingei
+  #Vetustum
+  #Tarijense
+  #Middendorffi
+  #Malayanus
+  #Helarctos (arctic)
+  # Maritimus (Ocean)
+  # Melanoleuca
+  # Melursus
+  # Medu
+  # Mel
+  # Rkso
+  # Urvera
+  # Urmel
+  # Tlakis
+  # Callisto
+  # Atalanta
+  # Brauronia
+  # Lupercalia (hell yeah)
+  # Bruin
+  # Saumur
+  # Orsino
+  ### https://www.extinctanimals.org/extinct-bears
+  ### https://en.wikipedia.org/wiki/Arctotherium
+  ### https://www.charlierussellbears.com/LinguisticArchaeology.html
+   ### https://www.orsoeformica.it/the-bear-in-the-imagination/?lang=en
 
 
   ##########################
@@ -85,79 +85,79 @@
   ########################
 
   #Ships (72ish)
-  #Ursa Major
-  #Ursa Minor
-  #Alveus Hippocampi
-  #Aquaeductus Cerebri
-  #Adhaesio Interthalamica
-  #Bulbus Olfactorius
-  #Vasa Sanguinea
-  #Cornu Ammonis
-  #Corpus Amygdaloideum
-  #Corpus Callosum
-  #Commissura Caudalis
-  #Capsula Externa
-  #Capsula Extrema
-  #Corpus Fornicis
-  #Capsula Interna
-  #Columna Fornicis
-  #Corpus Mamillare
-  #Cornu Dorsale
-  #Cornu Ventrale
-  #Colliculus Caudalis
-  #Chiasma Opticum
-  #Colliculus Rostralis
-  #Corpus Subthalamicum
-  #Decussatio Pyramidum
-  #Fasciculus Cuneatus #;)
-  #Fissura Pseudosylvia
-  #Gyrus Parahippocampalis
-  #Lobulus Ansiformis
-  #Lemniscus Medialis
-  #Nucleus Accumbens
-  #Medulla Oblongata
-  #Nucleus Ruber
-  #Sulcus Ansatus
-  #Pedunculus Flocculi
-  #Tractus Opticus
-  #Uvula Vermis
-  #Fossa Rhomboidea
-  #Pallium Dorsale
-  #Sulcus Endomarginalis
-  #Zona Incerta
-  #Nucleus Lentiformis
-  #Nervus Opticus
-  #Sulcus Praesylvius
-  #Sulcus Basilaris
-  #Pyramis Vermis
-  #Nuclei Rhaphe
-  #Lobus Piriformis
-  #Glandula Pinealis
-  #Gyrus Cinguli
-  #Funiculus Dorsalis
-  #Ventriculus Tertius
-  #Tuber Vermis
-  #Tractus Pyramidalis
-  #Sulcus Suprasplenialis
-  #Sulcus Proreus
-  #Sulcus Postcruciatus
-  #Substantia Nigra
-  #Ectosylvius Caudalis
-  #Ectosylvius Rostralis
-  #Grisea Centralis
-  #Septum Pellucidum
-  #Septum Cellulare
-  #Sulcus Cinguli
-  #Paraflocculus Dorsalis
-  #Parafloculus Ventralis
-  #Plexus Chorioideus
-  #Cerebellaris Caudalis
-  #Cerebellaris Medius
-  #Cereballaris Rostralis
-  #Nervus Hypoglossus
-  #Nervus Vestibulocochlearis
-  #Nervus Abducens
-  #Nervus Trigeminus
+  URSINE1_SHIP_Ursa_Major: "Ursa Major"
+  URSINE1_SHIP_Ursa_Minor: "Ursa Minor"
+  URSINE1_SHIP_Alveus_Hippocampi: "Alveus Hippocampi"
+  URSINE1_SHIP_Aquaeductus_Cerebri: "Aquaeductus Cerebri"
+  URSINE1_SHIP_Adhaesio_Interthalamica: "Adhaesio Interthalamica"
+  URSINE1_SHIP_Bulbus_Olfactorius: "Bulbus Olfactorius"
+  URSINE1_SHIP_Vasa_Sanguinea: "Vasa Sanguinea"
+  URSINE1_SHIP_Cornu_Ammonis: "Cornu Ammonis"
+  URSINE1_SHIP_Corpus_Amygdaloideum: "Corpus Amygdaloideum"
+  URSINE1_SHIP_Corpus_Callosum: "Corpus Callosum"
+  URSINE1_SHIP_Commissura_Caudalis: "Commissura Caudalis"
+  URSINE1_SHIP_Capsula_Externa: "Capsula Externa"
+  URSINE1_SHIP_Capsula_Extrema: "Capsula Extrema"
+  URSINE1_SHIP_Corpus_Fornicis: "Corpus Fornicis"
+  URSINE1_SHIP_Capsula_Interna: "Capsula Interna"
+  URSINE1_SHIP_Columna_Fornicis: "Columna Fornicis"
+  URSINE1_SHIP_Corpus_Mamillare: "Corpus Mamillare"
+  URSINE1_SHIP_Cornu_Dorsale: "Cornu Dorsale"
+  URSINE1_SHIP_Cornu_Ventrale: "Cornu Ventrale"
+  URSINE1_SHIP_Colliculus_Caudalis: "Colliculus Caudalis"
+  URSINE1_SHIP_Chiasma_Opticum: "Chiasma Opticum"
+  URSINE1_SHIP_Colliculus_Rostralis: "Colliculus Rostralis"
+  URSINE1_SHIP_Corpus_Subthalamicum: "Corpus Subthalamicum"
+  URSINE1_SHIP_Decussatio_Pyramidum: "Decussatio Pyramidum"
+  URSINE1_SHIP_Fasciculus_Cuneatus_#;): "Fasciculus Cuneatus #;)"
+  URSINE1_SHIP_Fissura_Pseudosylvia: "Fissura Pseudosylvia"
+  URSINE1_SHIP_Gyrus_Parahippocampalis: "Gyrus Parahippocampalis"
+  URSINE1_SHIP_Lobulus_Ansiformis: "Lobulus Ansiformis"
+  URSINE1_SHIP_Lemniscus_Medialis: "Lemniscus Medialis"
+  URSINE1_SHIP_Nucleus_Accumbens: "Nucleus Accumbens"
+  URSINE1_SHIP_Medulla_Oblongata: "Medulla Oblongata"
+  URSINE1_SHIP_Nucleus_Ruber: "Nucleus Ruber"
+  URSINE1_SHIP_Sulcus_Ansatus: "Sulcus Ansatus"
+  URSINE1_SHIP_Pedunculus_Flocculi: "Pedunculus Flocculi"
+  URSINE1_SHIP_Tractus_Opticus: "Tractus Opticus"
+  URSINE1_SHIP_Uvula_Vermis: "Uvula Vermis"
+  URSINE1_SHIP_Fossa_Rhomboidea: "Fossa Rhomboidea"
+  URSINE1_SHIP_Pallium_Dorsale: "Pallium Dorsale"
+  URSINE1_SHIP_Sulcus_Endomarginalis: "Sulcus Endomarginalis"
+  URSINE1_SHIP_Zona_Incerta: "Zona Incerta"
+  URSINE1_SHIP_Nucleus_Lentiformis: "Nucleus Lentiformis"
+  URSINE1_SHIP_Nervus_Opticus: "Nervus Opticus"
+  URSINE1_SHIP_Sulcus_Praesylvius: "Sulcus Praesylvius"
+  URSINE1_SHIP_Sulcus_Basilaris: "Sulcus Basilaris"
+  URSINE1_SHIP_Pyramis_Vermis: "Pyramis Vermis"
+  URSINE1_SHIP_Nuclei_Rhaphe: "Nuclei Rhaphe"
+  URSINE1_SHIP_Lobus_Piriformis: "Lobus Piriformis"
+  URSINE1_SHIP_Glandula_Pinealis: "Glandula Pinealis"
+  URSINE1_SHIP_Gyrus_Cinguli: "Gyrus Cinguli"
+  URSINE1_SHIP_Funiculus_Dorsalis: "Funiculus Dorsalis"
+  URSINE1_SHIP_Ventriculus_Tertius: "Ventriculus Tertius"
+  URSINE1_SHIP_Tuber_Vermis: "Tuber Vermis"
+  URSINE1_SHIP_Tractus_Pyramidalis: "Tractus Pyramidalis"
+  URSINE1_SHIP_Sulcus_Suprasplenialis: "Sulcus Suprasplenialis"
+  URSINE1_SHIP_Sulcus_Proreus: "Sulcus Proreus"
+  URSINE1_SHIP_Sulcus_Postcruciatus: "Sulcus Postcruciatus"
+  URSINE1_SHIP_Substantia_Nigra: "Substantia Nigra"
+  URSINE1_SHIP_Ectosylvius_Caudalis: "Ectosylvius Caudalis"
+  URSINE1_SHIP_Ectosylvius_Rostralis: "Ectosylvius Rostralis"
+  URSINE1_SHIP_Grisea_Centralis: "Grisea Centralis"
+  URSINE1_SHIP_Septum_Pellucidum: "Septum Pellucidum"
+  URSINE1_SHIP_Septum_Cellulare: "Septum Cellulare"
+  URSINE1_SHIP_Sulcus_Cinguli: "Sulcus Cinguli"
+  URSINE1_SHIP_Paraflocculus_Dorsalis: "Paraflocculus Dorsalis"
+  URSINE1_SHIP_Parafloculus_Ventralis: "Parafloculus Ventralis"
+  URSINE1_SHIP_Plexus_Chorioideus: "Plexus Chorioideus"
+  URSINE1_SHIP_Cerebellaris_Caudalis: "Cerebellaris Caudalis"
+  URSINE1_SHIP_Cerebellaris_Medius: "Cerebellaris Medius"
+  URSINE1_SHIP_Cereballaris_Rostralis: "Cereballaris Rostralis"
+  URSINE1_SHIP_Nervus_Hypoglossus: "Nervus Hypoglossus"
+  URSINE1_SHIP_Nervus_Vestibulocochlearis: "Nervus Vestibulocochlearis"
+  URSINE1_SHIP_Nervus_Abducens: "Nervus Abducens"
+  URSINE1_SHIP_Nervus_Trigeminus: "Nervus Trigeminus"
 
 
   # Classes (27ish)

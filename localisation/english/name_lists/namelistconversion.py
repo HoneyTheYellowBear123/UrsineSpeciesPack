@@ -6,8 +6,8 @@ import pyperclip
 file = "./name_list_honeybear_ursinespeciespack_URS1_l_english.yml"
 copyfile = file[:-4] + "copy.yml"
 #get the section you want
-keyValue = "planets"
-prefix = "URSINE1_PLANET_"
+keyValue = "Ships"
+prefix = "URSINE1_SHIP_"
 pyperclipString = ""
 
 lines = []
@@ -21,6 +21,8 @@ for line in lines:
     if section:
         newline = line.strip()
         newline = newline.strip("#")
+        origname = newline
+        newline = newline.replace(" ","_")
         if newline == "":
             newline = "\n"
             section = False
@@ -28,7 +30,7 @@ for line in lines:
             continue
         newline = " " + prefix + newline
         pyperclipString = pyperclipString + newline
-        newline = " " + newline + "\n"
+        newline = " " + newline + ": \"" + origname + "\"\n"
     else:
         newline = line
         if keyValue in line:
