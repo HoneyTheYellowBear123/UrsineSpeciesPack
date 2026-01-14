@@ -3,11 +3,11 @@
 import pyperclip
 
 #file to use
-file = "./name_list_honeybear_ursinespeciespack_URS1_l_english.yml"
+file = "./name_list_honeybear_ursinespeciespack_URS2_l_english.yml"
 copyfile = file[:-4] + "copy.yml"
 #get the section you want
 keyValue = "last names"
-prefix = "URSINE1_lastname_"
+prefix = "URSINE2_lastname_"
 pyperclipString = ""
 
 lines = []

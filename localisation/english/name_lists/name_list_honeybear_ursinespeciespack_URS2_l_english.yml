@@ -6,359 +6,347 @@
 
   ####################
   ###### planets ##### (75ish)  mostly different gods
-  ####################
-
-  #Otso
-  #Karhu
-  #Ohto
-  #Kontio
-  #Metsän kuningas
-  #Mesikämmen
-  #Ukko
-  #Peijaiset
-  #Matunos
-  #Beira
-  #Cailleach
-  #Metsänpeitto
-  #Pohjola
-  #Sampo
-  #Tuonela
-  #Väki
-  #Hindarfjall
-  #Fyrisvellir
-  #Andlang
-  #Amsvartnir
-  #Okolnir
-  #Gandvik
-  #Uppsala
-  #Körmt
-  #Örmt
-  #Blót
-  #Hof
-  #Hörgr
-  #Vé
-  #Reginnaglar
-  #Galdr
-  #Kuvitar
-  #Hongatar
-  #Kuutar
-  #Vellamo (Ocean)
-  #Rahko
-  #Gullfaxi
-  #Gullveig
-  #Bestla
-  #Kvasir
-  #Vital Ground (conservation group)
-  #Bödvar
-  #Bjarki
-  #Valemon
-  #Beorn
-  #Gleipnir
-  #Bjarkan
-  #Jotunn
-  #Tornassuk
-  #Arth
-  #Ard
-  #Logi
-  #Baugi
-  #Munidis
-  #Ocrimirae
-  #Losa
-  #Carneo
-  #Bec
-  #Bodhmall
-  #Boann (ocean)
-  #Clothru
-  #Mongfind
-  #Bith
-  #Balorg
-  #Conand
-  #Cichol
-  #Dagda
-  #Lir
-  #Tethra
-  #Geas
-  #Yew
-
+  URSINE2_planet_Otso: "Otso"
+  URSINE2_planet_Karhu: "Karhu"
+  URSINE2_planet_Ohto: "Ohto"
+  URSINE2_planet_Kontio: "Kontio"
+  URSINE2_planet_Metsän_kuningas: "Metsän kuningas"
+  URSINE2_planet_Mesikämmen: "Mesikämmen"
+  URSINE2_planet_Ukko: "Ukko"
+  URSINE2_planet_Peijaiset: "Peijaiset"
+  URSINE2_planet_Matunos: "Matunos"
+  URSINE2_planet_Beira: "Beira"
+  URSINE2_planet_Cailleach: "Cailleach"
+  URSINE2_planet_Metsänpeitto: "Metsänpeitto"
+  URSINE2_planet_Pohjola: "Pohjola"
+  URSINE2_planet_Sampo: "Sampo"
+  URSINE2_planet_Tuonela: "Tuonela"
+  URSINE2_planet_Väki: "Väki"
+  URSINE2_planet_Hindarfjall: "Hindarfjall"
+  URSINE2_planet_Fyrisvellir: "Fyrisvellir"
+  URSINE2_planet_Andlang: "Andlang"
+  URSINE2_planet_Amsvartnir: "Amsvartnir"
+  URSINE2_planet_Okolnir: "Okolnir"
+  URSINE2_planet_Gandvik: "Gandvik"
+  URSINE2_planet_Uppsala: "Uppsala"
+  URSINE2_planet_Körmt: "Körmt"
+  URSINE2_planet_Örmt: "Örmt"
+  URSINE2_planet_Blót: "Blót"
+  URSINE2_planet_Hof: "Hof"
+  URSINE2_planet_Hörgr: "Hörgr"
+  URSINE2_planet_Vé: "Vé"
+  URSINE2_planet_Reginnaglar: "Reginnaglar"
+  URSINE2_planet_Galdr: "Galdr"
+  URSINE2_planet_Kuvitar: "Kuvitar"
+  URSINE2_planet_Hongatar: "Hongatar"
+  URSINE2_planet_Kuutar: "Kuutar"
+  URSINE2_planet_Vellamo: "Vellamo"
+  URSINE2_planet_Rahko: "Rahko"
+  URSINE2_planet_Gullfaxi: "Gullfaxi"
+  URSINE2_planet_Gullveig: "Gullveig"
+  URSINE2_planet_Bestla: "Bestla"
+  URSINE2_planet_Kvasir: "Kvasir"
+  URSINE2_planet_Vital_Ground: "Vital Ground"
+  URSINE2_planet_Bödvar: "Bödvar"
+  URSINE2_planet_Bjarki: "Bjarki"
+  URSINE2_planet_Valemon: "Valemon"
+  URSINE2_planet_Beorn: "Beorn"
+  URSINE2_planet_Gleipnir: "Gleipnir"
+  URSINE2_planet_Bjarkan: "Bjarkan"
+  URSINE2_planet_Jotunn: "Jotunn"
+  URSINE2_planet_Tornassuk: "Tornassuk"
+  URSINE2_planet_Arth: "Arth"
+  URSINE2_planet_Ard: "Ard"
+  URSINE2_planet_Logi: "Logi"
+  URSINE2_planet_Baugi: "Baugi"
+  URSINE2_planet_Munidis: "Munidis"
+  URSINE2_planet_Ocrimirae: "Ocrimirae"
+  URSINE2_planet_Losa: "Losa"
+  URSINE2_planet_Carneo: "Carneo"
+  URSINE2_planet_Bec: "Bec"
+  URSINE2_planet_Bodhmall: "Bodhmall"
+  URSINE2_planet_Boann: "Boann"
+  URSINE2_planet_Clothru: "Clothru"
+  URSINE2_planet_Mongfind: "Mongfind"
+  URSINE2_planet_Bith: "Bith"
+  URSINE2_planet_Balorg: "Balorg"
+  URSINE2_planet_Conand: "Conand"
+  URSINE2_planet_Cichol: "Cichol"
+  URSINE2_planet_Dagda: "Dagda"
+  URSINE2_planet_Lir: "Lir"
+  URSINE2_planet_Tethra: "Tethra"
+  URSINE2_planet_Geas: "Geas"
+  URSINE2_planet_Yew: "Yew"
 
   ##########################
   ######### units #########
   ########################
 
   ### ships (72ish) a couple of real bears and then general warrior ship sounding stuff
-  #Kenworth K-100
-  #Grizzly 399
-  #Terrible Ted
-  #Bruno II
-  #Benjamin Franklin
-  #BB-12
-  #Bear 71
-  #Bear 122
-  #Bear 141
-  #Bear 480
-  #Bear 856
-  #Bear JJ1
-  #Hank the Tank
-  #Old Ephraim
-  #Mysore Sloth
-  #OSO18
-  #Ivan The Terrible
-  #Old Martin
-  #Cocaine Bear
-  #Rage Unleashed
-  #Mauling Fury
-  #Raging Fury
-  #Terrible Roar
-  #Tree Crusher
-  #Cave Dweller
-  #Blood Moon
-  #Deep Sleep
-  #Claw of Wrath
-  #Claw of Pride
-  #Claw of Sloth
-  #Claw of War
-  #Claw of Rage
-  #Den Mother
-  #Salmon Run
-  #Defender of Kin
-  #Furry Menace
-  #Gamey Meat
-  #Apex Predator
-  #Fuzzy Fury
-  #Furry Fury
-  #Terrible Roar
-  #Dark Maul
-  #Quaking Roar
-  #Unrelenting Fury
-  #Night Terror
-  #Deep Winter
-  #Arctic Storm
-  #Polar Blitz
-  #Grizzly Murder
-  #Grizzly Blitz
-  #Grizzly Roar
-  #Honey Bear ;)
-  #Sharpened Claws
-  #Gutteral Roar
-  #Wild Fury
-  #Ferocious Roar
-  #Savage Claw
-  #Savage Roar
-  #Savage Claw
-  #Feirce Claw
-  #Savage Maul
-  #Ferocious Maul
-  #Claw Mark
-  #Claw Scar
-  #Big Critter
-  #Heavy Paw
-  #Yellow Stone
-  #Scavenger Hunter
-  #Fuzzy Hunter
-  #Savage Predator
-  #Fierce Predator
-  #Honey Hunter
+  URSINE2_SHIP_Kenworth_K-100: "Kenworth K-100"
+  URSINE2_SHIP_Grizzly_399: "Grizzly 399"
+  URSINE2_SHIP_Terrible_Ted: "Terrible Ted"
+  URSINE2_SHIP_Bruno_II: "Bruno II"
+  URSINE2_SHIP_Benjamin_Franklin: "Benjamin Franklin"
+  URSINE2_SHIP_BB-12: "BB-12"
+  URSINE2_SHIP_Bear_71: "Bear 71"
+  URSINE2_SHIP_Bear_122: "Bear 122"
+  URSINE2_SHIP_Bear_141: "Bear 141"
+  URSINE2_SHIP_Bear_480: "Bear 480"
+  URSINE2_SHIP_Bear_856: "Bear 856"
+  URSINE2_SHIP_Bear_JJ1: "Bear JJ1"
+  URSINE2_SHIP_Hank_the_Tank: "Hank the Tank"
+  URSINE2_SHIP_Old_Ephraim: "Old Ephraim"
+  URSINE2_SHIP_Mysore_Sloth: "Mysore Sloth"
+  URSINE2_SHIP_OSO18: "OSO18"
+  URSINE2_SHIP_Ivan_The_Terrible: "Ivan The Terrible"
+  URSINE2_SHIP_Old_Martin: "Old Martin"
+  URSINE2_SHIP_Cocaine_Bear: "Cocaine Bear"
+  URSINE2_SHIP_Rage_Unleashed: "Rage Unleashed"
+  URSINE2_SHIP_Mauling_Fury: "Mauling Fury"
+  URSINE2_SHIP_Raging_Fury: "Raging Fury"
+  URSINE2_SHIP_Terrible_Roar: "Terrible Roar"
+  URSINE2_SHIP_Tree_Crusher: "Tree Crusher"
+  URSINE2_SHIP_Cave_Dweller: "Cave Dweller"
+  URSINE2_SHIP_Blood_Moon: "Blood Moon"
+  URSINE2_SHIP_Deep_Sleep: "Deep Sleep"
+  URSINE2_SHIP_Claw_of_Wrath: "Claw of Wrath"
+  URSINE2_SHIP_Claw_of_Pride: "Claw of Pride"
+  URSINE2_SHIP_Claw_of_Sloth: "Claw of Sloth"
+  URSINE2_SHIP_Claw_of_War: "Claw of War"
+  URSINE2_SHIP_Claw_of_Rage: "Claw of Rage"
+  URSINE2_SHIP_Den_Mother: "Den Mother"
+  URSINE2_SHIP_Salmon_Run: "Salmon Run"
+  URSINE2_SHIP_Defender_of_Kin: "Defender of Kin"
+  URSINE2_SHIP_Furry_Menace: "Furry Menace"
+  URSINE2_SHIP_Gamey_Meat: "Gamey Meat"
+  URSINE2_SHIP_Apex_Predator: "Apex Predator"
+  URSINE2_SHIP_Fuzzy_Fury: "Fuzzy Fury"
+  URSINE2_SHIP_Furry_Fury: "Furry Fury"
+  URSINE2_SHIP_Terrible_Roar: "Terrible Roar"
+  URSINE2_SHIP_Dark_Maul: "Dark Maul"
+  URSINE2_SHIP_Quaking_Roar: "Quaking Roar"
+  URSINE2_SHIP_Unrelenting_Fury: "Unrelenting Fury"
+  URSINE2_SHIP_Night_Terror: "Night Terror"
+  URSINE2_SHIP_Deep_Winter: "Deep Winter"
+  URSINE2_SHIP_Arctic_Storm: "Arctic Storm"
+  URSINE2_SHIP_Polar_Blitz: "Polar Blitz"
+  URSINE2_SHIP_Grizzly_Murder: "Grizzly Murder"
+  URSINE2_SHIP_Grizzly_Blitz: "Grizzly Blitz"
+  URSINE2_SHIP_Grizzly_Roar: "Grizzly Roar"
+  URSINE2_SHIP_Honey_Bear: "Honey Bear"
+  URSINE2_SHIP_Sharpened_Claws: "Sharpened Claws"
+  URSINE2_SHIP_Gutteral_Roar: "Gutteral Roar"
+  URSINE2_SHIP_Wild_Fury: "Wild Fury"
+  URSINE2_SHIP_Ferocious_Roar: "Ferocious Roar"
+  URSINE2_SHIP_Savage_Claw: "Savage Claw"
+  URSINE2_SHIP_Savage_Roar: "Savage Roar"
+  URSINE2_SHIP_Savage_Claw: "Savage Claw"
+  URSINE2_SHIP_Feirce_Claw: "Fierce Claw"
+  URSINE2_SHIP_Savage_Maul: "Savage Maul"
+  URSINE2_SHIP_Ferocious_Maul: "Ferocious Maul"
+  URSINE2_SHIP_Claw_Mark: "Claw Mark"
+  URSINE2_SHIP_Claw_Scar: "Claw Scar"
+  URSINE2_SHIP_Big_Critter: "Big Critter"
+  URSINE2_SHIP_Heavy_Paw: "Heavy Paw"
+  URSINE2_SHIP_Yellow_Stone: "Yellow Stone"
+  URSINE2_SHIP_Scavenger_Hunter: "Scavenger Hunter"
+  URSINE2_SHIP_Fuzzy_Hunter: "Fuzzy Hunter"
+  URSINE2_SHIP_Savage_Predator: "Savage Predator"
+  URSINE2_SHIP_Fierce_Predator: "Fierce Predator"
+  URSINE2_SHIP_Honey_Hunter: "Honey Hunter"
 
 
   ###  Classes (27ish) real life bears
-  #Caledfwlch
-  #Dyrnwyn
-  #Solais
-  #Fragarach
-  #Agio
-  #Stutz
-  #Hercules
-  #Rocky
-  #Whopper
-  #Sackerson
-  #Victor
-  #Hotfoot
-  #Joa
-  #Touchdown
-  #Winnipeg
-  #Cinder
-  #Hope
-  #Kesagake
-  #MacFarlane
-  #Meatball
-  #Arturo
-  #Binky
-  #Flocke
-  #Inuka
-  #Monarch
-  #Nora
-  #Pipaluk
-  #Rotana
-  #Siku
-  #Wilbär
+  URSINE2_CLASS_Caledfwlch: "Caledfwlch"
+  URSINE2_CLASS_Dyrnwyn: "Dyrnwyn"
+  URSINE2_CLASS_Solais: "Solais"
+  URSINE2_CLASS_Fragarach: "Fragarach"
+  URSINE2_CLASS_Agio: "Agio"
+  URSINE2_CLASS_Stutz: "Stutz"
+  URSINE2_CLASS_Hercules: "Hercules"
+  URSINE2_CLASS_Rocky: "Rocky"
+  URSINE2_CLASS_Whopper: "Whopper"
+  URSINE2_CLASS_Sackerson: "Sackerson"
+  URSINE2_CLASS_Victor: "Victor"
+  URSINE2_CLASS_Hotfoot: "Hotfoot"
+  URSINE2_CLASS_Joa: "Joa"
+  URSINE2_CLASS_Touchdown: "Touchdown"
+  URSINE2_CLASS_Winnipeg: "Winnipeg"
+  URSINE2_CLASS_Cinder: "Cinder"
+  URSINE2_CLASS_Hope: "Hope"
+  URSINE2_CLASS_Kesagake: "Kesagake"
+  URSINE2_CLASS_MacFarlane: "MacFarlane"
+  URSINE2_CLASS_Meatball: "Meatball"
+  URSINE2_CLASS_Arturo: "Arturo"
+  URSINE2_CLASS_Binky: "Binky"
+  URSINE2_CLASS_Flocke: "Flocke"
+  URSINE2_CLASS_Inuka: "Inuka"
+  URSINE2_CLASS_Monarch: "Monarch"
+  URSINE2_CLASS_Nora: "Nora"
+  URSINE2_CLASS_Pipaluk: "Pipaluk"
+  URSINE2_CLASS_Rotana: "Rotana"
+  URSINE2_CLASS_Siku: "Siku"
+  URSINE2_CLASS_Wilbär: "Wilbär"
+
 
   ### fleets (20ish) #cool weapons
-  #Gungnir Armada
-  #Skofnung Armada
-  #Hrunting Armada
-  #Balmung Armada
-  #Dainsleif Armada
-  #Mjolnir Armada
-  #Laevateinn Armada
-  #Gleipnir Armada
-  #Draupnir Armada
-  #Hofund Armada
-  #Angurvadal Armada
-  #Gram Armada
-  #Tyrfing Armada
-  #Mistilteinn Armada
-  #Gjallarhorn Armada
-  #Sharur Armada
-  #Mournblada Armada
-  #Skidbladnir Armada
-  #Svalinn Armada
+  URSINE2_FLEET_Gungnir_Armada: "Gungnir Armada"
+  URSINE2_FLEET_Skofnung_Armada: "Skofnung Armada"
+  URSINE2_FLEET_Hrunting_Armada: "Hrunting Armada"
+  URSINE2_FLEET_Balmung_Armada: "Balmung Armada"
+  URSINE2_FLEET_Dainsleif_Armada: "Dainsleif Armada"
+  URSINE2_FLEET_Mjolnir_Armada: "Mjolnir Armada"
+  URSINE2_FLEET_Laevateinn_Armada: "Laevateinn Armada"
+  URSINE2_FLEET_Gleipnir_Armada: "Gleipnir Armada"
+  URSINE2_FLEET_Draupnir_Armada: "Draupnir Armada"
+  URSINE2_FLEET_Hofund_Armada: "Hofund Armada"
+  URSINE2_FLEET_Angurvadal_Armada: "Angurvadal Armada"
+  URSINE2_FLEET_Gram_Armada: "Gram Armada"
+  URSINE2_FLEET_Tyrfing_Armada: "Tyrfing Armada"
+  URSINE2_FLEET_Mistilteinn_Armada: "Mistilteinn Armada"
+  URSINE2_FLEET_Gjallarhorn_Armada: "Gjallarhorn Armada"
+  URSINE2_FLEET_Sharur_Armada: "Sharur Armada"
+  URSINE2_FLEET_Mournblada_Armada: "Mournblada Armada"
+  URSINE2_FLEET_Skidbladnir_Armada: "Skidbladnir Armada"
+  URSINE2_FLEET_Svalinn_Armada: "Svalinn Armada"
 
   ### armies (15ish) famous mercenary/warrior groups
-  #Berserker Troop
-  #Shield-Maiden Troop
-  #Jomsviking Troop
-  #Varangian Troop
-  #Rus'Viking Troop
-  #Celtiberian Troop
-  #Galatian Troop
-  #Briton Troop
-  #Pict Troop
-  #Gallowglass Troop
-  #Hakkapeliitta Troop
-  #Tavastian Troop
-  #Karelian Troop
-  #Sissi Troop
-  #Utti Jaeger Troop
-
+  URSINE2_ARMY_Berserker_Troop: "Berserker Troop"
+  URSINE2_ARMY_Shield-Maiden_Troop: "Shield-Maiden Troop"
+  URSINE2_ARMY_Jomsviking_Troop: "Jomsviking Troop"
+  URSINE2_ARMY_Varangian_Troop: "Varangian Troop"
+  URSINE2_ARMY_Rus'Viking_Troop: "Rus'Viking Troop"
+  URSINE2_ARMY_Celtiberian_Troop: "Celtiberian Troop"
+  URSINE2_ARMY_Galatian_Troop: "Galatian Troop"
+  URSINE2_ARMY_Briton_Troop: "Briton Troop"
+  URSINE2_ARMY_Pict_Troop: "Pict Troop"
+  URSINE2_ARMY_Gallowglass_Troop: "Gallowglass Troop"
+  URSINE2_ARMY_Hakkapeliitta_Troop: "Hakkapeliitta Troop"
+  URSINE2_ARMY_Tavastian_Troop: "Tavastian Troop"
+  URSINE2_ARMY_Karelian_Troop: "Karelian Troop"
+  URSINE2_ARMY_Sissi_Troop: "Sissi Troop"
+  URSINE2_ARMY_Utti_Jaeger_Troop: "Utti Jaeger Troop"
 
   ######################
   ##### leaders  ######
   #####################
 
   #### first names (mostly heroes of legend)
-  #Björn
-  #Beowulf
-  #Grinderwald
-  #Rawrf
-  #Slev
-  #Salv
-  #Jörb
-  #Alala
-  #Spartae
-  #Wulver
-  #Gigelorum
-  #Bauchan
-  #Ceasg
-  #Bodach
-  #Glaistig
-  #Boann
-  #Banba
-  #Beag
-  #Béḃinn
-  #Birog
-  #Bodb
-  #Brea
-  #Breg
-  #Bres
-  #Buarainech
-  #Cenn
-  #Dagda
-  #Mog
-  #Midir
-  #Ogma
-  #Borvo
-  #Bricta
-  #Buxenus
-  #Brigantia
-  #Bormana
-  #Bergusia
-  #Inciona
-  #Ogmios
-  #Sulis
-  #Aífe
-  #Connla
-  #Scáthach
-  #Uathach
-  #Modron
-  #Pwyll
-  #Culhwch
-  #Olwen
-  #Hafgan
-  #Arawn
-  #Skald
-  #Wojtek
-  #Brutus
+  URSINE2_firstname_Björn: "Björn"
+  URSINE2_firstname_Beowulf: "Beowulf"
+  URSINE2_firstname_Grinderwald: "Grinderwald"
+  URSINE2_firstname_Rawrf: "Rawrf"
+  URSINE2_firstname_Slev: "Slev"
+  URSINE2_firstname_Salv: "Salv"
+  URSINE2_firstname_Jörb: "Jörb"
+  URSINE2_firstname_Alala: "Alala"
+  URSINE2_firstname_Spartae: "Spartae"
+  URSINE2_firstname_Wulver: "Wulver"
+  URSINE2_firstname_Gigelorum: "Gigelorum"
+  URSINE2_firstname_Bauchan: "Bauchan"
+  URSINE2_firstname_Ceasg: "Ceasg"
+  URSINE2_firstname_Bodach: "Bodach"
+  URSINE2_firstname_Glaistig: "Glaistig"
+  URSINE2_firstname_Boann: "Boann"
+  URSINE2_firstname_Banba: "Banba"
+  URSINE2_firstname_Beag: "Beag"
+  URSINE2_firstname_Béḃinn: "Béḃinn"
+  URSINE2_firstname_Birog: "Birog"
+  URSINE2_firstname_Bodb: "Bodb"
+  URSINE2_firstname_Brea: "Brea"
+  URSINE2_firstname_Breg: "Breg"
+  URSINE2_firstname_Bres: "Bres"
+  URSINE2_firstname_Buarainech: "Buarainech"
+  URSINE2_firstname_Cenn: "Cenn"
+  URSINE2_firstname_Dagda: "Dagda"
+  URSINE2_firstname_Mog: "Mog"
+  URSINE2_firstname_Midir: "Midir"
+  URSINE2_firstname_Ogma: "Ogma"
+  URSINE2_firstname_Borvo: "Borvo"
+  URSINE2_firstname_Bricta: "Bricta"
+  URSINE2_firstname_Buxenus: "Buxenus"
+  URSINE2_firstname_Brigantia: "Brigantia"
+  URSINE2_firstname_Bormana: "Bormana"
+  URSINE2_firstname_Bergusia: "Bergusia"
+  URSINE2_firstname_Inciona: "Inciona"
+  URSINE2_firstname_Ogmios: "Ogmios"
+  URSINE2_firstname_Sulis: "Sulis"
+  URSINE2_firstname_Aífe: "Aífe"
+  URSINE2_firstname_Connla: "Connla"
+  URSINE2_firstname_Scáthach: "Scáthach"
+  URSINE2_firstname_Uathach: "Uathach"
+  URSINE2_firstname_Modron: "Modron"
+  URSINE2_firstname_Pwyll: "Pwyll"
+  URSINE2_firstname_Culhwch: "Culhwch"
+  URSINE2_firstname_Olwen: "Olwen"
+  URSINE2_firstname_Hafgan: "Hafgan"
+  URSINE2_firstname_Arawn: "Arawn"
+  URSINE2_firstname_Skald: "Skald"
+  URSINE2_firstname_Wojtek: "Wojtek"
+  URSINE2_firstname_Brutus: "Brutus"
+
 
   #### last names
-  #Ironhide
-  #Steelhide
-  #Stronghide
-  #Wildhide
-  #Shellycoat
-  #Thickcoat
-  #Bloodfur
-  #Coldfur
-  #Killfur
-  #Thickfur
-  #Deathpelt
-
-  #Solidpaw
-  #Smallpaw
-  #Tinypaw
-  #Strongpaw
-  #Softpaw
-  #Firepaw
-
-  #Strongjaw
-  #Slothjaw
-  #Sharpjaw
-  #Bloodjaw
-  #Saltjaw
-
-  #Roarblood
-  #Grizzlblood
-  #Carniblood
-
-  #Bileborn
-  #Grizzlborn
-  #Honeyborn
-  #Ursakin
-  #Maulkin
-  #Polarkin
-
-  #Bigclaw
-  #Burningclaw
-  #Razorclaw
-  #Trueclaw
-  #Waterclaw
-  #Godclaw
-  #Terrorclaw
-  #Caveclaw
-  #Moonclaw
-
-  #Razorfang
-  #Sharpfang
-  #Bloodfang
-  #Thunderfang
-  #Manglefang
-  #Truefanged
-  #Twicefanged
-  #Hundredfanged #twicefanged has a real beef with this family
-
-  #Maulbearo #This pun should be illegal
-  #Denlord
-  #Loudroar
-  #Grizzlroar
-  #Grizzlord
-  #Fuzzlord
-  #Sunbearer
-  #Forager
-  #Salmonfed
-  #Pandamonium
-  #Berryfinder
-  #Grubbane
-
-
-
-
-
+  URSINE2_lastname_Ironhide: "Ironhide"
+  URSINE2_lastname_Steelhide: "Steelhide"
+  URSINE2_lastname_Stronghide: "Stronghide"
+  URSINE2_lastname_Wildhide: "Wildhide"
+  URSINE2_lastname_Shellycoat: "Shellycoat"
+  URSINE2_lastname_Thickcoat: "Thickcoat"
+  URSINE2_lastname_Bloodfur: "Bloodfur"
+  URSINE2_lastname_Coldfur: "Coldfur"
+  URSINE2_lastname_Killfur: "Killfur"
+  URSINE2_lastname_Thickfur: "Thickfur"
+  URSINE2_lastname_Deathpelt: "Deathpelt"
+  URSINE2_lastname_Solidpaw: "Solidpaw"
+  URSINE2_lastname_Smallpaw: "Smallpaw"
+  URSINE2_lastname_Tinypaw: "Tinypaw"
+  URSINE2_lastname_Strongpaw: "Strongpaw"
+  URSINE2_lastname_Softpaw: "Softpaw"
+  URSINE2_lastname_Firepaw: "Firepaw"
+  URSINE2_lastname_Strongjaw: "Strongjaw"
+  URSINE2_lastname_Slothjaw: "Slothjaw"
+  URSINE2_lastname_Sharpjaw: "Sharpjaw"
+  URSINE2_lastname_Bloodjaw: "Bloodjaw"
+  URSINE2_lastname_Saltjaw: "Saltjaw"
+  URSINE2_lastname_Roarblood: "Roarblood"
+  URSINE2_lastname_Grizzlblood: "Grizzlblood"
+  URSINE2_lastname_Carniblood: "Carniblood"
+  URSINE2_lastname_Bileborn: "Bileborn"
+  URSINE2_lastname_Grizzlborn: "Grizzlborn"
+  URSINE2_lastname_Honeyborn: "Honeyborn"
+  URSINE2_lastname_Ursakin: "Ursakin"
+  URSINE2_lastname_Maulkin: "Maulkin"
+  URSINE2_lastname_Polarkin: "Polarkin"
+  URSINE2_lastname_Bigclaw: "Bigclaw"
+  URSINE2_lastname_Burningclaw: "Burningclaw"
+  URSINE2_lastname_Razorclaw: "Razorclaw"
+  URSINE2_lastname_Trueclaw: "Trueclaw"
+  URSINE2_lastname_Waterclaw: "Waterclaw"
+  URSINE2_lastname_Godclaw: "Godclaw"
+  URSINE2_lastname_Terrorclaw: "Terrorclaw"
+  URSINE2_lastname_Caveclaw: "Caveclaw"
+  URSINE2_lastname_Moonclaw: "Moonclaw"
+  URSINE2_lastname_Razorfang: "Razorfang"
+  URSINE2_lastname_Sharpfang: "Sharpfang"
+  URSINE2_lastname_Bloodfang: "Bloodfang"
+  URSINE2_lastname_Thunderfang: "Thunderfang"
+  URSINE2_lastname_Manglefang: "Manglefang"
+  URSINE2_lastname_Truefanged: "Truefanged"
+  URSINE2_lastname_Twicefanged: "Twicefanged"
+  URSINE2_lastname_Hundredfanged: "Hundredfanged"
+  URSINE2_lastname_Thousandfanged: "Thousandfanged"
+  URSINE2_lastname_Thousandandonefanged: "Thousandandonefanged"
+  URSINE2_lastname_Maulbearo: "Maulbearo"
+  URSINE2_lastname_Denlord: "Denlord"
+  URSINE2_lastname_Loudroar: "Loudroar"
+  URSINE2_lastname_Grizzlroar: "Grizzlroar"
+  URSINE2_lastname_Grizzlord: "Grizzlord"
+  URSINE2_lastname_Fuzzlord: "Fuzzlord"
+  URSINE2_lastname_Sunbearer: "Sunbearer"
+  URSINE2_lastname_Forager: "Forager"
+  URSINE2_lastname_Salmonfed: "Salmonfed"
+  URSINE2_lastname_Pandamonium: "Pandamonium"
+  URSINE2_lastname_Berryfinder: "Berryfinder"
+  URSINE2_lastname_Grubbane: "Grubbane"
