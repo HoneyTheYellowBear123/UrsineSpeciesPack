@@ -6,8 +6,8 @@ import pyperclip
 file = "./name_list_honeybear_ursinespeciespack_URS1_l_english.yml"
 copyfile = file[:-4] + "copy.yml"
 #get the section you want
-keyValue = "Ships"
-prefix = "URSINE1_SHIP_"
+keyValue = "last names"
+prefix = "URSINE1_lastname_"
 pyperclipString = ""
 
 lines = []

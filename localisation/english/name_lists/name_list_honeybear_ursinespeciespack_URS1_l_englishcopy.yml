@@ -4,76 +4,79 @@
 
   #########################
   ####### planets (75ish) mostly different gods
-  URSINE1_PLANET_Katmai: "Katmai"
-  #Denali (frozen)
-  #King's Canyon (arid)
-  #Teton
-  #Shenandoah
-  #Kenai Fjord (Ocean)
-  #Caniformia
-  #Hemicyoninae
-  #Tremarctinae
-  #Ailuropodinae
-  #Eocene
-  #Ghwer
-  #Bornean (conservation group)
-  #Chengdu (giant panda breeding)#Orion
-  #Hyperborean (arctic)
-  #Ursaterra
-  #Bher
-  #Borne
-  #Arctodus (arctic)
-  #Nelsoni
-  #Horribilis
-  #Crowtheri
-  #Tremarctos (arctic)
-  #Floridanus
-  #Etruscus
-  #Minimus
-  #Pristinus
-  #Deningeri
-  #Dolinensis
-  #Ingressus
-  #Rossicus
-  #Gaali
-  #Nikolovi
-  #Agriotherium
-  #Sivalensis
-  #Lufengensis
-  #Tirawa
-  #Ballusia
-  #Elmensis
-  #Cephalogale
-  #Geoffroyi
-  #Punjabiensis
-  #Kretzoiarctos (arctic)
-  #Miomaci
-  #Pannonicum
-  #Ailuropoda
-  #Microta
-  #Boeckhi
-  #Wingei
-  #Vetustum
-  #Tarijense
-  #Middendorffi
-  #Malayanus
-  #Helarctos (arctic)
-  # Maritimus (Ocean)
-  # Melanoleuca
-  # Melursus
-  # Medu
-  # Mel
-  # Rkso
-  # Urvera
-  # Urmel
-  # Tlakis
-  # Callisto
-  # Atalanta
-  # Brauronia
-  # Lupercalia (hell yeah)
-  # Bruin
-  # Saumur
-  # Orsino
+  URSINE1_Planet_Katmai: "Katmai"
+  URSINE1_Planet_Denali: "Denali"
+  URSINE1_Planet_Kings_Canyon: "Kings Canyon"
+  URSINE1_Planet_Teton: "Teton"
+  URSINE1_Planet_Shenandoah: "Shenandoah"
+  URSINE1_Planet_Kenai_Fjord: "Kenai Fjord"
+  URSINE1_Planet_Caniformia: "Caniformia"
+  URSINE1_Planet_Hemicyoninae: "Hemicyoninae"
+  URSINE1_Planet_Tremarctinae: "Tremarctinae"
+  URSINE1_Planet_Ailuropodinae: "Ailuropodinae"
+  URSINE1_Planet_Eocene: "Eocene"
+  URSINE1_Planet_Ghwer: "Ghwer"
+  URSINE1_Planet_Bornean: "Bornean"
+  URSINE1_Planet_Chengdu: "Chengdu"
+  URSINE1_Planet_Orion: "Orion"
+  URSINE1_Planet_Hyperborean: "Hyperborean"
+  URSINE1_Planet_Ursaterra: "Ursaterra"
+  URSINE1_Planet_Bher: "Bher"
+  URSINE1_Planet_Borne: "Borne"
+  URSINE1_Planet_Arctodus: "Arctodus"
+  URSINE1_Planet_Nelsoni: "Nelsoni"
+  URSINE1_Planet_Horribilis: "Horribilis"
+  URSINE1_Planet_Crowtheri: "Crowtheri"
+  URSINE1_Planet_Tremarctos: "Tremarctos"
+  URSINE1_Planet_Floridanus: "Floridanus"
+  URSINE1_Planet_Etruscus: "Etruscus"
+  URSINE1_Planet_Minimus: "Minimus"
+  URSINE1_Planet_Pristinus: "Pristinus"
+  URSINE1_Planet_Deningeri: "Deningeri"
+  URSINE1_Planet_Dolinensis: "Dolinensis"
+  URSINE1_Planet_Ingressus: "Ingressus"
+  URSINE1_Planet_Rossicus: "Rossicus"
+  URSINE1_Planet_Gaali: "Gaali"
+  URSINE1_Planet_Nikolovi: "Nikolovi"
+  URSINE1_Planet_Agriotherium: "Agriotherium"
+  URSINE1_Planet_Sivalensis: "Sivalensis"
+  URSINE1_Planet_Lufengensis: "Lufengensis"
+  URSINE1_Planet_Tirawa: "Tirawa"
+  URSINE1_Planet_Ballusia: "Ballusia"
+  URSINE1_Planet_Elmensis: "Elmensis"
+  URSINE1_Planet_Cephalogale: "Cephalogale"
+  URSINE1_Planet_Geoffroyi: "Geoffroyi"
+  URSINE1_Planet_Punjabiensis: "Punjabiensis"
+  URSINE1_Planet_Kretzoiarctos: "Kretzoiarctos"
+  URSINE1_Planet_Miomaci: "Miomaci"
+  URSINE1_Planet_Pannonicum: "Pannonicum"
+  URSINE1_Planet_Ailuropoda: "Ailuropoda"
+  URSINE1_Planet_Microta: "Microta"
+  URSINE1_Planet_Boeckhi: "Boeckhi"
+  URSINE1_Planet_Wingei: "Wingei"
+  URSINE1_Planet_Vetustum: "Vetustum"
+  URSINE1_Planet_Tarijense: "Tarijense"
+  URSINE1_Planet_Middendorffi: "Middendorffi"
+  URSINE1_Planet_Malayanus: "Malayanus"
+  URSINE1_Planet_Helarctos: "Helarctos"
+  URSINE1_Planet_Maritimus: "Maritimus"
+  URSINE1_Planet_Melanoleuca: "Melanoleuca"
+  URSINE1_Planet_Melursus: "Melursus"
+  URSINE1_Planet_Medu: "Medu"
+  URSINE1_Planet_Mel: "Mel"
+  URSINE1_Planet_Rkso: "Rkso"
+  URSINE1_Planet_Urvera: "Urvera"
+  URSINE1_Planet_Urmel: "Urmel"
+  URSINE1_Planet_Tlakis: "Tlakis"
+  URSINE1_Planet_Callisto: "Callisto"
+  URSINE1_Planet_Atalanta: "Atalanta"
+  URSINE1_Planet_Brauronia: "Brauronia"
+  URSINE1_Planet_Lupercalia: "Lupercalia"
+  URSINE1_Planet_Bruin: "Bruin"
+  URSINE1_Planet_Saumur: "Saumur"
+  URSINE1_Planet_Orsino: "Orsino"
+
+
   ### https://www.extinctanimals.org/extinct-bears
   ### https://en.wikipedia.org/wiki/Arctotherium
   ### https://www.charlierussellbears.com/LinguisticArchaeology.html
@@ -160,87 +163,88 @@
   URSINE1_SHIP_Nervus_Trigeminus: "Nervus Trigeminus"
 
 
-  # Classes (27ish)
-    #Omotranssversarius
-    #Claustrum
-    #Culmen
-    #Declive
-    #Flocculus
-    #Fornix
-    #Habenula
-    #Infundibulum
-    #Nodulus
-    #Pons
-    #Putamen
-    #Pulvinar
-    #Rhaphe
-    #Subiculum
-    #Thalamus
-    #Theseus
-    #Vermis
-    #Diencephalon
-    #Mesencephalon
-    #Rhinencephalon
-    #Striatum
-    #Telencephalon
-    #Subthalamus
-    #Lingula
-    #Rostralis
-    #Globin
-    #Fissura
-    #Mamillare
-    #Cornu
-    #Ruber
+    # Classes (27ish)
+  URSINE1_Class_Omotranssversarius: "Omotranssversarius"
+  URSINE1_Class_Claustrum: "Claustrum"
+  URSINE1_Class_Culmen: "Culmen"
+  URSINE1_Class_Declive: "Declive"
+  URSINE1_Class_Flocculus: "Flocculus"
+  URSINE1_Class_Fornix: "Fornix"
+  URSINE1_Class_Habenula: "Habenula"
+  URSINE1_Class_Infundibulum: "Infundibulum"
+  URSINE1_Class_Nodulus: "Nodulus"
+  URSINE1_Class_Pons: "Pons"
+  URSINE1_Class_Putamen: "Putamen"
+  URSINE1_Class_Pulvinar: "Pulvinar"
+  URSINE1_Class_Rhaphe: "Rhaphe"
+  URSINE1_Class_Subiculum: "Subiculum"
+  URSINE1_Class_Thalamus: "Thalamus"
+  URSINE1_Class_Theseus: "Theseus"
+  URSINE1_Class_Vermis: "Vermis"
+  URSINE1_Class_Diencephalon: "Diencephalon"
+  URSINE1_Class_Mesencephalon: "Mesencephalon"
+  URSINE1_Class_Rhinencephalon: "Rhinencephalon"
+  URSINE1_Class_Striatum: "Striatum"
+  URSINE1_Class_Telencephalon: "Telencephalon"
+  URSINE1_Class_Subthalamus: "Subthalamus"
+  URSINE1_Class_Lingula: "Lingula"
+  URSINE1_Class_Rostralis: "Rostralis"
+  URSINE1_Class_Globin: "Globin"
+  URSINE1_Class_Fissura: "Fissura"
+  URSINE1_Class_Mamillare: "Mamillare"
+  URSINE1_Class_Cornu: "Cornu"
+  URSINE1_Class_Ruber: "Ruber"
 
-   # Fleets (20ish) BONES
    #https://blackbearsofnorthamerica.weebly.com/anatomy.html
-   #Masseter Armada
-   #Mastiodeus Armada
-   #Flexor Carpi Armada
-   #Carpi Radialus Armada
-   #Mastodius Armada
-   #Baculum Armada ( Do NOT look this up O_O )
-   #Zygomat Armada
-   #Phalanges Armada
-   #Calcaneus Armada
-   #Ischium Armada
-   #Sacrum Armada
-   #Tochanter Armada
-   #Coccygeal Armada
-   #Illium Armada
-   #Thoraci Armada
-   #Axis Armada
-   #Atlas Armada
-   #Poll Armada
-   #Incisor Armada
-   #Mandible Armada
-   #Metacarpal Armada
-   #Pisiform Armada
-   #Ulna Armada
-   #Olecranon Armada
-   #Sesamoid Armada
-   #Metatarsus Armada
-   #Tarsals Armada
+   # Fleets (20ish) BONES
+  URSINE1_Fleets_Masseter_Armada: "Masseter Armada"
+  URSINE1_Fleets_Mastiodeus_Armada: "Mastiodeus Armada"
+  URSINE1_Fleets_Flexor_Carpi_Armada: "Flexor Carpi Armada"
+  URSINE1_Fleets_Carpi_Radialus_Armada: "Carpi Radialus Armada"
+  URSINE1_Fleets_Mastodius_Armada: "Mastodius Armada"
+  URSINE1_Fleets_Baculum_Armada: "Baculum Armada"
+  URSINE1_Fleets_Zygomat_Armada: "Zygomat Armada"
+  URSINE1_Fleets_Phalanges_Armada: "Phalanges Armada"
+  URSINE1_Fleets_Calcaneus_Armada: "Calcaneus Armada"
+  URSINE1_Fleets_Ischium_Armada: "Ischium Armada"
+  URSINE1_Fleets_Sacrum_Armada: "Sacrum Armada"
+  URSINE1_Fleets_Tochanter_Armada: "Tochanter Armada"
+  URSINE1_Fleets_Coccygeal_Armada: "Coccygeal Armada"
+  URSINE1_Fleets_Illium_Armada: "Illium Armada"
+  URSINE1_Fleets_Thoraci_Armada: "Thoraci Armada"
+  URSINE1_Fleets_Axis_Armada: "Axis Armada"
+  URSINE1_Fleets_Atlas_Armada: "Atlas Armada"
+  URSINE1_Fleets_Poll_Armada: "Poll Armada"
+  URSINE1_Fleets_Incisor_Armada: "Incisor Armada"
+  URSINE1_Fleets_Mandible_Armada: "Mandible Armada"
+  URSINE1_Fleets_Metacarpal_Armada: "Metacarpal Armada"
+  URSINE1_Fleets_Pisiform_Armada: "Pisiform Armada"
+  URSINE1_Fleets_Ulna_Armada: "Ulna Armada"
+  URSINE1_Fleets_Olecranon_Armada: "Olecranon Armada"
+  URSINE1_Fleets_Sesamoid_Armada: "Sesamoid Armada"
+  URSINE1_Fleets_Metatarsus_Armada: "Metatarsus Armada"
+  URSINE1_Fleets_Tarsals_Armada: "Tarsals Armada"
+
 
 
    ###### armies (15ish)
-   #Sacred Band
-   #Hoplite Troop
-   #Phalanx Troop
-   #Enomotia Troop
-   #Lochus Troop
-   #Stratos Troop
-   #Hetaroi Troop
-   #Hypaspists Troop
-   #The Ten Thousand Troop
-   #Legio Equestris
-   #Legio Alaudae
-   #Legio Hispana
-   #Legio Fulminata
-   #Legio Gemina
-   #Legio Fretensis
-   #Legio Augusta
-   #Legio Victrix
+  URSINE1_Armies_Sacred_Band: "Sacred Band"
+  URSINE1_Armies_Hoplite_Troop: "Hoplite Troop"
+  URSINE1_Armies_Phalanx_Troop: "Phalanx Troop"
+  URSINE1_Armies_Enomotia_Troop: "Enomotia Troop"
+  URSINE1_Armies_Lochus_Troop: "Lochus Troop"
+  URSINE1_Armies_Stratos_Troop: "Stratos Troop"
+  URSINE1_Armies_Hetaroi_Troop: "Hetaroi Troop"
+  URSINE1_Armies_Hypaspists_Troop: "Hypaspists Troop"
+  URSINE1_Armies_The_Ten_Thousand_Troop: "The Ten Thousand Troop"
+  URSINE1_Armies_Legio_Equestris: "Legio Equestris"
+  URSINE1_Armies_Legio_Alaudae: "Legio Alaudae"
+  URSINE1_Armies_Legio_Hispana: "Legio Hispana"
+  URSINE1_Armies_Legio_Fulminata: "Legio Fulminata"
+  URSINE1_Armies_Legio_Gemina: "Legio Gemina"
+  URSINE1_Armies_Legio_Fretensis: "Legio Fretensis"
+  URSINE1_Armies_Legio_Augusta: "Legio Augusta"
+  URSINE1_Armies_Legio_Victrix: "Legio Victrix"
 
 
   #####################
@@ -249,88 +253,89 @@
 
 
   ######### first names
-  URSINE1_FirstName_Brizo: "Brizo"
-  URSINE1_FirstName_Caesar: "Caesar"
-  URSINE1_FirstName_Hymen: "Hymen"
-  URSINE1_FirstName_Catoblepas: "Catoblepas"
-  URSINE1_FirstName_Agrius: "Agrius"
-  URSINE1_FirstName_Cetus: "Cetus"
-  URSINE1_FirstName_Gello: "Gello"
-  URSINE1_FirstName_Deino: "Deino"
-  URSINE1_FirstName_Enyo: "Enyo"
-  URSINE1_FirstName_Pemphredo: "Pemphredo"
-  URSINE1_FirstName_Lamia: "Lamia"
-  URSINE1_FirstName_Lycaon: "Lycaon"
-  URSINE1_FirstName_Asterius: "Asterius"
-  URSINE1_FirstName_Aristaeus: "Aristaeus"
-  URSINE1_FirstName_Aezeius: "Aezeius"
-  URSINE1_FirstName_Clytius: "Clytius"
-  #Damysus
-  #Gration
-  #Eurytus
-  #Pallas
-  #Picolous
-  #Polybotes
-  #Thoas
-  #Thoon
-  #Almops
-  #Aloadae
-  #Anax
-  #Athos
-  #Cacus
-  #Chthonius
-  #Echion
-  #Geryon
-  #Hekatoncheires
-  #Laestrygonia
-  #Antiphates
-  #Tityos
-  #Periboea
-  #Icarus
-  #Balius
-  #Sterope
-  #Dinus
-  #Lampus
-  #Ocyrhoe
-  #Karkinos
-  #Cetea
-  #Alke
-  #Areto
-  #Bremusa
-  #Iphito
-  #Molpadia
-  #Beatrix
-  #Romedius
-  #Florent
+  URSINE1_firstname_Brizo: "Brizo"
+  URSINE1_firstname_Caesar: "Caesar"
+  URSINE1_firstname_Hymen: "Hymen"
+  URSINE1_firstname_Catoblepas: "Catoblepas"
+  URSINE1_firstname_Agrius: "Agrius"
+  URSINE1_firstname_Cetus: "Cetus"
+  URSINE1_firstname_Gello: "Gello"
+  URSINE1_firstname_Deino: "Deino"
+  URSINE1_firstname_Enyo: "Enyo"
+  URSINE1_firstname_Pemphredo: "Pemphredo"
+  URSINE1_firstname_Lamia: "Lamia"
+  URSINE1_firstname_Lycaon: "Lycaon"
+  URSINE1_firstname_Asterius: "Asterius"
+  URSINE1_firstname_Aristaeus: "Aristaeus"
+  URSINE1_firstname_Aezeius: "Aezeius"
+  URSINE1_firstname_Clytius: "Clytius"
+  URSINE1_firstname_Damysus: "Damysus"
+  URSINE1_firstname_Gration: "Gration"
+  URSINE1_firstname_Eurytus: "Eurytus"
+  URSINE1_firstname_Pallas: "Pallas"
+  URSINE1_firstname_Picolous: "Picolous"
+  URSINE1_firstname_Polybotes: "Polybotes"
+  URSINE1_firstname_Thoas: "Thoas"
+  URSINE1_firstname_Thoon: "Thoon"
+  URSINE1_firstname_Almops: "Almops"
+  URSINE1_firstname_Aloadae: "Aloadae"
+  URSINE1_firstname_Anax: "Anax"
+  URSINE1_firstname_Athos: "Athos"
+  URSINE1_firstname_Cacus: "Cacus"
+  URSINE1_firstname_Chthonius: "Chthonius"
+  URSINE1_firstname_Echion: "Echion"
+  URSINE1_firstname_Geryon: "Geryon"
+  URSINE1_firstname_Hekatoncheires: "Hekatoncheires"
+  URSINE1_firstname_Laestrygonia: "Laestrygonia"
+  URSINE1_firstname_Antiphates: "Antiphates"
+  URSINE1_firstname_Tityos: "Tityos"
+  URSINE1_firstname_Periboea: "Periboea"
+  URSINE1_firstname_Icarus: "Icarus"
+  URSINE1_firstname_Balius: "Balius"
+  URSINE1_firstname_Sterope: "Sterope"
+  URSINE1_firstname_Dinus: "Dinus"
+  URSINE1_firstname_Lampus: "Lampus"
+  URSINE1_firstname_Ocyrhoe: "Ocyrhoe"
+  URSINE1_firstname_Karkinos: "Karkinos"
+  URSINE1_firstname_Cetea: "Cetea"
+  URSINE1_firstname_Alke: "Alke"
+  URSINE1_firstname_Areto: "Areto"
+  URSINE1_firstname_Bremusa: "Bremusa"
+  URSINE1_firstname_Iphito: "Iphito"
+  URSINE1_firstname_Molpadia: "Molpadia"
+  URSINE1_firstname_Beatrix: "Beatrix"
+  URSINE1_firstname_Romedius: "Romedius"
+  URSINE1_firstname_Florent: "Florent"
+
 
   ######### last names
-  #Aeternae
-  #Nomeon
-  #Faunus
-  #Aello
-  #Kobaloi
-  #Panes
-  #Skolopendra
-  #Taraxippi
-  #Vrykolakas
-  #Acanthis
-  #Alectryon
-  #Autonous
-  #Hippodamia
-  #Ceyx
-  #Aëdon
-  #Procne
-  #Nyctimene
-  #Philomela
-  #Crovus
-  #Strix
-  #Myrmekes
-  #Geryon
-  #Cercopes
-  #Ceryneian
-  #Maera
-  #Silenus
-  #Anemoi
-  #Phlegon
-  #Acmon
-  #Astomi
+  URSINE1_lastname_Aeternae: "Aeternae"
+  URSINE1_lastname_Nomeon: "Nomeon"
+  URSINE1_lastname_Faunus: "Faunus"
+  URSINE1_lastname_Aello: "Aello"
+  URSINE1_lastname_Kobaloi: "Kobaloi"
+  URSINE1_lastname_Panes: "Panes"
+  URSINE1_lastname_Skolopendra: "Skolopendra"
+  URSINE1_lastname_Taraxippi: "Taraxippi"
+  URSINE1_lastname_Vrykolakas: "Vrykolakas"
+  URSINE1_lastname_Acanthis: "Acanthis"
+  URSINE1_lastname_Alectryon: "Alectryon"
+  URSINE1_lastname_Autonous: "Autonous"
+  URSINE1_lastname_Hippodamia: "Hippodamia"
+  URSINE1_lastname_Ceyx: "Ceyx"
+  URSINE1_lastname_Aëdon: "Aëdon"
+  URSINE1_lastname_Procne: "Procne"
+  URSINE1_lastname_Nyctimene: "Nyctimene"
+  URSINE1_lastname_Philomela: "Philomela"
+  URSINE1_lastname_Crovus: "Crovus"
+  URSINE1_lastname_Strix: "Strix"
+  URSINE1_lastname_Myrmekes: "Myrmekes"
+  URSINE1_lastname_Geryon: "Geryon"
+  URSINE1_lastname_Cercopes: "Cercopes"
+  URSINE1_lastname_Ceryneian: "Ceryneian"
+  URSINE1_lastname_Maera: "Maera"
+  URSINE1_lastname_Silenus: "Silenus"
+  URSINE1_lastname_Anemoi: "Anemoi"
+  URSINE1_lastname_Phlegon: "Phlegon"
+  URSINE1_lastname_Acmon: "Acmon"
+  URSINE1_lastname_Astomi: "Astomi"
