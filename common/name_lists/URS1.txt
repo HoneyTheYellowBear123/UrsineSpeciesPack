@@ -1,4 +1,4 @@
-# Ursine 1
+﻿# Ursine 1
 #Nature / Etymology Oriented / Greek / Latin / Anatomy
 # Created by HoneyTheYellowBear
 
@@ -68,83 +68,85 @@ URSINE1 = {
 	army_names = {
 
 		generic = {
-		 URSINE1_Armies_Sacred_Band URSINE1_Armies_Hoplite_Troop URSINE1_Armies_Phalanx_Troop URSINE1_Armies_Enomotia_Troop URSINE1_Armies_Lochus_Troop URSINE1_Armies_Stratos_Troop URSINE1_Armies_Hetaroi_Troop URSINE1_Armies_Hypaspists_Troop URSINE1_Armies_The_Ten_Thousand_Troop URSINE1_Armies_Legio_Equestris URSINE1_Armies_Legio_Alaudae URSINE1_Armies_Legio_Hispana URSINE1_Armies_Legio_Fulminata URSINE1_Armies_Legio_Gemina URSINE1_Armies_Legio_Fretensis URSINE1_Armies_Legio_Augusta URSINE1_Armies_Legio_Victrix
+		    random_names = {
+		        URSINE1_Armies_Sacred_Band URSINE1_Armies_Hoplite_Troop URSINE1_Armies_Phalanx_Troop URSINE1_Armies_Enomotia_Troop URSINE1_Armies_Lochus_Troop URSINE1_Armies_Stratos_Troop URSINE1_Armies_Hetaroi_Troop URSINE1_Armies_Hypaspists_Troop URSINE1_Armies_The_Ten_Thousand_Troop URSINE1_Armies_Legio_Equestris URSINE1_Armies_Legio_Alaudae URSINE1_Armies_Legio_Hispana URSINE1_Armies_Legio_Fulminata URSINE1_Armies_Legio_Gemina URSINE1_Armies_Legio_Fretensis URSINE1_Armies_Legio_Augusta URSINE1_Armies_Legio_Victrix
+		    }
 		}
 
-		machine_defense = {
-		}
+		#machine_defense = {
+		#}
 
-		machine_assault_1 = {
-		}
+		#machine_assault_1 = {
+		#}
 
-		machine_assault_2 = {
-		}
+		#machine_assault_2 = {
+		#}
 
-		machine_assault_3 = {
-		}
+		#machine_assault_3 = {
+		#}
 
-		defense_army = {
-		}
+		#defense_army = {
+		#}
 
-		assault_army = {
-		}
+		#assault_army = {
+		#}
 
-		slave_army = {
-		}
+		#slave_army = {
+		#}
 
-		clone_army = {
-		}
+		#clone_army = {
+		#}
 
-		perfected_clone_army = {
-		}
+		#perfected_clone_army = {
+		#}
 
-		undead_army = {
-		}
+		#undead_army = {
+		#}
 
-		robotic_army = {
-		}
+		#robotic_army = {
+		#}
 
-		robotic_defense_army = {
-		}
+		#robotic_defense_army = {
+		#}
 
-		psionic_army = {
-		}
+		#psionic_army = {
+		#}
 
-		xenomorph_army = {
-		}
+		#xenomorph_army = {
+		#}
 
-		gene_warrior_army = {
-		}
+		#gene_warrior_army = {
+		#}
 
-		occupation_army = {
-		}
+		#occupation_army = {
+		#}
 
-		individual_machine_occupation_army = {
-		}
+		#individual_machine_occupation_army = {
+		#}
 
-		robotic_occupation_army = {
-		}
+		#robotic_occupation_army = {
+		#}
 
-		primitive_army = {
-		}
+		#primitive_army = {
+		#}
 
-		industrial_army = {
-		}
+		#industrial_army = {
+		#}
 
-		postatomic_army = {
-		}
+		#postatomic_army = {
+		#}
 
-		warpling_army = {
-		}
+		#warpling_army = {
+		#}
 
-		abomination_army = {
-		}
+		#abomination_army = {
+		#}
 
-		wilderness_pre_sapient_defence_army = {
-		}
+		#wilderness_pre_sapient_defence_army = {
+		#}
 
-		wilderness_pre_sapient_assault_army = {
-		}
+		#wilderness_pre_sapient_assault_army = {
+		#}
 	}
 
 	planet_names = {
@@ -155,50 +157,50 @@ URSINE1 = {
 			}
 		}
 
-		pc_desert = {
-			names = {
-			}
-		}
+		#pc_desert = {
+		#	names = {
+		#	}
+		#}
 
-		pc_tropical = {
-			names = {
-			}
-		}
+		#pc_tropical = {
+		#	names = {
+		#	}
+		#}
 
-		pc_arid = {
-			names = {
-			}
-		}
+		#pc_arid = {
+		#	names = {
+		#	}
+		#}
 
-		pc_continental = {
-			names = {
-			}
-		}
+		#pc_continental = {
+		#	names = {
+		#	}
+		#}
 
-		pc_ocean = {
-			names = {
-			}
-		}
+		#pc_ocean = {
+		#	names = {
+		#	}
+		#}
 
-		pc_tundra = {
-			names = {
-			}
-		}
+		#pc_tundra = {
+		#	names = {
+		#	}
+		#}
 
-		pc_arctic = {
-			names = {
-			}
-		}
+		#pc_arctic = {
+		#	names = {
+		#	}
+		#}
 
-		pc_savannah = {
-			names = {
-			}
-		}
+		#pc_savannah = {
+		#	names = {
+		#	}
+		#}
 
-		pc_alpine = {
-			names = {
-			}
-		}
+		#pc_alpine = {
+		#	names = {
+		#	}
+		#}
 
 	}
 
@@ -214,11 +216,11 @@ URSINE1 = {
 			    URSINE1_lastname_Aeternae URSINE1_lastname_Nomeon URSINE1_lastname_Faunus URSINE1_lastname_Aello URSINE1_lastname_Kobaloi URSINE1_lastname_Panes URSINE1_lastname_Skolopendra URSINE1_lastname_Taraxippi URSINE1_lastname_Vrykolakas URSINE1_lastname_Acanthis URSINE1_lastname_Alectryon URSINE1_lastname_Autonous URSINE1_lastname_Hippodamia URSINE1_lastname_Ceyx URSINE1_lastname_Aedon URSINE1_lastname_Procne URSINE1_lastname_Nyctimene URSINE1_lastname_Philomela URSINE1_lastname_Crovus URSINE1_lastname_Strix URSINE1_lastname_Myrmekes URSINE1_lastname_Geryon URSINE1_lastname_Cercopes URSINE1_lastname_Ceryneian URSINE1_lastname_Maera URSINE1_lastname_Silenus URSINE1_lastname_Anemoi URSINE1_lastname_Phlegon URSINE1_lastname_Acmon URSINE1_lastname_Astomi
 			}
 
-			regnal_first_names = {
-			}
+			#regnal_first_names = {
+			#}
 
-			regnal_second_names = {
-			}
+			#regnal_second_names = {
+			#}
 		}
 	}
 }

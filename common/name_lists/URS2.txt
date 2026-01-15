@@ -1,4 +1,4 @@
-# Ursine 2
+﻿# Ursine 2
   #Warrior Clan /  Nordic / Celtic / Finnish / Cultures where bears are relevant
 # Created by HoneyTheYellowBear
 
@@ -62,8 +62,11 @@ URSINE2 = {
 	army_names = {
 
 		generic = {
-		 URSINE2_ARMY_Berserker_Troop URSINE2_ARMY_Shield-Maiden_Troop URSINE2_ARMY_Jomsviking_Troop URSINE2_ARMY_Varangian_Troop URSINE2_ARMY_Rus'Viking_Troop URSINE2_ARMY_Celtiberian_Troop URSINE2_ARMY_Galatian_Troop URSINE2_ARMY_Briton_Troop URSINE2_ARMY_Pict_Troop URSINE2_ARMY_Gallowglass_Troop URSINE2_ARMY_Hakkapeliitta_Troop URSINE2_ARMY_Tavastian_Troop URSINE2_ARMY_Karelian_Troop URSINE2_ARMY_Sissi_Troop URSINE2_ARMY_Utti_Jaeger_Troop
+		    random_names = {
+		        URSINE2_ARMY_Berserker_Troop URSINE2_ARMY_Shield-Maiden_Troop URSINE2_ARMY_Jomsviking_Troop URSINE2_ARMY_Varangian_Troop URSINE2_ARMY_RusViking_Troop URSINE2_ARMY_Celtiberian_Troop URSINE2_ARMY_Galatian_Troop URSINE2_ARMY_Briton_Troop URSINE2_ARMY_Pict_Troop URSINE2_ARMY_Gallowglass_Troop URSINE2_ARMY_Hakkapeliitta_Troop URSINE2_ARMY_Tavastian_Troop URSINE2_ARMY_Karelian_Troop URSINE2_ARMY_Sissi_Troop URSINE2_ARMY_Utti_Jaeger_Troop
+		    }
 		}
+
 
 		machine_defense = {
 		}
