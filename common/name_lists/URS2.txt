@@ -148,52 +148,63 @@ URSINE2 = {
 
 		generic = {
 			names = {
-			 URSINE2_planet_Otso URSINE2_planet_Karhu URSINE2_planet_Ohto URSINE2_planet_Kontio URSINE2_planet_Metsan_kuningas URSINE2_planet_Mesikammen URSINE2_planet_Ukko URSINE2_planet_Peijaiset URSINE2_planet_Matunos URSINE2_planet_Beira URSINE2_planet_Cailleach URSINE2_planet_Metsanpeitto URSINE2_planet_Pohjola URSINE2_planet_Sampo URSINE2_planet_Tuonela URSINE2_planet_Vaki URSINE2_planet_Hindarfjall URSINE2_planet_Fyrisvellir URSINE2_planet_Andlang URSINE2_planet_Amsvartnir URSINE2_planet_Okolnir URSINE2_planet_Gandvik URSINE2_planet_Uppsala URSINE2_planet_Kormt URSINE2_planet_Ormt URSINE2_planet_Blot URSINE2_planet_Hof URSINE2_planet_Horgr URSINE2_planet_Ve URSINE2_planet_Reginnaglar URSINE2_planet_Galdr URSINE2_planet_Kuvitar URSINE2_planet_Hongatar URSINE2_planet_Kuutar URSINE2_planet_Vellamo URSINE2_planet_Rahko URSINE2_planet_Gullfaxi URSINE2_planet_Gullveig URSINE2_planet_Bestla URSINE2_planet_Kvasir URSINE2_planet_Vital_Ground URSINE2_planet_Bodvar URSINE2_planet_Bjarki URSINE2_planet_Valemon URSINE2_planet_Beorn URSINE2_planet_Gleipnir URSINE2_planet_Bjarkan URSINE2_planet_Jotunn URSINE2_planet_Tornassuk URSINE2_planet_Arth URSINE2_planet_Ard URSINE2_planet_Logi URSINE2_planet_Baugi URSINE2_planet_Munidis URSINE2_planet_Ocrimirae URSINE2_planet_Losa URSINE2_planet_Carneo URSINE2_planet_Bec URSINE2_planet_Bodhmall URSINE2_planet_Boann URSINE2_planet_Clothru URSINE2_planet_Mongfind URSINE2_planet_Bith URSINE2_planet_Balorg URSINE2_planet_Conand URSINE2_planet_Cichol URSINE2_planet_Dagda URSINE2_planet_Lir URSINE2_planet_Tethra URSINE2_planet_Geas URSINE2_planet_Yew
+			    URSINE2_planet_Otso URSINE2_planet_Karhu URSINE2_planet_Kontio URSINE2_planet_Metsan_kuningas URSINE2_planet_Andlang URSINE2_planet_Gandvik URSINE2_planet_Hof URSINE2_planet_Reginnaglar URSINE2_planet_Galdr URSINE2_planet_Kuvitar URSINE2_planet_Hongatar URSINE2_planet_Vellamo URSINE2_planet_Gullfaxi URSINE2_planet_Gullveig URSINE2_planet_Bestla URSINE2_planet_Vital_Ground URSINE2_planet_Bjarki URSINE2_planet_Valemon URSINE2_planet_Gleipnir URSINE2_planet_Bjarkan URSINE2_planet_Arth URSINE2_planet_Ard URSINE2_planet_Logi URSINE2_planet_Baugi URSINE2_planet_Carneo URSINE2_planet_Bec URSINE2_planet_Bodhmall URSINE2_planet_Clothru URSINE2_planet_Mongfind URSINE2_planet_Balorg URSINE2_planet_Conand URSINE2_planet_Lir URSINE2_planet_Yew
 			}
 		}
 
 		pc_desert = {
 			names = {
-			}
-		}
-
-		pc_tropical = {
-			names = {
-			}
-		}
-
-		pc_arid = {
-			names = {
-			}
-		}
-
-		pc_continental = {
-			names = {
-			}
-		}
-
-		pc_ocean = {
-			names = {
-			}
-		}
-
-		pc_tundra = {
-			names = {
-			}
-		}
-
-		pc_arctic = {
-			names = {
+			    URSINE2_planet_Vaki URSINE2_planet_Munidis URSINE2_planet_Cichol URSINE2_planet_Rahko
 			}
 		}
 
 		pc_savannah = {
 			names = {
+			    URSINE2_planet_Metsanpeitto URSINE2_planet_Jotunn URSINE2_planet_Ukko URSINE2_planet_Losa
 			}
 		}
 
+		pc_arid = {
+			names = {
+			    URSINE2_planet_Kvasir URSINE2_planet_Boann URSINE2_planet_Beorn URSINE2_planet_Blot
+			}
+		}
+
+		pc_continental = {
+			names = {
+			    URSINE2_planet_Bith URSINE2_planet_Tethra URSINE2_planet_Ve URSINE2_planet_Geas
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			    URSINE2_planet_Cailleach URSINE2_planet_Sampo URSINE2_planet_Okolnir URSINE2_planet_Ohto
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			    URSINE2_planet_Mesikammen URSINE2_planet_Pohjola URSINE2_planet_Kuutar URSINE2_planet_Peijaiset
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			    URSINE2_planet_Tuonela URSINE2_planet_Tornassuk URSINE2_planet_Bodvar URSINE2_planet_Horgr
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			    URSINE2_planet_Kormt URSINE2_planet_Ormt URSINE2_planet_Ocrimirae URSINE2_planet_Beira
+			}
+		}
+
+
+
 		pc_alpine = {
 			names = {
+			URSINE2_planet_Matunos  URSINE2_planet_Hindarfjall  URSINE2_planet_Fyrisvellir  URSINE2_planet_Amsvartnir URSINE2_planet_Uppsala
 			}
 		}
 
