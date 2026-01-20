@@ -1,0 +1,176 @@
+[17:15:42][localization_util.cpp:26]: Missing localization key [triggered_honeybear_ursinespeciespack_apiarists] for opinion modifier
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: spawn_enabled, near line: 16
+" in file: "common/species_classes/honeybear_ursinespeciespack_species_classes.txt" near line: 16
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: archetype, near line: 4
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 4
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: possible, near line: 6
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 13
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: spawn_enabled, near line: 28
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 28
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: randomized, near line: 29
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 29
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: trait, near line: 30
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 30
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: graphical_culture, near line: 31
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 31
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: move_pop_sound_effect, near line: 32
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 32
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: resources, near line: 33
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 33
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: archetype, near line: 39
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 39
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: possible, near line: 41
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 48
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: spawn_enabled, near line: 55
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 55
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: randomized, near line: 56
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 56
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: trait, near line: 57
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 57
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: graphical_culture, near line: 58
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 58
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: move_pop_sound_effect, near line: 59
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 59
+[17:15:48][persistent.cpp:41]: Error: "Unexpected token: resources, near line: 60
+" in file: "common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" near line: 60
+[17:15:48][species_portrait_category.cpp:43]: Unknown species portrait set key 'robotic_ursine_species_set' in species portrait category description at ' file: common/portrait_categories/honeybear_ursinespeciespack_portrait_cat.txt line: 3'
+[17:16:05][parser_util.h:70]: Failed to read key reference 'ursine' from database 'class CTraitTagDatabase' at ' file: common/traits/honeybear_ursinespeciespack_species_traits.txt line: 26'
+[17:16:05][parser_util.h:70]: Failed to read key reference 'ursine' from database 'class CTraitTagDatabase' at ' file: common/traits/honeybear_ursinespeciespack_species_traits.txt line: 71'
+[17:16:05][parser_util.h:70]: Failed to read key reference 'ursine' from database 'class CTraitTagDatabase' at ' file: common/traits/honeybear_ursinespeciespack_species_traits.txt line: 115'
+[17:16:05][parser_util.h:70]: Failed to read key reference 'ursine' from database 'class CTraitTagDatabase' at ' file: common/traits/honeybear_ursinespeciespack_species_traits.txt line: 161'
+[17:16:05][parser_util.h:70]: Failed to read key reference 'ursine' from database 'class CTraitTagDatabase' at ' file: common/traits/honeybear_ursinespeciespack_species_traits.txt line: 216'
+[17:16:05][parser_util.h:70]: Failed to read key reference 'ursine' from database 'class CTraitTagDatabase' at ' file: common/traits/honeybear_ursinespeciespack_species_traits.txt line: 372'
+[17:16:05][trigger.cpp:631]: Wrong scope for trigger 'has_deficit' at  file: common/traits/honeybear_ursinespeciespack_species_traits.txt line: 382
+Current Scope: pop_group
+Supported Scopes: planet country
+[17:16:05][layered_icon.cpp:102]: Did not find icon [gfx/interface/icons/traits/trait_honeybear_ursinespeciespack_gluttonous.dds]
+[17:16:09][game_singleobjectdatabase.h:162]: Object with key: per_relation already exists, using the one at  file: common/diplomacy_economy/honeybear_ursinespeciespack_diplomacy_economy.txt line: 1
+[17:16:23][government_civic_type.cpp:362]: Did not find an icon for civic: civic_honeybear_ursinespeciespack_cub_scouts
+[17:16:23][government_civic_type.cpp:32]: Missing localization key civic_honeybear_ursinespeciespack_cub_scouts for government civic type
+[17:16:23][government_civic_type.cpp:32]: Missing localization key civic_honeybear_ursinespeciespack_cub_scouts_desc for government civic type
+[17:17:04][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Hungry Tummy [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=4261412864
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:17:04][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Hungry Tummy [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=0
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:17:04][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Union Of The Thousand Flowers [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=369098752
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:17:05][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Union Of The Thousand Flowers [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=402653184
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:29:36][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Hungry Tummy [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=3758096384
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:29:36][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Union Of The Thousand Flowers [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=4026531840
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:32:07][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Hungry Tummy [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=822083584
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:32:07][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Union Of The Thousand Flowers [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=1090519040
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:36:12][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Hungry Tummy [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=3707764736
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:36:12][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Union Of The Thousand Flowers [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=3976200192
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:40:47][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Hungry Tummy [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=905969664
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:40:47][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Union Of The Thousand Flowers [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=1174405120
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:46:41][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Hungry Tummy [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=167772160
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:46:41][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Union Of The Thousand Flowers [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=436207616
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:51:23][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Hungry Tummy [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=1241513984
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:51:23][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Union Of The Thousand Flowers [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=1509949440
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:53:32][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Hungry Tummy [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=3120562176
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
+[17:53:32][trigger_impl.cpp:1203]: Script Error: Invalid context switch [founder_species] from Union Of The Thousand Flowers [country], common/scripted_triggers/02_scripted_triggers_machine_age.txt:64 @ in scripted trigger is_individual_machine at file: common/governments/civics/00_origins.txt line: 2118, Scope:
+type=country
+id=3388997632
+opener_id=4294967295
+random={ 0 3991148998 }
+random_allowed=no
+
