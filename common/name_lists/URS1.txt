@@ -153,54 +153,67 @@ URSINE1 = {
 
 		generic = {
 			names = {
-                 URSINE1_Planet_Katmai URSINE1_Planet_Denali URSINE1_Planet_Kings_Canyon URSINE1_Planet_Teton URSINE1_Planet_Shenandoah URSINE1_Planet_Kenai_Fjord URSINE1_Planet_Caniformia URSINE1_Planet_Hemicyoninae URSINE1_Planet_Tremarctinae URSINE1_Planet_Ailuropodinae URSINE1_Planet_Eocene URSINE1_Planet_Ghwer URSINE1_Planet_Bornean URSINE1_Planet_Chengdu URSINE1_Planet_Orion URSINE1_Planet_Hyperborean URSINE1_Planet_Ursaterra URSINE1_Planet_Bher URSINE1_Planet_Borne URSINE1_Planet_Arctodus URSINE1_Planet_Nelsoni URSINE1_Planet_Horribilis URSINE1_Planet_Crowtheri URSINE1_Planet_Tremarctos URSINE1_Planet_Floridanus URSINE1_Planet_Etruscus URSINE1_Planet_Minimus URSINE1_Planet_Pristinus URSINE1_Planet_Deningeri URSINE1_Planet_Dolinensis URSINE1_Planet_Ingressus URSINE1_Planet_Rossicus URSINE1_Planet_Gaali URSINE1_Planet_Nikolovi URSINE1_Planet_Agriotherium URSINE1_Planet_Sivalensis URSINE1_Planet_Lufengensis URSINE1_Planet_Tirawa URSINE1_Planet_Ballusia URSINE1_Planet_Elmensis URSINE1_Planet_Cephalogale URSINE1_Planet_Geoffroyi URSINE1_Planet_Punjabiensis URSINE1_Planet_Kretzoiarctos URSINE1_Planet_Miomaci URSINE1_Planet_Pannonicum URSINE1_Planet_Ailuropoda URSINE1_Planet_Microta URSINE1_Planet_Boeckhi URSINE1_Planet_Wingei URSINE1_Planet_Vetustum URSINE1_Planet_Tarijense URSINE1_Planet_Middendorffi URSINE1_Planet_Malayanus URSINE1_Planet_Helarctos URSINE1_Planet_Maritimus URSINE1_Planet_Melanoleuca URSINE1_Planet_Melursus URSINE1_Planet_Medu URSINE1_Planet_Mel URSINE1_Planet_Rkso URSINE1_Planet_Urvera URSINE1_Planet_Urmel URSINE1_Planet_Tlakis URSINE1_Planet_Callisto URSINE1_Planet_Atalanta URSINE1_Planet_Brauronia URSINE1_Planet_Lupercalia URSINE1_Planet_Bruin URSINE1_Planet_Saumur URSINE1_Planet_Orsino
+                 URSINE1_Planet_Katmai URSINE1_Planet_Denali  URSINE1_Planet_Shenandoah   URSINE1_Planet_Hemicyoninae URSINE1_Planet_Tremarctinae URSINE1_Planet_Ailuropodinae  URSINE1_Planet_Ghwer  URSINE1_Planet_Chengdu URSINE1_Planet_Orion  URSINE1_Planet_Ursaterra URSINE1_Planet_Bher   URSINE1_Planet_Nelsoni URSINE1_Planet_Horribilis URSINE1_Planet_Crowtheri URSINE1_Planet_FloridanusURSINE1_Planet_Minimus URSINE1_Planet_Pristinus URSINE1_Planet_Deningeri  URSINE1_Planet_Ingressus   URSINE1_Planet_Agriotherium  URSINE1_Planet_Lufengensis URSINE1_Planet_Tirawa   URSINE1_Planet_Cephalogale  URSINE1_Planet_Punjabiensis   URSINE1_Planet_Pannonicum URSINE1_Planet_Ailuropoda URSINE1_Planet_Boeckhi URSINE1_Planet_Wingei URSINE1_Planet_Vetustum   URSINE1_Planet_Melursus  URSINE1_Planet_Mel URSINE1_Planet_Rkso   URSINE1_Planet_Brauronia URSINE1_Planet_Lupercalia URSINE1_Planet_Bruin
 			}
 		}
 
-		#pc_desert = {
-		#	names = {
-		#	}
-		#}
+		pc_desert = {
+			names = {
+			    URSINE1_Planet_Borne URSINE1_Planet_Sivalensis URSINE1_Planet_Medu URSINE1_Planet_Tlakis
+			}
+		}
 
-		#pc_tropical = {
-		#	names = {
-		#	}
-		#}
 
-		#pc_arid = {
-		#	names = {
-		#	}
-		#}
+		pc_savannah = {
+			names = {
+			    URSINE1_Planet_Orsino URSINE1_Planet_Melanoleuca URSINE1_Planet_Tarijense URSINE1_Planet_Rossicus
+			}
+		}
 
-		#pc_continental = {
-		#	names = {
-		#	}
-		#}
 
-		#pc_ocean = {
-		#	names = {
-		#	}
-		#}
+		pc_arid = {
+			names = {
+		        URSINE1_Planet_Kings_Canyon URSINE1_Planet_Saumur URSINE1_Planet_Callisto URSINE1_Planet_Urmel
+			}
+		}
 
-		#pc_tundra = {
-		#	names = {
-		#	}
-		#}
+		pc_continental = {
+			names = {
+			     URSINE1_Planet_Teton URSINE1_Planet_Miomaci URSINE1_Planet_Urvera URSINE1_Planet_Caniformia
+			}
+		}
 
-		#pc_arctic = {
-		#	names = {
-		#	}
-		#}
+		pc_ocean = {
+			names = {
+			    URSINE1_Planet_Eocene URSINE1_Planet_Dolinensis URSINE1_Planet_Atalanta URSINE1_Planet_Maritimus
+			}
+		}
 
-		#pc_savannah = {
-		#	names = {
-		#	}
-		#}
+	    pc_tropical = {
+			names = {
+			URSINE1_Planet_Gaali  URSINE1_Planet_Microta URSINE1_Planet_Ballusia URSINE1_Planet_Malayanus
+			}
+		}
 
-		#pc_alpine = {
-		#	names = {
-		#	}
-		#}
+
+		pc_tundra = {
+			names = {
+			 URSINE1_Planet_Etruscus URSINE1_Planet_Tremarctos URSINE1_Planet_Hyperborean URSINE1_Planet_Elmensis
+			}
+		}
+
+		pc_arctic = {
+		    names = {
+		        URSINE1_Planet_Arctodus URSINE1_Planet_Kretzoiarctos  URSINE1_Planet_Nikolovi URSINE1_Planet_Geoffroyi
+			}
+		}
+
+
+		pc_alpine = {
+			names = {
+		        URSINE1_Planet_Kenai_Fjord URSINE1_Planet_Bornean URSINE1_Planet_Middendorffi  URSINE1_Planet_Helarctos
+			}
+		}
 
 	}
 
