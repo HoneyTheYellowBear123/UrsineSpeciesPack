@@ -21,6 +21,7 @@ ursine_species_set = {
 		"ursine_7"
 		"ursine_8"
 		"ursine_9"
+		"ursine_10"
 		"fun16"
 	}
 

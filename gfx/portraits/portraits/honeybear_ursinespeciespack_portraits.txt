@@ -123,6 +123,15 @@ portraits = {
 			}
 	}
 
+	#rockbear
+	ursine_10 = {	entity = "portrait_ursine_10_entity"	clothes_selector = "reptilian_normal_clothes_01" attachment_selector = "no_texture"
+		greeting_sound = "reptilian_01_greetings"
+		character_textures = {
+			"gfx/models/portraits/honeybear_ursinespeciespack/rockbear1.dds"
+
+		}
+	}
+
 
 
 
