@@ -120,6 +120,12 @@ portraits = {
 	ursine_9 = {	entity = "portrait_ursine_9_entity" clothes_selector = "no_texture" attachment_selector = "no_texture"	greeting_sound = "molluscoid_01_greetings"
 			character_textures = {
 					"gfx/models/portraits/honeybear_ursinespeciespack/panda_bear_1.dds"
+					"gfx/models/portraits/honeybear_ursinespeciespack/panda_bear_2.dds"
+					"gfx/models/portraits/honeybear_ursinespeciespack/panda_bear_3.dds"
+					"gfx/models/portraits/honeybear_ursinespeciespack/panda_bear_4.dds"
+					"gfx/models/portraits/honeybear_ursinespeciespack/panda_bear_5.dds"
+					"gfx/models/portraits/honeybear_ursinespeciespack/panda_bear_6.dds"
+					"gfx/models/portraits/honeybear_ursinespeciespack/panda_bear_7.dds"
 			}
 	}
 

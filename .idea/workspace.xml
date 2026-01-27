@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bb9468e-b5ac-48f9-9708-191baf80528e" name="Changes" comment="" />
+    <list default="true" id="8bb9468e-b5ac-48f9-9708-191baf80528e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/flag_ursine_6.dds" beforeDir="false" afterPath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/flag_ursine_6.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/map/flag_ursine_6.dds" beforeDir="false" afterPath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/map/flag_ursine_6.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/small/flag_ursine_6.dds" beforeDir="false" afterPath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/small/flag_ursine_6.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/panda_bear_1.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/panda_bear_1.dds" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/portraits/portraits/honeybear_ursinespeciespack_portraits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/portraits/portraits/honeybear_ursinespeciespack_portraits.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
