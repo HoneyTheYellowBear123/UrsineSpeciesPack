@@ -1,0 +1,117 @@
+berzerker_rage = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+
+	resources = {
+		category = edicts
+		cost = {
+			food = @Edict1Cost
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			food = @Edict1Cost
+			multiplier = value:edict_size_effect
+		}
+	}
+
+	potential = { #TO DO this might need to be AND
+		OR = {
+			has_resource = { type = food amount > 0 }
+		}
+		has_civic = civic_honeybear_ursinespeciespack_berzerkers
+	}
+
+
+	modifier = {
+	    army_damage_mult = 0.15
+	    army_collateral_damage_mult = 0.15
+	}
+
+	ai_weight = { #if they are at war and have a surplus they should go for it
+		weight = 0
+		modifier = {
+			weight = @EdictHighPrio
+			is_at_war = yes
+			has_resource = { type = food amount > 1000 }
+		}
+	}
+}
+
+
+berzerker_fever = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+
+	resources = {
+		category = edicts
+		cost = {
+			exotic_gases = 1
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			exotic_gases = 1
+			multiplier = value:edict_size_effect
+		}
+	}
+
+	potential = {  #TO DO this might need to be AND
+		OR = {
+			has_resource = { type = exotic_gases amount > 0 }
+		}
+		has_civic = civic_honeybear_ursinespeciespack_berzerkers
+	}
+
+	modifier = {
+	    army_collateral_damage_mult = 0.5
+	}
+
+	ai_weight = { #if they are at war and have a surplus they should go for it
+		weight = 0
+		modifier = {
+			weight = @EdictHighPrio
+			is_at_war = yes
+			has_resource = { type = exotic_gases amount > 100 }
+		}
+	}
+}
+
+
+
+
+
+berzerker_trance = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+
+	resources = {
+		category = edicts
+		cost = {
+			zro = 1
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			zro = 1
+			multiplier = value:edict_size_effect
+		}
+	}
+
+	potential = {  #TO DO this might need to be AND
+		OR = {
+			has_resource = { type = zro amount > 0 }
+		}
+		has_civic = civic_honeybear_ursinespeciespack_berzerkers
+	}
+
+	modifier = {
+	    country_war_exhaustion_mult = -0.1
+	}
+
+	ai_weight = { #if they are at war and have a surplus they should go for it
+		weight = 0
+		modifier = {
+			weight = @EdictHighPrio
+			is_at_war = yes
+			has_resource = { type = zro amount > 100 }
+		}
+	}
+}
