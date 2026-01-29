@@ -1,4 +1,4 @@
-berzerker_rage = {
+berserker_rage = {
 	length = @EdictPerpetual
 	icon = "GFX_edict_type_policy"
 
@@ -18,7 +18,7 @@ berzerker_rage = {
 		OR = {
 			has_resource = { type = food amount > 0 }
 		}
-		has_civic = civic_honeybear_ursinespeciespack_berzerkers
+		has_civic = civic_honeybear_ursinespeciespack_berserkers
 	}
 
 
@@ -38,7 +38,7 @@ berzerker_rage = {
 }
 
 
-berzerker_fever = {
+berserker_fever = {
 	length = @EdictPerpetual
 	icon = "GFX_edict_type_policy"
 
@@ -58,7 +58,7 @@ berzerker_fever = {
 		OR = {
 			has_resource = { type = exotic_gases amount > 0 }
 		}
-		has_civic = civic_honeybear_ursinespeciespack_berzerkers
+		has_civic = civic_honeybear_ursinespeciespack_berserkers
 	}
 
 	modifier = {
@@ -80,7 +80,7 @@ berzerker_fever = {
 
 
 
-berzerker_trance = {
+berserker_trance = {
 	length = @EdictPerpetual
 	icon = "GFX_edict_type_policy"
 
@@ -100,7 +100,7 @@ berzerker_trance = {
 		OR = {
 			has_resource = { type = zro amount > 0 }
 		}
-		has_civic = civic_honeybear_ursinespeciespack_berzerkers
+		has_civic = civic_honeybear_ursinespeciespack_berserkers
 	}
 
 	modifier = {

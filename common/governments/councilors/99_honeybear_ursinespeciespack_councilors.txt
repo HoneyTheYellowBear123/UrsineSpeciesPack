@@ -54,14 +54,14 @@ councilor_honeybear_ursinespeciespack_cub_scouts = {
 }
 
 
-councilor_honeybear_ursinespeciespack_berzerkers = {
+councilor_honeybear_ursinespeciespack_berserkers = {
    leader_class = { commander }
    is_leader_possible = {
             OR = {
                     leader_class = commander
             }
    }
-   civic = civic_honeybear_ursinespeciespack_berzerkers
+   civic = civic_honeybear_ursinespeciespack_berserkers
    modifier = {
         army_experience_gain_mult = 0.02
         army_collateral_damage_mult = 0.01

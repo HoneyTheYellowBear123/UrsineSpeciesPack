@@ -220,7 +220,7 @@ civic_honeybear_ursinespeciespack_cub_scouts = {
 }
 
 
-civic_honeybear_ursinespeciespack_berzerkers = {
+civic_honeybear_ursinespeciespack_berserkers = {
     potential = { #TO DO not clone army
     	ethics = { NOT = { value = ethic_gestalt_consciousness } }
 		authority = { NOT = { value = auth_corporate } }
@@ -281,6 +281,6 @@ civic_honeybear_ursinespeciespack_berzerkers = {
 		planet_soldiers_unity_produces_add = 2
 		add_attunement_the_eater_of_worlds = @civic_attunement1
 	}
-	description = "civic_tooltip_honeybear_ursinespeciespack_berzerkers_effects"
+	description = "civic_tooltip_honeybear_ursinespeciespack_berserkers_effects"
 
 }
