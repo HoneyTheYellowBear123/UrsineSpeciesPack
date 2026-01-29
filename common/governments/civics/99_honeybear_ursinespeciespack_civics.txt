@@ -163,7 +163,7 @@ civic_honeybear_ursinespeciespack_territorial = {
 
 
 civic_honeybear_ursinespeciespack_cub_scouts = {
-	description = "civic_eager_explorers_effects" #TO DO
+	description = "civic_honeybear_ursinespeciespack_cub_scouts_effects" #TO DO
 	possible = {
 		origin = {
 			NOT = {
@@ -171,7 +171,6 @@ civic_honeybear_ursinespeciespack_cub_scouts = {
 			}
 		}
 	}
-
 
 	potential = {
 		ethics = {
@@ -218,8 +217,6 @@ civic_honeybear_ursinespeciespack_cub_scouts = {
 		base = @civic_default_random_weight
 	}
 
-
-
 }
 
 
@@ -231,9 +228,16 @@ civic_honeybear_ursinespeciespack_berzerkers = {
 	possible = {
 		ethics = {
 			OR = {
-				text = civic_tooltip_militarist
+				text = civic_tooltip_honeybear_ursinespeciespack_militarist_or_spiritualist
 				value = ethic_militarist
 				value = ethic_fanatic_militarist
+				value = ethic_spiritualist
+				value = ethic_fanatic_spiritualist
+			}
+			NOR = {
+				text = civic_tooltip_not_pacifist
+				value = ethic_pacifist
+				value = ethic_fanatic_pacifist
 			}
 		}
 

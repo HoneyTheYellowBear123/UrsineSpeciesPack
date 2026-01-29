@@ -34,3 +34,39 @@ councilor_honeybear_ursinespeciespack_territorial = {
         inline_script = councilor_leader_weights #TO DO double check that this isn't bogus hardcoded nonsense
    }
 }
+
+
+councilor_honeybear_ursinespeciespack_cub_scouts = {
+   leader_class = { commander }
+   is_leader_possible = {
+            OR = {
+                    leader_class = commander
+            }
+   }
+   civic = civic_honeybear_ursinespeciespack_cub_scouts
+   modifier = {
+        species_leader_exp_gain = 0.01
+        planet_army_build_speed_mult = 0.02
+   }
+   ai_hiring_weight = {
+        inline_script = councilor_leader_weights #TO DO double check that this isn't bogus hardcoded nonsense
+   }
+}
+
+
+councilor_honeybear_ursinespeciespack_berzerkers = {
+   leader_class = { commander }
+   is_leader_possible = {
+            OR = {
+                    leader_class = commander
+            }
+   }
+   civic = civic_honeybear_ursinespeciespack_berzerkers
+   modifier = {
+        army_experience_gain_mult = 0.02
+        army_collateral_damage_mult = 0.01
+   }
+   ai_hiring_weight = {
+        inline_script = councilor_leader_weights #TO DO double check that this isn't bogus hardcoded nonsense
+   }
+}

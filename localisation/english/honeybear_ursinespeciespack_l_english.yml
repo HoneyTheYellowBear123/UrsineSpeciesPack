@@ -50,6 +50,38 @@
 
 
 
+ civic_honeybear_ursinespeciespack_cub_scouts: "Cub Scouts"
+ civic_honeybear_ursinespeciespack_cub_scouts_desc: "This society operates youth organizations built around outdoorsmanship and meritable skills. This leads to an enthusiasm for learning new skills, and an eagerness to explore the unknown."
+ civic_tooltip_honeybear_ursinespeciespack_cub_scouts_effects: "Commanders and Scientists start with the scout trait."
+ councilor_honeybear_ursinespeciespack_cub_scouts: "Scoutmaster"
+ councilor_honeybear_ursinespeciespack_cub_scouts_female: "$councilor_honeybear_ursinespeciespack_cub_scouts$"
+ councilor_honeybear_ursinespeciespack_cub_scouts_desc: "The $TITLE$ organizes camping trips and ensures youths are well versed in all manner of knots."
+
+
+ civic_honeybear_ursinespeciespack_berzerkers: "Berzerkers"
+ civic_honeybear_ursinespeciespack_berzerkers_desc: "This culture has developed a caste of warriors that utilize a spiritual battle trance, assisted by the ingestion of mysterious substances, to inflict terror and destruction upon their foes."
+ civic_tooltip_honeybear_ursinespeciespack_berzerkers_effects: "$TABBED_NEW_LINE$- Access to ['concept_berzerker_armies'] $TABBED_NEW_LINE$- Access to ['concept_berzerker_edicts'] "
+ councilor_honeybear_ursinespeciespack_berzerkers: "Berzerkhan"
+ councilor_honeybear_ursinespeciespack_berzerkers_female: "$councilor_honeybear_ursinespeciespack_berzerkers$"
+ councilor_honeybear_ursinespeciespack_berzerkers_desc: "The $TITLE$ personally taste tests every batch of the secret recipe consumed to enter the berzerker battle rage."
+ concept_berzerker_edicts: "Berzerker Edicts"
+ concept_berzerker_edicts_desc: "- ['edict:berzerker_rage', $edict_berzerker_rage$]\n- ['edict:berzerker_fever', $edict_berzerker_fever$]\n- ['edict:berzerker_trance', $edict_berzerker_trance$]"
+ edict_berzerker_rage: "Berzerker Rage"
+ edict_berzerker_rage_desc: "The mass production of the berzerker battle rage concoction can be distributed to every soldier in our army for increased combat ferocity."
+ edict_berzerker_fever: "Berzerker Fever"
+ edict_berzerker_fever_desc: "An alternative brew of the berzerker battle rage recipe can be made with the pulpy byproduct of exotic gases, to bring out our soldier's destructive urges."
+ edict_berzerker_trance: "Berzerker Trance"
+ edict_berzerker_trance_desc: "In an act that defies our established principles concerning zro, our berzerkers have discovered a way to consume it that reduces battle fatigue by entering a state of elevated consciousness."
+ concept_berzerker_armies: "Berzerker Armies"
+ concept_berzerker_armies_desc: "- ['army:berzerker_army', $berzerker_army$]\n- ['army:berzerker_gas_army', $berzerker_gas_army$]\n- ['army:berzerker_zro_army', $berzerker_zro_army$]"
+ berzerker_army: "Berzerker Army"
+ berzerker_army_desc: "Violent, destructive warriors raised with brutality in mind and empowered by ingesting special concoctions."
+ berzerker_gas_army: "Bergazker Army"
+ berzerker_gas_army_desc: "Since the discovery of exotic gases, some berzerker units have developed increased ferocity by ingesting the pulpy residue that accrues during its combustion."
+ berzerker_zro_army: "Berpsycher Army"
+ berzerker_zro_army_desc: "Berzerker warriors that have chosen to ingest zro, claiming they feel the strength and destructive desire of something ravenous."
+ civic_tooltip_honeybear_ursinespeciespack_militarist_or_spiritualist: "Is some degree of §YMilitarist§! or §YSpiritualist§!"
+
 
  #flags
  FLAG_CATEGORY_honeybear_ursinespeciespack_ursine: "Ursine"

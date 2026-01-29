@@ -62,7 +62,8 @@ berzerker_fever = {
 	}
 
 	modifier = {
-	    army_collateral_damage_mult = 0.5
+	    armies_upkeep_mult = 0.1
+	    army_collateral_damage_mult = 0.3
 	}
 
 	ai_weight = { #if they are at war and have a surplus they should go for it

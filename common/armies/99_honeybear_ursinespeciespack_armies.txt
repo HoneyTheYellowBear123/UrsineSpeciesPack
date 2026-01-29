@@ -43,18 +43,19 @@ berzerker_army = {
 			has_valid_civic = civic_honeybear_ursinespeciespack_berzerkers
 
 	}
-	potential = {
-		from = {
-			OR = {
-				NOR = {
-					has_trait = "trait_mechanical"
-					has_trait = "trait_machine_unit"
-					has_trait = "trait_limited_cybernetic"
-					is_sapient = no
-				}
-			}
-		}
-	}
+	#potential = {
+	#	from = {
+	#		OR = {
+	#			NOR = {
+	#				has_trait = "trait_mechanical"
+	#				has_trait = "trait_machine_unit"
+	#				has_trait = "trait_limited_cybernetic"
+	#				is_sapient = no
+	#			}
+	#		}
+	#	}
+	#}
+	has_species = no
 
 	ai_weight = {
 		base = 100
@@ -133,18 +134,19 @@ berzerker_gas_army = {
 			has_valid_civic = civic_honeybear_ursinespeciespack_berzerkers
 
 	}
-	potential = {
-		from = {
-			OR = {
-				NOR = {
-					has_trait = "trait_mechanical"
-					has_trait = "trait_machine_unit"
-					has_trait = "trait_limited_cybernetic"
-					is_sapient = no
-				}
-			}
-		}
-	}
+	#potential = {
+	#	from = {
+	#		OR = {
+	#			NOR = {
+	#				has_trait = "trait_mechanical"
+	#				has_trait = "trait_machine_unit"
+	#				has_trait = "trait_limited_cybernetic"
+	#				is_sapient = no
+	#			}
+	#		}
+	#	}
+	#}
+	has_species = no
 
 	ai_weight = {
 		base = 100
@@ -224,18 +226,19 @@ berzerker_zro_army = {
 			has_valid_civic = civic_honeybear_ursinespeciespack_berzerkers
 
 	}
-	potential = {
-		from = {
-			OR = {
-				NOR = {
-					has_trait = "trait_mechanical"
-					has_trait = "trait_machine_unit"
-					has_trait = "trait_limited_cybernetic"
-					is_sapient = no
-				}
-			}
-		}
-	}
+	#potential = {
+	#	from = {
+	#		OR = {
+	#			NOR = {
+	#				has_trait = "trait_mechanical"
+	#				has_trait = "trait_machine_unit"
+	#				has_trait = "trait_limited_cybernetic"
+	#				is_sapient = no
+	#			}
+	#		}
+	#	}
+	#}
+	has_species = no
 
 	ai_weight = {
 		base = 100

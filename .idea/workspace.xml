@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb9468e-b5ac-48f9-9708-191baf80528e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/flag_ursine_6.dds" beforeDir="false" afterPath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/flag_ursine_6.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/map/flag_ursine_6.dds" beforeDir="false" afterPath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/map/flag_ursine_6.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/small/flag_ursine_6.dds" beforeDir="false" afterPath="$PROJECT_DIR$/flags/honeybear_ursinespeciespack_ursine/small/flag_ursine_6.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/panda_bear_1.dds" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/models/portraits/honeybear_ursinespeciespack/panda_bear_1.dds" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gfx/portraits/portraits/honeybear_ursinespeciespack_portraits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/portraits/portraits/honeybear_ursinespeciespack_portraits.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/armies/99_honeybear_ursinespeciespack_armies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/armies/99_honeybear_ursinespeciespack_armies.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/edicts/99_honeybear_ursinespeciespack_edicts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/edicts/99_honeybear_ursinespeciespack_edicts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/governments/civics/99_honeybear_ursinespeciespack_civics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/governments/civics/99_honeybear_ursinespeciespack_civics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/governments/councilors/99_honeybear_ursinespeciespack_councilors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/governments/councilors/99_honeybear_ursinespeciespack_councilors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/honeybear_ursinespeciespack_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/honeybear_ursinespeciespack_l_english.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
