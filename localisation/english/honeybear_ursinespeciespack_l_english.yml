@@ -51,8 +51,8 @@
 
 
  civic_honeybear_ursinespeciespack_cub_scouts: "Cub Scouts"
- civic_honeybear_ursinespeciespack_cub_scouts_desc: "This society operates youth organizations built around outdoorsmanship and meritable skills. This leads to an enthusiasm for learning new skills, and an eagerness to explore the unknown."
- civic_tooltip_honeybear_ursinespeciespack_cub_scouts_effects: "Commanders and Scientists start with the scout trait."
+ civic_honeybear_ursinespeciespack_cub_scouts_desc: "This society operates youth organizations built around outdoorsmanship and meritable skills. This leads to an enthusiasm for learning new skills, and an eagerness to explore the unknown... and also smoothly prepares citizens to follow orders when they are older."
+ civic_honeybear_ursinespeciespack_cub_scouts_effects: "§Y$commander_plural_with_icon$§! and §Y$scientist_plural_with_icon$§! start with the §Y$leader_trait_scout$§! trait."
  councilor_honeybear_ursinespeciespack_cub_scouts: "Scoutmaster"
  councilor_honeybear_ursinespeciespack_cub_scouts_female: "$councilor_honeybear_ursinespeciespack_cub_scouts$"
  councilor_honeybear_ursinespeciespack_cub_scouts_desc: "The $TITLE$ organizes camping trips and ensures youths are well versed in all manner of knots."
@@ -60,7 +60,7 @@
 
  civic_honeybear_ursinespeciespack_berserkers: "Berserkers"
  civic_honeybear_ursinespeciespack_berserkers_desc: "This culture has developed a caste of warriors that utilize a spiritual battle trance, assisted by the ingestion of mysterious substances, to inflict terror and destruction upon their foes."
- civic_tooltip_honeybear_ursinespeciespack_berserkers_effects: "$TABBED_NEW_LINE$- Access to ['concept_berserker_armies'] $TABBED_NEW_LINE$- Access to ['concept_berserker_edicts'] "
+ civic_tooltip_honeybear_ursinespeciespack_berserkers_effects: "$t$- Access to ['concept_berserker_armies'] $TABBED_NEW_LINE$- Access to ['concept_berserker_edicts'] "
  councilor_honeybear_ursinespeciespack_berserkers: "Berserkhan"
  councilor_honeybear_ursinespeciespack_berserkers_female: "$councilor_honeybear_ursinespeciespack_berserkers$"
  councilor_honeybear_ursinespeciespack_berserkers_desc: "The $TITLE$ personally taste tests every batch of the secret recipe consumed to enter the berserker battle rage."

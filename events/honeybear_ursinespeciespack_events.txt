@@ -1,0 +1,25 @@
+#yoinked from crusader spirit tee hee
+country_event = {
+	id = honeybear_ursinespeciespack.110
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+
+		if = {
+			limit = {
+				has_valid_civic = civic_honeybear_ursinespeciespack_cub_scouts
+			}
+			every_owned_leader = {
+				limit = {
+					leader_class = { commander scientist }
+				}
+				give_trait_no_notify_ignore_autocracy_restriction = {
+					TRAIT = leader_trait_scout
+				}
+			}
+		}
+
+	}
+}

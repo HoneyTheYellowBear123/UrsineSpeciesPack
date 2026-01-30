@@ -187,6 +187,7 @@ civic_honeybear_ursinespeciespack_cub_scouts = {
 
 	possible = {
 
+        species_class = { value = URSINE }
 		origin = {
 			NOR = {
 				# No FC origins.
