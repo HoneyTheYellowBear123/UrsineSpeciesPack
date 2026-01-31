@@ -1,4 +1,4 @@
-berzerker_army = {
+berserker_army = {
 	damage = 1.10
 	health = 1.10
 	morale = 1.50
@@ -36,11 +36,11 @@ berzerker_army = {
 
 	show_tech_unlock_if = {
 
-			has_valid_civic = civic_honeybear_ursinespeciespack_berzerkers
+			has_valid_civic = civic_honeybear_ursinespeciespack_berserkers
 
 	}
 	potential_country = {
-			has_valid_civic = civic_honeybear_ursinespeciespack_berzerkers
+			has_valid_civic = civic_honeybear_ursinespeciespack_berserkers
 
 	}
 	#potential = {
@@ -89,7 +89,7 @@ berzerker_army = {
 }
 
 
-berzerker_gas_army = {
+berserker_gas_army = {
 	damage = 1.50
 	health = 1.30
 	morale = 1.80
@@ -127,11 +127,11 @@ berzerker_gas_army = {
 
 	show_tech_unlock_if = {
 
-			has_valid_civic = civic_honeybear_ursinespeciespack_berzerkers
+			has_valid_civic = civic_honeybear_ursinespeciespack_berserkers
 
 	}
 	potential_country = {
-			has_valid_civic = civic_honeybear_ursinespeciespack_berzerkers
+			has_valid_civic = civic_honeybear_ursinespeciespack_berserkers
 
 	}
 	#potential = {
@@ -181,7 +181,7 @@ berzerker_gas_army = {
 
 
 
-berzerker_zro_army = {
+berserker_zro_army = {
 	damage = 2.0
 	health = 1.50
 	morale = 2.25
@@ -200,7 +200,7 @@ berzerker_zro_army = {
 				}
 			}
 			minerals = 100
-			food = 25
+			sr_zro = 5
 		}
 		cost = {
 			trigger = {
@@ -208,7 +208,8 @@ berzerker_zro_army = {
 					country_uses_bio_ships = yes
 				}
 			}
-			food = 125
+			food = 100
+			sr_zro = 5
 			mult = @mineral_to_food_cost_ratio
 		}
 
@@ -219,11 +220,11 @@ berzerker_zro_army = {
 
 	show_tech_unlock_if = {
 
-			has_valid_civic = civic_honeybear_ursinespeciespack_berzerkers
+			has_valid_civic = civic_honeybear_ursinespeciespack_berserkers
 
 	}
 	potential_country = {
-			has_valid_civic = civic_honeybear_ursinespeciespack_berzerkers
+			has_valid_civic = civic_honeybear_ursinespeciespack_berserkers
 
 	}
 	#potential = {

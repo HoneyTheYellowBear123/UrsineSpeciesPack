@@ -269,7 +269,7 @@ trait_honeybear_ursinespeciespack_Bearfooted = {
 }
 
 #frick it I don't care if this is OP bears are cool
-trait_honeybear_ursinespeciespack_Majestic = {
+trait_honeybear_ursinespeciespack_Majestic = { #to do not weak or repugnant or noxious
 	cost = 4
 	species_potential_add = {
 		OR = {
@@ -342,9 +342,10 @@ trait_honeybear_ursinespeciespack_Majestic = {
 
 
 
-trait_honeybear_ursinespeciespack_gluttonous = {
+trait_honeybear_ursinespeciespack_Gluttonous = {
 
 	cost = -2
+	custom_tooltip_with_modifiers =  trait_honeybear_ursinespeciespack_Gluttonous_effect
 	species_potential_add = {
 		OR = {
 			can_add_genetic_traits = yes
@@ -379,10 +380,10 @@ trait_honeybear_ursinespeciespack_gluttonous = {
 		potential = {
 		    AND = {
 			exists = planet
-			has_deficit = food #this should be country scope
+			country = { has_deficit = food #this should be country scope }
 		    }
 		}
-		pop_happiness = -0.25
+		pop_happiness = -0.40
     }
 
 
