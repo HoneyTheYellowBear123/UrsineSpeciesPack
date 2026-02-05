@@ -66,6 +66,7 @@ portraits = {
 			"gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_bear_3.dds"
 			"gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_bear_4.dds"
 			"gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_bear_5.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/upsidedown_bear_6.dds"
 		}
 	}
 
