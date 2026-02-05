@@ -96,6 +96,9 @@ portraits = {
 		greeting_sound = "reptilian_01_greetings"
 		character_textures = {
             "gfx/models/portraits/honeybear_ursinespeciespack/koala_bear_1.dds"
+            "gfx/models/portraits/honeybear_ursinespeciespack/koala_bear_2.dds"
+            "gfx/models/portraits/honeybear_ursinespeciespack/koala_bear_3.dds"
+            "gfx/models/portraits/honeybear_ursinespeciespack/koala_bear_4.dds"
 		}
 	}
 
