@@ -27,4 +27,48 @@ country_event = {
 
 
 
-################################Anomalies
+################################    Anomalies    #############################
+
+#TO DO later: add a little more flavor to the options based on civics or ethics.
+
+### Slumbering Monstrosity
+ship_event = {
+	id = honeybear_ursinespeciespack_anomaly.1
+	title = "honeybear_ursinespeciespack_anomaly.1.name"
+	desc = "honeybear_ursinespeciespack_anomaly.1.desc"
+	picture = GFX_evt_asteroid_field
+	show_sound = event_ship_bridge
+	location = FROM
+
+	is_triggered_only = yes
+
+    #observe from a distance
+	option = {
+		name = honeybear_ursinespeciespack_anomaly.1.a
+		from = { add_deposit = d_society_2 }
+	}
+
+	#blow it up
+	option = {
+		name = honeybear_ursinespeciespack_anomaly.1.b
+		owner = { add_resource = { alloys = -100 } }
+		hidden_effect = { ship_event = { id = honeybear_ursinespeciespack_anomaly.11 days = 5 } }
+	}
+}
+#attempt to blow it up
+ship_event = {
+	id = honeybear_ursinespeciespack_anomaly.11
+	title = "honeybear_ursinespeciespack_anomaly.11.name"
+	desc = "honeybear_ursinespeciespack_anomaly.11.desc"
+	picture = GFX_evt_asteroid_field
+	show_sound = event_ship_bridge
+	location = FROM
+
+	is_triggered_only = yes
+
+    option = {
+		name = honeybear_ursinespeciespack_anomaly.11.a
+		from = { add_deposit = d_society_6 }
+	}
+}
+
