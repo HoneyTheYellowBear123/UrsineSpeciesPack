@@ -1,4 +1,5 @@
 #yoinked from crusader spirit tee hee
+#gives the scout trait to commanders and scientists
 country_event = {
 	id = honeybear_ursinespeciespack.110
 	hide_window = yes
@@ -23,3 +24,7 @@ country_event = {
 
 	}
 }
+
+
+
+################################Anomalies
