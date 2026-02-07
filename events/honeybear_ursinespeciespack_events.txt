@@ -51,6 +51,13 @@ ship_event = {
 	#blow it up
 	option = {
 		name = honeybear_ursinespeciespack_anomaly.1.b
+		trigger ={
+		    owner = {
+		        NOR = {
+		            is_fanatic_xenophile = no
+		            is_xenophile = no
+		    }
+		}
 		owner = { add_resource = { alloys = -100 } }
 		hidden_effect = { ship_event = { id = honeybear_ursinespeciespack_anomaly.11 days = 5 } }
 	}
@@ -72,3 +79,46 @@ ship_event = {
 	}
 }
 
+
+
+ship_event = {
+	id = honeybear_ursinespeciespack_anomaly.2
+	title = "honeybear_ursinespeciespack_anomaly.2.name"
+	desc = "honeybear_ursinespeciespack_anomaly.2.desc"
+	picture = GFX_evt_alien_nature
+	show_sound = event_ship_bridge
+	location = FROM
+
+	is_triggered_only = yes
+
+    #not wilderness
+	option = {
+		name = honeybear_ursinespeciespack_anomaly.2.a
+		owner = {
+			add_monthly_resource_mult = {
+				resource = physics_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
+			}
+		}
+	}
+
+	#wilderness
+	option = {
+		name = honeybear_ursinespeciespack_anomaly.2.w
+		trigger ={
+		    owner = {
+		        has_origin = origin_wilderness
+		    }
+		}
+		owner = {
+			add_monthly_resource_mult = {
+				resource = physics_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
+			}
+		}
+	}
+}

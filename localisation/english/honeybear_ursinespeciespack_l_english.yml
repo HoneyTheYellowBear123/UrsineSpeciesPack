@@ -101,6 +101,7 @@
  ###################
  ### Anomalies #####
  ###################
+ honeybear_ursinespeciespack_slumbering_monstrosity: "Barometic Fluctuations"
  honeybear_ursinespeciespack_slumbering_monstrosity_desc: "Barometers measured microscopic pressure differences emanating from deep inside this asteroid. While changes this small would normally be ignored, its presence in the vacuum of space warrants further investigation."
  honeybear_ursinespeciespack_anomaly.1.name: "Slumbering Monstrosity"
  honeybear_ursinespeciespack_anomaly.1.desc: "Our probes discovered a massive hairy creature at the center of the asteroid. It appears the asteroid was once a part of a cave system that broke off from its planet a few thousand years ago. The creature inside seems to be some manner of extremophile, locked in a protective hibernation. The pressure differences we measured seems to be the creature breathing, drawing in the few loose atoms present in the vastness of space."
@@ -109,3 +110,10 @@
  honeybear_ursinespeciespack_anomaly.11.name: "Slumbering Monstrosity"
  honeybear_ursinespeciespack_anomaly.11.desc: "Our attempts to destroy the creature not only failed, they were also not enough to stir it from its slumber, or even singe a single presumably indestructible hair on its seemingly invulnerable body."
  honeybear_ursinespeciespack_anomaly.11.a: "I suppose we can be a little more aggressive with our observations..."
+
+ honeybear_ursinespeciespack_impossible_carnage: "Impossible Carnage"
+ honeybear_ursinespeciespack_impossible_carnage_desc: "Some terrifying force has torn through the fauna on this planet in an incredibly destructive, but repetitive pattern."
+ honeybear_ursinespeciespack_anomaly.2.name: "Quantum Clawing"
+ honeybear_ursinespeciespack_anomaly.2.desc: "The destruction we discovered on [From.GetName] has been determined to be a rudimentary and no doubt unintentional application of quantum entanglement by a now extinct species on this planet. Seemingly activated through sheer force of will, these creatures were able to sharpen their claws on tree trunks with exceptional efficiency on thousands of trees at once, and bears major implications towards our understanding of physics."
+ honeybear_ursinespeciespack_anomaly.2.a: "Fascinating..."
+ honeybear_ursinespeciespack_anomaly.2.w: "Horrifying..."

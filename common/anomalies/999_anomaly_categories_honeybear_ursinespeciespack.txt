@@ -2,7 +2,7 @@
 honeybear_ursinespeciespack_slumbering_monstrosity_category = {
 	desc = "honeybear_ursinespeciespack_slumbering_monstrosity_desc"
 	picture = "GFX_evt_asteroid_field"
-	level = 1
+	level = 2
 
 	spawn_chance = {
 		modifier = {
@@ -16,5 +16,25 @@ honeybear_ursinespeciespack_slumbering_monstrosity_category = {
 	on_success = {
 
 		1 = honeybear_ursinespeciespack_anomaly.1
+	}
+}
+
+#Impossible Carnage
+honeybear_ursinespeciespack_impossible_carnage_category = {
+	desc = "honeybear_ursinespeciespack_impossible_carnage_desc"
+	picture = "GFX_evt_alien_nature"
+	level = 5
+
+	spawn_chance = {
+		modifier = {
+			add = 3
+			is_planet_class = pc_tropical
+		}
+	}
+
+	max_once = yes
+
+	on_success = {
+		1 = honeybear_ursinespeciespack_anomaly.2
 	}
 }
