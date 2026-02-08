@@ -46,14 +46,14 @@ honeybear_ursinespeciespack_impossible_carnage_category = {
 honeybear_ursinespeciespack_unusual_refractions_category = {
 	desc = "honeybear_ursinespeciespack_unusual_refractions_desc"
 	picture = "GFX_evt_alien_nature" #TO DO yellow sun
-	level = 5
+	level = 3
 
 	spawn_chance = {
 		modifier = {
 			add = 1
 			is_star = yes #Necessary b/c is_star_class actually means is_system_class
 			is_planet_class = pc_g_star
-			has_any_strategic_resource = no
+			#has_any_strategic_resource = no
 		}
 	}
 
