@@ -209,7 +209,7 @@ ship_event = {
 
 
 
-
+#TO DO this would be better as an event chain that goes to two other planets and ends at a gaia world
 #Goldilocks
 ship_event = {
 	id = honeybear_ursinespeciespack_anomaly.6
