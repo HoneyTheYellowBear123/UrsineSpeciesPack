@@ -63,3 +63,60 @@ honeybear_ursinespeciespack_unusual_refractions_category = {
 		1 = honeybear_ursinespeciespack_anomaly.3
 	}
 }
+
+
+#campers hiding trash
+honeybear_ursinespeciespack_anomalous_metal_mass_category = {
+	desc = "anomalous_metal_mass_desc"
+	picture = GFX_evt_ship_in_orbit #TO DO
+	level = 2
+
+	spawn_chance = {
+		modifier = {
+			add = 3
+			uninhabitable_regular_planet = yes
+			has_any_strategic_resource = no
+		}
+	}
+
+	on_success = honeybear_ursinespeciespack_anomaly.4
+}
+
+#pandas starving to death
+honeybear_ursinespeciespack_total_pandamonium_category = {
+	desc = "honeybear_ursinespeciespack_total_pandamonium_desc"
+	picture = GFX_evt_ship_in_orbit #TO DO some old civilization ruins
+	level = 4
+
+	spawn_chance = {
+		modifier = {
+			add = 3
+			OR = {
+			    is_planet_class = pc_continental
+			    is_planet_class = pc_ocean
+			    is_planet_class = pc_tropical
+			}
+
+		}
+	}
+
+	on_success = honeybear_ursinespeciespack_anomaly.5
+}
+
+
+#goldilocks
+honeybear_ursinespeciespack_goldilocks_category = {
+	desc = "honeybear_ursinespeciespack_goldilocks_desc"
+	picture = GFX_evt_ship_in_orbit #TO DO uhhhhh
+	level = 4
+
+	spawn_chance = {
+		modifier = {
+			add = 3
+			is_planet_class = pc_gaia
+		}
+	}
+
+	on_success = honeybear_ursinespeciespack_anomaly.6
+}
+
