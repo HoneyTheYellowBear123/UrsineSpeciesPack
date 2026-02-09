@@ -24,20 +24,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;M:/Mod Workspace/Stellaris/Ursine Species Pack/flags/honeybear_ursinespeciespack_1/map&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "M:/Mod Workspace/Stellaris/Ursine Species Pack/events"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\events" />
       <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\flags\honeybear_ursinespeciespack_1\map" />
       <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\flags\honeybear_ursinespeciespack_1\small" />
       <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\flags\honeybear_ursinespeciespack_1" />
       <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\common\name_lists" />
-      <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\localisation\english\name_lists" />
     </key>
   </component>
   <component name="SharedIndexes">

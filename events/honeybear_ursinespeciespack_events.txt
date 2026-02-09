@@ -131,7 +131,7 @@ ship_event = {
 	id = honeybear_ursinespeciespack_anomaly.3
 	title = "honeybear_ursinespeciespack_anomaly.3.name"
 	desc = "honeybear_ursinespeciespack_anomaly.3.desc"
-	picture = GFX_evt_alien_nature #TO DO
+	picture = pc_g_star_sky #TO DO
 	show_sound = event_ship_bridge
 	location = FROM
 
