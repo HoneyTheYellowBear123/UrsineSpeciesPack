@@ -145,7 +145,10 @@ portraits = {
 		greeting_sound = "reptilian_01_greetings"
 		character_textures = {
 			"gfx/models/portraits/honeybear_ursinespeciespack/rockbear1.dds"
-
+			"gfx/models/portraits/honeybear_ursinespeciespack/rockbear2.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/rockbear3.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/rockbear4.dds"
+			"gfx/models/portraits/honeybear_ursinespeciespack/rockbear5.dds"
 		}
 	}
 
