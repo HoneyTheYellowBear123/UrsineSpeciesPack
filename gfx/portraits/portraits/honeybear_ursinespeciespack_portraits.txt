@@ -89,6 +89,9 @@ portraits = {
 		greeting_sound = "mammalian_01_greetings"
 	    character_textures = {
         "gfx/models/portraits/honeybear_ursinespeciespack/leanover_bear_1.dds"
+        "gfx/models/portraits/honeybear_ursinespeciespack/leanover_bear_2.dds"
+        "gfx/models/portraits/honeybear_ursinespeciespack/leanover_bear_3.dds"
+        "gfx/models/portraits/honeybear_ursinespeciespack/leanover_bear_4.dds"
         }
 	}
 
