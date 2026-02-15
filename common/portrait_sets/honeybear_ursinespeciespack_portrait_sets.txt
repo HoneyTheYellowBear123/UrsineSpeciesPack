@@ -1,17 +1,6 @@
 ursine_species_set = {
 	species_class = URSINE
 
-	archetype = BIOLOGICAL
-
-	possible = {
-		authority = {
-			NOT = {
-				value = auth_machine_intelligence
-				text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE
-			}
-		}
-	}
-
 	portraits = {
 		"ursine_2"
 		"ursine_3"
@@ -26,45 +15,23 @@ ursine_species_set = {
 	}
 
 
-	spawn_enabled = yes
-	randomized = yes
-	trait = "trait_organic"
-	graphical_culture = mammalian_01
-	move_pop_sound_effect = "moving_pop_confirmation"
-	resources = {}
 }
 
 psionic_ursine_species_set = {
 	species_class = URSINE
 
-	archetype = BIOLOGICAL
-
-	possible = {
-		authority = {
-			NOT = {
-				value = auth_machine_intelligence
-				text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE
-			}
-		}
-	}
 
 	portraits = {
 		"ursine_1"
 	}
 
 
-	spawn_enabled = yes
-	randomized = yes
-	trait = "trait_organic"
-	graphical_culture = mammalian_01
-	move_pop_sound_effect = "moving_pop_confirmation"
-	resources = {}
 }
 
-robot_ursine_species_set = {
-    species_class = MACHINE
-
-    portraits = {
-        "ursine_robot_1"
-    }
-}
+#robot_ursine_species_set = {
+#    species_class = MACHINE
+#
+#   portraits = {
+#        "ursine_robot_1"
+#    }
+#}

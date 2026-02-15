@@ -1,0 +1,210 @@
+
+
+namespace = honeybear_ursinespeciespack_anomaly
+
+
+################################    Anomalies    #############################
+
+#TO DO later: add a little more flavor to the options based on civics or ethics.
+
+### Slumbering Monstrosity
+ship_event = {
+	id = honeybear_ursinespeciespack_anomaly.1
+	title = "honeybear_ursinespeciespack_anomaly.1.name"
+	desc = "honeybear_ursinespeciespack_anomaly.1.desc"
+	picture = GFX_evt_asteroid_field
+	show_sound = event_ship_bridge
+	location = FROM
+
+	is_triggered_only = yes
+
+    #observe from a distance
+	option = {
+		name = honeybear_ursinespeciespack_anomaly.1.a
+		from = { add_deposit = d_society_2 }
+	}
+
+	#blow it up
+	option = {
+		name = honeybear_ursinespeciespack_anomaly.1.b
+		trigger ={
+		    owner = {
+		        NOR = {
+		            is_fanatic_xenophile = no
+		            is_xenophile = no
+		    }
+		}
+		owner = { add_resource = { alloys = -100 } }
+		hidden_effect = { ship_event = { id = honeybear_ursinespeciespack_anomaly.11 days = 5 } }
+	}
+}
+#attempt to blow it up
+ship_event = {
+	id = honeybear_ursinespeciespack_anomaly.11
+	title = "honeybear_ursinespeciespack_anomaly.11.name"
+	desc = "honeybear_ursinespeciespack_anomaly.11.desc"
+	picture = GFX_evt_asteroid_field
+	show_sound = event_ship_bridge
+	location = FROM
+
+	is_triggered_only = yes
+
+    option = {
+		name = honeybear_ursinespeciespack_anomaly.11.a
+		from = { add_deposit = d_society_6 }
+	}
+}
+
+
+#Impossible Carnage
+ship_event = {
+	id = honeybear_ursinespeciespack_anomaly.2
+	title = "honeybear_ursinespeciespack_anomaly.2.name"
+	desc = "honeybear_ursinespeciespack_anomaly.2.desc"
+	picture = GFX_evt_alien_nature
+	show_sound = event_ship_bridge
+	location = FROM
+
+	is_triggered_only = yes
+
+    #not wilderness
+	option = {
+		name = honeybear_ursinespeciespack_anomaly.2.a
+		owner = {
+			add_monthly_resource_mult = {
+				resource = physics_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
+			}
+		}
+	}
+
+	#wilderness
+	option = {
+		name = honeybear_ursinespeciespack_anomaly.2.w
+		trigger ={
+		    owner = {
+		        has_origin = origin_wilderness
+		    }
+		}
+		owner = {
+			add_monthly_resource_mult = {
+				resource = physics_research
+				value = @tier3researchreward
+				min = @tier3researchmin
+				max = @tier3researchmax
+			}
+		}
+	}
+}
+
+
+
+
+#Unusual Refractions
+ship_event = {
+	id = honeybear_ursinespeciespack_anomaly.3
+	title = "honeybear_ursinespeciespack_anomaly.3.name"
+	desc = "honeybear_ursinespeciespack_anomaly.3.desc"
+	picture = pc_g_star_sky #TO DO
+	show_sound = event_ship_bridge
+	location = FROM
+
+	is_triggered_only = yes
+
+    #relatively small deposits because it will likely make a good dyson target with the existing energy
+	option = {
+		name = honeybear_ursinespeciespack_anomaly.3.a
+        from = { add_deposit = d_food_3 }
+        from = { add_deposit = d_society_1 }
+	}
+
+
+}
+
+
+
+
+
+#Anomalous Metal Mass
+ship_event = {
+	id = honeybear_ursinespeciespack_anomaly.4
+	title = "honeybear_ursinespeciespack_anomaly.4.name"
+	desc = "honeybear_ursinespeciespack_anomaly.4.desc"
+	picture = pc_g_star_sky #TO DO use the trash orbit
+	show_sound = event_ship_bridge
+	location = FROM
+
+	is_triggered_only = yes
+
+    option = {
+		name = honeybear_ursinespeciespack_anomaly.4.a
+        owner = {
+			add_monthly_resource_mult = {
+				resource = engineering_research
+				value = @tier1researchreward
+				min = @tier1researchmin
+				max = @tier1researchmax
+			}
+			add_monthly_resource_mult = {
+				resource = food
+				value = @tier1materialreward
+				min = @tier1materialmin
+				max = @tier1materialmax
+			}
+		}
+	}
+}
+
+
+
+#Total Pandamonium
+ship_event = {
+	id = honeybear_ursinespeciespack_anomaly.5
+	title = "honeybear_ursinespeciespack_anomaly.5.name"
+	desc = "honeybear_ursinespeciespack_anomaly.5.desc"
+	picture = pc_g_star_sky #TO DO use the broken down buildings
+	show_sound = event_ship_bridge
+	location = FROM
+
+	is_triggered_only = yes
+
+    option = {
+		name = honeybear_ursinespeciespack_anomaly.5.a
+        owner = {
+			add_monthly_resource_mult = {
+				resource = society_research
+				value = @tier2researchreward
+				min = @tier2researchmin
+				max = @tier2researchmax
+			}
+		}
+	}
+}
+
+
+
+#TO DO this would be better as an event chain that goes to two other planets and ends at a gaia world
+#Goldilocks
+ship_event = {
+	id = honeybear_ursinespeciespack_anomaly.6
+	title = "honeybear_ursinespeciespack_anomaly.6.name"
+	desc = "honeybear_ursinespeciespack_anomaly.6.desc"
+	picture = pc_g_star_sky #TO DO skeleton
+	show_sound = event_ship_bridge
+	location = FROM
+
+	is_triggered_only = yes
+
+    option = {
+		name = honeybear_ursinespeciespack_anomaly.6.a
+        owner = {
+			add_monthly_resource_mult = {
+				resource = unity
+				value = @tier2unityreward
+				min = @tier2unitymin
+				max = @tier2unitymax
+			}
+		}
+	}

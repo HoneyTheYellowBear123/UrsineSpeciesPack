@@ -13,10 +13,8 @@ URSINE = {
 	}
 
 
-	spawn_enabled = yes
 	randomized = yes
 	trait = "trait_organic"
 	graphical_culture = mammalian_01
 	move_pop_sound_effect = "moving_pop_confirmation"
-	resources = {}
 }
