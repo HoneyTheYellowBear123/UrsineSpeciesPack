@@ -140,7 +140,7 @@ ship_event = {
     #relatively small deposits because it will likely make a good dyson target with the existing energy
 	option = {
 		name = honeybear_ursinespeciespack_anomaly.3.a
-        from = { add_deposit = d_food_2 }
+        from = { add_deposit = d_food_3 }
         from = { add_deposit = d_society_1 }
 	}
 
