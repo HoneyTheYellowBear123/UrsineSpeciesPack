@@ -101,7 +101,7 @@
  ###################
  ### Anomalies #####
  ###################
- honeybear_ursinespeciespack_slumbering_monstrosity: "Barometic Fluctuations"
+ honeybear_ursinespeciespack_slumbering_monstrosity_category: "Barometic Fluctuations"
  honeybear_ursinespeciespack_slumbering_monstrosity_desc: "Barometers measured microscopic pressure differences emanating from deep inside this asteroid. While changes this small would normally be ignored, its presence in the vacuum of space warrants further investigation."
  honeybear_ursinespeciespack_anomaly.1.name: "Slumbering Monstrosity"
  honeybear_ursinespeciespack_anomaly.1.desc: "Our probes discovered a massive hairy creature at the center of the asteroid. It appears the asteroid was once a part of a cave system that broke off from its planet a few thousand years ago. The creature inside seems to be some manner of extremophile, locked in a protective hibernation. The pressure differences we measured seems to be the creature breathing, drawing in the few loose atoms present in the vastness of space."
@@ -111,32 +111,32 @@
  honeybear_ursinespeciespack_anomaly.11.desc: "Our attempts to destroy the creature not only failed, they were also not enough to stir it from its slumber, or even singe a single presumably indestructible hair on its seemingly invulnerable body."
  honeybear_ursinespeciespack_anomaly.11.a: "I suppose we can be a little more aggressive with our observations..."
 
- honeybear_ursinespeciespack_impossible_carnage: "Impossible Carnage"
+ honeybear_ursinespeciespack_impossible_carnage_category: "Impossible Carnage"
  honeybear_ursinespeciespack_impossible_carnage_desc: "Some terrifying force has torn through the fauna on this planet in an incredibly destructive, but repetitive pattern."
  honeybear_ursinespeciespack_anomaly.2.name: "Quantum Clawing"
  honeybear_ursinespeciespack_anomaly.2.desc: "The destruction we discovered on [From.GetName] has been determined to be a rudimentary and no doubt unintentional application of quantum entanglement by a now extinct species on this planet. Seemingly activated through sheer force of will, these creatures were able to sharpen their claws on tree trunks with exceptional efficiency on thousands of trees at once, and bears major implications towards our understanding of physics."
  honeybear_ursinespeciespack_anomaly.2.a: "Fascinating..."
  honeybear_ursinespeciespack_anomaly.2.w: "Horrifying..."
 
- honeybear_ursinespeciespack_unusual_refractions: "Unusual Refractions"
+ honeybear_ursinespeciespack_unusual_refractions_category: "Unusual Refractions"
  honeybear_ursinespeciespack_unusual_refractions_desc: "The light given off from this star is not following standard trajectories."
  honeybear_ursinespeciespack_anomaly.3.name: "Sucrosian Starshape"
  honeybear_ursinespeciespack_anomaly.3.desc: "What at first glance appears to be a typical class G yellow star is in fact a molten sea of a golden sugary liquid. Penetrating scans revealed activity deep within the star, implying some life form at the center is responsible for producing and consuming the liquid. Probes are unable to withstand the heat for further exploration, and no response has come to our radio calls."
  honeybear_ursinespeciespack_anomaly.3.a: "Keep an eye on them and take some samples."
 
- honeybear_ursinespeciespack_anomalous_metal_mass: "Anomalous Metal Mass"
+ honeybear_ursinespeciespack_anomalous_metal_mass_category: "Anomalous Metal Mass"
  honeybear_ursinespeciespack_anomalous_metal_mass_desc: "Our sensors picked up a large and unusually smooth mass of metal."
  honeybear_ursinespeciespack_anomaly.4.name: "Wilderness Awareness"
  honeybear_ursinespeciespack_anomaly.4.desc: "The mass we discovered on [From.GetName] was identified as a form of waste disposal, packaged carefully as to not leave a trace of food that might attract interstellar wildlife. Amazingly, a significant portion of the disposed remains are still edible, as it seems to have been mostly fluffy white and smooth brown variants of sweetened confections."
  honeybear_ursinespeciespack_anomaly.4.a: "How Responsible."
 
- honeybear_ursinespeciespack_total_pandamonium: "Lack of Pandemonium" #this title made more sense :(
+ honeybear_ursinespeciespack_total_pandamonium_category: "Lack of Pandemonium" #this title made more sense :(
  honeybear_ursinespeciespack_total_pandamonium_desc: "Visual scans show the ruins of a small civilization with no major damage or crisis to explain the lack of life."
  honeybear_ursinespeciespack_anomaly.5.name: "The Slow Death"
  honeybear_ursinespeciespack_anomaly.5.desc: "Our exploration onto the surface of [From.GetName] uncovered the strange fate of the denizens of some ancient civilization. Apparently, despite the lack of danger, abundance of food, and even attempts to conserve them by some advanced civilization, the species simply failed to reproduce at a sustainable rate, and simply died out."
  honeybear_ursinespeciespack_anomaly.5.a: "Curious."
 
- honeybear_ursinespeciespack_goldilocks: "Mysterious Trail" #this title made more sense :(
+ honeybear_ursinespeciespack_goldilocks_category: "Mysterious Trail" #this title made more sense :(
  honeybear_ursinespeciespack_goldilocks_desc: "Residue from several other systems indicate something traveled a great distance and finally rested on a planet"
  honeybear_ursinespeciespack_anomaly.6.name: "Unwelcome Guest"
  honeybear_ursinespeciespack_anomaly.6.desc: "Our analysis of the residue trail leading to [From.GetName] revealed the fossilized remains of a large alien creature that seems to have traveled multiple systems to arrive here. Scarring and carbon dating revealed the creature first arrived at a planet that was too hot, then a planet that was too cold, before finally arriving at [From.GetName] which was just right for it. However, its exhaustion after the long journey caused it to fall into a deep sleep during which the local wildlife discovered and promptly dealt with the intruder. Despite its passing centuries ago, the atmosphere preserved the creature's hair, a golden curly weave that blankets the creature softly."

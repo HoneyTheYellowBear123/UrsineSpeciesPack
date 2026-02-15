@@ -67,7 +67,7 @@ honeybear_ursinespeciespack_unusual_refractions_category = {
 
 #campers hiding trash
 honeybear_ursinespeciespack_anomalous_metal_mass_category = {
-	desc = "anomalous_metal_mass_desc"
+	desc = "honeybear_ursinespeciespack_anomalous_metal_mass_desc"
 	picture = GFX_evt_ship_in_orbit #TO DO
 	level = 2
 
