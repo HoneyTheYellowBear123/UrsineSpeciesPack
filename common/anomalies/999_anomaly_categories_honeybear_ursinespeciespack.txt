@@ -1,7 +1,7 @@
 # Slumbering Monstrosity (Asteroid)
 honeybear_ursinespeciespack_slumbering_monstrosity_category = {
 	desc = "honeybear_ursinespeciespack_slumbering_monstrosity_desc"
-	picture = "GFX_evt_asteroid_field"
+	picture = "GFX_evt_hive"
 	level = 2
 
 	spawn_chance = {
@@ -45,7 +45,7 @@ honeybear_ursinespeciespack_impossible_carnage_category = {
 #Unusual Refractions
 honeybear_ursinespeciespack_unusual_refractions_category = {
 	desc = "honeybear_ursinespeciespack_unusual_refractions_desc"
-	picture = "GFX_evt_alien_nature" #TO DO yellow sun
+	picture = "GFX_evt_star_yellow"
 	level = 3
 
 	spawn_chance = {
@@ -68,7 +68,7 @@ honeybear_ursinespeciespack_unusual_refractions_category = {
 #campers hiding trash
 honeybear_ursinespeciespack_anomalous_metal_mass_category = {
 	desc = "honeybear_ursinespeciespack_anomalous_metal_mass_desc"
-	picture = GFX_evt_ship_in_orbit #TO DO
+	picture = "GFX_evt_ship_in_orbit"
 	level = 2
 
 	spawn_chance = {
@@ -85,7 +85,7 @@ honeybear_ursinespeciespack_anomalous_metal_mass_category = {
 #pandas starving to death
 honeybear_ursinespeciespack_total_pandamonium_category = {
 	desc = "honeybear_ursinespeciespack_total_pandamonium_desc"
-	picture = GFX_evt_ship_in_orbit #TO DO some old civilization ruins
+	picture = "GFX_evt_relic_world_street"
 	level = 4
 
 	spawn_chance = {
@@ -107,7 +107,7 @@ honeybear_ursinespeciespack_total_pandamonium_category = {
 #goldilocks
 honeybear_ursinespeciespack_goldilocks_category = {
 	desc = "honeybear_ursinespeciespack_goldilocks_desc"
-	picture = GFX_evt_ship_in_orbit #TO DO uhhhhh
+	picture = "GFX_evt_treasure_hunt_1"
 	level = 4
 
 	spawn_chance = {

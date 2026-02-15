@@ -12,7 +12,7 @@ ship_event = {
 	id = honeybear_ursinespeciespack_anomaly.1
 	title = "honeybear_ursinespeciespack_anomaly.1.name"
 	desc = "honeybear_ursinespeciespack_anomaly.1.desc"
-	picture = GFX_evt_asteroid_field
+	picture = GFX_evt_hive
 	show_sound = event_ship_bridge
 	location = FROM
 
@@ -43,7 +43,7 @@ ship_event = {
 	id = honeybear_ursinespeciespack_anomaly.11
 	title = "honeybear_ursinespeciespack_anomaly.11.name"
 	desc = "honeybear_ursinespeciespack_anomaly.11.desc"
-	picture = GFX_evt_asteroid_field
+	picture = GFX_evt_hive
 	show_sound = event_ship_bridge
 	location = FROM
 
@@ -61,7 +61,7 @@ ship_event = {
 	id = honeybear_ursinespeciespack_anomaly.2
 	title = "honeybear_ursinespeciespack_anomaly.2.name"
 	desc = "honeybear_ursinespeciespack_anomaly.2.desc"
-	picture = GFX_evt_alien_nature
+	picture = GFX_evt_aggressive_flora
 	show_sound = event_ship_bridge
 	location = FROM
 
@@ -107,7 +107,7 @@ ship_event = {
 	id = honeybear_ursinespeciespack_anomaly.3
 	title = "honeybear_ursinespeciespack_anomaly.3.name"
 	desc = "honeybear_ursinespeciespack_anomaly.3.desc"
-	picture = pc_g_star_sky #TO DO
+	picture = GFX_evt_star_yellow
 	show_sound = event_ship_bridge
 	location = FROM
 
@@ -117,7 +117,7 @@ ship_event = {
 	option = {
 		name = honeybear_ursinespeciespack_anomaly.3.a
         from = { add_deposit = d_food_3 }
-        from = { add_deposit = d_society_1 }
+        from = { add_deposit = d_society_1 } #TO DO make a custom deposit that is compatible with food 3
 	}
 
 
@@ -132,7 +132,7 @@ ship_event = {
 	id = honeybear_ursinespeciespack_anomaly.4
 	title = "honeybear_ursinespeciespack_anomaly.4.name"
 	desc = "honeybear_ursinespeciespack_anomaly.4.desc"
-	picture = pc_g_star_sky #TO DO use the trash orbit
+	picture = GFX_evt_atmospheric_entry
 	show_sound = event_ship_bridge
 	location = FROM
 
@@ -164,7 +164,7 @@ ship_event = {
 	id = honeybear_ursinespeciespack_anomaly.5
 	title = "honeybear_ursinespeciespack_anomaly.5.name"
 	desc = "honeybear_ursinespeciespack_anomaly.5.desc"
-	picture = pc_g_star_sky #TO DO use the broken down buildings
+	picture = GFX_evt_alien_ruins
 	show_sound = event_ship_bridge
 	location = FROM
 
@@ -191,7 +191,7 @@ ship_event = {
 	id = honeybear_ursinespeciespack_anomaly.6
 	title = "honeybear_ursinespeciespack_anomaly.6.name"
 	desc = "honeybear_ursinespeciespack_anomaly.6.desc"
-	picture = pc_g_star_sky #TO DO skeleton
+	picture = GFX_evt_alien_wildlife
 	show_sound = event_ship_bridge
 	location = FROM
 

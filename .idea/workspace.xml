@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb9468e-b5ac-48f9-9708-191baf80528e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/events/honeybear_ursinespeciespack_anomaly_events.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/portrait_sets/honeybear_ursinespeciespack_portrait_sets.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/species_classes/honeybear_ursinespeciespack_species_classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/species_classes/honeybear_ursinespeciespack_species_classes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/honeybear_ursinespeciespack_events.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/honeybear_ursinespeciespack_events.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/anomalies/999_anomaly_categories_honeybear_ursinespeciespack.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/anomalies/999_anomaly_categories_honeybear_ursinespeciespack.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/honeybear_ursinespeciespack_anomaly_events.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/honeybear_ursinespeciespack_anomaly_events.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
