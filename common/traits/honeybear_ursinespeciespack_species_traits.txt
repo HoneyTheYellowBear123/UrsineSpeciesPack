@@ -270,7 +270,7 @@ trait_honeybear_ursinespeciespack_Bearfooted = {
 
 #frick it I don't care if this is OP bears are cool
 trait_honeybear_ursinespeciespack_Majestic = { #to do not weak or repugnant or noxious
-	cost = 4
+	cost = 5
 	species_potential_add = {
 		OR = {
 			can_add_negative_organic_traits = yes
