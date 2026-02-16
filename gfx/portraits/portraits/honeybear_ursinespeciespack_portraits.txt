@@ -110,6 +110,10 @@ portraits = {
 	ursine_7 = { entity = "portrait_ursine_7_entity" clothes_selector = "no_texture" attachment_selector = "no_texture"	greeting_sound = "biogenesis_portrait_11"
 		character_textures = {
 			tied_texture = {texture = "gfx/models/portraits/honeybear_ursinespeciespack/tardigrade_1.dds" evolution_variants = { 0 } }
+			tied_texture = {texture = "gfx/models/portraits/honeybear_ursinespeciespack/tardigrade_2.dds" evolution_variants = { 0 } }
+			tied_texture = {texture = "gfx/models/portraits/honeybear_ursinespeciespack/tardigrade_3.dds" evolution_variants = { 0 } }
+			tied_texture = {texture = "gfx/models/portraits/honeybear_ursinespeciespack/tardigrade_4.dds" evolution_variants = { 0 } }
+			tied_texture = {texture = "gfx/models/portraits/honeybear_ursinespeciespack/tardigrade_5.dds" evolution_variants = { 0 } }
 		}
 		custom_close_up_position_offset = { x = 90 y = 150 }
 		custom_close_up_scale = 1.7
