@@ -123,6 +123,8 @@
  honeybear_ursinespeciespack_anomaly.3.name: "Sucrosian Starshape"
  honeybear_ursinespeciespack_anomaly.3.desc: "What at first glance appears to be a typical class G yellow star is in fact a molten sea of a golden sugary liquid. Penetrating scans revealed activity deep within the star, implying some life form at the center is responsible for producing and consuming the liquid. Probes are unable to withstand the heat for further exploration, and no response has come to our radio calls."
  honeybear_ursinespeciespack_anomaly.3.a: "Keep an eye on them and take some samples."
+ d_honeybear_ursinespeciespack_honeystar: "£food£ +3 and £society£ +2"
+ d_honeybear_ursinespeciespack_honeystar_desc: "$d_honeybear_ursinespeciespack_honeystar$"
 
  honeybear_ursinespeciespack_anomalous_metal_mass_category: "Anomalous Metal Mass"
  honeybear_ursinespeciespack_anomalous_metal_mass_desc: "Our sensors picked up a large and unusually smooth mass of metal."

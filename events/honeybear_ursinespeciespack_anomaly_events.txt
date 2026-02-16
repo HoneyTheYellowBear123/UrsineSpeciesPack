@@ -113,11 +113,18 @@ ship_event = {
 
 	is_triggered_only = yes
 
+	immediate = {
+	    from = {
+
+			clear_deposits = yes
+
+		}
+	}
+
     #relatively small deposits because it will likely make a good dyson target with the existing energy
 	option = {
 		name = honeybear_ursinespeciespack_anomaly.3.a
-        from = { add_deposit = d_food_3 }
-        from = { add_deposit = d_society_1 } #TO DO make a custom deposit that is compatible with food 3
+        from = { add_deposit = d_honeybear_ursinespeciespack_honeystar }
 	}
 
 

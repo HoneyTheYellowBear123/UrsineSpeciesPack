@@ -1,0 +1,20 @@
+d_honeybear_ursinespeciespack_honeystar = {
+	icon = d_mining_station
+	resources = {
+		category = orbital_research_deposits
+		produces = {
+			food = 3
+			society_research = 2
+		}
+	}
+	station = shipclass_research_station
+	is_for_colonizable = no
+
+	potential = { always = no }
+
+	habitat_modifier = {
+		district_hab_science_max_add = 3
+	}
+
+	drop_weight = { weight = 0 }
+}
