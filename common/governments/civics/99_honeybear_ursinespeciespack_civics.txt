@@ -109,7 +109,7 @@ civic_honeybear_ursinespeciespack_territorial = {
 		"landlord" = 1 #TO DO make sure this is flavor text and does not crash the game
 	}
 
-	random_weight = { base = 1000 } #TO DO make this slightly below the normal value
+	random_weight = { base = 1 } #WAY below the normal value (since AI isn't aware that they should close their borders with this civic)
 	ai_weight = {
 		base = @ai_civic_default_base_weight
 		modifier = {
