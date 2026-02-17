@@ -1,6 +1,6 @@
 ursine_species_cat = {
 	name = URSINE
-	sets = { ursine_species_set psionic_ursine_species_set robotic_ursine_species_set }
+	sets = { ursine_species_set psionic_ursine_species_set }
 }
 
 psionics = {
@@ -10,6 +10,24 @@ psionics = {
 		psionic_ursine_species_set
 		}
 }
+
+lithoids = {
+	name = LITHOID
+
+	sets = {
+		lithoid_ursine_species_set
+	}
+}
+
+aquatics = {
+	name = AQUATIC
+
+	sets = {
+        aquatic_ursine_species_set
+	}
+}
+
+
 
 #machines = {
 #    name = MACHINE
