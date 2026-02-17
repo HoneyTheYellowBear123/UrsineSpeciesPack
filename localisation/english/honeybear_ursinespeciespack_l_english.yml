@@ -143,3 +143,26 @@
  honeybear_ursinespeciespack_anomaly.6.name: "Unwelcome Guest"
  honeybear_ursinespeciespack_anomaly.6.desc: "Our analysis of the residue trail leading to [From.GetName] revealed the fossilized remains of a large alien creature that seems to have traveled multiple systems to arrive here. Scarring and carbon dating revealed the creature first arrived at a planet that was too hot, then a planet that was too cold, before finally arriving at [From.GetName] which was just right for it. However, its exhaustion after the long journey caused it to fall into a deep sleep during which the local wildlife discovered and promptly dealt with the intruder. Despite its passing centuries ago, the atmosphere preserved the creature's hair, a golden curly weave that blankets the creature softly."
  honeybear_ursinespeciespack_anomaly.6.a: "Beautiful..."
+
+
+
+
+ #############################
+ ### Prescripted Country ####
+ ############################
+ honeybear_ursinespeciespack_prescripted_country_name: "Zekr'ban Bearzerkhanate"
+ honeybear_ursinespeciespack_prescripted_country_name_desc: "A species that was locked in almost constant combat for the entirety of their history, it was almost unfathonable when planetary unity was achieved and galactic development was actually possible. Now, we venture unto the stars to flex our dominance among the lesser beasts that think themselves our peers."
+ honeybear_ursinespeciespack_prescripted_country_adjective: "Zekr'ban Bearzerkhanatian"
+ honeybear_ursinespeciespack_prescripted_country_ship_prefix: "CLAW"
+ honeybear_ursinespeciespack_prescripted_country_species_name: "Zekr'ba"
+ honeybear_ursinespeciespack_prescripted_country_species_name_plural: "Zekr'bas"
+ honeybear_ursinespeciespack_prescripted_country_species_adjective: "Zekr'ban"
+ honeybear_ursinespeciespack_prescripted_country_species_bio: "A species that was locked in almost constant combat for the entirety of their history, it was almost unfathonable when planetary unity was achieved and galactic development was actually possible. Now, we venture unto the stars to flex our dominance among the lesser beasts that think themselves our peers."
+ honeybear_ursinespeciespack_prescripted_country_planet_name: "Fangk"
+ honeybear_ursinespeciespack_prescripted_country_system_name: "Zerberzk"
+ honeybear_ursinespeciespack_prescripted_country_ruler_name: "Kazabahk Killclaw"
+ honeybear_ursinespeciespack_prescripted_country_ruler_title_m: "Bearzerkhan"
+ honeybear_ursinespeciespack_prescripted_country_ruler_title_f: "Bearzerkhanness"
+ honeybear_ursinespeciespack_prescripted_country_heir_title_m: "Bearzerkheir"
+ honeybear_ursinespeciespack_prescripted_country_heir_title_f: "Bearzerkheiress"
+ honeybear_ursinespeciespack_prescripted_country_ruler_biography: "Sharpest claws, dankest fangs, may my fury guide our endless reign."

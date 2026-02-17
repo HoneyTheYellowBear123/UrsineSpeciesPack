@@ -6,6 +6,7 @@ ursine_species_set = {
 	species_class = URSINE
 
 	portraits = {
+	    "ursine_1" #psychic bear
 		"ursine_2" #chubby tummy
 		"ursine_4" #tall polar bear
 		"ursine_6" #Koala
@@ -15,11 +16,11 @@ ursine_species_set = {
 	}
 
 	conditional_portraits = { #Upside Down Bear
-	    		randomizable = {
-			host_has_dlc = "Humanoid Species Pack"
+	    randomizable = {
+			host_has_dlc = "Humanoids Species Pack"
 		}
 		playable = {
-			local_has_dlc = "Humanoid Species Pack"
+			host_has_dlc = "Humanoids Species Pack"
 		}
 		portraits = {
 			"ursine_3"
@@ -28,10 +29,10 @@ ursine_species_set = {
 
 	conditional_portraits = { #Leaning over sunbear
 	    randomizable = {
-			host_has_dlc = "Aquatic Species Pack"
+			has_aquatics = yes
 		}
 		playable = {
-			local_has_dlc = "Aquatic Species Pack"
+			has_aquatics = yes
 		}
 		portraits = {
 			"ursine_5"
@@ -41,10 +42,10 @@ ursine_species_set = {
 
 	conditional_portraits = { #Tardigrade
 	    randomizable = {
-			host_has_dlc = "Biogenesis"
+			has_biogenesis_dlc = yes
 		}
 		playable = {
-			local_has_dlc = "Biogenesis"
+			has_biogenesis_dlc = yes
 		}
 		portraits = {
 				"ursine_7"
@@ -55,9 +56,16 @@ ursine_species_set = {
 psionic_ursine_species_set = {
 	species_class = URSINE
 
-
-	portraits = {
-		"ursine_1" #psychic bear
+    conditional_portraits = {
+		randomizable = {
+			has_shroud_dlc = yes
+		}
+		playable = {
+			has_shroud_dlc = yes
+		}
+	    portraits = {
+		    "ursine_1" #psychic bear
+		}
 	}
 
 
@@ -66,9 +74,16 @@ psionic_ursine_species_set = {
 
 lithoid_ursine_species_set = {
     species_class = LITHOID
-
-    portraits = {
-        "ursine_10" #Rock Bear
+    conditional_portraits = {
+		randomizable = {
+			has_lithoids = yes
+		}
+		playable = {
+			has_lithoids = yes
+		}
+        portraits = {
+            "ursine_10" #Rock Bear
+        }
     }
 
 }
@@ -78,10 +93,16 @@ aquatic_ursine_species_set = { #sea bear get it haha
 
 	conditional_portraits = { #Tardigrade
 	    randomizable = {
-			host_has_dlc = "Biogenesis"
+	        AND = {
+			    has_biogenesis_dlc = yes
+			    has_aquatics = yes
+			}
 		}
 		playable = {
-			local_has_dlc = "Biogenesis"
+		    AND = {
+			    has_biogenesis_dlc = yes
+			    has_aquatics = yes
+			}
 		}
 		portraits = {
 				"ursine_7"

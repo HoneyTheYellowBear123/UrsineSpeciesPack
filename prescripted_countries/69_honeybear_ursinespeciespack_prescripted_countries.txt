@@ -1,0 +1,93 @@
+
+
+bearzerkhanate = {
+	name = "honeybear_ursinespeciespack_prescripted_country_name"
+	adjective = "honeybear_ursinespeciespack_prescripted_country_adjective"
+	ship_prefix = "honeybear_ursinespeciespack_prescripted_country_ship_prefix"
+
+	spawn_enabled = yes
+
+	species=
+	{
+		class="URSINE"
+		portrait="ursine_8"
+		species_name= "honeybear_ursinespeciespack_prescripted_country_species_name"
+		species_plural= "honeybear_ursinespeciespack_prescripted_country_species_name_plural"
+		species_adjective= "honeybear_ursinespeciespack_prescripted_country_species_adjective"
+		#species_bio= "honeybear_ursinespeciespack_prescripted_country_species_bio"
+		name_list="URSINE2"
+		gender=not_set
+		trait="trait_organic"
+		trait="trait_humanoid_existential_iteroparity"
+		trait="trait_very_strong"
+		trait="trait_honeybear_ursinespeciespack_saBEAR_toothed"
+		trait="trait_honeybear_ursinespeciespack_Gluttonous"
+	}
+
+	room="personality_fanatic_purifier_room"
+
+	authority="auth_imperial"
+	government="gov_bandit_kingdom"
+	origin = "origin_default"
+
+	planet_name = "honeybear_ursinespeciespack_prescripted_country_planet_name"
+
+
+	system_name = "honeybear_ursinespeciespack_prescripted_country_system_name"
+
+	planet_class="pc_desert"
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
+
+
+
+	empire_flag=
+	{
+		icon=
+		{
+			category="honeybear_ursinespeciespack_ursine"
+			file="flag_ursine_5.dds"
+		}
+		background=
+		{
+			category="backgrounds"
+			file="double_triangles.dds"
+		}
+		colors=
+		{
+			"red"
+			"dark_brown"
+			"black"
+			"null"
+		}
+	}
+
+
+
+	ruler=
+	{
+		gender=male
+		name= "honeybear_ursinespeciespack_prescripted_country_ruler_name"
+		portrait="ursine_8"
+		texture=5
+		evolution_mask=0
+		attachment=0
+		clothes=5
+		ruler_title= "honeybear_ursinespeciespack_prescripted_country_ruler_title_m"
+		heir_title= "honeybear_ursinespeciespack_prescripted_country_heir_title_m"
+		ruler_title_female= "honeybear_ursinespeciespack_prescripted_country_ruler_title_f"
+		heir_title_female="honeybear_ursinespeciespack_prescripted_country_heir_title_f"
+		custom_biography="honeybear_ursinespeciespack_prescripted_country_ruler_biography"
+		trait="trait_ruler_warlike"
+		leader_class="commander"
+	}
+
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_militarist"
+
+	civics=
+	{
+		"civic_honeybear_ursinespeciespack_berserkers"
+		"civic_barbaric_despoilers"
+	}
+}

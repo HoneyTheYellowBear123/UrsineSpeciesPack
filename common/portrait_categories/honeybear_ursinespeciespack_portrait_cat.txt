@@ -1,6 +1,6 @@
 ursine_species_cat = {
 	name = URSINE
-	sets = { ursine_species_set psionic_ursine_species_set }
+	sets = { ursine_species_set }
 }
 
 psionics = {
