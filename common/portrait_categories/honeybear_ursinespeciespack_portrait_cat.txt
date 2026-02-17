@@ -11,10 +11,10 @@ psionics = {
 		}
 }
 
-machines = {
-    name = MACHINE
-
-    sets = {
-    robot_ursine_species_set
-    }
-}
+#machines = {
+#    name = MACHINE
+#
+#    sets = {
+#    robot_ursine_species_set
+#    }
+#}

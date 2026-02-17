@@ -1,4 +1,4 @@
-#TO DO: description, associated civic, civic icon obviously
+
 triggered_honeybear_ursinespeciespack_apiarists = {
 	trigger = {
 
