@@ -6,7 +6,7 @@ honeybear_ursinespeciespack_slumbering_monstrosity_category = {
 
 	spawn_chance = {
 		modifier = {
-			add = 3
+			add = 300
 			is_asteroid = yes
 		}
 	}
@@ -27,7 +27,7 @@ honeybear_ursinespeciespack_impossible_carnage_category = {
 
 	spawn_chance = {
 		modifier = {
-			add = 3
+			add = 300
 			is_planet_class = pc_tropical
 		}
 	}
@@ -73,7 +73,7 @@ honeybear_ursinespeciespack_anomalous_metal_mass_category = {
 
 	spawn_chance = {
 		modifier = {
-			add = 3
+			add = 300
 			uninhabitable_regular_planet = yes
 			has_any_strategic_resource = no
 		}
@@ -90,7 +90,7 @@ honeybear_ursinespeciespack_total_pandamonium_category = {
 
 	spawn_chance = {
 		modifier = {
-			add = 3
+			add = 300
 			OR = {
 			    is_planet_class = pc_continental
 			    is_planet_class = pc_ocean
@@ -112,7 +112,7 @@ honeybear_ursinespeciespack_goldilocks_category = {
 
 	spawn_chance = {
 		modifier = {
-			add = 3
+			add = 300
 			is_planet_class = pc_gaia
 		}
 	}

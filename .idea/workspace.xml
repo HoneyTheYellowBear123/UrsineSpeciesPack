@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb9468e-b5ac-48f9-9708-191baf80528e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/common/economic_categories/99_honeybear_ursinespeciespack_categories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/opinion_modifiers/00_opinion_modifiers_honeybear_ursinespeciespack.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/opinion_modifiers/00_opinion_modifiers_honeybear_ursinespeciespack.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/traits/honeybear_ursinespeciespack_species_traits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/traits/honeybear_ursinespeciespack_species_traits.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/anomalies/999_anomaly_categories_honeybear_ursinespeciespack.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/anomalies/999_anomaly_categories_honeybear_ursinespeciespack.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/diplomacy_economy/honeybear_ursinespeciespack_diplomacy_economy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/diplomacy_economy/honeybear_ursinespeciespack_diplomacy_economy.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/localisation/english/honeybear_ursinespeciespack_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/honeybear_ursinespeciespack_l_english.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

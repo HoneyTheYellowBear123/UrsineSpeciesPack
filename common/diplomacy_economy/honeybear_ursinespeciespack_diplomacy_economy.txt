@@ -1,9 +1,12 @@
 per_relation = {
-    diplo_stance_closed_borders = {
+    diplo_stance_honeybear_ursinespeciespack_territorial = {
 		trigger = {
 			has_civic = civic_honeybear_ursinespeciespack_territorial
 
 			NOT = { has_closed_borders = FROM }
+
+			has_communications = FROM
+			from = { is_country_type = default }
 
 			#Borders can be opened to empires that are uncloseable
 			NOR = {
@@ -13,10 +16,11 @@ per_relation = {
 				}
 			    has_overlord = FROM #nice
 				FROM = { is_subject = yes }
+
 			}
 		}
 		resources = {
-			category = diplo_closed_borders
+			category = diplo_honeybear_ursinespeciespack_territorial_open_borders
 			upkeep = {
 				influence = 0.25
 			}

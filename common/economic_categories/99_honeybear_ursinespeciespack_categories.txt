@@ -1,0 +1,4 @@
+
+diplo_honeybear_ursinespeciespack_territorial_open_borders = {
+	parent = diplomacy
+}
