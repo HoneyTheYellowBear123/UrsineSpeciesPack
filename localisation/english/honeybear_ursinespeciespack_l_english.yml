@@ -29,7 +29,7 @@
 
  trait_honeybear_ursinespeciespack_Gluttonous: "Gluttonous"
  trait_honeybear_ursinespeciespack_Gluttonous_desc: "This species has a strong subconcious desire to consume food and store fat, perhaps due to some extended famine in its ancient history."
- trait_honeybear_ursinespeciespack_Gluttonous_effect: "$food_with_icon$ Upkeep per $pop_group_unit$ £pop£ Pops: §R+0.1§!$TABBED_NEW_LINE$- Pop happiness during empire $r_food$ shortages: §R-40%§!"
+ trait_honeybear_ursinespeciespack_Gluttonous_effect: "Pop Food Upkeep: §R+10%§!$TABBED_NEW_LINE$- Pop happiness during empire $r_food$ shortages: §R-40%§!"
 
 
  SPECIES_TRAIT_URSINE: "['concept_ursine_phenotype_traits']"
