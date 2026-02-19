@@ -18,6 +18,12 @@ ship_event = {
 
 	is_triggered_only = yes
 
+	immediate = {
+	    from = {
+	        clear_deposits = yes
+	    }
+	}
+
     #observe from a distance
 	option = {
 		name = honeybear_ursinespeciespack_anomaly.1.a
@@ -34,13 +40,17 @@ ship_event = {
 		            is_xenophile = yes
 		        }
 		    }
-		    owner = { add_resource = { alloys = -100 } }
-		    hidden_effect = { ship_event = { id = honeybear_ursinespeciespack_anomaly.11 days = 5 } }
-	    }
+		}
+        owner = { add_resource = { alloys = -100 } }
+        from = {
+            set_planet_flag = honeybear_ursinespeciespack_slumbering_monst
+            save_event_target_as = honeybear_ursinespeciespack_slumbering_monst
+        }
+		hidden_effect = { ship_event = { id = honeybear_ursinespeciespack_anomaly.11 days = 5 } }
 	}
 }
 #attempt to blow it up
-ship_event = {
+ship_event = { #TO DO: set flags in previous event to allow nice transition
 	id = honeybear_ursinespeciespack_anomaly.11
 	title = "honeybear_ursinespeciespack_anomaly.11.name"
 	desc = "honeybear_ursinespeciespack_anomaly.11.desc"
@@ -50,9 +60,14 @@ ship_event = {
 
 	is_triggered_only = yes
 
+
     option = {
 		name = honeybear_ursinespeciespack_anomaly.11.a
-		from = { add_deposit = d_society_6 }
+		event_target:honeybear_ursinespeciespack_slumbering_monst = {
+		    add_deposit = d_society_3
+		    hidden_effect = { remove_planet_flag = honeybear_ursinespeciespack_slumbering_monst}
+		}
+		#from = { add_deposit = d_society_6 }
 	}
 }
 
@@ -216,3 +231,4 @@ ship_event = {
 			}
 		}
 	}
+}

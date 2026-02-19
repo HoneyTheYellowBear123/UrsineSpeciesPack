@@ -1,29 +1,34 @@
-per_relation = {
-    diplo_stance_honeybear_ursinespeciespack_territorial = {
-		trigger = {
-			has_civic = civic_honeybear_ursinespeciespack_territorial
+#per relation cannot be entered individually, it will overwrite all earlier versions.
+#This chunk of code can be copied and pasted into the per_relation block of diplomacy_economy to run
+#However, if you are using any other mods, you'd need to make sure whichever diplomacy_economy file is loaded last has the code.
+#Paradox occasionally makes the codebase more modder friendly during updates, but diplomacy code is pretty egregious right now so I wouldn't count on it anytime soon.
 
-			NOT = { has_closed_borders = FROM }
-
-			has_communications = FROM
-			from = { is_country_type = default }
-
-			#Borders can be opened to empires that are uncloseable
-			NOR = {
-				AND = {
-					has_federation = yes
-					federation = { any_member = { is_same_value = root.from } }
-				}
-			    has_overlord = FROM #nice
-				FROM = { is_subject = yes }
-
-			}
-		}
-		resources = {
-			category = diplo_honeybear_ursinespeciespack_territorial_open_borders
-			upkeep = {
-				influence = 0.25
-			}
-		}
-	}
-}
+#per_relation = {
+#    diplo_stance_honeybear_ursinespeciespack_territorial = {
+#		trigger = {
+#			has_civic = civic_honeybear_ursinespeciespack_territorial
+#
+#			NOT = { has_closed_borders = FROM }
+#
+#			has_communications = FROM
+#			from = { is_country_type = default }
+#
+#			#Borders can be opened to empires that are uncloseable
+#			NOR = {
+#				AND = {
+#					has_federation = yes
+#					federation = { any_member = { is_same_value = root.from } }
+#				}
+#			    has_overlord = FROM #nice
+#				FROM = { is_subject = yes }
+#
+#			}
+#		}
+#		resources = {
+#			category = diplo_honeybear_ursinespeciespack_territorial_open_borders
+#			upkeep = {
+#				influence = 0.25
+#			}
+#		}
+#	}
+#}
