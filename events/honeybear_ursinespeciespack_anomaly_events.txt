@@ -30,12 +30,13 @@ ship_event = {
 		trigger ={
 		    owner = {
 		        NOR = {
-		            is_fanatic_xenophile = no
-		            is_xenophile = no
+		            is_fanatic_xenophile = yes
+		            is_xenophile = yes
+		        }
 		    }
-		}
-		owner = { add_resource = { alloys = -100 } }
-		hidden_effect = { ship_event = { id = honeybear_ursinespeciespack_anomaly.11 days = 5 } }
+		    owner = { add_resource = { alloys = -100 } }
+		    hidden_effect = { ship_event = { id = honeybear_ursinespeciespack_anomaly.11 days = 5 } }
+	    }
 	}
 }
 #attempt to blow it up

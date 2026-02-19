@@ -1,5 +1,5 @@
 # This is a template which multiple species can use.
-
+#TO DO remove me or comment me out
 ursine_2_hair = {
 	default = "gfx/models/portraits/honeybear_ursinespeciespack/ursine_2_attachment.dds"
 

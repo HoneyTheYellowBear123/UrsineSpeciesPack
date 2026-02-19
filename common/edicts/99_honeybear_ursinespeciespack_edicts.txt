@@ -2,7 +2,7 @@
 
 @Edict1Cost = 10
 
-berserker_rage = {
+honeybear_ursinespeciespack_berserker_rage = {
 	length = @EdictPerpetual
 	icon = "GFX_edict_type_policy"
 
@@ -42,7 +42,7 @@ berserker_rage = {
 }
 
 
-berserker_fever = {
+honeybear_ursinespeciespack_berserker_fever = {
 	length = @EdictPerpetual
 	icon = "GFX_edict_type_policy"
 
@@ -84,7 +84,7 @@ berserker_fever = {
 
 
 
-berserker_trance = {
+honeybear_ursinespeciespack_berserker_trance = {
 	length = @EdictPerpetual
 	icon = "GFX_edict_type_policy"
 

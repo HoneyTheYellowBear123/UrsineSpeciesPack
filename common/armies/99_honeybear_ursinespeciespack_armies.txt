@@ -1,4 +1,4 @@
-berserker_army = {
+honeybear_ursinespeciespack_berserker_army = {
 	damage = 1.10
 	health = 1.10
 	morale = 1.50
@@ -89,7 +89,7 @@ berserker_army = {
 }
 
 
-berserker_gas_army = {
+honeybear_ursinespeciespack_berserker_gas_army = {
 	damage = 1.50
 	health = 1.30
 	morale = 1.80
@@ -181,7 +181,7 @@ berserker_gas_army = {
 
 
 
-berserker_zro_army = {
+honeybear_ursinespeciespack_berserker_zro_army = {
 	damage = 2.0
 	health = 1.50
 	morale = 2.25

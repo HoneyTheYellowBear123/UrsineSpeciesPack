@@ -1,6 +1,6 @@
 
 
-bearzerkhanate = {
+honeybear_ursinespeciespack_bearzerkhanate = {
 	name = "honeybear_ursinespeciespack_prescripted_country_name"
 	adjective = "honeybear_ursinespeciespack_prescripted_country_adjective"
 	ship_prefix = "honeybear_ursinespeciespack_prescripted_country_ship_prefix"
