@@ -6,7 +6,7 @@ honeybear_ursinespeciespack_berserker_army = {
 	collateral_damage = 3.0
 	war_exhaustion = 0.90
 	time = 120 #take more time
-	icon = GFX_army_type_assault #TO DO FIX ME
+	icon = GFX_army_type_honeybear_ursinespeciespack_berserkers #GFX_army_type_assault #TO DO FIX ME
 	prerequisites = { "tech_assault_armies" }
 	resources = {
 		category = armies
@@ -97,7 +97,7 @@ honeybear_ursinespeciespack_berserker_gas_army = {
 	collateral_damage = 5.00
 	war_exhaustion = 0.50
 	time = 120
-	icon = GFX_army_type_assault #TO DO FIX ME
+	icon = GFX_army_type_honeybear_ursinespeciespack_berserkers_gas #TO DO FIX ME
 	prerequisites = { "tech_assault_armies" }
 	resources = {
 		category = armies
@@ -108,7 +108,7 @@ honeybear_ursinespeciespack_berserker_gas_army = {
 				}
 			}
 			minerals = 100
-			food = 25
+			exotic_gases  = 5
 		}
 		cost = {
 			trigger = {
@@ -116,7 +116,8 @@ honeybear_ursinespeciespack_berserker_gas_army = {
 					country_uses_bio_ships = yes
 				}
 			}
-			food = 125
+			food = 100
+			exotic_gases  = 5
 			mult = @mineral_to_food_cost_ratio
 		}
 
@@ -124,6 +125,8 @@ honeybear_ursinespeciespack_berserker_gas_army = {
 			energy = 0.75
 		}
 	}
+
+	prerequisites = { "tech_exotic_gases" }
 
 	show_tech_unlock_if = {
 
@@ -189,7 +192,7 @@ honeybear_ursinespeciespack_berserker_zro_army = {
 	collateral_damage = 6.0
 	war_exhaustion = 0.25
 	time = 120
-	icon = GFX_army_type_assault #TO DO FIX ME
+	icon = GFX_army_type_honeybear_ursinespeciespack_berserkers_zro #TO DO FIX ME
 	prerequisites = { "tech_assault_armies" }
 	resources = {
 		category = armies
@@ -217,6 +220,8 @@ honeybear_ursinespeciespack_berserker_zro_army = {
 			energy = 0.75
 		}
 	}
+
+	prerequisites = { "tech_mine_zro" }
 
 	show_tech_unlock_if = {
 

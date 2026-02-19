@@ -1,0 +1,27 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_honeybear_ursinespeciespack_army_icons"
+		textureFile = "gfx/interface/planetview/honeybear_ursinespeciespack_berserker_army_icons.dds"
+		noOfFrames = 3
+	}
+
+
+    spriteType = {
+		name = "GFX_army_type_honeybear_ursinespeciespack_berserkers"
+		sprite_sheet_sprite_type = "GFX_honeybear_ursinespeciespack_army_icons"
+		default_frame = 1
+	}
+
+	spriteType = {
+		name = "GFX_army_type_honeybear_ursinespeciespack_berserkers_gas"
+		sprite_sheet_sprite_type = "GFX_honeybear_ursinespeciespack_army_icons"
+		default_frame = 2
+	}
+
+	spriteType = {
+		name = "GFX_army_type_honeybear_ursinespeciespack_berserkers_zro"
+		sprite_sheet_sprite_type = "GFX_honeybear_ursinespeciespack_army_icons"
+		default_frame = 3
+	}
+}
