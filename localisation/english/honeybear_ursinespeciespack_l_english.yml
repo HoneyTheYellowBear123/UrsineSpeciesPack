@@ -33,8 +33,8 @@
 
 
  SPECIES_TRAIT_URSINE: "['concept_ursine_phenotype_traits']"
- concept_ursine_phenotype_traits: "Ursine Species Traits"
- concept_ursine_phenotype_traits_desc: "- ['trait_honeybear_ursinespeciespack_saBEAR_toothed']\n- ['trait_honeybear_ursinespeciespack_Bear_necessities']\n- ['trait_honeybear_ursinespeciespack_simple_Bear_necessities']\n- ['trait_honeybear_ursinespeciespack_limBear']\n- ['trait_honeybear_ursinespeciespack_Bearfooted']\n- ['trait_honeybear_ursinespeciespack_Majestic']\n- ['trait_honeybear_ursinespeciespack_Gluttonous']"
+ concept_honeybear_ursinespeciespack_ursine_phenotype_traits: "Ursine Species Traits"
+ concept_honeybear_ursinespeciespack_ursine_phenotype_traits_desc: "- ['trait_honeybear_ursinespeciespack_saBEAR_toothed']\n- ['trait_honeybear_ursinespeciespack_Bear_necessities']\n- ['trait_honeybear_ursinespeciespack_simple_Bear_necessities']\n- ['trait_honeybear_ursinespeciespack_limBear']\n- ['trait_honeybear_ursinespeciespack_Bearfooted']\n- ['trait_honeybear_ursinespeciespack_Majestic']\n- ['trait_honeybear_ursinespeciespack_Gluttonous']"
  #\n- ['trait:trait_genetic_memory']\n- ['trait:trait_nascent_stage']"
 
 
@@ -129,7 +129,7 @@
  honeybear_ursinespeciespack_anomalous_metal_mass_category: "Anomalous Metal Mass"
  honeybear_ursinespeciespack_anomalous_metal_mass_desc: "Our sensors picked up a large and unusually smooth mass of metal."
  honeybear_ursinespeciespack_anomaly.4.name: "Wilderness Awareness"
- honeybear_ursinespeciespack_anomaly.4.desc: "The mass we discovered on [From.GetName] was identified as a form of waste disposal, packaged carefully as to not leave a trace of food that might attract interstellar wildlife. Amazingly, a significant portion of the disposed remains are still edible, as it seems to have been mostly fluffy white and smooth brown variants of sweetened confections."
+ honeybear_ursinespeciespack_anomaly.4.desc: "The mass we discovered on [From.GetName] was identified as a form of waste disposal, packaged carefully as to not leave a trace of food that might attract interstellar wildlife. Amazingly, a significant portion of the disposed remains are still edible, as it seems to have been mostly either fluffy white or smooth brown variants of sweetened confections."
  honeybear_ursinespeciespack_anomaly.4.a: "How Responsible."
 
  honeybear_ursinespeciespack_total_pandamonium_category: "Lack of Pandemonium" #this title doesn't make a ton of sense but its as good as I could get with the word pandemonium :(
