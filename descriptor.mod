@@ -8,4 +8,4 @@ tags={
 }
 picture="thumbnail.png"
 name="Ursine Species Pack"
-supported_version="v4.2.4"
+supported_version="v4.2.*"

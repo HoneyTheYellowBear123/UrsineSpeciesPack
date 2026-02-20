@@ -32,7 +32,7 @@
  trait_honeybear_ursinespeciespack_Gluttonous_effect: "Pop Food Upkeep: §R+10%§!$TABBED_NEW_LINE$- Pop happiness during empire $r_food$ shortages: §R-40%§!"
 
 
- SPECIES_TRAIT_URSINE: "['concept_ursine_phenotype_traits']"
+ SPECIES_TRAIT_URSINE: "['concept_honeybear_ursinespeciespack_ursine_phenotype_traits']"
  concept_honeybear_ursinespeciespack_ursine_phenotype_traits: "Ursine Species Traits"
  concept_honeybear_ursinespeciespack_ursine_phenotype_traits_desc: "- ['trait_honeybear_ursinespeciespack_saBEAR_toothed']\n- ['trait_honeybear_ursinespeciespack_Bear_necessities']\n- ['trait_honeybear_ursinespeciespack_simple_Bear_necessities']\n- ['trait_honeybear_ursinespeciespack_limBear']\n- ['trait_honeybear_ursinespeciespack_Bearfooted']\n- ['trait_honeybear_ursinespeciespack_Majestic']\n- ['trait_honeybear_ursinespeciespack_Gluttonous']"
  #\n- ['trait:trait_genetic_memory']\n- ['trait:trait_nascent_stage']"

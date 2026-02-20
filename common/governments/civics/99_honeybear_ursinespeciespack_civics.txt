@@ -84,7 +84,7 @@ civic_honeybear_ursinespeciespack_apiarists = {
 
 
 civic_honeybear_ursinespeciespack_territorial = {
-	description = "civic_tooltip_honeybear_ursinespeciespack_territorial_effects"
+	#description = "civic_tooltip_honeybear_ursinespeciespack_territorial_effects"
 	potential = {
 		ethics = { NOT = { value = ethic_gestalt_consciousness } }
 		authority = { NOT = { value = auth_corporate } }
