@@ -6,7 +6,7 @@ honeybear_ursinespeciespack_berserker_army = {
 	collateral_damage = 3.0
 	war_exhaustion = 0.90
 	time = 120 #take more time
-	icon = GFX_army_type_honeybear_ursinespeciespack_berserkers #GFX_army_type_assault #TO DO FIX ME
+	icon = GFX_army_type_honeybear_ursinespeciespack_berserkers
 	prerequisites = { "tech_assault_armies" }
 	resources = {
 		category = armies
@@ -43,18 +43,17 @@ honeybear_ursinespeciespack_berserker_army = {
 			has_valid_civic = civic_honeybear_ursinespeciespack_berserkers
 
 	}
-	#potential = {
-	#	from = {
-	#		OR = {
-	#			NOR = {
-	#				has_trait = "trait_mechanical"
-	#				has_trait = "trait_machine_unit"
-	#				has_trait = "trait_limited_cybernetic"
-	#				is_sapient = no
-	#			}
-	#		}
-	#	}
-	#}
+	potential = {
+		from = {
+			OR = {
+				NOR = {
+					has_trait = "trait_mechanical"
+					has_trait = "trait_machine_unit"
+					is_sapient = no
+				}
+			}
+		}
+	}
 	has_species = no
 
 	ai_weight = {
@@ -97,7 +96,7 @@ honeybear_ursinespeciespack_berserker_gas_army = {
 	collateral_damage = 5.00
 	war_exhaustion = 0.50
 	time = 120
-	icon = GFX_army_type_honeybear_ursinespeciespack_berserkers_gas #TO DO FIX ME
+	icon = GFX_army_type_honeybear_ursinespeciespack_berserkers_gas
 	prerequisites = { "tech_assault_armies" }
 	resources = {
 		category = armies
@@ -126,7 +125,7 @@ honeybear_ursinespeciespack_berserker_gas_army = {
 		}
 	}
 
-	prerequisites = { "tech_exotic_gases" }
+	prerequisites = { "tech_mine_exotic_gases" }
 
 	show_tech_unlock_if = {
 
@@ -137,18 +136,17 @@ honeybear_ursinespeciespack_berserker_gas_army = {
 			has_valid_civic = civic_honeybear_ursinespeciespack_berserkers
 
 	}
-	#potential = {
-	#	from = {
-	#		OR = {
-	#			NOR = {
-	#				has_trait = "trait_mechanical"
-	#				has_trait = "trait_machine_unit"
-	#				has_trait = "trait_limited_cybernetic"
-	#				is_sapient = no
-	#			}
-	#		}
-	#	}
-	#}
+	potential = {
+		from = {
+			OR = {
+				NOR = {
+					has_trait = "trait_mechanical"
+					has_trait = "trait_machine_unit"
+					is_sapient = no
+				}
+			}
+		}
+	}
 	has_species = no
 
 	ai_weight = {
@@ -192,7 +190,7 @@ honeybear_ursinespeciespack_berserker_zro_army = {
 	collateral_damage = 6.0
 	war_exhaustion = 0.25
 	time = 120
-	icon = GFX_army_type_honeybear_ursinespeciespack_berserkers_zro #TO DO FIX ME
+	icon = GFX_army_type_honeybear_ursinespeciespack_berserkers_zro
 	prerequisites = { "tech_assault_armies" }
 	resources = {
 		category = armies
@@ -232,18 +230,17 @@ honeybear_ursinespeciespack_berserker_zro_army = {
 			has_valid_civic = civic_honeybear_ursinespeciespack_berserkers
 
 	}
-	#potential = {
-	#	from = {
-	#		OR = {
-	#			NOR = {
-	#				has_trait = "trait_mechanical"
-	#				has_trait = "trait_machine_unit"
-	#				has_trait = "trait_limited_cybernetic"
-	#				is_sapient = no
-	#			}
-	#		}
-	#	}
-	#}
+	potential = {
+		from = {
+			OR = {
+				NOR = {
+					has_trait = "trait_mechanical"
+					has_trait = "trait_machine_unit"
+					is_sapient = no
+				}
+			}
+		}
+	}
 	has_species = no
 
 	ai_weight = {

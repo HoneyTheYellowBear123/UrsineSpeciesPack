@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bb9468e-b5ac-48f9-9708-191baf80528e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/interface/honeybear_ursinespeciespack_icons.gfx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/armies/99_honeybear_ursinespeciespack_armies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/armies/99_honeybear_ursinespeciespack_armies.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/edicts/99_honeybear_ursinespeciespack_edicts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/edicts/99_honeybear_ursinespeciespack_edicts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/governments/civics/99_honeybear_ursinespeciespack_civics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/governments/civics/99_honeybear_ursinespeciespack_civics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/governments/councilors/99_honeybear_ursinespeciespack_councilors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/governments/councilors/99_honeybear_ursinespeciespack_councilors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/traits/honeybear_ursinespeciespack_species_traits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/traits/honeybear_ursinespeciespack_species_traits.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/events/honeybear_ursinespeciespack_anomaly_events.txt" beforeDir="false" afterPath="$PROJECT_DIR$/events/honeybear_ursinespeciespack_anomaly_events.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/portraits/asset_selectors/honeybear_ursinespeciespack_ursine_2_hair.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/portraits/asset_selectors/honeybear_ursinespeciespack_ursine_2_hair.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gfx/portraits/portraits/honeybear_ursinespeciespack_portraits.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gfx/portraits/portraits/honeybear_ursinespeciespack_portraits.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/name_lists/name_list_honeybear_ursinespeciespack_URS3_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/name_lists/name_list_honeybear_ursinespeciespack_URS3_l_english.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

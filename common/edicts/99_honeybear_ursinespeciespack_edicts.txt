@@ -18,7 +18,7 @@ honeybear_ursinespeciespack_berserker_rage = {
 		}
 	}
 
-	potential = { #TO DO this might need to be AND
+	potential = {
 		OR = {
 			has_resource = { type = food amount > 0 }
 		}
@@ -58,7 +58,7 @@ honeybear_ursinespeciespack_berserker_fever = {
 		}
 	}
 
-	potential = {  #TO DO this might need to be AND
+	potential = {
 		OR = {
 			has_resource = { type = exotic_gases amount > 0 }
 		}
@@ -100,7 +100,7 @@ honeybear_ursinespeciespack_berserker_trance = {
 		}
 	}
 
-	potential = {  #TO DO this might need to be AND
+	potential = {
 		OR = {
 			has_resource = { type = sr_zro amount > 0 }
 		}

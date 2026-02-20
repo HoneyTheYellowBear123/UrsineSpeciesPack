@@ -78,6 +78,7 @@ civic_honeybear_ursinespeciespack_apiarists = {
 	modifier = {
 	    planet_farmers_society_research_produces_add = 0.5
 	    planet_farmers_unity_produces_add = 0.5
+	    add_attunement_the_cradle_of_souls = @civic_attunement1
 	}
 }
 
@@ -106,7 +107,7 @@ civic_honeybear_ursinespeciespack_territorial = {
 	}
 
 	leader_background_job_weight = {
-		"landlord" = 1 #TO DO make sure this is flavor text and does not crash the game
+		"landlord" = 1
 	}
 
 	random_weight = { base = 1 } #WAY below the normal value (since AI isn't aware that they should close their borders with this civic)
@@ -163,7 +164,7 @@ civic_honeybear_ursinespeciespack_territorial = {
 
 
 civic_honeybear_ursinespeciespack_cub_scouts = {
-	description = "civic_honeybear_ursinespeciespack_cub_scouts_effects" #TO DO
+	description = "civic_honeybear_ursinespeciespack_cub_scouts_effects"
 	possible = {
 		origin = {
 			NOT = {
@@ -206,10 +207,7 @@ civic_honeybear_ursinespeciespack_cub_scouts = {
 	}
 
 	modifier = {
-		#science_ship_survey_speed = 0.2
-		#would I prefer to do traits added to leader instead? that's a bit more flavorful.
-		#commander_exp_gain = 0.2
-		#commander_initial_skill = 1
+		#scout trait is added elsewhere
 		army_morale = 0.10
 
 	}
@@ -222,9 +220,14 @@ civic_honeybear_ursinespeciespack_cub_scouts = {
 
 
 civic_honeybear_ursinespeciespack_berserkers = {
-    potential = { #TO DO not clone army
+    potential = {
     	ethics = { NOT = { value = ethic_gestalt_consciousness } }
 		authority = { NOT = { value = auth_corporate } }
+		NOT = {
+            species_archetype = {
+                value = MACHINE
+            }
+        }
 	}
 	possible = {
 		ethics = {

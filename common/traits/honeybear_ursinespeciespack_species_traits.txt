@@ -1,4 +1,4 @@
-#NOTE TO SELF TO DO: use portrait overrides to grant certain traits to specific base game portraits
+
 
 #allowed planet classes is very interesting, could make a polar bear species trait
 #opposites for mutually exclusive trait
@@ -32,13 +32,7 @@ trait_honeybear_ursinespeciespack_saBEAR_toothed = {
 		energy = -500
 	}
 
-	#complicated system that evaluates how a planet is looking as its building a species.
-	#assembly_score = {
-	#	modifier = {
-	#		add = -1
-	#		from = { free_amenities <= 10 }
-	#	}
-	#}
+
 }
 
 
@@ -76,13 +70,7 @@ trait_honeybear_ursinespeciespack_Bear_necessities = {
 		energy = 1200
 	}
 
-	#complicated system that evaluates how a planet is looking as its building a species.
-	#assembly_score = {
-	#	modifier = {
-	#		add = -1
-	#		from = { free_amenities <= 10 }
-	#	}
-	#}
+
 }
 
 #this might need to be nerfed wowee
@@ -120,13 +108,7 @@ trait_honeybear_ursinespeciespack_simple_Bear_necessities = {
 		energy = 2500
 	}
 
-	#complicated system that evaluates how a planet is looking as its building a species.
-	#assembly_score = {
-	#	modifier = {
-	#		add = -1
-	#		from = { free_amenities <= 10 }
-	#	}
-	#}
+
 }
 
 
@@ -168,13 +150,7 @@ trait_honeybear_ursinespeciespack_limBear = {
 		energy = 1500
 	}
 
-	#complicated system that evaluates how a planet is looking as its building a species.
-	#assembly_score = {
-	#	modifier = {
-	#		add = -1
-	#		from = { free_amenities <= 10 }
-	#	}
-	#}
+
 }
 
 
@@ -259,17 +235,10 @@ trait_honeybear_ursinespeciespack_Bearfooted = {
 		energy = -1500
 	}
 
-	#complicated system that evaluates how a planet is looking as its building a species.
-	#assembly_score = {
-	#	modifier = {
-	#		add = -1
-	#		from = { free_amenities <= 10 }
-	#	}
-	#}
 }
 
 #frick it I don't care if this is OP bears are cool
-trait_honeybear_ursinespeciespack_Majestic = { #to do not weak or repugnant or noxious
+trait_honeybear_ursinespeciespack_Majestic = {
 	cost = 5
 	species_potential_add = {
 		OR = {
@@ -290,6 +259,8 @@ trait_honeybear_ursinespeciespack_Majestic = { #to do not weak or repugnant or n
 	tags = { organic positive production }
 	randomized = no
 	custom_tooltip_with_modifiers =  trait_honeybear_ursinespeciespack_Majestic_effect
+
+	opposites = { "trait_weak" "trait_hollow_bones" "trait_tankbound"  "trait_noxious" "trait_repugnant" }
 
 	resources = {
 		category = planet_pops
@@ -346,7 +317,7 @@ trait_honeybear_ursinespeciespack_Gluttonous = {
 			can_add_or_remove_phenotype_traits = yes
 		}
 	}
-	opposites = {  } #to do add radiotrophic and such
+	opposites = { "trait_plantoid_radiotrophic" "trait_plantoid_phototrophic" }
 	tags = { organic negative ursine upkeep species }
 
 	slave_cost = {
@@ -367,17 +338,6 @@ trait_honeybear_ursinespeciespack_Gluttonous = {
         planet_pops_food_upkeep_mult = 0.15
     }
 
-	#resources = {
-	#	category = planet_pops
-	#	# Food Upkeep
-	#	upkeep = {
-	#		trigger = {
-	#			is_being_purged = no
-	#			is_sapient = yes
-	#		}
-	#		food = 0.1
-	#	}
-	#}
 
 
 

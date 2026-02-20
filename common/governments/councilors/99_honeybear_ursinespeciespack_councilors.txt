@@ -12,7 +12,7 @@ councilor_honeybear_ursinespeciespack_apiarists = {
         planet_jobs_society_research_produces_mult = 0.01
    }
    ai_hiring_weight = {
-        inline_script = councilor_leader_weights #TO DO double check that this isn't bogus hardcoded nonsense
+        inline_script = councilor_leader_weights
    }
 }
 
@@ -31,7 +31,7 @@ councilor_honeybear_ursinespeciespack_territorial = {
         empire_size_colonies_mult = -0.015
    }
    ai_hiring_weight = {
-        inline_script = councilor_leader_weights #TO DO double check that this isn't bogus hardcoded nonsense
+        inline_script = councilor_leader_weights
    }
 }
 
@@ -49,7 +49,7 @@ councilor_honeybear_ursinespeciespack_cub_scouts = {
         planet_army_build_speed_mult = 0.02
    }
    ai_hiring_weight = {
-        inline_script = councilor_leader_weights #TO DO double check that this isn't bogus hardcoded nonsense
+        inline_script = councilor_leader_weights
    }
 }
 
@@ -67,6 +67,6 @@ councilor_honeybear_ursinespeciespack_berserkers = {
         army_collateral_damage_mult = 0.01
    }
    ai_hiring_weight = {
-        inline_script = councilor_leader_weights #TO DO double check that this isn't bogus hardcoded nonsense
+        inline_script = councilor_leader_weights
    }
 }

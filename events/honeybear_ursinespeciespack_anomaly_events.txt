@@ -5,7 +5,7 @@ namespace = honeybear_ursinespeciespack_anomaly
 
 ################################    Anomalies    #############################
 
-#TO DO later: add a little more flavor to the options based on civics or ethics.
+#FUTURE PLAN: add a little more flavor to the options based on civics or ethics.
 
 ### Slumbering Monstrosity
 ship_event = {
@@ -50,7 +50,7 @@ ship_event = {
 	}
 }
 #attempt to blow it up
-ship_event = { #TO DO: set flags in previous event to allow nice transition
+ship_event = {
 	id = honeybear_ursinespeciespack_anomaly.11
 	title = "honeybear_ursinespeciespack_anomaly.11.name"
 	desc = "honeybear_ursinespeciespack_anomaly.11.desc"
@@ -208,7 +208,7 @@ ship_event = {
 
 
 
-#TO DO this would be better as an event chain that goes to two other planets and ends at a gaia world
+#future plan? this would be better as an event chain that goes to two other planets and ends at a gaia world
 #Goldilocks
 ship_event = {
 	id = honeybear_ursinespeciespack_anomaly.6

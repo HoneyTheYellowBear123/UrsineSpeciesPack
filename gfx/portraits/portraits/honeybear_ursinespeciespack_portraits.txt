@@ -47,7 +47,7 @@ portraits = {
         custom_close_up_scale = 1.6
 	}
 
-	#TO DO: either set all the greeting sounds to be appropriately mammalian OR go crazy and record some bear sounds and sneak em in
+
 	#upside down bear
 	ursine_3_m 	= {	entity = "portrait_ursine_3_entity"	clothes_selector = "humanoid_hp_13_clothes" attachment_selector = "no_texture"	greeting_sound = "humanoid_portrait_j_male"
 		character_textures = {
