@@ -324,12 +324,9 @@ trait_honeybear_ursinespeciespack_Gluttonous = {
 		energy = -500
 	}
 
-	triggered_planet_pop_group_modifier_for_species = {
+	triggered_species_modifier = {
 		potential = {
-		    AND = {
-			exists = planet
-			country = { has_deficit = food #this should be country scope }
-		    }
+			from = { has_deficit = food  } #this should be country scope
 		}
 		pop_happiness = -0.40
     }

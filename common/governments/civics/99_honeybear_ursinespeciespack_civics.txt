@@ -223,11 +223,6 @@ civic_honeybear_ursinespeciespack_berserkers = {
     potential = {
     	ethics = { NOT = { value = ethic_gestalt_consciousness } }
 		authority = { NOT = { value = auth_corporate } }
-		NOT = {
-            species_archetype = {
-                value = MACHINE
-            }
-        }
 	}
 	possible = {
 		ethics = {
@@ -251,6 +246,16 @@ civic_honeybear_ursinespeciespack_berserkers = {
 				value = civic_tankbound
 				value = civic_crusader_spirit
 				value = sovereign_guardship
+			}
+		}
+
+		species_archetype = {
+			NOT = {
+				text = disabled_by_synthetic_ascension
+				value = ROBOT
+			}
+			NOT = {
+				value = MACHINE
 			}
 		}
 	}
