@@ -1,0 +1,151 @@
+#30ish
+URSINE = {
+
+    ##########extinct
+
+    #atlas
+    crowtheri = {
+
+
+    }
+
+    #steppe
+    priscus = {
+
+    }
+
+    #mexican brown
+    nelsoni = {
+
+    }
+
+    #miocene
+    hemicyone = {
+
+    }
+
+    #ural mountains
+    kanivet = {
+
+    }
+
+    #pleisto
+    denigeri = {
+
+    }
+
+    #Bachatsk
+    rossicu = {
+
+    }
+
+
+    #########fictional
+
+    #The Pooh
+    winnea = {
+
+    }
+
+    #marmalade
+    padzingto = {
+
+    }
+
+    #big blue house
+    ojobo = {
+
+    }
+
+    #wakka
+    fozzo = {
+
+    }
+
+    #stain
+    berenstie = {
+
+    }
+
+    #five nights reference babyyyyyy
+    fazba = {
+
+    }
+
+    #only you can stop
+    smokgi = {
+
+    }
+
+
+    ######## real(ish)
+
+    gzirlli = {
+
+    }
+
+    pollira = {
+
+    }
+
+    klalo = {
+
+    }
+
+    padapan = {
+
+    }
+
+    slothari = {
+
+    }
+
+    giratigra = {
+
+    }
+
+
+
+    ######### bear soundy
+
+    bermasta = {
+
+    }
+
+    ursova = {
+
+    }
+
+    berursa = {
+
+    }
+
+    bulkunni = {
+
+    }
+
+    urburhur = {
+
+    }
+
+    honyellbar = {
+
+    }
+
+    bluherra = {
+
+    }
+
+    choclota = {
+
+    }
+
+    marshalow = {
+
+    }
+
+    roara = {
+
+    }
+
+}
