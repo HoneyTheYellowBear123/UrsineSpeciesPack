@@ -5,38 +5,65 @@ URSINE = {
 
     #atlas
     crowtheri = {
-
-
+        name = SPEC_crowtheri
+		plural = SPEC_crowtheri_pl
+		home_planet = SPEC_crowtheri_planet
+		home_system = SPEC_crowtheri_system
+		name_list =
     }
 
     #steppe
     priscus = {
-
+        name = SPEC_priscus
+		plural = SPEC_priscus_pl
+		home_planet = SPEC_priscus_planet
+		home_system = SPEC_priscus_system
+		name_list =
     }
 
     #mexican brown
     nelsoni = {
-
+        name = SPEC_nelsoni
+		plural = SPEC_nelsoni_pl
+		home_planet = SPEC_nelsoni_planet
+		home_system = SPEC_nelsoni_system
+		name_list =
     }
 
     #miocene
     hemicyone = {
-
+        name = SPEC_hemicyone
+		plural = SPEC_hemicyone_pl
+		home_planet = SPEC_hemicyone_planet
+		home_system = SPEC_hemicyone_system
+		name_list =
     }
 
     #ural mountains
     kanivet = {
-
+        name = SPEC_kanivet
+		plural = SPEC_kanivet_pl
+		home_planet = SPEC_kanivet_planet
+		home_system = SPEC_kanivet_system
+		name_list =
     }
 
     #pleisto
     denigeri = {
-
+        name = SPEC_denigeri
+		plural = SPEC_denigeri_pl
+		home_planet = SPEC_denigeri_planet
+		home_system = SPEC_denigeri_system
+		name_list =
     }
 
     #Bachatsk
     rossicu = {
-
+        name = SPEC_rossicu
+		plural = SPEC_rossicu_pl
+		home_planet = SPEC_rossicu_planet
+		home_system = SPEC_rossicu_system
+		name_list =
     }
 
 
@@ -44,64 +71,116 @@ URSINE = {
 
     #The Pooh
     winnea = {
-
+        name = SPEC_winnea
+		plural = SPEC_winnea_pl
+		home_planet = SPEC_winnea_planet
+		home_system = SPEC_winnea_system
+		name_list =
     }
 
     #marmalade
     padzingto = {
-
+        name = SPEC_padzingto
+		plural = SPEC_padzingto_pl
+		home_planet = SPEC_padzingto_planet
+		home_system = SPEC_padzingto_system
+		name_list =
     }
 
     #big blue house
     ojobo = {
-
+        name = SPEC_ojobo
+		plural = SPEC_ojobo_pl
+		home_planet = SPEC_ojobo_planet
+		home_system = SPEC_ojobo_system
+		name_list =
     }
 
     #wakka
     fozzo = {
-
+        name = SPEC_fozzo
+		plural = SPEC_fozzo_pl
+		home_planet = SPEC_fozzo_planet
+		home_system = SPEC_fozzo_system
+		name_list =
     }
 
     #stain
     berenstie = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     #five nights reference babyyyyyy
     fazba = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     #only you can stop
     smokgi = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
 
     ######## real(ish)
 
     gzirlli = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     pollira = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     klalo = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     padapan = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     slothari = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     giratigra = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
 
@@ -109,43 +188,83 @@ URSINE = {
     ######### bear soundy
 
     bermasta = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     ursova = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     berursa = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     bulkunni = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     urburhur = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     honyellbar = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     bluherra = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     choclota = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     marshalow = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
     roara = {
-
+        name =
+		plural =
+		home_planet =
+		home_system =
+		name_list =
     }
 
 }

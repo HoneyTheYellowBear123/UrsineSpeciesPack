@@ -1,0 +1,59 @@
+l_english:
+#################################################
+########### Randomly Generated Empires ##########
+#################################################
+
+ SPEC_crowtheri: "Crowtheri"
+ SPEC_crowtheri_pl: "Crowtherii"
+ SPEC_crowtheri_planet: "Atlas"
+ SPEC_crowtheri_system: "Skyri"
+
+ SPEC_priscus: "Priscus"
+ SPEC_priscus_pl: "Priscuses"
+ SPEC_priscus_planet: "Stepple"
+ SPEC_priscus_system: "Hihltar"
+
+ SPEC_nelsoni: "Nelsoni"
+ SPEC_nelsoni_pl: "Nelsonis"
+ SPEC_nelsoni_planet: "Nelso"
+ SPEC_nelsoni_system: "Horcha"
+
+ SPEC_hemicyone: "Hemicyone"
+ SPEC_hemicyone_pl: "Hemicyones"
+ SPEC_hemicyone_planet: "Miocene"
+ SPEC_hemicyone_system: "Hemidron"
+
+ SPEC_kanivet: "Kanivet"
+ SPEC_kanivet_pl: "Kanivets"
+ SPEC_kanivet_planet: "Ural"
+ SPEC_kanivet_system: "Uralis"
+
+ SPEC_denigeri: "Denigeri"
+ SPEC_denigeri_pl: "Denigeri"
+ SPEC_denigeri_planet: "Pleisto"
+ SPEC_denigeri_system: "Pledeniger"
+
+ SPEC_rossicu: "Rossicu"
+ SPEC_rossicu_pl: "Rossicues"
+ SPEC_rossicu_planet: "Rossicon"
+ SPEC_rossicu_system: "Bachatsk"
+
+ SPEC_winnea: "Winnea"
+ SPEC_winnea_pl: "Winneas"
+ SPEC_winnea_planet: "Thuphu"
+ SPEC_winnea_system: "Honderd Acker"
+
+ SPEC_padzingto: "Padzingto"
+ SPEC_padzingto_pl: "Padzingtos"
+ SPEC_padzingto_planet: "Padzin"
+ SPEC_padzingto_system: "Marmala"
+
+ SPEC_ojobo: "Ojobo"
+ SPEC_ojobo_pl: "Ojobos"
+ SPEC_ojobo_planet: "Big Blue"
+ SPEC_ojobo_system: "Ojobojob"
+
+ SPEC_fozzo: "Fozzo"
+ SPEC_fozzo_pl: "Fozzos"
+ SPEC_fozzo_planet: "Wakk"
+ SPEC_fozzo_system: "Fozzwig"
