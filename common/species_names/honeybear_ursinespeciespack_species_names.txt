@@ -204,66 +204,66 @@ URSINE = {
     }
 
     berursa = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_berusa
+		plural = SPEC_berusa_pl
+		home_planet = SPEC_berusa_planet
+		home_system = SPEC_berusa_system
 		name_list =
     }
 
     bulkunni = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_bulkunni
+		plural = SPEC_bulkunni_pl
+		home_planet = SPEC_bulkunni_planet
+		home_system = SPEC_bulkunni_system
 		name_list =
     }
 
     urburhur = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_urburhur
+		plural = SPEC_urburhur_pl
+		home_planet = SPEC_urburhur_planet
+		home_system = SPEC_urburhur_system
 		name_list =
     }
 
     honyellbar = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_honyellbar
+		plural = SPEC_honyellbar_pl
+		home_planet = SPEC_honyellbar_planet
+		home_system = SPEC_honyellbar_system
 		name_list =
     }
 
     bluherra = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_bluherra
+		plural = SPEC_bluherra_pl
+		home_planet = SPEC_bluherra_planet
+		home_system = SPEC_bluherra_system
 		name_list =
     }
 
-    choclota = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+    cholcotta = {
+        name = SPEC_cholcotta
+		plural = SPEC_cholcotta_pl
+		home_planet = SPEC_cholcotta_planet
+		home_system = SPEC_cholcotta_system
 		name_list =
     }
 
     marshalow = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_marshalow
+		plural = SPEC_marshalow_pl
+		home_planet = SPEC_marshalow_planet
+		home_system = SPEC_marshalow_system
 		name_list =
     }
 
     roara = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_roara
+		plural = SPEC_roara_pl
+		home_planet = SPEC_roara_planet
+		home_system = SPEC_roara_system
 		name_list =
     }
 

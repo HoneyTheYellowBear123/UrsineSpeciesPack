@@ -112,3 +112,43 @@ l_english:
  SPEC_ursova_pl: "Ursovas"
  SPEC_ursova_planet: "Urv"
  SPEC_ursova_system: "Ursov"
+
+ SPEC_berusa: "Berusa"
+ SPEC_berusa_pl: "Berusas"
+ SPEC_berusa_planet: "Beru"
+ SPEC_berusa_system: "Normlat"
+
+ SPEC_bulkunni: "Bulkunni"
+ SPEC_bulkunni_pl: "Bulkunnis"
+ SPEC_bulkunni_planet: "Bulkun"
+ SPEC_bulkunni_system: "Kunooble"
+
+ SPEC_urburhur: "Urburhur"
+ SPEC_urburhur_pl: "Urburhurs"
+ SPEC_urburhur_planet: "Urb"
+ SPEC_urburhur_system: "Ruhrubru"
+
+ SPEC_honyellbar: "Honyellbar"
+ SPEC_honyellbar_pl: "Honyellbars"
+ SPEC_honyellbar_planet: "Hyfe"
+ SPEC_honyellbar_system: "Honycom"
+
+ SPEC_bluherra: "Bluherra"
+ SPEC_bluherra_pl: "Bluherras"
+ SPEC_bluherra_planet: "Blarberra"
+ SPEC_bluherra_system: "Azulias"
+
+ SPEC_cholcotta: "Cholcotta"
+ SPEC_cholcotta_pl: "Cholcottas"
+ SPEC_cholcotta_planet: "Milg"
+ SPEC_cholcotta_system: "Chibcoog"
+
+ SPEC_marshalow: "Marshalow"
+ SPEC_marshalow_pl: "Marshalows"
+ SPEC_marshalow_planet: "Rozst"
+ SPEC_marshalow_system: "Minni"
+
+ SPEC_roara: "Roara"
+ SPEC_roara_pl: "Roaras"
+ SPEC_roara_planet: "Bhelo"
+ SPEC_roara_system: "Skraem"
