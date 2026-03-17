@@ -107,28 +107,28 @@ URSINE = {
 
     #stain
     berenstie = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_berenstie
+		plural = SPEC_berenstie_pl
+		home_planet = SPEC_berenstie_planet
+		home_system = SPEC_berenstie_system
 		name_list =
     }
 
     #five nights reference babyyyyyy
     fazba = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_fazba
+		plural = SPEC_fazba_pl
+		home_planet = SPEC_fazba_planet
+		home_system = SPEC_fazba_system
 		name_list =
     }
 
     #only you can stop
     smokgi = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_smokgi
+		plural = SPEC_smokgi_pl
+		home_planet = SPEC_smokgi_planet
+		home_system = SPEC_smokgi_system
 		name_list =
     }
 
@@ -136,50 +136,50 @@ URSINE = {
     ######## real(ish)
 
     gzirlli = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_gzirilli
+		plural = SPEC_gzirilli_pl
+		home_planet = SPEC_gzirilli_planet
+		home_system = SPEC_gzirilli_system
 		name_list =
     }
 
     pollira = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_pollira
+		plural = SPEC_pollira_pl
+		home_planet = SPEC_pollira_planet
+		home_system = SPEC_pollira_system
 		name_list =
     }
 
     klalo = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_klalo
+		plural = SPEC_klalo_pl
+		home_planet = SPEC_klalo_planet
+		home_system = SPEC_klalo_system
 		name_list =
     }
 
     padapan = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_padapan
+		plural = SPEC_padapan_pl
+		home_planet = SPEC_padapan_planet
+		home_system = SPEC_padapan_system
 		name_list =
     }
 
     slothari = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_slothari
+		plural = SPEC_slothari_pl
+		home_planet = SPEC_slothari_planet
+		home_system = SPEC_slothari_system
 		name_list =
     }
 
     giratigra = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_giratigra
+		plural = SPEC_giratigra_pl
+		home_planet = SPEC_giratigra_planet
+		home_system = SPEC_giratigra_system
 		name_list =
     }
 
@@ -188,18 +188,18 @@ URSINE = {
     ######### bear soundy
 
     bermasta = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_bermasta
+		plural = SPEC_bermasta_pl
+		home_planet = SPEC_bermasta_planet
+		home_system = SPEC_bermasta_system
 		name_list =
     }
 
     ursova = {
-        name =
-		plural =
-		home_planet =
-		home_system =
+        name = SPEC_ursova
+		plural = SPEC_ursova_pl
+		home_planet = SPEC_ursova_planet
+		home_system = SPEC_ursova_system
 		name_list =
     }
 

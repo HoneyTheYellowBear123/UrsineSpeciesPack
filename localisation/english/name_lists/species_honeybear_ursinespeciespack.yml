@@ -57,3 +57,58 @@ l_english:
  SPEC_fozzo_pl: "Fozzos"
  SPEC_fozzo_planet: "Wakk"
  SPEC_fozzo_system: "Fozzwig"
+
+ SPEC_berenstie: "Berenstie"
+ SPEC_berenstie_pl: "Berensties"
+ SPEC_berenstie_planet: "Oakg"
+ SPEC_berenstie_system: "Piknig"
+
+ SPEC_fazba: "Fazba"
+ SPEC_fazba_pl: "Fazbas"
+ SPEC_fazba_planet: "Fifenigh"
+ SPEC_fazba_system: "Oror"
+
+ SPEC_smokgi: "Smokgi"
+ SPEC_smokgi_pl: "Smokgis"
+ SPEC_smokgi_planet: "Onliyu"
+ SPEC_smokgi_system: "Forress"
+
+ SPEC_gzirilli: "Gzirilli"
+ SPEC_gzirilli_pl: "Gzirillii"
+ SPEC_gzirilli_planet: "Gzir"
+ SPEC_gzirilli_system: "Rizgi"
+
+ SPEC_pollira: "Pollira"
+ SPEC_pollira_pl: "Polliraes"
+ SPEC_pollira_planet: "Pol"
+ SPEC_pollira_system: "Anartos"
+
+ SPEC_klalo: "Klalo"
+ SPEC_klalo_pl: "Klalos"
+ SPEC_klalo_planet: "Klal"
+ SPEC_klalo_system: "Eucal"
+
+ SPEC_padapan: "Padapan"
+ SPEC_padapan_pl: "Padapans"
+ SPEC_padapan_planet: "Padapple"
+ SPEC_padapan_system: "Bambl"
+
+ SPEC_slothari: "Slothari"
+ SPEC_slothari_pl: "Slotharies"
+ SPEC_slothari_planet: "Thrito"
+ SPEC_slothari_system: "Slo"
+
+ SPEC_giratigra: "Giratigra"
+ SPEC_giratigra_pl: "Giratigras"
+ SPEC_giratigra_planet: "Giganto"
+ SPEC_giratigra_system: "Tigara"
+
+ SPEC_bermasta: "Bermasta"
+ SPEC_bermasta_pl: "Bermastas"
+ SPEC_bermasta_planet: "Berm"
+ SPEC_bermasta_system: "Mastara"
+
+ SPEC_ursova: "Ursova"
+ SPEC_ursova_pl: "Ursovas"
+ SPEC_ursova_planet: "Urv"
+ SPEC_ursova_system: "Ursov"
