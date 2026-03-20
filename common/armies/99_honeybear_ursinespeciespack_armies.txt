@@ -43,17 +43,7 @@ honeybear_ursinespeciespack_berserker_army = {
 			has_valid_civic = civic_honeybear_ursinespeciespack_berserkers
 
 	}
-	potential = {
-		from = {
-			OR = {
-				NOR = {
-					has_trait = "trait_mechanical"
-					has_trait = "trait_machine_unit"
-					is_sapient = no
-				}
-			}
-		}
-	}
+
 	has_species = no
 
 	ai_weight = {
@@ -136,17 +126,7 @@ honeybear_ursinespeciespack_berserker_gas_army = {
 			has_valid_civic = civic_honeybear_ursinespeciespack_berserkers
 
 	}
-	potential = {
-		from = {
-			OR = {
-				NOR = {
-					has_trait = "trait_mechanical"
-					has_trait = "trait_machine_unit"
-					is_sapient = no
-				}
-			}
-		}
-	}
+
 	has_species = no
 
 	ai_weight = {
@@ -230,17 +210,7 @@ honeybear_ursinespeciespack_berserker_zro_army = {
 			has_valid_civic = civic_honeybear_ursinespeciespack_berserkers
 
 	}
-	potential = {
-		from = {
-			OR = {
-				NOR = {
-					has_trait = "trait_mechanical"
-					has_trait = "trait_machine_unit"
-					is_sapient = no
-				}
-			}
-		}
-	}
+
 	has_species = no
 
 	ai_weight = {

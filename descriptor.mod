@@ -1,4 +1,4 @@
-version="4.2.4"
+version="4.3.1"
 tags={
 	"Gameplay"
 	"Graphics"
@@ -8,4 +8,5 @@ tags={
 }
 picture="thumbnail.png"
 name="Ursine Species Pack"
-supported_version="v4.2.*"
+supported_version="v4.3.*"
+remote_file_id="3670205312"
