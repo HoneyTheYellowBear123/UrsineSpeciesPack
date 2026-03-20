@@ -9,7 +9,7 @@ URSINE = {
 		plural = SPEC_crowtheri_pl
 		home_planet = SPEC_crowtheri_planet
 		home_system = SPEC_crowtheri_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     #steppe
@@ -18,7 +18,7 @@ URSINE = {
 		plural = SPEC_priscus_pl
 		home_planet = SPEC_priscus_planet
 		home_system = SPEC_priscus_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     #mexican brown
@@ -27,7 +27,7 @@ URSINE = {
 		plural = SPEC_nelsoni_pl
 		home_planet = SPEC_nelsoni_planet
 		home_system = SPEC_nelsoni_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     #miocene
@@ -36,7 +36,7 @@ URSINE = {
 		plural = SPEC_hemicyone_pl
 		home_planet = SPEC_hemicyone_planet
 		home_system = SPEC_hemicyone_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     #ural mountains
@@ -45,7 +45,7 @@ URSINE = {
 		plural = SPEC_kanivet_pl
 		home_planet = SPEC_kanivet_planet
 		home_system = SPEC_kanivet_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     #pleisto
@@ -54,7 +54,7 @@ URSINE = {
 		plural = SPEC_denigeri_pl
 		home_planet = SPEC_denigeri_planet
 		home_system = SPEC_denigeri_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     #Bachatsk
@@ -63,7 +63,7 @@ URSINE = {
 		plural = SPEC_rossicu_pl
 		home_planet = SPEC_rossicu_planet
 		home_system = SPEC_rossicu_system
-		name_list =
+		name_list = "URSINE2"
     }
 
 
@@ -75,7 +75,7 @@ URSINE = {
 		plural = SPEC_winnea_pl
 		home_planet = SPEC_winnea_planet
 		home_system = SPEC_winnea_system
-		name_list =
+		name_list = "MAM2"
     }
 
     #marmalade
@@ -84,7 +84,7 @@ URSINE = {
 		plural = SPEC_padzingto_pl
 		home_planet = SPEC_padzingto_planet
 		home_system = SPEC_padzingto_system
-		name_list =
+		name_list = "MAM3"
     }
 
     #big blue house
@@ -93,7 +93,7 @@ URSINE = {
 		plural = SPEC_ojobo_pl
 		home_planet = SPEC_ojobo_planet
 		home_system = SPEC_ojobo_system
-		name_list =
+		name_list = "HUM2"
     }
 
     #wakka
@@ -102,7 +102,7 @@ URSINE = {
 		plural = SPEC_fozzo_pl
 		home_planet = SPEC_fozzo_planet
 		home_system = SPEC_fozzo_system
-		name_list =
+		name_list = "REP4"
     }
 
     #stain
@@ -111,7 +111,7 @@ URSINE = {
 		plural = SPEC_berenstie_pl
 		home_planet = SPEC_berenstie_planet
 		home_system = SPEC_berenstie_system
-		name_list =
+		name_list = "URSINE2"
     }
 
     #five nights reference babyyyyyy
@@ -120,7 +120,7 @@ URSINE = {
 		plural = SPEC_fazba_pl
 		home_planet = SPEC_fazba_planet
 		home_system = SPEC_fazba_system
-		name_list =
+		name_list = "MAM1"
     }
 
     #only you can stop
@@ -129,7 +129,7 @@ URSINE = {
 		plural = SPEC_smokgi_pl
 		home_planet = SPEC_smokgi_planet
 		home_system = SPEC_smokgi_system
-		name_list =
+		name_list = "FUN4"
     }
 
 
@@ -140,7 +140,7 @@ URSINE = {
 		plural = SPEC_gzirilli_pl
 		home_planet = SPEC_gzirilli_planet
 		home_system = SPEC_gzirilli_system
-		name_list =
+		name_list = "URSINE2"
     }
 
     pollira = {
@@ -148,7 +148,7 @@ URSINE = {
 		plural = SPEC_pollira_pl
 		home_planet = SPEC_pollira_planet
 		home_system = SPEC_pollira_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     klalo = {
@@ -156,7 +156,7 @@ URSINE = {
 		plural = SPEC_klalo_pl
 		home_planet = SPEC_klalo_planet
 		home_system = SPEC_klalo_system
-		name_list =
+		name_list = "URSINE2"
     }
 
     padapan = {
@@ -164,7 +164,7 @@ URSINE = {
 		plural = SPEC_padapan_pl
 		home_planet = SPEC_padapan_planet
 		home_system = SPEC_padapan_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     slothari = {
@@ -172,7 +172,7 @@ URSINE = {
 		plural = SPEC_slothari_pl
 		home_planet = SPEC_slothari_planet
 		home_system = SPEC_slothari_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     giratigra = {
@@ -180,7 +180,7 @@ URSINE = {
 		plural = SPEC_giratigra_pl
 		home_planet = SPEC_giratigra_planet
 		home_system = SPEC_giratigra_system
-		name_list =
+		name_list = "URSINE2"
     }
 
 
@@ -192,7 +192,7 @@ URSINE = {
 		plural = SPEC_bermasta_pl
 		home_planet = SPEC_bermasta_planet
 		home_system = SPEC_bermasta_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     ursova = {
@@ -200,7 +200,7 @@ URSINE = {
 		plural = SPEC_ursova_pl
 		home_planet = SPEC_ursova_planet
 		home_system = SPEC_ursova_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     berursa = {
@@ -208,7 +208,7 @@ URSINE = {
 		plural = SPEC_berusa_pl
 		home_planet = SPEC_berusa_planet
 		home_system = SPEC_berusa_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     bulkunni = {
@@ -216,7 +216,7 @@ URSINE = {
 		plural = SPEC_bulkunni_pl
 		home_planet = SPEC_bulkunni_planet
 		home_system = SPEC_bulkunni_system
-		name_list =
+		name_list = "URSINE2"
     }
 
     urburhur = {
@@ -224,7 +224,7 @@ URSINE = {
 		plural = SPEC_urburhur_pl
 		home_planet = SPEC_urburhur_planet
 		home_system = SPEC_urburhur_system
-		name_list =
+		name_list = "ART4"
     }
 
     honyellbar = {
@@ -232,7 +232,7 @@ URSINE = {
 		plural = SPEC_honyellbar_pl
 		home_planet = SPEC_honyellbar_planet
 		home_system = SPEC_honyellbar_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     bluherra = {
@@ -240,7 +240,7 @@ URSINE = {
 		plural = SPEC_bluherra_pl
 		home_planet = SPEC_bluherra_planet
 		home_system = SPEC_bluherra_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     cholcotta = {
@@ -248,7 +248,7 @@ URSINE = {
 		plural = SPEC_cholcotta_pl
 		home_planet = SPEC_cholcotta_planet
 		home_system = SPEC_cholcotta_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     marshalow = {
@@ -256,7 +256,7 @@ URSINE = {
 		plural = SPEC_marshalow_pl
 		home_planet = SPEC_marshalow_planet
 		home_system = SPEC_marshalow_system
-		name_list =
+		name_list = "URSINE1"
     }
 
     roara = {
@@ -264,7 +264,7 @@ URSINE = {
 		plural = SPEC_roara_pl
 		home_planet = SPEC_roara_planet
 		home_system = SPEC_roara_system
-		name_list =
+		name_list = "URSINE2"
     }
 
 }
