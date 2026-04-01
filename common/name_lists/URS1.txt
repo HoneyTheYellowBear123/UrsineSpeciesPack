@@ -1,4 +1,4 @@
-﻿# Ursine 1
+﻿r# Ursine 1
 #Nature / Etymology Oriented / Greek / Latin / Anatomy
 # Created by HoneyTheYellowBear
 
@@ -153,7 +153,7 @@ URSINE1 = {
 
 		generic = {
 			names = {
-                 URSINE1_Planet_Katmai URSINE1_Planet_Denali  URSINE1_Planet_Shenandoah   URSINE1_Planet_Hemicyoninae URSINE1_Planet_Tremarctinae URSINE1_Planet_Ailuropodinae  URSINE1_Planet_Ghwer  URSINE1_Planet_Chengdu URSINE1_Planet_Orion  URSINE1_Planet_Ursaterra URSINE1_Planet_Bher   URSINE1_Planet_Nelsoni URSINE1_Planet_Horribilis URSINE1_Planet_Crowtheri URSINE1_Planet_FloridanusURSINE1_Planet_Minimus URSINE1_Planet_Pristinus URSINE1_Planet_Deningeri  URSINE1_Planet_Ingressus   URSINE1_Planet_Agriotherium  URSINE1_Planet_Lufengensis URSINE1_Planet_Tirawa   URSINE1_Planet_Cephalogale  URSINE1_Planet_Punjabiensis   URSINE1_Planet_Pannonicum URSINE1_Planet_Ailuropoda URSINE1_Planet_Boeckhi URSINE1_Planet_Wingei URSINE1_Planet_Vetustum   URSINE1_Planet_Melursus  URSINE1_Planet_Mel URSINE1_Planet_Rkso   URSINE1_Planet_Brauronia URSINE1_Planet_Lupercalia URSINE1_Planet_Bruin
+                 URSINE1_Planet_Katmai URSINE1_Planet_Denali  URSINE1_Planet_Shenandoah   URSINE1_Planet_Hemicyoninae URSINE1_Planet_Tremarctinae URSINE1_Planet_Ailuropodinae  URSINE1_Planet_Ghwer  URSINE1_Planet_Chengdu URSINE1_Planet_Orion  URSINE1_Planet_Ursaterra URSINE1_Planet_Bher   URSINE1_Planet_Nelsoni URSINE1_Planet_Horribilis URSINE1_Planet_Crowtheri URSINE1_Planet_Floridanus URSINE1_Planet_Minimus URSINE1_Planet_Pristinus URSINE1_Planet_Deningeri  URSINE1_Planet_Ingressus   URSINE1_Planet_Agriotherium  URSINE1_Planet_Lufengensis URSINE1_Planet_Tirawa   URSINE1_Planet_Cephalogale  URSINE1_Planet_Punjabiensis   URSINE1_Planet_Pannonicum URSINE1_Planet_Ailuropoda URSINE1_Planet_Boeckhi URSINE1_Planet_Wingei URSINE1_Planet_Vetustum   URSINE1_Planet_Melursus  URSINE1_Planet_Mel URSINE1_Planet_Rkso   URSINE1_Planet_Brauronia URSINE1_Planet_Lupercalia URSINE1_Planet_Bruin
 			}
 		}
 
