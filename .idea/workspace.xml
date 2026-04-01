@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8bb9468e-b5ac-48f9-9708-191baf80528e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/armies/99_honeybear_ursinespeciespack_armies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/armies/99_honeybear_ursinespeciespack_armies.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/descriptor.mod" beforeDir="false" afterPath="$PROJECT_DIR$/descriptor.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/honeybear_ursinespeciespack_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/honeybear_ursinespeciespack_l_english.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localisation/english/name_lists/species_honeybear_ursinespeciespack.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/name_lists/URS1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/name_lists/URS1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,13 +24,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;M:/Mod Workspace/Stellaris/Ursine Species Pack/events&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "bugfix__namelist",
+    "last_opened_file_path": "M:/Mod Workspace/Stellaris/Ursine Species Pack/events"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\events" />
