@@ -19,3 +19,5 @@ triggered_honeybear_ursinespeciespack_apiarists = {
 		base = 150
 	}
 }
+
+#TO DO opinion modifiers for hive apiarist, corporate apiarist, and corporate landlords

@@ -46,18 +46,48 @@
  civic_honeybear_ursinespeciespack_apiarists_desc: "An appreciation for the sweeter things in life has led to advanced farming methods and a profound respect for the creatures that make this civilization's foodstuffs. Sharing of techniques has united all members of this civilization, and the careful watch over their honey producing colonies has been essential to their understanding of functional societies."
  civic_tooltip_honeybear_ursinespeciespack_apiarists_effects: "Increased opinion with Hive Mind and Arthropoid empires."
  councilor_honeybear_ursinespeciespack_apiarists: "Supersedurian"
- councilor_honeybear_ursinespeciespack_apiarists_female: "$councilor_honeybear_ursinespeciespack_apiaristsl$"
+ councilor_honeybear_ursinespeciespack_apiarists_female: "$councilor_honeybear_ursinespeciespack_apiarists$"
  councilor_honeybear_ursinespeciespack_apiarists_desc: "The $TITLE$ coordinates education and production to ensure hives are harvested sustainably."
  triggered_honeybear_ursinespeciespack_apiarists: "Apiarists"
+
+ civic_honeybear_ursinespeciespack_apiarists_corporate: "Symbiotic Synergy"
+ civic_honeybear_ursinespeciespack_apiarists_corporate_desc: "Upon observing coordinated production of a finished product in a local species, this megacorp determined an optimized synergetic merger could allow for currency workflows that far outseed high bandwidth market projections."
+ civic_tooltip_honeybear_ursinespeciespack_apiarists_corporate_effects: "Increased opinion with Hive Mind, Arthropoid, and Ursine empires." #to do special extra bonus with apiarists
+ councilor_honeybear_ursinespeciespack_apiarists_corporate: "Senior Synergizer"
+ councilor_honeybear_ursinespeciespack_apiarists_corporate_female: "$councilor_honeybear_ursinespeciespack_apiarists_corporate$"
+ councilor_honeybear_ursinespeciespack_apiarists_corporate_desc: "The $TITLE$ coordinates synergeztic solutions to modern problems."
+ triggered_honeybear_ursinespeciespack_apiarists_corporate: "Symbiotic Synergy"
+
+ civic_honeybear_ursinespeciespack_apiarists_hive: "Pollenators"
+ civic_honeybear_ursinespeciespack_apiarists_hive_desc: "This hive has formed a mutually beneficial relationship with the local flora in an effort to produce food, which has also produced a positive relationship with select species that are predisposed to crave the sucrosian secretions."
+ civic_tooltip_honeybear_ursinespeciespack_apiarists_hive_effects: "Increased opinion with Plantoid and Ursine empires." #to do special extra bonus with apiarists and snynergetztic synergy
+ triggered_honeybear_ursinespeciespack_apiarists_hive: "Pollenators"
 
 
  civic_honeybear_ursinespeciespack_territorial: "Territorial"
  civic_honeybear_ursinespeciespack_territorial_desc: "Property and borders are deeply entrenched in this society's concept of civilization, with extensive detailed records establishing who occupies where, and passionate defense of their homeland."
  #civic_tooltip_honeybear_ursinespeciespack_territorial_effects: "Maintaining open borders to any normal empire costs 0.25 £influence£ §Y$influence$§! per month. Overlord/Subject/Federated relations are exempt." #maybe someday
  councilor_honeybear_ursinespeciespack_territorial: "Chief Cartographer"
- councilor_honeybear_ursinespeciespack_territorial_female: "$councilor_honeybear_ursinespeciespack_territoriall$"
+ councilor_honeybear_ursinespeciespack_territorial_female: "$councilor_honeybear_ursinespeciespack_territorial$"
  councilor_honeybear_ursinespeciespack_territorial_desc: "The $TITLE$ coordinates education and production to ensure hives are harvested sustainably."
  diplo_honeybear_ursinespeciespack_territorial_open_borders: "Territorial Civic - Open Borders"
+
+ civic_honeybear_ursinespeciespack_territorial_corporate: "Landlords"
+ civic_honeybear_ursinespeciespack_territorial_corporate_desc: "Upon realizing that every individual in fact occupies space at any given moment, this corporate realized what should be a fundamental right could in fact be exploited for profit."
+ #civic_tooltip_honeybear_ursinespeciespack_territorial_effects: "Maintaining open borders to any normal empire costs 0.25 £influence£ §Y$influence$§! per month. Overlord/Subject/Federated relations are exempt." #maybe someday
+ councilor_honeybear_ursinespeciespack_territorial_corporate: "Lord of Lands"
+ councilor_honeybear_ursinespeciespack_territorial_corporate_female: "$councilor_honeybear_ursinespeciespack_territorial_corporate$"
+ councilor_honeybear_ursinespeciespack_territorial_corporate_desc: "The $TITLE$ finds any possible loophole to prevent returning security deposits, and bulk orders white paint at a discount."
+ diplo_honeybear_ursinespeciespack_territorial_corporate_open_borders: "Landlords Civic - Open Borders"
+
+ civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME: "Slumlords"
+ civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME_desc: "Upon realizing that every individual in fact occupies space at any given moment, this corporate realized what should be a fundamental right could in fact be exploited for profit. Further, since property tax and rent price are completely independent for some reason, property owners are actively incentivized to keep their property as poorly maintained as possible."
+ #civic_tooltip_honeybear_ursinespeciespack_territorial_effects: "Maintaining open borders to any normal empire costs 0.25 £influence£ §Y$influence$§! per month. Overlord/Subject/Federated relations are exempt." #maybe someday
+ councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME: "Lord of Slums"
+ councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME_female: "$councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME$"
+ councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME_desc: "The $TITLE$ finds any possible loophole to prevent returning security deposits, and bulk orders white paint at a discount."
+ diplo_honeybear_ursinespeciespack_territorial_corporate_EXTREME_open_borders: "Slumlords Civic - Open Borders"
+
 
 
  civic_honeybear_ursinespeciespack_cub_scouts: "Cub Scouts"
@@ -66,6 +96,11 @@
  councilor_honeybear_ursinespeciespack_cub_scouts: "Scoutmaster"
  councilor_honeybear_ursinespeciespack_cub_scouts_female: "$councilor_honeybear_ursinespeciespack_cub_scouts$"
  councilor_honeybear_ursinespeciespack_cub_scouts_desc: "The $TITLE$ organizes camping trips and ensures youths are well versed in all manner of knots."
+
+
+ civic_honeybear_ursinespeciespack_cub_scouts_machine: "Pathfinding Algorithm"
+ civic_honeybear_ursinespeciespack_cub_scouts_machine_desc: "This machine intelligence's codebase is intrinsically linked to a heuristic based on exploration on a galactic scale, aptly named \'A Star\'." #to do double check this for sure
+ civic_honeybear_ursinespeciespack_cub_scouts_machine_effects: "§Y$commander_plural_with_icon$§! and §Y$scientist_plural_with_icon$§! start with the §Y$leader_trait_scout$§! trait."
 
 
  civic_honeybear_ursinespeciespack_berserkers: "Berserkers"
@@ -91,6 +126,18 @@
  honeybear_ursinespeciespack_berserker_zro_army: "Berzroker Army"
  honeybear_ursinespeciespack_berserker_zro_army_desc: "berserker warriors that have chosen to ingest zro, claiming they feel the strength and destructive desire of something ravenous."
  civic_tooltip_honeybear_ursinespeciespack_militarist_or_spiritualist: "Is some degree of §YMilitarist§! or §YSpiritualist§!"
+
+
+
+
+ #TO DO the edicts and armies having unique names would be pretty flavorful and fun
+ civic_honeybear_ursinespeciespack_berserkers_hive: "Engineered Pheromones"
+ civic_honeybear_ursinespeciespack_berserkers_hive_desc: "As this hive mind developed basic scientific theory, synthesis of chemical compounds similar to its own natural pheromones was prioritized, leading to highly effective artificial enhancements."
+ civic_tooltip_honeybear_ursinespeciespack_berserkers_hive_effects: "$t$- Access to ['concept_honeybear_ursinespeciespack_berserker_armies'] $TABBED_NEW_LINE$- Access to ['concept_honeybear_ursinespeciespack_berserker_edicts'] "
+
+ civic_honeybear_ursinespeciespack_berserkers_machine: "Alternative Fuels"
+ civic_honeybear_ursinespeciespack_berserkers_machine_desc: "A shortage of fossil fuels in the late pre-ftl stages of this civilzation resulted in flexible engines capable of utilizing various fuel sources for quirky and wacky effects."
+ civic_tooltip_honeybear_ursinespeciespack_berserkers_machine_effects: "$t$- Access to ['concept_honeybear_ursinespeciespack_berserker_armies'] $TABBED_NEW_LINE$- Access to ['concept_honeybear_ursinespeciespack_berserker_edicts'] "
 
 
  #flags

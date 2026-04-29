@@ -70,3 +70,7 @@ councilor_honeybear_ursinespeciespack_berserkers = {
         inline_script = councilor_leader_weights
    }
 }
+
+
+
+#TO DO corporate councilors

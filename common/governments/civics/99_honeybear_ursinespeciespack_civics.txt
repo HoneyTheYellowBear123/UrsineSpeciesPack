@@ -83,6 +83,167 @@ civic_honeybear_ursinespeciespack_apiarists = {
 }
 
 
+
+civic_honeybear_ursinespeciespack_apiarists_corporate = {
+	description = "civic_tooltip_honeybear_ursinespeciespack_apiarists_corporate_effects"
+	potential = {
+		authority =  { value = auth_corporate }
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_xenophile
+				value = ethic_xenophile
+				value = ethic_fanatic_xenophile
+			}
+		}
+		origin = {
+			NOR = {
+				value = origin_post_apocalyptic
+				value = origin_post_apocalyptic_machines
+				value = origin_shattered_ring
+				value = origin_void_dwellers
+				value = origin_void_machines
+				value = origin_remnants
+			}
+		}
+		civics = {
+			NOT = {
+				value = civic_dystopian_society
+			}
+			NOR = {
+				text = civic_tooltip_not_relentless_industrialists
+				value = civic_relentless_industrialists
+				value = civic_corporate_relentless_industrialists
+			}
+		}
+	}
+
+	leader_background_job_weight = {
+		"beekeeper" = 50 #changed from farmer hopefully this doesn't fuck things up
+	}
+
+	random_weight = { base = @civic_default_random_weight }
+	ai_weight = {
+		base = @ai_civic_default_base_weight
+		modifier = {
+			factor = @ai_civic_personality_match_factor
+			OR = {
+				has_ai_personality = peaceful_traders
+				has_ai_personality = harmonious_hierarchy
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_mismatch_factor
+			OR = {
+				has_ai_personality = erudite_explorers
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = fanatic_purifiers
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_forbid_factor
+			OR = {
+				has_ai_personality = slaving_despots
+				has_ai_personality = hegemonic_imperialists
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = ruthless_capitalists
+			}
+		}
+	}
+	swap_type = {
+		description = "civic_tooltip_agrarian_anglers_effects"
+		trigger = {
+			is_scope_valid = yes
+			has_civic = civic_anglers
+		}
+	}
+
+	modifier = {
+	    planet_farmers_society_research_produces_add = 0.5
+	    planet_farmers_unity_produces_add = 0.5 #TO DO half this and add trade
+	    add_attunement_the_cradle_of_souls = @civic_attunement1
+	}
+}
+
+
+
+civic_honeybear_ursinespeciespack_apiarists_hive = {
+	description = "civic_tooltip_honeybear_ursinespeciespack_apiarists_effects"
+	potential = {
+		ethics =  { value = ethic_gestalt_consciousness }
+	}
+	possible = {
+		origin = {
+			NOR = {
+				value = origin_post_apocalyptic
+				value = origin_post_apocalyptic_machines
+				value = origin_shattered_ring
+				value = origin_void_dwellers
+				value = origin_void_machines
+				value = origin_remnants
+			}
+		}
+		civics = {
+			NOT = {
+				value = civic_dystopian_society
+			}
+			NOR = {
+				text = civic_tooltip_not_relentless_industrialists
+				value = civic_relentless_industrialists
+				value = civic_corporate_relentless_industrialists
+			}
+		}
+	}
+
+	leader_background_job_weight = {
+		"beekeeper" = 50 #changed from farmer hopefully this doesn't fuck things up
+	}
+
+	random_weight = { base = @civic_default_random_weight }
+	ai_weight = {
+		base = @ai_civic_default_base_weight
+		modifier = {
+			factor = @ai_civic_personality_match_factor
+			OR = {
+				has_ai_personality = peaceful_traders
+				has_ai_personality = harmonious_hierarchy
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_mismatch_factor
+			OR = {
+				has_ai_personality = erudite_explorers
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = fanatic_purifiers
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_forbid_factor
+			OR = {
+				has_ai_personality = slaving_despots
+				has_ai_personality = hegemonic_imperialists
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = ruthless_capitalists
+			}
+		}
+	}
+	swap_type = {
+		description = "civic_tooltip_agrarian_anglers_effects"
+		trigger = {
+			is_scope_valid = yes
+			has_civic = civic_anglers
+		}
+	}
+
+	modifier = {
+	    planet_farmers_society_research_produces_add = 0.5
+	    planet_farmers_unity_produces_add = 0.5
+	    add_attunement_the_cradle_of_souls = @civic_attunement1
+	}
+}
+
+
 civic_honeybear_ursinespeciespack_territorial = {
 	#description = "civic_tooltip_honeybear_ursinespeciespack_territorial_effects"
 	potential = {
@@ -104,6 +265,7 @@ civic_honeybear_ursinespeciespack_territorial = {
 				value = origin_fear_of_the_dark
 			}
 		}
+
 	}
 
 	leader_background_job_weight = {
@@ -157,6 +319,179 @@ civic_honeybear_ursinespeciespack_territorial = {
 		#Not so good
 		country_claim_influence_cost_mult = 0.25
 		pop_housing_usage_mult = 0.10
+
+	}
+}
+
+
+
+
+civic_honeybear_ursinespeciespack_territorial_corporate = {
+	#description = "civic_tooltip_honeybear_ursinespeciespack_territorial_effects"
+	potential = {
+		authority = { value = auth_corporate }
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_xenophobe
+				value = ethic_xenophobe
+				value = ethic_fanatic_xenophobe
+			}
+		}
+		origin = {
+			NOR = {
+				value = origin_common_ground
+				value = origin_hegemon
+				value = origin_fear_of_the_dark
+			}
+		}
+		civics = {
+			NOR = {
+				value = civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME
+			}
+		}
+	}
+
+	leader_background_job_weight = {
+		"landlord" = 1
+	}
+
+	random_weight = { base = 1 } #WAY below the normal value (since AI isn't aware that they should close their borders with this civic)
+	ai_weight = {
+		base = @ai_civic_default_base_weight
+		modifier = {
+			factor = @ai_civic_personality_match_factor
+			OR = {
+				has_ai_personality = spiritual_seekers
+				has_ai_personality = slaving_despots
+				has_ai_personality = decadent_hierarchy
+				has_ai_personality = harmonious_hierarchy
+				has_ai_personality = xenophobic_isolationists
+				has_ai_personality = ruthless_capitalists
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_mismatch_factor
+			OR = {
+				has_ai_personality = peaceful_traders
+				has_ai_personality = evangelising_zealots
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_forbid_factor
+			OR = {
+				has_ai_personality = fanatic_befrienders
+				has_ai_personality = federation_builders
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = hegemonic_imperialists
+				has_ai_personality = honorbound_warriors
+			}
+		}
+	}
+	modifier = {
+
+	    #Good
+        country_border_friction_mult = -0.60 #minus 60 percent
+        ship_home_territory_fire_rate_mult = 0.15
+        empire_size_systems_mult = -0.10
+        empire_size_colonies_mult = -0.10
+        country_hostile_claim_influence_cost_mult = 0.50
+        army_defense_morale_mult = 0.2
+        army_defense_damage_mult = 0.2
+        pop_housing_usage_mult = -0.10
+
+
+		#Not so good
+		country_claim_influence_cost_mult = 0.25
+		#TO DO add a SLIGHT negative opinion modifier with egalitarian
+
+
+	}
+}
+
+
+civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME = {
+	#description = "civic_tooltip_honeybear_ursinespeciespack_territorial_effects"
+	potential = {
+		authority = { value = auth_corporate }
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_xenophobe
+				value = ethic_xenophobe
+				value = ethic_fanatic_xenophobe
+			}
+		}
+		origin = {
+			NOR = {
+				value = origin_common_ground
+				value = origin_hegemon
+				value = origin_fear_of_the_dark
+			}
+		}
+		civics = {
+			NOR = {
+				value = civic_honeybear_ursinespeciespack_territorial_corporate
+			}
+		}
+	}
+
+	leader_background_job_weight = {
+		"landlord" = 1
+	}
+
+	random_weight = { base = 1 } #WAY below the normal value (since AI isn't aware that they should close their borders with this civic)
+	ai_weight = {
+		base = @ai_civic_default_base_weight
+		modifier = {
+			factor = @ai_civic_personality_match_factor
+			OR = {
+				has_ai_personality = spiritual_seekers
+				has_ai_personality = slaving_despots
+				has_ai_personality = decadent_hierarchy
+				has_ai_personality = harmonious_hierarchy
+				has_ai_personality = xenophobic_isolationists
+				has_ai_personality = ruthless_capitalists
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_mismatch_factor
+			OR = {
+				has_ai_personality = peaceful_traders
+				has_ai_personality = evangelising_zealots
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_forbid_factor
+			OR = {
+				has_ai_personality = fanatic_befrienders
+				has_ai_personality = federation_builders
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = hegemonic_imperialists
+				has_ai_personality = honorbound_warriors
+			}
+		}
+	}
+	modifier = {
+
+	    #Good
+        country_border_friction_mult = -0.80
+        #ship_home_territory_fire_rate_mult = 0.15
+        empire_size_systems_mult = -0.20
+        empire_size_colonies_mult = -0.20
+        country_hostile_claim_influence_cost_mult = 1.00
+        #army_defense_morale_mult = 0.2
+        #army_defense_damage_mult = 0.2
+        pop_housing_usage_mult = -0.30
+        #TO DO reduce citizen happiness, VERY slight trade from pops if you can
+
+
+		#Not so good
+		country_claim_influence_cost_mult = 0.25
+		#TO DO add a BIG negative opinion modifier with egalitarian and slight negative with everyone else
+
 
 	}
 }
@@ -219,6 +554,67 @@ civic_honeybear_ursinespeciespack_cub_scouts = {
 }
 
 
+
+civic_honeybear_ursinespeciespack_cub_scouts_machine = {
+	description = "civic_honeybear_ursinespeciespack_cub_scouts_effects"
+	possible = {
+		origin = {
+			NOT = {
+				value = origin_unplugged
+			}
+		}
+	}
+
+	potential = { #to do yes on machine intelligence
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+		authority = {
+			NOT = {
+				value = auth_corporate
+			}
+		}
+	}
+
+	possible = {
+
+        species_class = { value = URSINE }
+		origin = {
+			NOR = {
+				# No FC origins.
+				value = origin_payback
+				value = origin_broken_shackles
+				value = origin_fear_of_the_dark
+				value = origin_synthetic_fertility
+			}
+		}
+		civics = {
+			NOR = {
+				value = civic_privatized_exploration
+				value = civic_inwards_perfection
+			}
+		}
+	}
+
+	modifier = {
+		#scout trait is added elsewhere
+		army_morale = 0.10
+
+	}
+
+    random_weight = {
+		base = @civic_default_random_weight
+	}
+
+}
+
+
+
+
+
+
 civic_honeybear_ursinespeciespack_berserkers = {
     potential = {
     	ethics = { NOT = { value = ethic_gestalt_consciousness } }
@@ -230,6 +626,237 @@ civic_honeybear_ursinespeciespack_berserkers = {
 				text = civic_tooltip_honeybear_ursinespeciespack_militarist_or_spiritualist
 				value = ethic_militarist
 				value = ethic_fanatic_militarist
+				value = ethic_spiritualist
+				value = ethic_fanatic_spiritualist
+			}
+			NOR = {
+				text = civic_tooltip_not_pacifist
+				value = ethic_pacifist
+				value = ethic_fanatic_pacifist
+			}
+		}
+
+		civics = {
+			NOR = {
+				value = civic_reanimated_armies
+				value = civic_tankbound
+				value = civic_crusader_spirit
+				value = sovereign_guardship
+			}
+		}
+
+		species_archetype = {
+			NOT = {
+				text = disabled_by_synthetic_ascension
+				value = ROBOT
+			}
+			NOT = {
+				value = MACHINE
+			}
+		}
+	}
+	random_weight = { base = @civic_default_random_weight }
+	ai_weight = {
+		base = @ai_civic_default_base_weight
+		modifier = {
+			factor = @ai_civic_personality_match_factor
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = spiritual_seekers
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_mismatch_factor
+			OR = {
+				has_ai_personality = decadent_hierarchy
+				has_ai_personality = harmonious_hierarchy
+				has_ai_personality = fanatic_befrienders
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_forbid_factor
+			OR = {
+				has_ai_personality = slaving_despots
+			}
+		}
+	}
+	modifier = {
+		planet_soldiers_unity_produces_add = 2
+		add_attunement_the_eater_of_worlds = @civic_attunement1
+	}
+	description = "civic_tooltip_honeybear_ursinespeciespack_berserkers_effects"
+
+}
+
+
+
+
+
+civic_honeybear_ursinespeciespack_berserkers_hive = {
+    potential = {
+    	ethics = { value = ethic_gestalt_consciousness }
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_honeybear_ursinespeciespack_militarist_or_spiritualist
+				value = ethic_militarist
+				value = ethic_fanatic_militarist
+				value = ethic_spiritualist
+				value = ethic_fanatic_spiritualist
+			}
+			NOR = {
+				text = civic_tooltip_not_pacifist
+				value = ethic_pacifist
+				value = ethic_fanatic_pacifist
+			}
+		}
+
+		civics = {
+			NOR = {
+				value = civic_reanimated_armies
+				value = civic_tankbound
+				value = civic_crusader_spirit
+				value = sovereign_guardship
+			}
+		}
+
+		species_archetype = {
+			NOT = {
+				text = disabled_by_synthetic_ascension
+				value = ROBOT
+			}
+			NOT = {
+				value = MACHINE
+			}
+		}
+	}
+	random_weight = { base = @civic_default_random_weight }
+	ai_weight = {
+		base = @ai_civic_default_base_weight
+		modifier = {
+			factor = @ai_civic_personality_match_factor
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = spiritual_seekers
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_mismatch_factor
+			OR = {
+				has_ai_personality = decadent_hierarchy
+				has_ai_personality = harmonious_hierarchy
+				has_ai_personality = fanatic_befrienders
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_forbid_factor
+			OR = {
+				has_ai_personality = slaving_despots
+			}
+		}
+	}
+	modifier = {
+		planet_soldiers_unity_produces_add = 2
+		add_attunement_the_eater_of_worlds = @civic_attunement1
+	}
+	description = "civic_tooltip_honeybear_ursinespeciespack_berserkers_effects"
+
+}
+
+
+
+civic_honeybear_ursinespeciespack_berserkers_corporate = {
+    potential = {
+		authority =  { value = auth_corporate }
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_honeybear_ursinespeciespack_militarist_or_spiritualist
+				value = ethic_militarist
+				value = ethic_fanatic_militarist
+				value = ethic_spiritualist
+				value = ethic_fanatic_spiritualist
+			}
+			NOR = {
+				text = civic_tooltip_not_pacifist
+				value = ethic_pacifist
+				value = ethic_fanatic_pacifist
+			}
+		}
+
+		civics = {
+			NOR = {
+				value = civic_reanimated_armies
+				value = civic_tankbound
+				value = civic_crusader_spirit
+				value = sovereign_guardship
+			}
+		}
+
+		species_archetype = {
+			NOT = {
+				text = disabled_by_synthetic_ascension
+				value = ROBOT
+			}
+			NOT = {
+				value = MACHINE
+			}
+		}
+	}
+	random_weight = { base = @civic_default_random_weight }
+	ai_weight = {
+		base = @ai_civic_default_base_weight
+		modifier = {
+			factor = @ai_civic_personality_match_factor
+			OR = {
+				has_ai_personality = honorbound_warriors
+				has_ai_personality = evangelising_zealots
+				has_ai_personality = democratic_crusaders
+				has_ai_personality = spiritual_seekers
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_mismatch_factor
+			OR = {
+				has_ai_personality = decadent_hierarchy
+				has_ai_personality = harmonious_hierarchy
+				has_ai_personality = fanatic_befrienders
+			}
+		}
+		modifier = {
+			factor = @ai_civic_personality_forbid_factor
+			OR = {
+				has_ai_personality = slaving_despots
+			}
+		}
+	}
+	modifier = {
+		planet_soldiers_unity_produces_add = 2
+		add_attunement_the_eater_of_worlds = @civic_attunement1
+	}
+	description = "civic_tooltip_honeybear_ursinespeciespack_berserkers_effects"
+
+}
+
+
+
+civic_honeybear_ursinespeciespack_berserkers_machine = {
+    potential = {
+    	ethics = { NOT = { value = ethic_gestalt_consciousness } } #TO DO make machine
+		authority = { NOT = { value = auth_corporate } }
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_honeybear_ursinespeciespack_militarist_or_spiritualist
+				value = ethic_militarist
+				value = ethic_fanatic_militarist #TO DO make sure you fuck up ethics here and for hive as well
 				value = ethic_spiritualist
 				value = ethic_fanatic_spiritualist
 			}
