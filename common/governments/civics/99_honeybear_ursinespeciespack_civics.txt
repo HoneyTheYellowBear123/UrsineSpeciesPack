@@ -161,7 +161,8 @@ civic_honeybear_ursinespeciespack_apiarists_corporate = {
 
 	modifier = {
 	    planet_farmers_society_research_produces_add = 0.5
-	    planet_farmers_unity_produces_add = 0.5 #TO DO half this and add trade
+	    planet_farmers_unity_produces_add = 0.25
+	    planet_farmers_trade_produces_add = 0.25
 	    add_attunement_the_cradle_of_souls = @civic_attunement1
 	}
 }
@@ -400,6 +401,8 @@ civic_honeybear_ursinespeciespack_territorial_corporate = {
         army_defense_morale_mult = 0.2
         army_defense_damage_mult = 0.2
         pop_housing_usage_mult = -0.10
+        planet_luxury_residence_trade_produces_add = 4
+        planet_paradise_dome_trade_produces_add = 8
 
 
 		#Not so good
@@ -485,12 +488,16 @@ civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME = {
         #army_defense_morale_mult = 0.2
         #army_defense_damage_mult = 0.2
         pop_housing_usage_mult = -0.30
-        #TO DO reduce citizen happiness, VERY slight trade from pops if you can
+        planet_luxury_residence_trade_produces_add = 15
+        planet_paradise_dome_trade_produces_add = 25
 
 
 		#Not so good
 		country_claim_influence_cost_mult = 0.25
 		#TO DO add a BIG negative opinion modifier with egalitarian and slight negative with everyone else
+        biological_pop_happiness = -0.1
+        lithoid_pop_happiness = -0.1
+
 
 
 	}

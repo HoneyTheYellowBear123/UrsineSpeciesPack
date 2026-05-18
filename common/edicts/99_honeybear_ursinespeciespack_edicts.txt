@@ -120,3 +120,40 @@ honeybear_ursinespeciespack_berserker_trance = {
 		}
 	}
 }
+
+
+
+honeybear_ursinespeciespack_artificial_sweeteners = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+
+	resources = { #zero just didn't feel right, but should be pretty cheap
+		category = edicts
+		cost = {
+			unity = 5
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			unity = 10
+			multiplier = value:edict_size_effect
+		}
+	}
+
+	potential = {
+
+		has_civic = civic_honeybear_ursinespeciespack_apiarists_corporate
+	}
+
+
+	modifier = {
+        planet_farmers_trade_produces_add = 0.5
+	}
+
+	ai_weight = { #if they are facing a deficit its a good option
+		weight = 0
+		modifier = {
+			weight = @EdictMedPrio
+			has_resource = { type = trade amount < 0 }
+		}
+	}
+}

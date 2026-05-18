@@ -16,6 +16,25 @@ councilor_honeybear_ursinespeciespack_apiarists = {
    }
 }
 
+
+councilor_honeybear_ursinespeciespack_apiarists_corporate = {
+   leader_class = { scientist official }
+   is_leader_possible = {
+            OR = {
+                    leader_class = scientist
+                    leader_class = official
+            }
+   }
+   civic = civic_honeybear_ursinespeciespack_apiarists_corporate
+   modifier = {
+        planet_farmers_produces_mult = 0.025
+        planet_jobs_society_research_produces_mult = 0.01
+   }
+   ai_hiring_weight = {
+        inline_script = councilor_leader_weights
+   }
+}
+
 councilor_honeybear_ursinespeciespack_territorial = {
    leader_class = { scientist official commander }
    is_leader_possible = {

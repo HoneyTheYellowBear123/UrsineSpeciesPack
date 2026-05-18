@@ -52,11 +52,12 @@
 
  civic_honeybear_ursinespeciespack_apiarists_corporate: "Symbiotic Synergy"
  civic_honeybear_ursinespeciespack_apiarists_corporate_desc: "Upon observing coordinated production of a finished product in a local species, this megacorp determined an optimized synergetic merger could allow for currency workflows that far outseed high bandwidth market projections."
- civic_tooltip_honeybear_ursinespeciespack_apiarists_corporate_effects: "Increased opinion with Hive Mind, Arthropoid, and Ursine empires." #to do special extra bonus with apiarists
+ civic_tooltip_honeybear_ursinespeciespack_apiarists_corporate_effects: "$t$- Increased opinion with Hive Mind, Arthropoid, and Ursine empires. $TABBED_NEW_LINE$- Access to Artificial Sweeteners edict, which produces additional trade from farmers but decreases opinion with aforementioned empires.]" #to do special extra bonus with apiarists
  councilor_honeybear_ursinespeciespack_apiarists_corporate: "Senior Synergizer"
  councilor_honeybear_ursinespeciespack_apiarists_corporate_female: "$councilor_honeybear_ursinespeciespack_apiarists_corporate$"
  councilor_honeybear_ursinespeciespack_apiarists_corporate_desc: "The $TITLE$ coordinates synergeztic solutions to modern problems."
  triggered_honeybear_ursinespeciespack_apiarists_corporate: "Symbiotic Synergy"
+ triggered_honeybear_ursinespeciespack_apiarists_corporate_neg: "Artificial Sweeteners Edict"
 
  civic_honeybear_ursinespeciespack_apiarists_hive: "Pollenators"
  civic_honeybear_ursinespeciespack_apiarists_hive_desc: "This hive has formed a mutually beneficial relationship with the local flora in an effort to produce food, which has also produced a positive relationship with select species that are predisposed to crave the sucrosian secretions."
