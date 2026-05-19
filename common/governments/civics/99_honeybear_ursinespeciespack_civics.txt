@@ -170,7 +170,7 @@ civic_honeybear_ursinespeciespack_apiarists_corporate = {
 
 
 civic_honeybear_ursinespeciespack_apiarists_hive = {
-	description = "civic_tooltip_honeybear_ursinespeciespack_apiarists_effects"
+	description = "civic_tooltip_honeybear_ursinespeciespack_apiarists_hive_effects"
 	potential = {
 		ethics =  { value = ethic_gestalt_consciousness }
 	}
@@ -229,7 +229,7 @@ civic_honeybear_ursinespeciespack_apiarists_hive = {
 			}
 		}
 	}
-	swap_type = {
+	swap_type = { #to do maybe remove this if its clogging up the UI
 		description = "civic_tooltip_agrarian_anglers_effects"
 		trigger = {
 			is_scope_valid = yes
@@ -328,7 +328,7 @@ civic_honeybear_ursinespeciespack_territorial = {
 
 
 civic_honeybear_ursinespeciespack_territorial_corporate = {
-	#description = "civic_tooltip_honeybear_ursinespeciespack_territorial_effects"
+	#description = "civic_tooltip_honeybear_ursinespeciespack_territorial_corporate_effects"
 	potential = {
 		authority = { value = auth_corporate }
 	}
@@ -415,7 +415,7 @@ civic_honeybear_ursinespeciespack_territorial_corporate = {
 
 
 civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME = {
-	#description = "civic_tooltip_honeybear_ursinespeciespack_territorial_effects"
+	#description = "civic_tooltip_honeybear_ursinespeciespack_territorial_corporate_EXTREME_effects"
 	potential = {
 		authority = { value = auth_corporate }
 	}
@@ -442,7 +442,7 @@ civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME = {
 	}
 
 	leader_background_job_weight = {
-		"landlord" = 1
+		"slumlord" = 1
 	}
 
 	random_weight = { base = 1 } #WAY below the normal value (since AI isn't aware that they should close their borders with this civic)

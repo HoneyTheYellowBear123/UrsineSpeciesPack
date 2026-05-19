@@ -80,16 +80,20 @@
  councilor_honeybear_ursinespeciespack_territorial_corporate_female: "$councilor_honeybear_ursinespeciespack_territorial_corporate$"
  councilor_honeybear_ursinespeciespack_territorial_corporate_desc: "The $TITLE$ finds any possible loophole to prevent returning security deposits, and bulk orders white paint at a discount."
  diplo_honeybear_ursinespeciespack_territorial_corporate_open_borders: "Landlords Civic - Open Borders"
+ honeybear_ursinespeciespack_building_luxury_apartments: "\"Luxury\" Apartments"
+ honeybear_ursinespeciespack_building_luxury_apartments_desc: "All it takes is half a gym and one pool for hundreds of residents to pass off our shabby apartments as some manner of comfort."
 
  civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME: "Slumlords"
  civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME_desc: "Upon realizing that every individual in fact occupies space at any given moment, this corporate realized what should be a fundamental right could in fact be exploited for profit. Further, since property tax and rent price are completely independent for some reason, property owners are actively incentivized to keep their property as poorly maintained as possible."
- #civic_tooltip_honeybear_ursinespeciespack_territorial_effects: "Maintaining open borders to any normal empire costs 0.25 £influence£ §Y$influence$§! per month. Overlord/Subject/Federated relations are exempt." #maybe someday
+ civic_tooltip_honeybear_ursinespeciespack_territorial_corporate_EXTREME_effects: "Negative opinion with every individualist empire, especially those with egalitarian ethics." #To do make sure this shows up in addition to the regular modifiers
  councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME: "Lord of Slums"
  councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME_female: "$councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME$"
  councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME_desc: "The $TITLE$ finds any possible loophole to prevent returning security deposits, and bulk orders white paint at a discount."
  diplo_honeybear_ursinespeciespack_territorial_corporate_EXTREME_open_borders: "Slumlords Civic - Open Borders"
-
-
+ honeybear_ursinespeciespack_building_slums: "\"Affordable\" \"Housing\""
+ honeybear_ursinespeciespack_building_slums_desc: "Through a couple well placed bribes and few other low cost options, value can be extracted a building that is structurally about 70% white paint."
+ triggered_honeybear_ursinespeciespack_slumlords: "Slumlords"
+ triggered_honeybear_ursinespeciespack_slumlords_eg: "Slumlords"
 
  civic_honeybear_ursinespeciespack_cub_scouts: "Cub Scouts"
  civic_honeybear_ursinespeciespack_cub_scouts_desc: "This society operates youth organizations built around outdoorsmanship and meritable skills. This leads to an enthusiasm for learning new skills, and an eagerness to explore the unknown... and also smoothly prepares citizens to follow orders when they are older."

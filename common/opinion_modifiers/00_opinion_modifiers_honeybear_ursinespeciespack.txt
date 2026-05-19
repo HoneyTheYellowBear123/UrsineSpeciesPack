@@ -53,7 +53,10 @@ triggered_honeybear_ursinespeciespack_apiarists_corporate = {
             }
 
             NOT = {
-                has_edict = honeybear_ursinespeciespack_artificial_sweeteners
+                OR = {
+                    has_edict = honeybear_ursinespeciespack_artificial_sweeteners
+                    from = { has_edict = honeybear_ursinespeciespack_artificial_sweeteners }
+                }
             }
 
         }
@@ -78,13 +81,9 @@ triggered_honeybear_ursinespeciespack_apiarists_corporate_neg = {
 	trigger = {
 
         AND = {
-            OR = {
-                has_valid_civic = civic_honeybear_ursinespeciespack_apiarists_corporate
-                from = { has_valid_civic = civic_honeybear_ursinespeciespack_apiarists_corporate }
+            from = { has_valid_civic = civic_honeybear_ursinespeciespack_apiarists_corporate }
 
-            }
-
-            has_edict = honeybear_ursinespeciespack_artificial_sweeteners
+            from = { has_edict = honeybear_ursinespeciespack_artificial_sweeteners }
 
         }
 
@@ -108,3 +107,43 @@ triggered_honeybear_ursinespeciespack_apiarists_corporate_neg = {
 
 
 #TO DO opinion modifiers for corporate landlords
+
+triggered_honeybear_ursinespeciespack_slumlords = {
+    trigger = {
+
+        AND = {
+            from = { has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME }
+            NOT = {
+                OR = {
+                    has_ethic = ethic_egalitarian
+                    has_ethic = ethic_fanatic_egalitarian
+                }
+            }
+        }
+
+    }
+
+	opinion = {
+		base = -150
+	}
+}
+
+triggered_honeybear_ursinespeciespack_slumlords_eg = {
+    trigger = {
+
+        AND = {
+            from = { has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME }
+
+            OR = {
+                has_ethic = ethic_egalitarian
+                has_ethic = ethic_fanatic_egalitarian
+            }
+
+        }
+
+    }
+
+	opinion = {
+		base = -500
+	}
+}
