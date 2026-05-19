@@ -327,7 +327,7 @@ civic_honeybear_ursinespeciespack_territorial = {
 
 
 
-civic_honeybear_ursinespeciespack_territorial_corporate = {
+civic_honeybear_ursinespeciespack_territorial_corporate = { #to do localization about unique holding
 	#description = "civic_tooltip_honeybear_ursinespeciespack_territorial_corporate_effects"
 	potential = {
 		authority = { value = auth_corporate }
@@ -407,15 +407,14 @@ civic_honeybear_ursinespeciespack_territorial_corporate = {
 
 		#Not so good
 		country_claim_influence_cost_mult = 0.25
-		#TO DO add a SLIGHT negative opinion modifier with egalitarian
 
 
 	}
 }
 
 
-civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME = {
-	#description = "civic_tooltip_honeybear_ursinespeciespack_territorial_corporate_EXTREME_effects"
+civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME = { #to do localization about unique holding
+	description = "civic_tooltip_honeybear_ursinespeciespack_territorial_corporate_EXTREME_effects"
 	potential = {
 		authority = { value = auth_corporate }
 	}
@@ -488,13 +487,12 @@ civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME = {
         #army_defense_morale_mult = 0.2
         #army_defense_damage_mult = 0.2
         pop_housing_usage_mult = -0.30
-        planet_luxury_residence_trade_produces_add = 15
+        planet_luxury_residence_trade_produces_add = 15 #to do fix these
         planet_paradise_dome_trade_produces_add = 25
 
 
 		#Not so good
 		country_claim_influence_cost_mult = 0.25
-		#TO DO add a BIG negative opinion modifier with egalitarian and slight negative with everyone else
         biological_pop_happiness = -0.1
         lithoid_pop_happiness = -0.1
 

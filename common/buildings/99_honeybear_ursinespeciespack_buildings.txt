@@ -2,12 +2,12 @@
 
 honeybear_ursinespeciespack_building_luxury_apartments = {
 	base_buildtime = @b1_time
-	icon = building_corporate_clinic #TO DO fix
 	planet_limit = 1
+	icon = building_drone_storage
 
 	owner_type = corporate
 
-	category = resource
+	category = amenity
 
 	potential = {
 		has_branch_office = yes
@@ -68,20 +68,6 @@ honeybear_ursinespeciespack_building_luxury_apartments = {
 	}
 
 
-	triggered_planet_modifier = {
-		potential = {
-			branch_office_owner = {
-				AND = {
-					has_valid_civic = civic_private_healthcare_corporate
-					OR = {
-						has_valid_civic = civic_corporate_toxic_baths
-						has_valid_civic = civic_corporate_toxic_baths_individual_machine
-					}
-				}
-			}
-		}
-		planet_doctors_trade_produces_add = @low_trade_from_jobs
-	}
 
 	#Trader Jobs from civics
 	triggered_country_modifier = {
@@ -93,7 +79,7 @@ honeybear_ursinespeciespack_building_luxury_apartments = {
 		job_capital_trader_add = @traders_from_civic
 	}
 
-	custom_tooltip = trade_value_from_specialists
+	#custom_tooltip = trade_value_from_specialists
 
 	resources = {
 		category = planet_branch_office_buildings
@@ -110,7 +96,7 @@ honeybear_ursinespeciespack_building_luxury_apartments = {
 		#	influence = 10
 		#}
 		produces = {
-			trade = 10
+			trade = 10 #to do should be energy credits for consistency
 			mult = value:branch_office_value_for_buildings
 		}
 	}
@@ -119,24 +105,25 @@ honeybear_ursinespeciespack_building_luxury_apartments = {
 		trigger = {
 			exists = planet.owner
 		}
-		text = building_corporate_clinics_effect #TO DO fix this
+		text = building_corporate_clinics_effect #this is fine
 	}
 
 	ai_weight = {
 		weight = 120
 	}
-} # TO DO set texture
+}
 
 
 
 honeybear_ursinespeciespack_building_slums = {
 	base_buildtime = @b1_time
-	icon = building_corporate_clinic # TO DO fix
 	planet_limit = 1
+	icon = building_crude_huts
+
 
 	owner_type = corporate
 
-	category = resource
+	category = amenity
 
 	potential = {
 		has_branch_office = yes
@@ -196,20 +183,6 @@ honeybear_ursinespeciespack_building_slums = {
 	}
 
 
-	triggered_planet_modifier = {
-		potential = {
-			branch_office_owner = {
-				AND = {
-					has_valid_civic = civic_private_healthcare_corporate
-					OR = {
-						has_valid_civic = civic_corporate_toxic_baths
-						has_valid_civic = civic_corporate_toxic_baths_individual_machine
-					}
-				}
-			}
-		}
-		planet_doctors_trade_produces_add = @low_trade_from_jobs
-	}
 
 	#Trader Jobs from civics
 	triggered_country_modifier = {
@@ -221,13 +194,13 @@ honeybear_ursinespeciespack_building_slums = {
 		job_capital_trader_add = @traders_from_civic
 	}
 
-	custom_tooltip = trade_value_from_specialists
+	#custom_tooltip = trade_value_from_specialists
 
 	resources = {
 		category = planet_branch_office_buildings
 		cost = {
 			influence = 20
-			minerals = @b1_minerals
+			minerals = @b1_minerals #to do reduce this further
 		}
 		#cost = {
 		#	trigger = {
@@ -238,7 +211,7 @@ honeybear_ursinespeciespack_building_slums = {
 		#	influence = 10
 		#}
 		produces = {
-			trade = 20
+			trade = 20 #to do should be energy credits for consistency
 			mult = value:branch_office_value_for_buildings
 		}
 	}
@@ -247,10 +220,10 @@ honeybear_ursinespeciespack_building_slums = {
 		trigger = {
 			exists = planet.owner
 		}
-		text = building_corporate_clinics_effect #TO DO fix this
+		text = building_corporate_clinics_effect #this is fine
 	}
 
 	ai_weight = {
 		weight = 120
 	}
-} # TO DO set texture
+}

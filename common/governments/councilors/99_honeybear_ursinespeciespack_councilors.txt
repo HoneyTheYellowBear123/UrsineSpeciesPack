@@ -130,5 +130,3 @@ councilor_honeybear_ursinespeciespack_berserkers = {
 }
 
 
-
-#TO DO corporate councilors

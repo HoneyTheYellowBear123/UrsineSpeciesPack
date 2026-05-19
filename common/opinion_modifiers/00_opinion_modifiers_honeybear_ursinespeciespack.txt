@@ -98,7 +98,7 @@ triggered_honeybear_ursinespeciespack_apiarists_corporate_neg = {
 	}
 
 	opinion = {
-		base = -300
+		base = -200
 	}
 }
 
@@ -115,8 +115,11 @@ triggered_honeybear_ursinespeciespack_slumlords = {
             from = { has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME }
             NOT = {
                 OR = {
+                    has_ethic = ethic_gestalt_consciousness
                     has_ethic = ethic_egalitarian
                     has_ethic = ethic_fanatic_egalitarian
+                    has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME
+                    is_country_type = fallen_empire
                 }
             }
         }
@@ -124,7 +127,7 @@ triggered_honeybear_ursinespeciespack_slumlords = {
     }
 
 	opinion = {
-		base = -150
+		base = -30 #this doesn't seem like much but opinion is v important for corporate empires
 	}
 }
 
@@ -134,6 +137,13 @@ triggered_honeybear_ursinespeciespack_slumlords_eg = {
         AND = {
             from = { has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME }
 
+            NOT = {
+                OR = {
+                    has_ethic = ethic_gestalt_consciousness
+                    has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME
+                    is_country_type = fallen_empire
+                }
+            }
             OR = {
                 has_ethic = ethic_egalitarian
                 has_ethic = ethic_fanatic_egalitarian

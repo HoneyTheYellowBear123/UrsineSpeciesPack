@@ -24,4 +24,5 @@ spriteTypes = {
 		sprite_sheet_sprite_type = "GFX_honeybear_ursinespeciespack_army_icons"
 		default_frame = 3
 	}
+
 }
