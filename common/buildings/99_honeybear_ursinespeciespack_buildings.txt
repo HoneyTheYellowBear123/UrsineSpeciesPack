@@ -96,7 +96,7 @@ honeybear_ursinespeciespack_building_luxury_apartments = {
 		#	influence = 10
 		#}
 		produces = {
-			trade = 10 #to do should be energy credits for consistency
+			energy = 10
 			mult = value:branch_office_value_for_buildings
 		}
 	}
@@ -200,7 +200,7 @@ honeybear_ursinespeciespack_building_slums = {
 		category = planet_branch_office_buildings
 		cost = {
 			influence = 20
-			minerals = @b1_minerals #to do reduce this further
+			minerals = @slum_minerals
 		}
 		#cost = {
 		#	trigger = {
@@ -211,7 +211,7 @@ honeybear_ursinespeciespack_building_slums = {
 		#	influence = 10
 		#}
 		produces = {
-			trade = 20 #to do should be energy credits for consistency
+			energy = 20
 			mult = value:branch_office_value_for_buildings
 		}
 	}

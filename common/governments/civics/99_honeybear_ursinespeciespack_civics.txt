@@ -327,7 +327,7 @@ civic_honeybear_ursinespeciespack_territorial = {
 
 
 
-civic_honeybear_ursinespeciespack_territorial_corporate = { #to do localization about unique holding
+civic_honeybear_ursinespeciespack_territorial_corporate = {
 	#description = "civic_tooltip_honeybear_ursinespeciespack_territorial_corporate_effects"
 	potential = {
 		authority = { value = auth_corporate }
@@ -338,6 +338,13 @@ civic_honeybear_ursinespeciespack_territorial_corporate = { #to do localization 
 				text = civic_tooltip_xenophobe
 				value = ethic_xenophobe
 				value = ethic_fanatic_xenophobe
+			}
+			NOT = {
+			    OR = {
+			        text = civic_tooltip_egalitarian
+				    value = ethic_egalitarian
+				    value = ethic_fanatic_egalitarian
+			    }
 			}
 		}
 		origin = {
@@ -401,8 +408,8 @@ civic_honeybear_ursinespeciespack_territorial_corporate = { #to do localization 
         army_defense_morale_mult = 0.2
         army_defense_damage_mult = 0.2
         pop_housing_usage_mult = -0.10
-        planet_luxury_residence_trade_produces_add = 4
-        planet_paradise_dome_trade_produces_add = 8
+        #planet_luxury_residence_trade_produces_add = 4 #maybe later
+        #planet_paradise_dome_trade_produces_add = 8
 
 
 		#Not so good
@@ -413,7 +420,7 @@ civic_honeybear_ursinespeciespack_territorial_corporate = { #to do localization 
 }
 
 
-civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME = { #to do localization about unique holding
+civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME = {
 	description = "civic_tooltip_honeybear_ursinespeciespack_territorial_corporate_EXTREME_effects"
 	potential = {
 		authority = { value = auth_corporate }
@@ -424,6 +431,13 @@ civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME = { #to do local
 				text = civic_tooltip_xenophobe
 				value = ethic_xenophobe
 				value = ethic_fanatic_xenophobe
+			}
+			NOT = {
+			    OR = {
+			        text = civic_tooltip_egalitarian
+				    value = ethic_egalitarian
+				    value = ethic_fanatic_egalitarian
+			    }
 			}
 		}
 		origin = {
@@ -487,8 +501,8 @@ civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME = { #to do local
         #army_defense_morale_mult = 0.2
         #army_defense_damage_mult = 0.2
         pop_housing_usage_mult = -0.30
-        planet_luxury_residence_trade_produces_add = 15 #to do fix these
-        planet_paradise_dome_trade_produces_add = 25
+        #planet_luxury_residence_trade_produces_add = 15 #maybe later
+        #planet_paradise_dome_trade_produces_add = 25
 
 
 		#Not so good

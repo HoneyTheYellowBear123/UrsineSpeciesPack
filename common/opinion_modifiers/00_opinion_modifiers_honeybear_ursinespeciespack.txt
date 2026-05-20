@@ -106,7 +106,58 @@ triggered_honeybear_ursinespeciespack_apiarists_corporate_neg = {
 
 
 
-#TO DO opinion modifiers for corporate landlords
+triggered_honeybear_ursinespeciespack_landlords = {
+    trigger = {
+
+        AND = {
+            from = { has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate }
+            NOT = {
+                OR = {
+                    has_ethic = ethic_gestalt_consciousness
+                    has_ethic = ethic_egalitarian
+                    has_ethic = ethic_fanatic_egalitarian
+                    has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate
+                    is_country_type = fallen_empire
+                }
+            }
+        }
+
+    }
+
+	opinion = {
+		base = -15 #this doesn't seem like much but opinion is v important for corporate empires
+	}
+}
+
+triggered_honeybear_ursinespeciespack_landlords_eg = {
+    trigger = {
+
+        AND = {
+            from = { has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate }
+
+            NOT = {
+                OR = {
+                    has_ethic = ethic_gestalt_consciousness
+                    has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate
+                    is_country_type = fallen_empire
+                }
+            }
+            OR = {
+                has_ethic = ethic_egalitarian
+                has_ethic = ethic_fanatic_egalitarian
+            }
+
+        }
+
+    }
+
+	opinion = {
+		base = -300
+	}
+}
+
+
+
 
 triggered_honeybear_ursinespeciespack_slumlords = {
     trigger = {
@@ -127,7 +178,7 @@ triggered_honeybear_ursinespeciespack_slumlords = {
     }
 
 	opinion = {
-		base = -30 #this doesn't seem like much but opinion is v important for corporate empires
+		base = -35 #this doesn't seem like much but opinion is v important for corporate empires
 	}
 }
 

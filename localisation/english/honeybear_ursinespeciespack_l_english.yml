@@ -75,7 +75,7 @@
 
  civic_honeybear_ursinespeciespack_territorial_corporate: "Landlords"
  civic_honeybear_ursinespeciespack_territorial_corporate_desc: "Upon realizing that every individual in fact occupies space at any given moment, this corporate realized what should be a fundamental right could in fact be exploited for profit."
- #civic_tooltip_honeybear_ursinespeciespack_territorial_effects: "Maintaining open borders to any normal empire costs 0.25 £influence£ §Y$influence$§! per month. Overlord/Subject/Federated relations are exempt." #maybe someday
+ civic_tooltip_honeybear_ursinespeciespack_territorial_effects: "$t$- Negative opinion with every individualist empire, especially those with egalitarian ethics. $TABBED_NEW_LINE$- Can build the $BRANCH_OFFICE_BUILDING$\n- The £building£ §Y$honeybear_ursinespeciespack_building_luxury_apartments$§! $megacorp_civic_branch_office_building_effect$" #to do check this display
  councilor_honeybear_ursinespeciespack_territorial_corporate: "Lord of Lands"
  councilor_honeybear_ursinespeciespack_territorial_corporate_female: "$councilor_honeybear_ursinespeciespack_territorial_corporate$"
  councilor_honeybear_ursinespeciespack_territorial_corporate_desc: "The $TITLE$ finds any possible loophole to prevent returning security deposits, and bulk orders white paint at a discount."
@@ -85,7 +85,7 @@
 
  civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME: "Slumlords"
  civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME_desc: "Upon realizing that every individual in fact occupies space at any given moment, this corporate realized what should be a fundamental right could in fact be exploited for profit. Further, since property tax and rent price are completely independent for some reason, property owners are actively incentivized to keep their property as poorly maintained as possible."
- civic_tooltip_honeybear_ursinespeciespack_territorial_corporate_EXTREME_effects: "Negative opinion with every individualist empire, especially those with egalitarian ethics." #To do make sure this shows up in addition to the regular modifiers
+ civic_tooltip_honeybear_ursinespeciespack_territorial_corporate_EXTREME_effects: "$t$- Negative opinion with every individualist empire, especially those with egalitarian ethics. $TABBED_NEW_LINE$- Can build the $BRANCH_OFFICE_BUILDING$\n- The £building£ §Y$honeybear_ursinespeciespack_building_slums$§! $megacorp_civic_branch_office_building_effect$"
  councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME: "Lord of Slums"
  councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME_female: "$councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME$"
  councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME_desc: "The $TITLE$ finds any possible loophole to prevent returning security deposits, and bulk orders white paint at a discount."
