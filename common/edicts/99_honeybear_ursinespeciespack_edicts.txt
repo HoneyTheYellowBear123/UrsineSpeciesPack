@@ -81,6 +81,46 @@ honeybear_ursinespeciespack_berserker_rage_hive = {
 }
 
 
+
+oneybear_ursinespeciespack_berserker_rage_machine = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+
+	resources = {
+		category = edicts
+		cost = {
+			food = @Edict1Cost
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			food = @Edict1Cost
+			multiplier = value:edict_size_effect
+		}
+	}
+
+	potential = {
+		OR = {
+			has_resource = { type = food amount > 0 }
+		}
+		has_civic = civic_honeybear_ursinespeciespack_berserkers_machine
+	}
+
+
+	modifier = {
+	    army_damage_mult = 0.15
+	    army_collateral_damage_mult = 0.15
+	}
+
+	ai_weight = { #if they are at war and have a surplus they should go for it
+		weight = 0
+		modifier = {
+			weight = @EdictHighPrio
+			is_at_war = yes
+			has_resource = { type = food amount > 1000 }
+		}
+	}
+}
+
 honeybear_ursinespeciespack_berserker_fever = {
 	length = @EdictPerpetual
 	icon = "GFX_edict_type_policy"
@@ -158,6 +198,44 @@ honeybear_ursinespeciespack_berserker_fever_hive = {
 }
 
 
+oneybear_ursinespeciespack_berserker_fever_machine = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+
+	resources = {
+		category = edicts
+		cost = {
+			exotic_gases = 1
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			exotic_gases = 1
+			multiplier = value:edict_size_effect
+		}
+	}
+
+	potential = {
+		OR = {
+			has_resource = { type = exotic_gases amount > 0 }
+		}
+		has_civic = civic_honeybear_ursinespeciespack_berserkers_machine
+	}
+
+	modifier = {
+	    armies_upkeep_mult = 0.1
+	    army_collateral_damage_mult = 0.3
+	}
+
+	ai_weight = { #if they are at war and have a surplus they should go for it
+		weight = 0
+		modifier = {
+			weight = @EdictHighPrio
+			is_at_war = yes
+			has_resource = { type = exotic_gases amount > 100 }
+		}
+	}
+}
+
 
 
 honeybear_ursinespeciespack_berserker_trance = {
@@ -218,6 +296,44 @@ honeybear_ursinespeciespack_berserker_trance_hive = {
 			has_resource = { type = sr_zro amount > 0 }
 		}
 		has_civic = civic_honeybear_ursinespeciespack_berserkers_hive
+	}
+
+	modifier = {
+	    country_war_exhaustion_mult = -0.1
+	}
+
+	ai_weight = { #if they are at war and have a surplus they should go for it
+		weight = 0
+		modifier = {
+			weight = @EdictHighPrio
+			is_at_war = yes
+			has_resource = { type = sr_zro amount > 100 }
+		}
+	}
+}
+
+
+honeybear_ursinespeciespack_berserker_trance_machine = {
+	length = @EdictPerpetual
+	icon = "GFX_edict_type_policy"
+
+	resources = {
+		category = edicts
+		cost = {
+			sr_zro = 1
+			multiplier = value:edict_size_effect
+		}
+		upkeep = {
+			sr_zro = 1
+			multiplier = value:edict_size_effect
+		}
+	}
+
+	potential = {
+		OR = {
+			has_resource = { type = sr_zro amount > 0 }
+		}
+		has_civic = civic_honeybear_ursinespeciespack_berserkers_machine
 	}
 
 	modifier = {
