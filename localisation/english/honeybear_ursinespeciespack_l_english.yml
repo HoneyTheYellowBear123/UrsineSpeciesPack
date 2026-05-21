@@ -138,11 +138,48 @@
  #TO DO the edicts and armies having unique names would be pretty flavorful and fun
  civic_honeybear_ursinespeciespack_berserkers_hive: "Engineered Pheromones"
  civic_honeybear_ursinespeciespack_berserkers_hive_desc: "As this hive mind developed basic scientific theory, synthesis of chemical compounds similar to its own natural pheromones was prioritized, leading to highly effective artificial enhancements."
- civic_tooltip_honeybear_ursinespeciespack_berserkers_hive_effects: "$t$- Access to ['concept_honeybear_ursinespeciespack_berserker_armies'] $TABBED_NEW_LINE$- Access to ['concept_honeybear_ursinespeciespack_berserker_edicts'] "
+ civic_tooltip_honeybear_ursinespeciespack_berserkers_hive_effects: "$t$- Access to ['concept_honeybear_ursinespeciespack_berserker_armies_hive'] $TABBED_NEW_LINE$- Access to ['concept_honeybear_ursinespeciespack_berserker_edicts'] "
+ concept_honeybear_ursinespeciespack_berserker_hive_edicts: "Pheromonal Edicts"
+ concept_honeybear_ursinespeciespack_berserker_hive_edicts_desc: "- ['edict:honeybear_ursinespeciespack_berserker_rage_hive', $edict_honeybear_ursinespeciespack_berserker_rage_hive$]\n- ['edict:honeybear_ursinespeciespack_berserker_fever_hive', $edict_honeybear_ursinespeciespack_berserker_fever_hive$]\n- ['edict:honeybear_ursinespeciespack_berserker_trance_hive', $edict_honeybear_ursinespeciespack_berserker_trance_hive$]"
+ edict_honeybear_ursinespeciespack_berserker_rage_hive: "Pheromonal Rush"
+ edict_honeybear_ursinespeciespack_berserker_rage_hive_desc: "The naturally occurring chemicals that build from fatigue can be suppressed with the fermented juices of some local vegetation."
+ edict_honeybear_ursinespeciespack_berserker_fever_hive: "Pheromonal Frenzy"
+ edict_honeybear_ursinespeciespack_berserker_fever_hive_desc: "The compounds responsible for impulse control and inhibiting unnecessary destruction dissipate quickly in the presence of exotic gases."
+ edict_honeybear_ursinespeciespack_berserker_trance_hive: "Pheromonal Delirium"
+ edict_honeybear_ursinespeciespack_berserker_trance_hive_desc: "When mixed with the pheromone that we use to direct drones to perform a task for a set amount of time, zro has the curious effect of altering our perception of the flow of time to a marginally slower rate."
+ concept_honeybear_ursinespeciespack_berserker_armies_hive: "Pheromonal Armies"
+ concept_honeybear_ursinespeciespack_berserker_armies_hive_desc: "- ['army:honeybear_ursinespeciespack_berserker_army', $honeybear_ursinespeciespack_berserker_army_hive$]\n- ['army:honeybear_ursinespeciespack_berserker_gas_army_hive', $honeybear_ursinespeciespack_berserker_gas_army_hive$]\n- ['army:honeybear_ursinespeciespack_berserker_zro_army_hive', $honeybear_ursinespeciespack_berserker_zro_army_hive$]"
+ honeybear_ursinespeciespack_berserker_army_hive: "Pheromonal Army"
+ honeybear_ursinespeciespack_berserker_army_hive_desc: "Ripped from our spawning pools and force fed aphrodisiacs, these drones are especially savage in combat."
+ honeybear_ursinespeciespack_berserker_gas_army_hive: "Vapheromonal Army"
+ honeybear_ursinespeciespack_berserker_gas_army_hive_desc: "The pheromone used to command violence can be chemically bound to exotic gases and greatly enhanced for highly effective combat units."
+ honeybear_ursinespeciespack_berserker_zro_army_hive: "Pherzromonal Army"
+ honeybear_ursinespeciespack_berserker_zro_army_hive_desc: "Direct application of zro to command receptors causes our warrior drones to exhibit an intense fervor to protect the hive, with a devotion that borders on deviant."
+
+
+
 
  civic_honeybear_ursinespeciespack_berserkers_machine: "Alternative Fuels"
  civic_honeybear_ursinespeciespack_berserkers_machine_desc: "A shortage of fossil fuels in the late pre-ftl stages of this civilzation resulted in flexible engines capable of utilizing various fuel sources for quirky and wacky effects."
  civic_tooltip_honeybear_ursinespeciespack_berserkers_machine_effects: "$t$- Access to ['concept_honeybear_ursinespeciespack_berserker_armies'] $TABBED_NEW_LINE$- Access to ['concept_honeybear_ursinespeciespack_berserker_edicts'] "
+ concept_honeybear_ursinespeciespack_berserker_machine_edicts: "Pheromonal Edicts"
+ concept_honeybear_ursinespeciespack_berserker_machine_edicts_desc: "- ['edict:honeybear_ursinespeciespack_berserker_rage_hive', $edict_honeybear_ursinespeciespack_berserker_rage_hive$]\n- ['edict:honeybear_ursinespeciespack_berserker_fever_hive', $edict_honeybear_ursinespeciespack_berserker_fever_hive$]\n- ['edict:honeybear_ursinespeciespack_berserker_trance_hive', $edict_honeybear_ursinespeciespack_berserker_trance_hive$]"
+ edict_honeybear_ursinespeciespack_berserker_rage_machine: "Pheromonal Rush"
+ edict_honeybear_ursinespeciespack_berserker_rage_machine_desc: "The naturally occurring chemicals that build from fatigue can be suppressed with the fermented juices of some local vegetation."
+ edict_honeybear_ursinespeciespack_berserker_fever_machine: "Pheromonal Frenzy"
+ edict_honeybear_ursinespeciespack_berserker_fever_machine_desc: "The compounds responsible for impulse control and inhibiting unnecessary destruction dissipate quickly in the presence of exotic gases."
+ edict_honeybear_ursinespeciespack_berserker_trance_machine: "Pheromonal Delirium"
+ edict_honeybear_ursinespeciespack_berserker_trance_machine_desc: "When mixed with the pheromone that we use to direct drones to perform a task for a set amount of time, zro has the curious effect of altering our perception of the flow of time to a marginally slower rate."
+ concept_honeybear_ursinespeciespack_berserker_armies_machine: "Pheromonal Armies"
+ concept_honeybear_ursinespeciespack_berserker_armies_machine_desc: "- ['army:honeybear_ursinespeciespack_berserker_army', $honeybear_ursinespeciespack_berserker_army_hive$]\n- ['army:honeybear_ursinespeciespack_berserker_gas_army_hive', $honeybear_ursinespeciespack_berserker_gas_army_hive$]\n- ['army:honeybear_ursinespeciespack_berserker_zro_army_hive', $honeybear_ursinespeciespack_berserker_zro_army_hive$]"
+ honeybear_ursinespeciespack_berserker_army_machine: "Diesel Army"
+ honeybear_ursinespeciespack_berserker_army_machine_desc: "Ripped from our spawning pools and force fed aphrodisiacs, these drones are especially savage in combat."
+ honeybear_ursinespeciespack_berserker_gas_army_machine: "Vapheromonal Army"
+ honeybear_ursinespeciespack_berserker_gas_army_machine_desc: "The pheromone used to command violence can be chemically bound to exotic gases and greatly enhanced for highly effective combat units."
+ honeybear_ursinespeciespack_berserker_zro_army_machine: "Pherzromonal Army"
+ honeybear_ursinespeciespack_berserker_zro_army_machine_desc: "Direct application of zro to command receptors causes our warrior drones to exhibit an intense fervor to protect the hive, with a devotion that borders on deviant."
+
+
 
 
  #flags

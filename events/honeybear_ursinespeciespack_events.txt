@@ -14,7 +14,11 @@ country_event = {
 
 		if = {
 			limit = {
-				has_valid_civic = civic_honeybear_ursinespeciespack_cub_scouts
+			    OR = {
+				    has_valid_civic = civic_honeybear_ursinespeciespack_cub_scouts
+				    has_valid_civic = civic_honeybear_ursinespeciespack_cub_scouts_machine #to do double check or allowed here
+				}
+
 			}
 			every_owned_leader = {
 				limit = {
