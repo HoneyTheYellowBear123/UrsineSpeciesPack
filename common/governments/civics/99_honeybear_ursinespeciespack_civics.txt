@@ -151,7 +151,7 @@ civic_honeybear_ursinespeciespack_apiarists_corporate = {
 			}
 		}
 	}
-	swap_type = {
+	swap_type = { #to do double check what this actually is in game
 		description = "civic_tooltip_agrarian_anglers_effects"
 		trigger = {
 			is_scope_valid = yes
@@ -709,20 +709,7 @@ civic_honeybear_ursinespeciespack_berserkers_hive = {
     	ethics = { value = ethic_gestalt_consciousness }
 	}
 	possible = {
-		ethics = {
-			OR = {
-				text = civic_tooltip_honeybear_ursinespeciespack_militarist_or_spiritualist
-				value = ethic_militarist
-				value = ethic_fanatic_militarist
-				value = ethic_spiritualist
-				value = ethic_fanatic_spiritualist
-			}
-			NOR = {
-				text = civic_tooltip_not_pacifist
-				value = ethic_pacifist
-				value = ethic_fanatic_pacifist
-			}
-		}
+
 
 		civics = {
 			NOR = {
