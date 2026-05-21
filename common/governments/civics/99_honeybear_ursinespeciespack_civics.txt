@@ -187,12 +187,7 @@ civic_honeybear_ursinespeciespack_apiarists_hive = {
 		}
 		civics = {
 			NOT = {
-				value = civic_dystopian_society
-			}
-			NOR = {
-				text = civic_tooltip_not_relentless_industrialists
-				value = civic_relentless_industrialists
-				value = civic_corporate_relentless_industrialists
+				value = civic_hive_devouring_swarm
 			}
 		}
 	}
@@ -789,10 +784,10 @@ civic_honeybear_ursinespeciespack_berserkers_hive = {
 
 civic_honeybear_ursinespeciespack_berserkers_machine = {
     potential = {
-    	ethics = { NOT = { value = ethic_gestalt_consciousness } } #TO DO make machine
-		authority = { NOT = { value = auth_corporate } }
+    	ethics = { value = ethic_gestalt_consciousness }
 	}
 	possible = {
+	    species_archetype = { value = MACHINE }
 		ethics = {
 			OR = {
 				text = civic_tooltip_honeybear_ursinespeciespack_militarist_or_spiritualist
