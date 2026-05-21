@@ -569,43 +569,16 @@ civic_honeybear_ursinespeciespack_cub_scouts = {
 
 
 
-civic_honeybear_ursinespeciespack_cub_scouts_machine = {
-	description = "civic_honeybear_ursinespeciespack_cub_scouts_effects"
-	possible = {
-		origin = {
-			NOT = {
-				value = origin_unplugged
-			}
-		}
-	}
+civic_honeybear_ursinespeciespack_cub_scouts_machine = { #to do might need to separate machine into gesalt and individualistic or maybe just dont even worry and just do machine intelligence
+	description = "civic_honeybear_ursinespeciespack_cub_scouts_machine_effects"
+
 
 	potential = {
-
-		authority = {
-			NOT = {
-				value = auth_corporate
-			}
-		}
 	}
 
 	possible = {
-
+        #authority = { value = auth_machine_intelligence } }
         species_archetype = { value = MACHINE } #to do double check if this is just machine intelligence or if this does individualist as well.
-		origin = {
-			NOR = {
-				# No FC origins.
-				value = origin_payback
-				value = origin_broken_shackles
-				value = origin_fear_of_the_dark
-				value = origin_synthetic_fertility
-			}
-		}
-		civics = {
-			NOR = {
-				value = civic_privatized_exploration
-				value = civic_inwards_perfection
-			}
-		}
 	}
 
 	modifier = {
@@ -706,29 +679,10 @@ civic_honeybear_ursinespeciespack_berserkers = {
 
 civic_honeybear_ursinespeciespack_berserkers_hive = {
     potential = {
-    	ethics = { value = ethic_gestalt_consciousness }
+    	authority = { value = value = auth_hive_mind } }
 	}
 	possible = {
 
-
-		civics = {
-			NOR = {
-				value = civic_reanimated_armies
-				value = civic_tankbound
-				value = civic_crusader_spirit
-				value = sovereign_guardship
-			}
-		}
-
-		species_archetype = {
-			NOT = {
-				text = disabled_by_synthetic_ascension
-				value = ROBOT
-			}
-			NOT = {
-				value = MACHINE
-			}
-		}
 	}
 	random_weight = { base = @civic_default_random_weight }
 	ai_weight = {
@@ -761,7 +715,7 @@ civic_honeybear_ursinespeciespack_berserkers_hive = {
 		planet_soldiers_unity_produces_add = 2
 		add_attunement_the_eater_of_worlds = @civic_attunement1
 	}
-	description = "civic_tooltip_honeybear_ursinespeciespack_berserkers_effects"
+	description = "civic_tooltip_honeybear_ursinespeciespack_berserkers_hive_effects"
 
 }
 
@@ -771,7 +725,9 @@ civic_honeybear_ursinespeciespack_berserkers_hive = {
 
 civic_honeybear_ursinespeciespack_berserkers_machine = {
     potential = {
-    	ethics = { value = ethic_gestalt_consciousness }
+    	 authority = { value = auth_machine_intelligence } }
+    	 #species_archetype = { value = MACHINE } #to do double check if this is just machine intelligence or if this does individualist as well.
+
 	}
 	possible = {
 	    species_archetype = { value = MACHINE }
@@ -840,10 +796,10 @@ civic_honeybear_ursinespeciespack_berserkers_machine = {
 		planet_soldiers_unity_produces_add = 2
 		add_attunement_the_eater_of_worlds = @civic_attunement1
 	}
-	description = "civic_tooltip_honeybear_ursinespeciespack_berserkers_effects"
+	description = "civic_tooltip_honeybear_ursinespeciespack_berserkers_machine_effects"
 
 }
 
 
 
-#TO DO very end double check civic/origin incopatibility on new civics
+#TO DO make sure unnecesary civic exclusions aren't clogging up the UI
