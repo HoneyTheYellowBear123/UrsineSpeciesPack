@@ -82,7 +82,7 @@ honeybear_ursinespeciespack_berserker_rage_hive = {
 
 
 
-oneybear_ursinespeciespack_berserker_rage_machine = {
+honeybear_ursinespeciespack_berserker_rage_machine = {
 	length = @EdictPerpetual
 	icon = "GFX_edict_type_policy"
 
@@ -198,7 +198,7 @@ honeybear_ursinespeciespack_berserker_fever_hive = {
 }
 
 
-oneybear_ursinespeciespack_berserker_fever_machine = {
+honeybear_ursinespeciespack_berserker_fever_machine = {
 	length = @EdictPerpetual
 	icon = "GFX_edict_type_policy"
 

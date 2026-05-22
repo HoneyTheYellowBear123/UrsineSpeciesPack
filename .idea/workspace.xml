@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8bb9468e-b5ac-48f9-9708-191baf80528e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/buildings/99_honeybear_ursinespeciespack_buildings.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/buildings/99_honeybear_ursinespeciespack_buildings.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/edicts/99_honeybear_ursinespeciespack_edicts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/edicts/99_honeybear_ursinespeciespack_edicts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/game_concepts/honeybear_ursinespeciespack_concepts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/game_concepts/honeybear_ursinespeciespack_concepts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/governments/civics/99_honeybear_ursinespeciespack_civics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/governments/civics/99_honeybear_ursinespeciespack_civics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localisation/english/honeybear_ursinespeciespack_l_english.yml" beforeDir="false" afterPath="$PROJECT_DIR$/localisation/english/honeybear_ursinespeciespack_l_english.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +28,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "corporate__and__hive__civics",
-    "last_opened_file_path": "M:/Mod Workspace/Stellaris/Ursine Species Pack/gfx/interface/icons/buildings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;corporate__and__hive__civics&quot;,
+    &quot;last_opened_file_path&quot;: &quot;M:/Mod Workspace/Stellaris/Ursine Species Pack/gfx/interface/icons/buildings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\interface\icons\buildings" />

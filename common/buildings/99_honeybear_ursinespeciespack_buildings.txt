@@ -1,4 +1,7 @@
 #special holdings for landlords and slumlords
+@crime_floor_from_legal_crime = 5
+
+
 
 honeybear_ursinespeciespack_building_luxury_apartments = {
 	base_buildtime = @b1_time

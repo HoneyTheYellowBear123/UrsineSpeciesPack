@@ -34,7 +34,7 @@
 
  SPECIES_TRAIT_URSINE: "['concept_honeybear_ursinespeciespack_ursine_phenotype_traits']"
  concept_honeybear_ursinespeciespack_ursine_phenotype_traits: "Ursine Species Traits"
- concept_honeybear_ursinespeciespack_ursine_phenotype_traits_desc: "- ['trait_honeybear_ursinespeciespack_saBEAR_toothed']\n- ['trait_honeybear_ursinespeciespack_Bear_necessities']\n- ['trait_honeybear_ursinespeciespack_simple_Bear_necessities']\n- ['trait_honeybear_ursinespeciespack_limBear']\n- ['trait_honeybear_ursinespeciespack_Bearfooted']\n- ['trait_honeybear_ursinespeciespack_Majestic']\n- ['trait_honeybear_ursinespeciespack_Gluttonous']"
+ concept_honeybear_ursinespeciespack_ursine_phenotype_traits_desc: "- ['trait:trait_honeybear_ursinespeciespack_saBEAR_toothed']\n- ['trait:trait_honeybear_ursinespeciespack_Bear_necessities']\n- ['trait:trait_honeybear_ursinespeciespack_simple_Bear_necessities']\n- ['trait:trait_honeybear_ursinespeciespack_limBear']\n- ['trait:trait_honeybear_ursinespeciespack_Bearfooted']\n- ['trait:trait_honeybear_ursinespeciespack_Majestic']\n- ['trait:trait_honeybear_ursinespeciespack_Gluttonous']"
  #\n- ['trait:trait_genetic_memory']\n- ['trait:trait_nascent_stage']"
 
 
@@ -52,7 +52,12 @@
 
  civic_honeybear_ursinespeciespack_apiarists_corporate: "Symbiotic Synergy"
  civic_honeybear_ursinespeciespack_apiarists_corporate_desc: "Upon observing coordinated production of a finished product in a local species, this megacorp determined an optimized synergetic merger could allow for currency workflows that far outseed high bandwidth market projections."
- civic_tooltip_honeybear_ursinespeciespack_apiarists_corporate_effects: "$t$- Increased opinion with Hive Mind, Arthropoid, and Ursine empires. $TABBED_NEW_LINE$- Access to Artificial Sweeteners edict, which produces additional trade from farmers but decreases opinion with aforementioned empires."
+ civic_tooltip_honeybear_ursinespeciespack_apiarists_corporate_effects: "$t$- Increased opinion with Hive Mind, Arthropoid, and Ursine empires. $TABBED_NEW_LINE$- Access to ['edict:honeybear_ursinespeciespack_artificial_sweeteners', $honeybear_ursinespeciespack_artificial_sweeteners$] edict, which produces additional trade from farmers but decreases opinion with aforementioned empires."
+ honeybear_ursinespeciespack_artificial_sweeteners: "Artificial Sweeteners"
+ honeybear_ursinespeciespack_artificial_sweeteners_desc: "Although synergy is highly valued, the same great taste can be extracted from various dungs and toxins."
+ edict_honeybear_ursinespeciespack_artificial_sweeteners: "Artificial Sweeteners"
+ edict_honeybear_ursinespeciespack_artificial_sweeteners_desc: "Although synergy is highly valued, the same great taste can be extracted from various dungs and toxins."
+ concept_honeybear_ursinespeciespack_apiarist_corporate_edict: "Artifical Sweetners"
  councilor_honeybear_ursinespeciespack_apiarists_corporate: "Senior Synergizer"
  councilor_honeybear_ursinespeciespack_apiarists_corporate_female: "$councilor_honeybear_ursinespeciespack_apiarists_corporate$"
  councilor_honeybear_ursinespeciespack_apiarists_corporate_desc: "The $TITLE$ coordinates synergeztic solutions to modern problems."
@@ -75,17 +80,19 @@
 
  civic_honeybear_ursinespeciespack_territorial_corporate: "Landlords"
  civic_honeybear_ursinespeciespack_territorial_corporate_desc: "Upon realizing that every individual in fact occupies space at any given moment, this corporate realized what should be a fundamental right could in fact be exploited for profit."
- civic_tooltip_honeybear_ursinespeciespack_territorial_effects: "$t$- Negative opinion with every individualist empire, especially those with egalitarian ethics. $TABBED_NEW_LINE$- Can build the $BRANCH_OFFICE_BUILDING$\n- The £building£ §Y$honeybear_ursinespeciespack_building_luxury_apartments$§! $megacorp_civic_branch_office_building_effect$" #to do check this display
+ civic_tooltip_honeybear_ursinespeciespack_territorial_corporate_effects: "$t$- Negative opinion with every individualist empire, especially those with egalitarian ethics. $TABBED_NEW_LINE$- Can build the $BRANCH_OFFICE_BUILDING$ §Y$honeybear_ursinespeciespack_building_luxury_apartments$§!. $TABBED_NEW_LINE$- The £building£ §Y$honeybear_ursinespeciespack_building_luxury_apartments$§! $megacorp_civic_branch_office_building_effect$"
  councilor_honeybear_ursinespeciespack_territorial_corporate: "Lord of Lands"
  councilor_honeybear_ursinespeciespack_territorial_corporate_female: "$councilor_honeybear_ursinespeciespack_territorial_corporate$"
  councilor_honeybear_ursinespeciespack_territorial_corporate_desc: "The $TITLE$ finds any possible loophole to prevent returning security deposits, and bulk orders white paint at a discount."
  diplo_honeybear_ursinespeciespack_territorial_corporate_open_borders: "Landlords Civic - Open Borders"
  honeybear_ursinespeciespack_building_luxury_apartments: "\"Luxury\" Apartments"
  honeybear_ursinespeciespack_building_luxury_apartments_desc: "All it takes is half a gym and one pool for hundreds of residents to pass off our shabby apartments as some manner of comfort."
+ triggered_honeybear_ursinespeciespack_landlords: "landlords"
+ triggered_honeybear_ursinespeciespack_landlords_eg: "landlords"
 
  civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME: "Slumlords"
  civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME_desc: "Upon realizing that every individual in fact occupies space at any given moment, this corporate realized what should be a fundamental right could in fact be exploited for profit. Further, since property tax and rent price are completely independent for some reason, property owners are actively incentivized to keep their property as poorly maintained as possible."
- civic_tooltip_honeybear_ursinespeciespack_territorial_corporate_EXTREME_effects: "$t$- Negative opinion with every individualist empire, especially those with egalitarian ethics. $TABBED_NEW_LINE$- Can build the $BRANCH_OFFICE_BUILDING$\n- The £building£ §Y$honeybear_ursinespeciespack_building_slums$§! $megacorp_civic_branch_office_building_effect$"
+ civic_tooltip_honeybear_ursinespeciespack_territorial_corporate_EXTREME_effects: "$t$- Negative opinion with every individualist empire, especially those with egalitarian ethics. $TABBED_NEW_LINE$- Can build the $BRANCH_OFFICE_BUILDING$ §Y$honeybear_ursinespeciespack_building_slums$§!.  $TABBED_NEW_LINE$- The £building£ §Y$honeybear_ursinespeciespack_building_slums$§! $megacorp_civic_branch_office_building_effect$"
  councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME: "Lord of Slums"
  councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME_female: "$councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME$"
  councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME_desc: "The $TITLE$ finds any possible loophole to prevent returning security deposits, and bulk orders white paint at a discount."
@@ -103,7 +110,7 @@
  councilor_honeybear_ursinespeciespack_cub_scouts_desc: "The $TITLE$ organizes camping trips and ensures youths are well versed in all manner of knots."
 
 
- civic_honeybear_ursinespeciespack_cub_scouts_machine: "Pathfinding Algorithm"
+ civic_honeybear_ursinespeciespack_cub_scouts_machine: "Pathfinding Algorithms"
  civic_honeybear_ursinespeciespack_cub_scouts_machine_desc: "This machine intelligence's codebase is intrinsically linked to a heuristic based on exploration on a galactic scale, aptly named \"A Star\"." #to do double check this for sure
  civic_honeybear_ursinespeciespack_cub_scouts_machine_effects: "§Y$commander_plural_with_icon$§! and §Y$scientist_plural_with_icon$§! start with the §Y$leader_trait_scout$§! trait."
 
@@ -138,7 +145,7 @@
  #TO DO the edicts and armies having unique names would be pretty flavorful and fun
  civic_honeybear_ursinespeciespack_berserkers_hive: "Engineered Pheromones"
  civic_honeybear_ursinespeciespack_berserkers_hive_desc: "As this hive mind developed basic scientific theory, synthesis of chemical compounds similar to its own natural pheromones was prioritized, leading to highly effective artificial enhancements."
- civic_tooltip_honeybear_ursinespeciespack_berserkers_hive_effects: "$t$- Access to ['concept_honeybear_ursinespeciespack_berserker_armies_hive'] $TABBED_NEW_LINE$- Access to ['concept_honeybear_ursinespeciespack_berserker_edicts'] "
+ civic_tooltip_honeybear_ursinespeciespack_berserkers_hive_effects: "$t$- Access to ['concept_honeybear_ursinespeciespack_berserker_armies_hive'] $TABBED_NEW_LINE$- Access to ['concept_honeybear_ursinespeciespack_berserker_hive_edicts'] "
  concept_honeybear_ursinespeciespack_berserker_hive_edicts: "Pheromonal Edicts"
  concept_honeybear_ursinespeciespack_berserker_hive_edicts_desc: "- ['edict:honeybear_ursinespeciespack_berserker_rage_hive', $edict_honeybear_ursinespeciespack_berserker_rage_hive$]\n- ['edict:honeybear_ursinespeciespack_berserker_fever_hive', $edict_honeybear_ursinespeciespack_berserker_fever_hive$]\n- ['edict:honeybear_ursinespeciespack_berserker_trance_hive', $edict_honeybear_ursinespeciespack_berserker_trance_hive$]"
  edict_honeybear_ursinespeciespack_berserker_rage_hive: "Pheromonal Rush"
@@ -167,7 +174,7 @@
  edict_honeybear_ursinespeciespack_berserker_rage_machine: "Diesel Fuel"
  edict_honeybear_ursinespeciespack_berserker_rage_machine_desc: "A few kernels of space corn is all it takes to produce a highly efficient fuel, though synthetic alcohols appear to have an inebriatory effect on synthetic lifeforms."
  edict_honeybear_ursinespeciespack_berserker_fever_machine: "Exotic Gasoline Fuel"
- edict_honeybear_ursinespeciespack_berserker_fever_machine_desc: "Compressing exotic gases into a liquid, then burning the fumes is slightly cheaper than our standard fuel, though there are some unwanted vibrations introduced into the system."
+ edict_honeybear_ursinespeciespack_berserker_fever_machine_desc: "Compressing exotic gases into a liquid, then burning the fumes introduces intense vibrations into our systems, though there are some use cases for it."
  edict_honeybear_ursinespeciespack_berserker_trance_machine: "Dihyzrogen Monoxide Fuel"
  edict_honeybear_ursinespeciespack_berserker_trance_machine_desc: "Though inert in the vacuum of space, zro can act as an oxidizer for our engines, and produces especially pretty fumes that distract from the horrors of war."
  concept_honeybear_ursinespeciespack_berserker_armies_machine: "Alternative Fuel Armies"
