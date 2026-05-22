@@ -586,6 +586,7 @@ civic_honeybear_ursinespeciespack_cub_scouts_machine = { #to do might need to se
 	modifier = {
 		#scout trait is added elsewhere
 		army_morale = 0.10
+		councilor_gestalt_cognitive_exp_gain = @gestalt_civic_node_xp_rate
 
 	}
 
@@ -715,6 +716,7 @@ civic_honeybear_ursinespeciespack_berserkers_hive = {
 	}
 	modifier = {
 		planet_soldiers_unity_produces_add = 2
+		councilor_gestalt_legion_exp_gain = @gestalt_civic_node_xp_rate
 		add_attunement_the_eater_of_worlds = @civic_attunement1
 	}
 	description = "civic_tooltip_honeybear_ursinespeciespack_berserkers_hive_effects"
@@ -764,6 +766,7 @@ civic_honeybear_ursinespeciespack_berserkers_machine = {
 	}
 	modifier = {
 		planet_soldiers_unity_produces_add = 2
+		councilor_gestalt_legion_exp_gain = @gestalt_civic_node_xp_rate
 		add_attunement_the_eater_of_worlds = @civic_attunement1
 	}
 	description = "civic_tooltip_honeybear_ursinespeciespack_berserkers_machine_effects"
