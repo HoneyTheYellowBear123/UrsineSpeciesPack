@@ -111,7 +111,7 @@
 
 
  civic_honeybear_ursinespeciespack_cub_scouts_machine: "Pathfinding Algorithms"
- civic_honeybear_ursinespeciespack_cub_scouts_machine_desc: "This machine intelligence's codebase is intrinsically linked to a heuristic based on exploration on a galactic scale, aptly named \"A Star\"." #to do double check this for sure
+ civic_honeybear_ursinespeciespack_cub_scouts_machine_desc: "This machine intelligence's codebase is intrinsically linked to a heuristic based on exploration on a galactic scale, aptly named \"A Star\"."
  civic_honeybear_ursinespeciespack_cub_scouts_machine_effects: "§Y$commander_plural_with_icon$§! and §Y$scientist_plural_with_icon$§! start with the §Y$leader_trait_scout$§! trait."
 
 
@@ -142,7 +142,7 @@
 
 
 
- #TO DO the edicts and armies having unique names would be pretty flavorful and fun
+
  civic_honeybear_ursinespeciespack_berserkers_hive: "Engineered Pheromones"
  civic_honeybear_ursinespeciespack_berserkers_hive_desc: "As this hive mind developed basic scientific theory, synthesis of chemical compounds similar to its own natural pheromones was prioritized, leading to highly effective artificial enhancements."
  civic_tooltip_honeybear_ursinespeciespack_berserkers_hive_effects: "$t$- Access to ['concept_honeybear_ursinespeciespack_berserker_armies_hive'] $TABBED_NEW_LINE$- Access to ['concept_honeybear_ursinespeciespack_berserker_hive_edicts'] "

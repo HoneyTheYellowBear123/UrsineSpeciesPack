@@ -236,6 +236,7 @@ civic_honeybear_ursinespeciespack_apiarists_hive = {
 	modifier = {
 	    planet_farmers_society_research_produces_add = 0.5
 	    planet_farmers_unity_produces_add = 0.5
+	    councilor_gestalt_legion_exp_gain = @gestalt_civic_node_xp_rate
 	    add_attunement_the_cradle_of_souls = @civic_attunement1
 	}
 }
@@ -570,7 +571,7 @@ civic_honeybear_ursinespeciespack_cub_scouts = {
 
 
 
-civic_honeybear_ursinespeciespack_cub_scouts_machine = { #to do might need to separate machine into gesalt and individualistic or maybe just dont even worry and just do machine intelligence
+civic_honeybear_ursinespeciespack_cub_scouts_machine = {
 	description = "civic_honeybear_ursinespeciespack_cub_scouts_machine_effects"
 
 
@@ -580,8 +581,7 @@ civic_honeybear_ursinespeciespack_cub_scouts_machine = { #to do might need to se
 
 	possible = {
         authority = { value = auth_machine_intelligence }
-        #species_archetype = { value = MACHINE } #to do double check if this is just machine intelligence or if this does individualist as well.
-	}
+    }
 
 	modifier = {
 		#scout trait is added elsewhere
@@ -716,7 +716,7 @@ civic_honeybear_ursinespeciespack_berserkers_hive = {
 	}
 	modifier = {
 		planet_soldiers_unity_produces_add = 2
-		councilor_gestalt_legion_exp_gain = @gestalt_civic_node_xp_rate
+		councilor_gestalt_regulatory_exp_gain = @gestalt_civic_node_xp_rate
 		add_attunement_the_eater_of_worlds = @civic_attunement1
 	}
 	description = "civic_tooltip_honeybear_ursinespeciespack_berserkers_hive_effects"
@@ -730,8 +730,6 @@ civic_honeybear_ursinespeciespack_berserkers_hive = {
 civic_honeybear_ursinespeciespack_berserkers_machine = {
     potential = {
     	 authority = { value = auth_machine_intelligence }
-    	 #species_archetype = { value = MACHINE } #to do double check if this is just machine intelligence or if this does individualist as well.
-
 	}
 	possible = {
 		authority = { value = auth_machine_intelligence }
@@ -766,13 +764,10 @@ civic_honeybear_ursinespeciespack_berserkers_machine = {
 	}
 	modifier = {
 		planet_soldiers_unity_produces_add = 2
-		councilor_gestalt_legion_exp_gain = @gestalt_civic_node_xp_rate
+		councilor_gestalt_regulatory_exp_gain = @gestalt_civic_node_xp_rate
 		add_attunement_the_eater_of_worlds = @civic_attunement1
 	}
 	description = "civic_tooltip_honeybear_ursinespeciespack_berserkers_machine_effects"
 
 }
 
-
-
-#TO DO add gestlat node experience gains to appropriate civics
