@@ -16,7 +16,7 @@ country_event = {
 			limit = {
 			    OR = {
 				    has_valid_civic = civic_honeybear_ursinespeciespack_cub_scouts
-				    has_valid_civic = civic_honeybear_ursinespeciespack_cub_scouts_machine #to do double check or allowed here
+				    has_valid_civic = civic_honeybear_ursinespeciespack_cub_scouts_machine
 				}
 
 			}

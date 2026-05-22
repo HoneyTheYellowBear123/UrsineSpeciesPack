@@ -151,7 +151,7 @@ civic_honeybear_ursinespeciespack_apiarists_corporate = {
 			}
 		}
 	}
-	swap_type = { #to do double check what this actually is in game
+	swap_type = { #hypothetically maybe angler + apiarist should be illegal but I'm not gonna stress about it
 		description = "civic_tooltip_agrarian_anglers_effects"
 		trigger = {
 			is_scope_valid = yes
@@ -225,7 +225,7 @@ civic_honeybear_ursinespeciespack_apiarists_hive = {
 			}
 		}
 	}
-	swap_type = { #to do maybe remove this if its clogging up the UI
+	swap_type = {
 		description = "civic_tooltip_agrarian_anglers_effects"
 		trigger = {
 			is_scope_valid = yes
