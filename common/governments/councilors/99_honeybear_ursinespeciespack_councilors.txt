@@ -16,6 +16,25 @@ councilor_honeybear_ursinespeciespack_apiarists = {
    }
 }
 
+
+councilor_honeybear_ursinespeciespack_apiarists_corporate = {
+   leader_class = { scientist official }
+   is_leader_possible = {
+            OR = {
+                    leader_class = scientist
+                    leader_class = official
+            }
+   }
+   civic = civic_honeybear_ursinespeciespack_apiarists_corporate
+   modifier = {
+        planet_farmers_produces_mult = 0.025
+        planet_jobs_society_research_produces_mult = 0.01
+   }
+   ai_hiring_weight = {
+        inline_script = councilor_leader_weights
+   }
+}
+
 councilor_honeybear_ursinespeciespack_territorial = {
    leader_class = { scientist official commander }
    is_leader_possible = {
@@ -35,6 +54,45 @@ councilor_honeybear_ursinespeciespack_territorial = {
    }
 }
 
+councilor_honeybear_ursinespeciespack_territorial_corporate = {
+   leader_class = { scientist official commander }
+   is_leader_possible = {
+            OR = {
+                    leader_class = commander
+                    leader_class = official
+                    leader_class = scientist
+            }
+   }
+   civic = civic_honeybear_ursinespeciespack_territorial_corporate
+   modifier = {
+        empire_size_systems_mult = -0.015
+        empire_size_colonies_mult = -0.015
+   }
+   ai_hiring_weight = {
+        inline_script = councilor_leader_weights
+   }
+}
+
+councilor_honeybear_ursinespeciespack_territorial_corporate_EXTREME = {
+   leader_class = { scientist official commander }
+   is_leader_possible = {
+            OR = {
+                    leader_class = commander
+                    leader_class = official
+                    leader_class = scientist
+            }
+   }
+   civic = civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME
+   modifier = {
+        empire_size_systems_mult = -0.025
+        empire_size_colonies_mult = -0.025
+        biological_pop_happiness = -0.01
+        lithoid_pop_happiness = -0.01
+   }
+   ai_hiring_weight = {
+        inline_script = councilor_leader_weights
+   }
+}
 
 councilor_honeybear_ursinespeciespack_cub_scouts = {
    leader_class = { commander }
@@ -70,3 +128,5 @@ councilor_honeybear_ursinespeciespack_berserkers = {
         inline_script = councilor_leader_weights
    }
 }
+
+

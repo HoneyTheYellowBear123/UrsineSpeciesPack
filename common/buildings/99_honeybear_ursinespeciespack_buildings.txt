@@ -1,0 +1,232 @@
+#special holdings for landlords and slumlords
+@crime_floor_from_legal_crime = 5
+
+
+
+honeybear_ursinespeciespack_building_luxury_apartments = {
+	base_buildtime = @b1_time
+	planet_limit = 1
+	icon = building_drone_storage
+
+	owner_type = corporate
+
+	category = amenity
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = {
+			OR = {
+				has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate
+			}
+		}
+	}
+
+	on_built = {
+	}
+
+	on_destroy = {
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			branch_office_owner = {
+				is_criminal_syndicate = yes
+				NOT = { is_legit_or_legal_criminal = yes }
+			}
+		}
+		planet_crime_add = 25
+		mult = branch_office_owner.value:scripted_modifier_mult|MODIFIER|branch_office_holding_crime_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			branch_office_owner = {
+				is_criminal_syndicate = yes
+				is_legit_or_legal_criminal = yes
+			}
+		}
+		planet_crime_floor_add = @crime_floor_from_legal_crime
+	}
+
+	custom_tooltip = branch_office_building_trade_bonus
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_housing_add = 1000
+		planet_amenities_add = 500
+	}
+
+
+
+	triggered_planet_modifier = {
+		potential = {
+			branch_office_owner = {
+				is_criminal_syndicate = yes
+				NOT = { is_legit_or_legal_criminal = yes }
+			}
+		}
+		job_criminal_add = 100
+	}
+
+
+
+	#Trader Jobs from civics
+	triggered_country_modifier = {
+		potential = {
+			branch_office_owner = {
+				has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate
+			}
+		}
+		job_capital_trader_add = @traders_from_civic
+	}
+
+	#custom_tooltip = trade_value_from_specialists
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			influence = 10
+			minerals = @b1_minerals
+		}
+		#cost = {
+		#	trigger = {
+		#		owner = {
+		#			has_authority = auth_corporate
+		#		}
+		#	}
+		#	influence = 10
+		#}
+		produces = {
+			energy = 10
+			mult = value:branch_office_value_for_buildings
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = planet.owner
+		}
+		text = building_corporate_clinics_effect #this is fine
+	}
+
+	ai_weight = {
+		weight = 120
+	}
+}
+
+
+
+honeybear_ursinespeciespack_building_slums = {
+	base_buildtime = @b1_time
+	planet_limit = 1
+	icon = building_crude_huts
+
+
+	owner_type = corporate
+
+	category = amenity
+
+	potential = {
+		has_branch_office = yes
+		branch_office_owner = {
+			OR = {
+				has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME
+			}
+		}
+	}
+
+	on_built = {
+	}
+
+	on_destroy = {
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			branch_office_owner = {
+				is_criminal_syndicate = yes
+				NOT = { is_legit_or_legal_criminal = yes }
+			}
+		}
+		planet_crime_add = 35
+		mult = branch_office_owner.value:scripted_modifier_mult|MODIFIER|branch_office_holding_crime_mult|
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			branch_office_owner = {
+				is_criminal_syndicate = yes
+				is_legit_or_legal_criminal = yes
+			}
+		}
+		planet_crime_floor_add = @crime_floor_from_legal_crime
+	}
+
+	custom_tooltip = branch_office_building_trade_bonus
+
+	triggered_planet_modifier = {
+		potential = {
+			always = yes
+		}
+		planet_housing_add = 200
+	}
+
+
+
+	triggered_planet_modifier = {
+		potential = {
+			branch_office_owner = {
+				is_criminal_syndicate = yes
+				NOT = { is_legit_or_legal_criminal = yes }
+			}
+		}
+		job_criminal_add = 125
+	}
+
+
+
+	#Trader Jobs from civics
+	triggered_country_modifier = {
+		potential = {
+			branch_office_owner = {
+				has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate
+			}
+		}
+		job_capital_trader_add = @traders_from_civic
+	}
+
+	#custom_tooltip = trade_value_from_specialists
+
+	resources = {
+		category = planet_branch_office_buildings
+		cost = {
+			influence = 20
+			minerals = @slum_minerals
+		}
+		#cost = {
+		#	trigger = {
+		#		owner = {
+		#			has_authority = auth_corporate
+		#		}
+		#	}
+		#	influence = 10
+		#}
+		produces = {
+			energy = 20
+			mult = value:branch_office_value_for_buildings
+		}
+	}
+
+	triggered_desc = {
+		trigger = {
+			exists = planet.owner
+		}
+		text = building_corporate_clinics_effect #this is fine
+	}
+
+	ai_weight = {
+		weight = 120
+	}
+}

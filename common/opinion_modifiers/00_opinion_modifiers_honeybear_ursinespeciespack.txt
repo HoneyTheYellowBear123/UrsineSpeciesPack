@@ -11,11 +11,200 @@ triggered_honeybear_ursinespeciespack_apiarists = {
 		    is_species_class = ART
 		    has_authority = auth_hive_mind
 		    from = { is_species_class = ART }
-		    from = { has_authority = auth_hive_mind}
+		    from = { has_authority = auth_hive_mind }
 		}
 	}
 
 	opinion = {
 		base = 150
+	}
+}
+
+
+triggered_honeybear_ursinespeciespack_apiarists_hive = {
+	trigger = {
+
+		OR = {
+			has_valid_civic = civic_honeybear_ursinespeciespack_apiarists_hive
+			from = { has_valid_civic = civic_honeybear_ursinespeciespack_apiarists_hive }
+		}
+
+		OR = {
+		    is_species_class = URSINE
+		    is_species_class = PLANT
+		    from = { is_species_class = URSINE }
+		    from = { is_species_class = PLANT }
+		}
+	}
+
+	opinion = {
+		base = 150
+	}
+}
+
+triggered_honeybear_ursinespeciespack_apiarists_corporate = {
+	trigger = {
+
+        AND = {
+            OR = {
+                has_valid_civic = civic_honeybear_ursinespeciespack_apiarists_corporate
+                from = { has_valid_civic = civic_honeybear_ursinespeciespack_apiarists_corporate }
+
+            }
+
+            NOT = {
+                OR = {
+                    has_edict = honeybear_ursinespeciespack_artificial_sweeteners
+                    from = { has_edict = honeybear_ursinespeciespack_artificial_sweeteners }
+                }
+            }
+
+        }
+
+		OR = {
+		    is_species_class = URSINE
+		    is_species_class = ART
+		    has_authority = auth_hive_mind
+		    from = { is_species_class = URSINE }
+		    from = { is_species_class = ART }
+		    from = { has_authority = auth_hive_mind }
+		}
+	}
+
+	opinion = {
+		base = 150
+	}
+}
+
+
+triggered_honeybear_ursinespeciespack_apiarists_corporate_neg = {
+	trigger = {
+
+        AND = {
+            from = { has_valid_civic = civic_honeybear_ursinespeciespack_apiarists_corporate }
+
+            from = { has_edict = honeybear_ursinespeciespack_artificial_sweeteners }
+
+        }
+
+		OR = {
+		    is_species_class = URSINE
+		    is_species_class = ART
+		    has_authority = auth_hive_mind
+		    from = { is_species_class = URSINE }
+		    from = { is_species_class = ART }
+		    from = { has_authority = auth_hive_mind }
+		}
+	}
+
+	opinion = {
+		base = -200
+	}
+}
+
+
+
+
+
+triggered_honeybear_ursinespeciespack_landlords = {
+    trigger = {
+
+        AND = {
+            from = { has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate }
+            NOT = {
+                OR = {
+                    has_ethic = ethic_gestalt_consciousness
+                    has_ethic = ethic_egalitarian
+                    has_ethic = ethic_fanatic_egalitarian
+                    has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate
+                    is_country_type = fallen_empire
+                }
+            }
+        }
+
+    }
+
+	opinion = {
+		base = -15 #this doesn't seem like much but opinion is v important for corporate empires
+	}
+}
+
+triggered_honeybear_ursinespeciespack_landlords_eg = {
+    trigger = {
+
+        AND = {
+            from = { has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate }
+
+            NOT = {
+                OR = {
+                    has_ethic = ethic_gestalt_consciousness
+                    has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate
+                    is_country_type = fallen_empire
+                }
+            }
+            OR = {
+                has_ethic = ethic_egalitarian
+                has_ethic = ethic_fanatic_egalitarian
+            }
+
+        }
+
+    }
+
+	opinion = {
+		base = -300
+	}
+}
+
+
+
+
+triggered_honeybear_ursinespeciespack_slumlords = {
+    trigger = {
+
+        AND = {
+            from = { has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME }
+            NOT = {
+                OR = {
+                    has_ethic = ethic_gestalt_consciousness
+                    has_ethic = ethic_egalitarian
+                    has_ethic = ethic_fanatic_egalitarian
+                    has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME
+                    is_country_type = fallen_empire
+                }
+            }
+        }
+
+    }
+
+	opinion = {
+		base = -35 #this doesn't seem like much but opinion is v important for corporate empires
+	}
+}
+
+triggered_honeybear_ursinespeciespack_slumlords_eg = {
+    trigger = {
+
+        AND = {
+            from = { has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME }
+
+            NOT = {
+                OR = {
+                    has_ethic = ethic_gestalt_consciousness
+                    has_valid_civic = civic_honeybear_ursinespeciespack_territorial_corporate_EXTREME
+                    is_country_type = fallen_empire
+                }
+            }
+            OR = {
+                has_ethic = ethic_egalitarian
+                has_ethic = ethic_fanatic_egalitarian
+            }
+
+        }
+
+    }
+
+	opinion = {
+		base = -500
 	}
 }

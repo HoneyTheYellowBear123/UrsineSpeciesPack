@@ -1,3 +1,31 @@
 concept_honeybear_ursinespeciespack_ursine_phenotype_traits = {
 
 }
+
+concept_honeybear_ursinespeciespack_berserker_edicts = {
+
+}
+
+concept_honeybear_ursinespeciespack_berserker_armies = {
+
+}
+
+concept_honeybear_ursinespeciespack_berserker_hive_edicts = {
+
+}
+
+concept_honeybear_ursinespeciespack_berserker_armies_hive = {
+
+}
+
+concept_honeybear_ursinespeciespack_berserker_machine_edicts = {
+
+}
+
+concept_honeybear_ursinespeciespack_berserker_armies_machine = {
+
+}
+
+concept_honeybear_ursinespeciespack_apiarist_corporate_edicts = {
+
+}

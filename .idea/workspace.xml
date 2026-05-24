@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8bb9468e-b5ac-48f9-9708-191baf80528e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/name_lists/URS1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/name_lists/URS1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/armies/99_honeybear_ursinespeciespack_armies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/common/armies/99_honeybear_ursinespeciespack_armies.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/honeybear_ursinespeciespack_icons.gfx" beforeDir="false" afterPath="$PROJECT_DIR$/interface/honeybear_ursinespeciespack_icons.gfx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,20 +25,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "bugfix__namelist",
-    "last_opened_file_path": "M:/Mod Workspace/Stellaris/Ursine Species Pack/events"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;corporate__and__hive__civics&quot;,
+    &quot;last_opened_file_path&quot;: &quot;M:/Mod Workspace/Stellaris/Ursine Species Pack/gfx/interface/icons/buildings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\gfx\interface\icons\buildings" />
       <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\events" />
       <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\flags\honeybear_ursinespeciespack_1\map" />
       <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\flags\honeybear_ursinespeciespack_1\small" />
       <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\flags\honeybear_ursinespeciespack_1" />
-      <recent name="M:\Mod Workspace\Stellaris\Ursine Species Pack\common\name_lists" />
     </key>
   </component>
   <component name="SharedIndexes">
