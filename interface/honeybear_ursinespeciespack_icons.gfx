@@ -25,4 +25,57 @@ spriteTypes = {
 		default_frame = 3
 	}
 
+
+
+	spriteType = {
+		name = "GFX_honeybear_ursinespeciespack_army_hive_icons"
+		textureFile = "gfx/interface/planetview/honeybear_ursinespeciespack_berserker_army_hive_icons.dds"
+		noOfFrames = 3
+	}
+
+
+    spriteType = {
+		name = "GFX_army_type_honeybear_ursinespeciespack_berserkers_hive"
+		sprite_sheet_sprite_type = "GFX_honeybear_ursinespeciespack_army_hive_icons"
+		default_frame = 1
+	}
+
+	spriteType = {
+		name = "GFX_army_type_honeybear_ursinespeciespack_berserkers_gas_hive"
+		sprite_sheet_sprite_type = "GFX_honeybear_ursinespeciespack_army_hive_icons"
+		default_frame = 2
+	}
+
+	spriteType = {
+		name = "GFX_army_type_honeybear_ursinespeciespack_berserkers_zro_hive"
+		sprite_sheet_sprite_type = "GFX_honeybear_ursinespeciespack_army_hive_icons"
+		default_frame = 3
+	}
+
+
+	spriteType = {
+		name = "GFX_honeybear_ursinespeciespack_army_machine_icons"
+		textureFile = "gfx/interface/planetview/honeybear_ursinespeciespack_berserker_army_machine_icons.dds"
+		noOfFrames = 3
+	}
+
+
+    spriteType = {
+		name = "GFX_army_type_honeybear_ursinespeciespack_berserkers_machine"
+		sprite_sheet_sprite_type = "GFX_honeybear_ursinespeciespack_army_machine_icons"
+		default_frame = 1
+	}
+
+	spriteType = {
+		name = "GFX_army_type_honeybear_ursinespeciespack_berserkers_gas_machine"
+		sprite_sheet_sprite_type = "GFX_honeybear_ursinespeciespack_army_machine_icons"
+		default_frame = 2
+	}
+
+	spriteType = {
+		name = "GFX_army_type_honeybear_ursinespeciespack_berserkers_zro_machine"
+		sprite_sheet_sprite_type = "GFX_honeybear_ursinespeciespack_army_machine_icons"
+		default_frame = 3
+	}
+
 }
