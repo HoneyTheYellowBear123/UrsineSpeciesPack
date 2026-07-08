@@ -1,4 +1,4 @@
-﻿r# Ursine 1
+﻿# Ursine 1
 #Nature / Etymology Oriented / Greek / Latin / Anatomy
 # Created by HoneyTheYellowBear
 
